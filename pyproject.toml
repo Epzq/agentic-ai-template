@@ -1,0 +1,67 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agentic-ai-starter"
+version = "0.1.0"
+description = "A minimal, well-documented starting point for building your own open-source agentic AI on LangChain + LangGraph."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Your Name", email = "you@example.com" }]
+keywords = ["agent", "agentic-ai", "langchain", "langgraph", "llm", "tool-use"]
+dependencies = [
+    "langchain>=1.0,<2",
+    "langchain-anthropic>=1.0,<2",
+    "langgraph>=1.0,<2",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.3",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "ruff>=0.6",
+    "mypy>=1.11",
+]
+# Optional model providers. On the LangChain 1.x line these track langchain-core 1.x.
+ollama = ["langchain-ollama>=1.0,<2"]
+openai = ["langchain-openai>=1.0,<2"]
+groq = ["langchain-groq>=1.0,<2"]
+# Gemini is called via its own SDK (no langchain-core dependency, so no version clash).
+gemini = ["google-genai>=2,<3"]
+# Document parsing for the grant-fit analyst (read_context tool).
+docs = ["pypdf>=4", "python-docx>=1"]
+# Interactive notebook UI (notebooks/analyst_ui.ipynb).
+notebook = ["ipywidgets>=8"]
+
+[project.scripts]
+agentic-ai = "agentic_ai.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/your-org/agentic-ai-starter"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/agentic_ai"]
+
+[tool.pytest.ini_options]
+addopts = "-m 'not network' --cov=agentic_ai --cov-report=term-missing"
+markers = [
+    "network: tests that make real network calls (deselected by default)",
+]
+testpaths = ["tests"]
+pythonpath = ["."]  # so `from tests.fakes import ...` resolves under any test runner
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
