@@ -49,3 +49,22 @@ def ask_gemini(prompt: str, *, model: str | None = None, search: bool = True) ->
     return (resp.text or "").strip() or "gemini error: empty response."
 
 
+@tool
+def profile_researcher(url: str) -> str:
+    """Given a URL to a researcher (faculty bio, ORCID, Google Scholar, lab site),
+    research them online and return a short profile of their capabilities: research
+    directions, methods, notable publications, and grants/projects.
+
+    Returns the profile text, or a line starting with 'gemini error:'.
+    """
+    return ask_gemini(
+        f"Research the person associated with this page: {url}\n\n"
+        "Read that page and closely related sources (their publication list, ORCID, "
+        "Google Scholar, lab/group site, recent grant announcements). Then write about "
+        "six sentences covering: their main research directions and application domains; "
+        "key methods, techniques and platforms they use; a few representative "
+        "publications with years; and grants, awards or funded projects (funder and "
+        "their role if stated). Ground every claim in what you find; if the public "
+        "record is thin, say so. Finish with one sentence on the kinds of grant calls "
+        "they would be a strong fit for."
+    )
