@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" data-theme="$theme">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>$title · Proposal Studio</title>
+  <style>$css</style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to proposal</a>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">✳</span> PROPOSAL<span>STUDIO</span></div>
+      <div class="toolbar">
+        <button id="present" type="button" aria-pressed="false">Present ↗</button>
+        <button id="download" type="button" class="quiet">Export JSON ↓</button>
+        <button id="print" type="button" class="quiet">Print / PDF</button>
+      </div>
+    </header>
+    <div class="pipeline" aria-label="Three-agent workflow">
+      <span>01 <b>Analyst</b> / research</span><i>→</i>
+      <span>02 <b>Summarizer</b> / story</span><i>→</i>
+      <span>03 <b>UI agent</b> / stage</span>
+    </div>
+    <div class="mode-label">$mode</div>
+    <section class="hero" aria-labelledby="project-title">
+      <div>
+        <p class="eyebrow accent">From a grant call to a story worth funding</p>
+        <h1 id="project-title">$title</h1>
+        <p class="tagline">$tagline</p>
+        <div class="identity"><span>$pi</span><span>$grant</span></div>
+        <p class="hook">$hook</p>
+      </div>
+      <div class="overall-card">
+        <div class="score-ring" style="--score:$ring" role="img" aria-label="Overall score $overall out of 100">
+          <div><strong>$overall</strong><span>/ 100</span></div>
+        </div>
+        <h2>Overall opportunity</h2>
+        <p>A transparent heuristic.<br>Not a probability of winning.</p>
+      </div>
+    </section>
+    <nav class="scene-nav" aria-label="Pitch scenes">$nav</nav>
+    <div class="present-controls" hidden>
+      <button id="previous" type="button" aria-label="Previous scene">←</button>
+      <span id="scene-status" aria-live="polite"></span>
+      <button id="next" type="button" aria-label="Next scene">→</button>
+      <button id="notes" type="button" aria-pressed="false">Speaker cues</button>
+      <small>Arrow keys to move · Esc to exit</small>
+    </div>
+    <main id="main">$scenes</main>
+    <details class="evidence-drawer" id="evidence">
+      <summary>Behind the story <span>Original analyst evidence ↗</span></summary>
+      <p class="muted">Verbatim analyst fields, not independently verified sources. Quotes in the summary
+        are checked against these fields. Traceability does not establish truth.</p>
+      $evidence
+    </details>
+    <footer>Built for a conversation, not a 40-page proposal. <span>Human judgment stays in the loop.</span></footer>
+    <noscript>The full scorecard and evidence work without JavaScript. Presenter controls and simulation need JavaScript.</noscript>
+  </div>
+  <script id="proposal-data" type="application/json">$payload</script>
+  <script>$script</script>
+</body>
+</html>

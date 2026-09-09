@@ -37,6 +37,8 @@ gemini = ["google-genai>=2,<3"]
 docs = ["pypdf>=4", "python-docx>=1"]
 # Interactive notebook UI (notebooks/analyst_ui.ipynb).
 notebook = ["ipywidgets>=8"]
+# Optional browser input form; generated presentation HTML itself needs no extras.
+showcase = ["streamlit>=1.40,<2"]
 
 [project.scripts]
 agentic-ai = "agentic_ai.cli:main"
@@ -65,3 +67,11 @@ select = ["E", "F", "I", "UP", "B"]
 [tool.mypy]
 python_version = "3.10"
 ignore_missing_imports = true
+
+# Optional UI dependencies can install host-specific NumPy stubs using Python 3.12
+# syntax. Our code does not use NumPy; do not parse those third-party stubs while
+# checking this package's Python 3.10-compatible source.
+[[tool.mypy.overrides]]
+module = ["numpy", "numpy.*"]
+follow_imports = "skip"
+follow_imports_for_stubs = true

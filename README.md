@@ -402,6 +402,29 @@ data. Swap in a pipeline if you need every report strictly comparable.
 
 ---
 
+## Proposal Studio: a stage-ready three-agent demo
+
+Turn the grant-fit analyst's report into a concise pitch with two modular stages:
+an evidence-linked **summarizer** and a constrained **UI design agent**. The output
+is a standalone visual dashboard with four scores + overall, competitor strategy
+cards, a proposed proof plan, an audience “what if?” simulator, and presenter mode.
+
+- [Demo guide and 90-second walkthrough](docs/proposal-demo.md)
+- [Offline/live demo script](scripts/demo_proposal.py) — defaults to a clearly
+  labelled fictional replay, with no API keys or network needed.
+- [Optional browser input form](scripts/proposal_app.py) — accepts a grant call,
+  pasted/uploaded context, and a PI webpage; requires the `showcase` extra.
+
+```bash
+python scripts/demo_proposal.py --offline --open
+```
+
+PI Match is preserved from the analyst. The other scores are explicitly labelled
+heuristic estimates; overall is computed in code and inverts Competition Risk.
+Unknowns stay unknown. These scores are **not probabilities of winning funding**.
+
+---
+
 ## License
 
 MIT - see [LICENSE](LICENSE). Replace the copyright holder with your name before
