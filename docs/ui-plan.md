@@ -19,7 +19,7 @@ memory between sessions — an agent picking up the next item reads it and nothi
 | WI-2 | FastAPI skeleton + `agentic-ai serve` | ✅ done | — |
 | WI-3 | Document upload endpoint | ✅ done | WI-2 |
 | WI-4 | SSE analysis endpoint | ✅ done | WI-1, WI-3 |
-| WI-5 | Form and live progress log | pending | WI-4 |
+| WI-5 | Form and live progress log | ✅ done | WI-4 |
 | WI-6 | Render the report | pending | WI-5 |
 | WI-7 | Failure states and docs | pending | WI-6 |
 | WI-8 | (optional) `--call` into the analyst prompt | pending | — |
@@ -208,6 +208,33 @@ stream and assert the JSON events arrive in order and end with `report` then `do
 ---
 
 ## WI-5 — The form and the live progress log
+
+> **STATUS: ✅ DONE** — `web/static/index.html` only; no Python changed. One file, inline
+> CSS/JS, no framework, no CDN, no build step. Element ids WI-6 can build on: `#form`,
+> `#file`, `#pi`, `#call`, `#go`, `#progress`, `#state`, `#elapsed`, `#log`.
+> Flow: `fetch POST /api/upload` → `new EventSource("/api/analyse?" + params)` →
+> `onmessage` switching on `data.type`. `finish()` is idempotent and runs on **either**
+> `done` or `error`, so a failed run re-enables the button without waiting for the
+> terminator. `MAX_DETAIL = 300` chars for any `tool_output` preview (a whole PDF comes
+> back through `read_context`).
+> `STEP_LABELS` maps tools to plain language, including **`GrantFitReport` → "Composing the
+> report"** — the structured-output step arrives as a tool call named after the schema, and
+> would otherwise show up as a raw class name.
+> **Two real behaviours the live run exposed, which WI-6/WI-7 must not undo:**
+> (1) gemini-2.5-flash sends each `tool_call` as one event with complete JSON args, not
+> fragments — but the fragment accumulator is kept, since WI-1 emits `tool_call_chunks`
+> for models that do stream them.
+> (2) The agent issues **several tool calls before any returns**, and their outputs can come
+> back **in a different order than the calls went out**. Since `AnalysisEvent` carries no
+> tool-call id, an output cannot be matched to its call once two calls of the same tool are
+> in flight. The page therefore pairs an output with its call only while that tool has
+> exactly one call open, and otherwise gives the result its own "… — result" line rather
+> than captioning the wrong question. **If precise pairing is ever wanted, the fix is to add
+> the call `id` to `AnalysisEvent` in `stream.py` — a WI-1 change, deliberately not made
+> here.**
+> The `report` event is only acknowledged with a "Report ready." line; rendering the fields
+> is WI-6's job.
+> Verified in a real headless Chromium against a real end-to-end run (see the item report).
 
 **Do:** replace the placeholder `index.html` with the real page (inline CSS/JS, no build step):
 - File input (accepting the WI-3 suffixes), PI URL input (`type=url`, required),

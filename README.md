@@ -400,8 +400,8 @@ data. Swap in a pipeline if you need every report strictly comparable.
 - `notebooks/analyst_ui.ipynb` - the same stream in a tiny `ipywidgets` form
   (`uv pip install -e ".[notebook]"`, then open the notebook and click *Run analyst*).
 - `agentic-ai serve` - the browser UI (`uv pip install -e ".[web]"`), on
-  http://127.0.0.1:8000. The page is still a placeholder; `GET /api/health`
-  reports the orchestrator model and whether a Gemini key is set.
+  http://127.0.0.1:8000: upload a context document, give a PI profile URL, and
+  watch the agent's steps stream in as it works.
 
 Both streaming views are built on `stream.py`'s `stream_analysis()`, which yields
 the run as `AnalysisEvent`s (`token`, `tool_call`, `tool_output`, `report`, `error`).

@@ -292,9 +292,17 @@ Each line is one JSON event: `token`, `tool_call`, `tool_output`, `report` or
 `error`, and the stream always ends with `done`. A real run takes minutes and
 costs Gemini calls. An unknown `run_id` returns 404.
 
-**At this stage the page itself is only a placeholder heading** - the upload form,
-the live progress log and the rendered report are still being built. Use
-`agentic-ai analyse` (section 7) for real runs for now.
+### Using the page
+
+Open <http://127.0.0.1:8000>, choose a context document, paste the PI's profile
+URL, optionally name the grant call, and press **Analyse**. The progress panel
+then fills in as the agent works - "Reading the document", "Researching the PI",
+"Searching the web: <question>" - with an elapsed timer, and the button comes
+back when the run finishes. A real run takes roughly one to several minutes.
+
+**The report fields are not rendered yet** (that is WI-6); the page currently ends
+at "Report ready.". Use `agentic-ai analyse` (section 7) if you need the full
+report today.
 
 ---
 

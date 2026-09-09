@@ -4,9 +4,376 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Grant-fit analyst</title>
+    <style>
+      :root {
+        --bg: #f7f7f5;
+        --panel: #ffffff;
+        --ink: #1d1d1b;
+        --muted: #6b6b66;
+        --line: #e0e0da;
+        --accent: #2f5d50;
+        --warn: #9a3412;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        padding: 2rem 1rem 4rem;
+        background: var(--bg);
+        color: var(--ink);
+        font: 15px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      }
+      main { max-width: 760px; margin: 0 auto; }
+      h1 { font-size: 1.5rem; margin: 0 0 0.25rem; }
+      .sub { color: var(--muted); margin: 0 0 1.5rem; }
+      .panel {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 1.25rem;
+        margin-bottom: 1.25rem;
+      }
+      label { display: block; font-weight: 600; margin-bottom: 0.3rem; }
+      .field { margin-bottom: 1rem; }
+      .hint { color: var(--muted); font-weight: 400; font-size: 0.86rem; }
+      input[type="file"], input[type="url"], input[type="text"] {
+        width: 100%;
+        padding: 0.55rem 0.6rem;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #fff;
+        font: inherit;
+        color: inherit;
+      }
+      input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+      button {
+        background: var(--accent);
+        color: #fff;
+        border: 0;
+        border-radius: 6px;
+        padding: 0.6rem 1.1rem;
+        font: inherit;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      button[disabled] { background: #9bb3ab; cursor: not-allowed; }
+      .status {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        align-items: baseline;
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 0.6rem;
+        margin-bottom: 0.6rem;
+      }
+      .status strong { font-weight: 600; }
+      .elapsed { color: var(--muted); font-variant-numeric: tabular-nums; }
+      #log { list-style: none; margin: 0; padding: 0; }
+      #log li { padding: 0.4rem 0; border-bottom: 1px dotted var(--line); }
+      #log li:last-child { border-bottom: 0; }
+      .step { font-weight: 600; }
+      .detail {
+        display: block;
+        color: var(--muted);
+        font-size: 0.86rem;
+        white-space: pre-wrap;
+        word-break: break-word;
+        margin-top: 0.2rem;
+      }
+      .err .step { color: var(--warn); }
+      .spin::after {
+        content: "";
+        animation: dots 1.2s steps(4, end) infinite;
+      }
+      @keyframes dots { 0% { content: ""; } 25% { content: "."; } 50% { content: ".."; } 75% { content: "..."; } }
+      [hidden] { display: none !important; }
+    </style>
   </head>
   <body>
-    <h1>Grant-fit analyst</h1>
-    <p>The upload form and live progress log arrive in WI-5.</p>
+    <main>
+      <h1>Grant-fit analyst</h1>
+      <p class="sub">
+        Upload a project-context document and point at a PI's profile. The analyst reads
+        both, researches the field, and reports how well they fit.
+      </p>
+
+      <form class="panel" id="form">
+        <div class="field">
+          <label for="file">Context document</label>
+          <input
+            type="file"
+            id="file"
+            required
+            accept=".pdf,.docx,.txt,.md,.markdown,.rst"
+          />
+          <span class="hint">PDF, DOCX, TXT, MD, Markdown or RST, up to 10 MB.</span>
+        </div>
+
+        <div class="field">
+          <label for="pi">PI profile URL</label>
+          <input type="url" id="pi" required placeholder="https://example.edu/~pi" />
+          <span class="hint">A faculty page, ORCID, Google Scholar or lab site.</span>
+        </div>
+
+        <div class="field">
+          <label for="call">Target grant call <span class="hint">(optional)</span></label>
+          <input type="text" id="call" placeholder="e.g. NRF CRP" />
+          <span class="hint">Leave blank to let the analyst find the best-fit open call.</span>
+        </div>
+
+        <button type="submit" id="go">Analyse</button>
+      </form>
+
+      <section class="panel" id="progress" hidden>
+        <div class="status">
+          <strong id="state">Starting</strong>
+          <span class="elapsed" id="elapsed"></span>
+        </div>
+        <ul id="log"></ul>
+      </section>
+    </main>
+
+    <script>
+      "use strict";
+
+      const form = document.getElementById("form");
+      const fileInput = document.getElementById("file");
+      const piInput = document.getElementById("pi");
+      const callInput = document.getElementById("call");
+      const button = document.getElementById("go");
+      const progress = document.getElementById("progress");
+      const stateEl = document.getElementById("state");
+      const elapsedEl = document.getElementById("elapsed");
+      const log = document.getElementById("log");
+
+      // A run's whole document comes back through read_context; never dump it in the log.
+      const MAX_DETAIL = 300;
+
+      // Plain language for each tool, so the log reads as progress rather than as
+      // internal function names.
+      const STEP_LABELS = {
+        read_context: "Reading the document",
+        profile_researcher: "Researching the PI",
+        web_research: "Searching the web",
+        save_report: "Saving the report",
+        // the structured-output step is a tool call named after the schema
+        GrantFitReport: "Composing the report",
+      };
+
+      function labelFor(name) {
+        return STEP_LABELS[name] || name;
+      }
+
+      let source = null;
+      let timer = null;
+      let startedAt = 0;
+      let running = false;
+      // The agent often issues several tool calls before any of them returns, and can
+      // run two of the same tool at once, so outputs are matched to calls by name in
+      // FIFO order rather than by "the most recent call".
+      let openCalls = new Map(); // tool name -> [{li, args}] awaiting their output
+      let unpairable = new Set(); // tools that ran concurrently, so outputs can't be matched
+      let streamingCall = null; // the call whose arguments are still arriving
+
+      function truncate(text) {
+        const t = String(text == null ? "" : text).replace(/\s+/g, " ").trim();
+        return t.length > MAX_DETAIL ? t.slice(0, MAX_DETAIL) + "…" : t;
+      }
+
+      function addLine(text, className) {
+        const li = document.createElement("li");
+        if (className) li.className = className;
+        const step = document.createElement("span");
+        step.className = "step";
+        step.textContent = text;
+        li.appendChild(step);
+        log.appendChild(li);
+        li.scrollIntoView({ block: "nearest" });
+        return li;
+      }
+
+      function setDetail(li, text) {
+        if (!li || !text) return;
+        let detail = li.querySelector(".detail");
+        if (!detail) {
+          detail = document.createElement("span");
+          detail.className = "detail";
+          li.appendChild(detail);
+        }
+        detail.textContent = text;
+      }
+
+      function formatElapsed(ms) {
+        const total = Math.floor(ms / 1000);
+        const mins = Math.floor(total / 60);
+        const secs = String(total % 60).padStart(2, "0");
+        return mins + ":" + secs;
+      }
+
+      function startTimer() {
+        startedAt = Date.now();
+        elapsedEl.textContent = "0:00";
+        timer = setInterval(() => {
+          elapsedEl.textContent = formatElapsed(Date.now() - startedAt);
+        }, 1000);
+      }
+
+      function stopTimer() {
+        if (timer) clearInterval(timer);
+        timer = null;
+      }
+
+      function setState(text, spinning) {
+        stateEl.textContent = text;
+        stateEl.className = spinning ? "spin" : "";
+      }
+
+      // Called on `done` and on `error` - whichever lands first wins, so a failed run
+      // re-enables the button immediately rather than waiting on the terminator.
+      function finish(text) {
+        if (!running) return;
+        running = false;
+        stopTimer();
+        setState(text + " in " + formatElapsed(Date.now() - startedAt), false);
+        if (source) source.close();
+        source = null;
+        button.disabled = false;
+        button.textContent = "Analyse";
+      }
+
+      // A tool call may arrive whole, or as fragments: the first carries the name,
+      // later ones carry more of the JSON arguments. Accumulate either way, so a
+      // search question can be shown in full once its arguments are complete.
+      function handleToolCall(event) {
+        if (event.name) {
+          streamingCall = {
+            name: event.name,
+            args: event.text || "",
+            li: addLine(labelFor(event.name) + "…"),
+          };
+          if (!openCalls.has(event.name)) openCalls.set(event.name, []);
+          const queue = openCalls.get(event.name);
+          queue.push(streamingCall);
+          // Two calls to one tool in flight at once: the agent runs them
+          // concurrently, their outputs can come back in either order, and an
+          // event carries no call id - so stop trying to caption them.
+          if (queue.length > 1) unpairable.add(event.name);
+        } else if (streamingCall) {
+          streamingCall.args += event.text || "";
+        }
+        if (streamingCall) describeCall(streamingCall);
+      }
+
+      function describeCall(call) {
+        let args;
+        try {
+          args = JSON.parse(call.args);
+        } catch (_) {
+          return; // arguments still arriving
+        }
+        if (call.name === "web_research" && args.question) {
+          call.li.querySelector(".step").textContent = "Searching the web: " + args.question;
+        } else if (call.name === "profile_researcher" && args.url) {
+          setDetail(call.li, args.url);
+        }
+      }
+
+      function handleToolOutput(event) {
+        const queue = openCalls.get(event.name) || [];
+        if (queue.length === 1 && !unpairable.has(event.name)) {
+          const call = queue.shift();
+          if (call === streamingCall) streamingCall = null;
+          const step = call.li.querySelector(".step");
+          step.textContent = step.textContent.replace(/…$/, ""); // this step is done
+          setDetail(call.li, truncate(event.text));
+          return;
+        }
+        // Attaching this result to one of the open calls would be a guess, and a
+        // result shown under the wrong question is worse than one shown on its own.
+        if (queue.length) queue.shift();
+        setDetail(addLine(labelFor(event.name) + " — result"), truncate(event.text));
+      }
+
+      function handleEvent(event) {
+        switch (event.type) {
+          case "tool_call":
+            handleToolCall(event);
+            break;
+          case "tool_output":
+            handleToolOutput(event);
+            break;
+          case "report":
+            addLine("Report ready.");
+            // WI-6 renders the fields; for now the payload is just acknowledged.
+            break;
+          case "error":
+            addLine(event.text || "The run failed.", "err");
+            finish("Stopped");
+            break;
+          case "done":
+            finish("Finished");
+            break;
+        }
+      }
+
+      async function upload(file) {
+        const body = new FormData();
+        body.append("file", file);
+        const response = await fetch("/api/upload", { method: "POST", body });
+        const payload = await response.json().catch(() => ({}));
+        if (!response.ok) {
+          throw new Error(payload.detail || "upload failed (" + response.status + ")");
+        }
+        return payload;
+      }
+
+      form.addEventListener("submit", async (submitEvent) => {
+        submitEvent.preventDefault();
+        const file = fileInput.files[0];
+        if (!file) return;
+
+        running = true;
+        button.disabled = true;
+        button.textContent = "Analysing…";
+        log.textContent = "";
+        openCalls = new Map();
+        unpairable = new Set();
+        streamingCall = null;
+        progress.hidden = false;
+        setState("Uploading the document", true);
+        startTimer();
+
+        let run;
+        try {
+          run = await upload(file);
+        } catch (err) {
+          addLine(String(err.message || err), "err");
+          finish("Stopped");
+          return;
+        }
+        addLine("Uploaded " + run.filename + ".");
+        setState("Analysing", true);
+
+        const params = new URLSearchParams({ run_id: run.run_id, pi_url: piInput.value });
+        if (callInput.value.trim()) params.set("call", callInput.value.trim());
+
+        source = new EventSource("/api/analyse?" + params.toString());
+        source.onmessage = (message) => {
+          let event;
+          try {
+            event = JSON.parse(message.data);
+          } catch (_) {
+            return;
+          }
+          handleEvent(event);
+        };
+        source.onerror = () => {
+          // EventSource retries on its own; a run that already finished has closed
+          // the stream, so only report a break in a run still believed to be live.
+          if (!source) return;
+          addLine("Lost the connection to the server.", "err");
+          finish("Stopped");
+        };
+      });
+    </script>
   </body>
 </html>
