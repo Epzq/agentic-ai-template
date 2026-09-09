@@ -16,7 +16,7 @@ memory between sessions — an agent picking up the next item reads it and nothi
 | Item | What | Status | Depends on |
 |---|---|---|---|
 | WI-1 | Extract streaming loop into `agentic_ai.stream` | ✅ done | — |
-| WI-2 | FastAPI skeleton + `agentic-ai serve` | pending | — |
+| WI-2 | FastAPI skeleton + `agentic-ai serve` | ✅ done | — |
 | WI-3 | Document upload endpoint | pending | WI-2 |
 | WI-4 | SSE analysis endpoint | pending | WI-1, WI-3 |
 | WI-5 | Form and live progress log | pending | WI-4 |
@@ -77,6 +77,26 @@ that a `structured_response=None` model still yields a `report` event via the co
 ---
 
 ## WI-2 — FastAPI skeleton and the `serve` command
+
+> **STATUS: ✅ DONE** — `src/agentic_ai/web/app.py` exposes
+> `create_app(settings: Settings | None = None) -> FastAPI` (settings injectable, as
+> everywhere else — WI-4 can build an app around a scripted model this way).
+> `GET /api/health` → `{"ok": true, "model": settings.model, "gemini_key": bool}`;
+> `GET /` → `web/static/index.html` via `FileResponse`, media type `text/html`
+> (no `StaticFiles` mount — WI-5 needs only the one page). Module constants
+> `STATIC_DIR` and `INDEX_HTML` point at it.
+> **`gemini_key` checks `GOOGLE_API_KEY` *or* `GEMINI_API_KEY`**, not just the first —
+> that is the pair `ask_gemini` actually accepts, so WI-7's banner won't cry wolf for
+> someone who set only `GEMINI_API_KEY`.
+> `web` extra added (`fastapi>=0.115`, `uvicorn[standard]>=0.30`,
+> `python-multipart>=0.0.9`); `agentic-ai serve [--host 127.0.0.1] [--port 8000]`
+> imports uvicorn and `create_app` inside `_serve()` and exits with a readable
+> `pip install -e ".[web]"` message when the extra is absent.
+> **No `[tool.hatch.build]` change was needed** (the plan asked for one): hatchling's
+> `packages = ["src/agentic_ai"]` already ships non-Python files under the package —
+> verified by building a wheel, which contained `agentic_ai/web/static/index.html`.
+> Adding an explicit `include` would have *narrowed* what ships, so I left it alone.
+> `index.html` is still the placeholder heading WI-5 replaces.
 
 **Do:**
 - `src/agentic_ai/web/__init__.py`, `src/agentic_ai/web/app.py` with `create_app() -> FastAPI`.

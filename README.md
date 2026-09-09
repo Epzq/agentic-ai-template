@@ -399,6 +399,12 @@ data. Swap in a pipeline if you need every report strictly comparable.
 - `scripts/demo_analyst.py` - streams the raw token / tool-call view to the terminal.
 - `notebooks/analyst_ui.ipynb` - the same stream in a tiny `ipywidgets` form
   (`uv pip install -e ".[notebook]"`, then open the notebook and click *Run analyst*).
+- `agentic-ai serve` - the browser UI (`uv pip install -e ".[web]"`), on
+  http://127.0.0.1:8000. The page is still a placeholder; `GET /api/health`
+  reports the orchestrator model and whether a Gemini key is set.
+
+Both streaming views are built on `stream.py`'s `stream_analysis()`, which yields
+the run as `AnalysisEvent`s (`token`, `tool_call`, `tool_output`, `report`, `error`).
 
 ---
 

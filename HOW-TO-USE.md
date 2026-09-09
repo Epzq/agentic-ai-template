@@ -245,6 +245,32 @@ agentic-ai analyse \
 
 ---
 
+## 9. Optional: the browser UI
+
+A web front end is being built in front of the same analyst. It needs one extra
+install:
+
+```bash
+conda activate agentic-ai
+pip install -e ".[web]"
+
+agentic-ai serve                 # http://127.0.0.1:8000
+agentic-ai serve --host 0.0.0.0 --port 8080
+```
+
+Check it is up:
+
+```bash
+curl -s localhost:8000/api/health | python -m json.tool
+# {"ok": true, "model": "google_genai:gemini-2.5-flash", "gemini_key": true}
+```
+
+**At this stage the page itself is only a placeholder heading** - the upload form,
+the live progress log and the rendered report are still being built. Use
+`agentic-ai analyse` (section 7) for real runs for now.
+
+---
+
 ## Troubleshooting
 
 ### `agentic-ai: command not found`
