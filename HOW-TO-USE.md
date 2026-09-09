@@ -277,6 +277,21 @@ The file is stored under `workspace/uploads/<run_id>/`. Only `.pdf`, `.docx`,
 `.txt`, `.md`, `.markdown` and `.rst` are accepted (400 otherwise), up to 10 MB
 (413 otherwise).
 
+Then stream an analysis of it (`-N` matters — without it curl buffers and you
+will see nothing until the run ends):
+
+```bash
+curl -N "localhost:8000/api/analyse?run_id=<run_id>&pi_url=https://basurafernando.github.io/&call=CRP"
+# data: {"type":"tool_call","name":"read_context",...}
+# data: {"type":"tool_output","name":"read_context",...}
+# data: {"type":"report","report":{...}}
+# data: {"type": "done"}
+```
+
+Each line is one JSON event: `token`, `tool_call`, `tool_output`, `report` or
+`error`, and the stream always ends with `done`. A real run takes minutes and
+costs Gemini calls. An unknown `run_id` returns 404.
+
 **At this stage the page itself is only a placeholder heading** - the upload form,
 the live progress log and the rendered report are still being built. Use
 `agentic-ai analyse` (section 7) for real runs for now.

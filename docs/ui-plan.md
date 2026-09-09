@@ -18,7 +18,7 @@ memory between sessions — an agent picking up the next item reads it and nothi
 | WI-1 | Extract streaming loop into `agentic_ai.stream` | ✅ done | — |
 | WI-2 | FastAPI skeleton + `agentic-ai serve` | ✅ done | — |
 | WI-3 | Document upload endpoint | ✅ done | WI-2 |
-| WI-4 | SSE analysis endpoint | pending | WI-1, WI-3 |
+| WI-4 | SSE analysis endpoint | ✅ done | WI-1, WI-3 |
 | WI-5 | Form and live progress log | pending | WI-4 |
 | WI-6 | Render the report | pending | WI-5 |
 | WI-7 | Failure states and docs | pending | WI-6 |
@@ -164,6 +164,29 @@ lands inside the run dir.
 ---
 
 ## WI-4 — SSE analysis endpoint
+
+> **STATUS: ✅ DONE** — `GET /api/analyse?run_id=&pi_url=&call=` (the third is optional)
+> returns `text/event-stream`, plus `Cache-Control: no-cache` and `X-Accel-Buffering: no`
+> so a proxy can't buffer it. Unknown `run_id` -> **404 before any streaming starts**, so
+> it is a real HTTP error the browser's fetch can see, not an error event.
+> Each `AnalysisEvent` is sent verbatim as `data: {json}\n\n`. The terminator is
+> `DONE_EVENT` = `data: {"type": "done"}\n\n` — a plain payload with only a `type`, on the
+> default `message` channel (NOT an SSE `event: done` line), so WI-5's `EventSource` needs
+> only `onmessage` and can switch on `data.type`. It is deliberately **not** an
+> `AnalysisEvent`: `done` belongs to the transport, so stream.py's five types stay as WI-1
+> set them. `done` is always the last event, including after a failure, so WI-5 can always
+> re-enable its button on it.
+> **Threading:** the route hands `StreamingResponse` a plain *sync* generator; Starlette
+> then wraps it with `iterate_in_threadpool` itself (verified in the installed source), so
+> the blocking agent run never touches the event loop. No manual queue bridge was needed.
+> Proven live: `/api/health` answered in 10 ms while a 6-second analysis was mid-flight.
+> **Model injection:** `get_model()` is a FastAPI dependency returning `None` (meaning
+> "let stream_analysis build the one Settings describes"). Tests and WI-5's manual checks
+> override it with `app.dependency_overrides[get_model] = lambda: <scripted model>`.
+> **Not tested at the HTTP layer:** that events arrive incrementally. `TestClient`'s httpx
+> ASGI transport buffers the whole body, so the assertion is impossible there regardless of
+> how slow the model is; it was verified live instead with `curl -N` timestamps, which show
+> the events spread across the model's think time.
 
 **Do:**
 - `GET /api/analyse?run_id=…&pi_url=…&call=…` → `text/event-stream`.

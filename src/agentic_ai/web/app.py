@@ -3,14 +3,18 @@ from __future__ import annotations
 import os
 import shutil
 import uuid
+from collections.abc import Iterator
 from pathlib import Path, PurePosixPath
+from typing import Annotated
 
-from fastapi import FastAPI, HTTPException, UploadFile
-from fastapi.responses import FileResponse
+from fastapi import Depends, FastAPI, HTTPException, UploadFile
+from fastapi.responses import FileResponse, StreamingResponse
+from langchain_core.language_models import BaseChatModel
 from pydantic import BaseModel
 
 from ..config import Settings
 from ..documents import _TEXT_SUFFIXES
+from ..stream import AnalysisEvent, stream_analysis
 
 # ---------------------------------------------------------------------------
 # The web layer is a thin shell over the same analyst the CLI uses. It owns no
@@ -30,6 +34,23 @@ SUPPORTED_SUFFIXES = frozenset(_TEXT_SUFFIXES | {".pdf", ".docx"})
 # stray multi-GB upload from filling the workdir.
 MAX_UPLOAD_BYTES = 10 * 1024 * 1024
 _CHUNK = 64 * 1024
+
+
+def get_model() -> BaseChatModel | None:
+    """The orchestrator model for a run. ``None`` lets ``stream_analysis`` build the
+    one ``Settings`` describes; tests override this dependency with a scripted model."""
+    return None
+
+
+def _sse(event: AnalysisEvent) -> str:
+    """One server-sent event. The browser parses the JSON payload directly."""
+    return f"data: {event.model_dump_json()}\n\n"
+
+
+# The end-of-stream marker. It is deliberately not an AnalysisEvent: `done` is the
+# transport's business, not the analyst's, so stream.py's five event types stay
+# exactly as WI-1 defined them.
+DONE_EVENT = 'data: {"type": "done"}\n\n'
 
 
 class UploadResponse(BaseModel):
@@ -113,6 +134,38 @@ def create_app(settings: Settings | None = None) -> FastAPI:
 
         runs[run_id] = target
         return UploadResponse(run_id=run_id, filename=target.name)
+
+    @app.get("/api/analyse")
+    def analyse(
+        run_id: str,
+        pi_url: str,
+        call: str | None = None,
+        model: Annotated[BaseChatModel | None, Depends(get_model)] = None,
+    ) -> StreamingResponse:
+        """Stream one analysis of a previously uploaded document as SSE."""
+        document = runs.get(run_id)
+        if document is None:
+            raise HTTPException(status_code=404, detail=f"unknown run_id: {run_id!r}")
+
+        def events() -> Iterator[str]:
+            # A plain sync generator: StreamingResponse wraps it with
+            # iterate_in_threadpool, so the blocking agent run never touches the
+            # event loop. The stream always terminates with a `done` event, even
+            # after a failure, so the browser can always re-enable its button.
+            try:
+                for event in stream_analysis(
+                    str(document), pi_url, call, settings=settings, model=model
+                ):
+                    yield _sse(event)
+            except Exception as exc:  # noqa: BLE001 - the browser sees it, not a 500
+                yield _sse(AnalysisEvent(type="error", text=f"stream failed: {exc}"))
+            yield DONE_EVENT
+
+        return StreamingResponse(
+            events(),
+            media_type="text/event-stream",
+            headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
+        )
 
     @app.get("/")
     def index() -> FileResponse:
