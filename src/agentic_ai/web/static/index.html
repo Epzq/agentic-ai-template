@@ -86,6 +86,84 @@
       }
       @keyframes dots { 0% { content: ""; } 25% { content: "."; } 50% { content: ".."; } 75% { content: "..."; } }
       [hidden] { display: none !important; }
+
+      /* --- the report --------------------------------------------------- */
+      .report-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+      }
+      .report-head h2 { font-size: 1.2rem; margin: 0; }
+      .report-head button { background: #fff; color: var(--accent); border: 1px solid var(--accent); }
+      .report-head button:hover { background: #f0f5f3; }
+      .rfield { margin-bottom: 1.1rem; }
+      .rfield > h3 {
+        font-size: 0.78rem;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--muted);
+        margin: 0 0 0.25rem;
+      }
+      .rfield p { margin: 0; }
+      .headline { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-bottom: 1.1rem; }
+      .headline .rfield { margin: 0; }
+      .headline p { font-size: 1.05rem; font-weight: 600; }
+      .bar {
+        position: relative;
+        height: 1.4rem;
+        background: #ecece8;
+        border-radius: 4px;
+        overflow: hidden;
+        margin: 0.15rem 0 0.4rem;
+      }
+      .bar span {
+        display: block;
+        height: 100%;
+        background: var(--accent);
+        border-radius: 4px 0 0 4px;
+      }
+      .bar-label { font-weight: 700; font-variant-numeric: tabular-nums; }
+      .competitor {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 0.8rem 0.9rem;
+        margin-bottom: 0.7rem;
+      }
+      .competitor h4 { margin: 0 0 0.1rem; font-size: 1rem; }
+      .competitor .where { color: var(--muted); font-size: 0.88rem; margin-bottom: 0.5rem; }
+      .competitor dl { margin: 0; }
+      .competitor dt {
+        font-size: 0.76rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--muted);
+        margin-top: 0.45rem;
+      }
+      .competitor dd { margin: 0.1rem 0 0; }
+      .tactic {
+        border-left: 3px solid;
+        padding: 0.35rem 0 0.35rem 0.6rem;
+        margin-top: 0.5rem;
+        border-radius: 0 4px 4px 0;
+      }
+      .tactic dt { margin-top: 0; font-weight: 700; }
+      .attack { border-color: var(--accent); background: #f1f6f4; }
+      .attack dt { color: var(--accent); }
+      .avoid { border-color: var(--warn); background: #fdf3ee; }
+      .avoid dt { color: var(--warn); }
+      .grants { margin: 0; padding-left: 1.1rem; }
+      .grants li { margin-bottom: 0.3rem; }
+      .saved {
+        color: var(--muted);
+        font-size: 0.86rem;
+        border-top: 1px solid var(--line);
+        padding-top: 0.7rem;
+        margin: 1rem 0 0;
+        word-break: break-all;
+      }
+      a { color: var(--accent); }
     </style>
   </head>
   <body>
@@ -130,6 +208,14 @@
         </div>
         <ul id="log"></ul>
       </section>
+      <section class="panel" id="report" hidden>
+        <div class="report-head">
+          <h2>Grant-fit report</h2>
+          <button type="button" id="download">Download JSON</button>
+        </div>
+        <div id="report-body"></div>
+        <p class="saved" id="saved" hidden></p>
+      </section>
     </main>
 
     <script>
@@ -144,6 +230,10 @@
       const stateEl = document.getElementById("state");
       const elapsedEl = document.getElementById("elapsed");
       const log = document.getElementById("log");
+      const reportPanel = document.getElementById("report");
+      const reportBody = document.getElementById("report-body");
+      const savedEl = document.getElementById("saved");
+      const downloadButton = document.getElementById("download");
 
       // A run's whole document comes back through read_context; never dump it in the log.
       const MAX_DETAIL = 300;
@@ -167,6 +257,7 @@
       let timer = null;
       let startedAt = 0;
       let running = false;
+      let lastReport = null; // the payload behind the Download JSON button
       // The agent often issues several tool calls before any of them returns, and can
       // run two of the same tool at once, so outputs are matched to calls by name in
       // FIFO order rather than by "the most recent call".
@@ -278,6 +369,13 @@
       }
 
       function handleToolOutput(event) {
+        // save_report answers with "saved: <path>" (or "save failed: ...", which is
+        // WI-7's to surface). Only a real save gets reported next to the report.
+        if (event.name === "save_report" && (event.text || "").startsWith("saved:")) {
+          savedEl.textContent = "Saved on the server at " + event.text.slice("saved:".length).trim();
+          savedEl.hidden = false;
+        }
+
         const queue = openCalls.get(event.name) || [];
         if (queue.length === 1 && !unpairable.has(event.name)) {
           const call = queue.shift();
@@ -293,6 +391,164 @@
         setDetail(addLine(labelFor(event.name) + " — result"), truncate(event.text));
       }
 
+      // Every string below is written by the model, so the report is built with
+      // createElement/textContent throughout - never innerHTML.
+      function field(parent, heading, text) {
+        const wrap = document.createElement("div");
+        wrap.className = "rfield";
+        const h = document.createElement("h3");
+        h.textContent = heading;
+        const p = document.createElement("p");
+        p.textContent = text == null || text === "" ? "—" : String(text);
+        wrap.append(h, p);
+        parent.appendChild(wrap);
+        return wrap;
+      }
+
+      // Past grants arrive as prose with bare URLs in them; make those clickable
+      // without ever putting model text through innerHTML.
+      function appendLinkified(parent, text) {
+        const pattern = /https?:\/\/[^\s<>()\[\]]+[^\s<>()\[\].,;:!?]/g;
+        let cursor = 0;
+        let match;
+        while ((match = pattern.exec(text)) !== null) {
+          if (match.index > cursor) {
+            parent.appendChild(document.createTextNode(text.slice(cursor, match.index)));
+          }
+          const link = document.createElement("a");
+          link.href = match[0];
+          link.textContent = match[0];
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          parent.appendChild(link);
+          cursor = match.index + match[0].length;
+        }
+        if (cursor < text.length) {
+          parent.appendChild(document.createTextNode(text.slice(cursor)));
+        }
+      }
+
+      function renderMatch(parent, pct, rationale) {
+        const wrap = document.createElement("div");
+        wrap.className = "rfield";
+        const h = document.createElement("h3");
+        h.textContent = "Grant-to-PI match";
+        const value = Math.max(0, Math.min(100, Number(pct) || 0));
+        const label = document.createElement("p");
+        label.className = "bar-label";
+        label.textContent = value + " / 100";
+        const bar = document.createElement("div");
+        bar.className = "bar";
+        bar.setAttribute("role", "img");
+        bar.setAttribute("aria-label", "Match " + value + " out of 100");
+        const fill = document.createElement("span");
+        fill.style.width = value + "%";
+        bar.appendChild(fill);
+        const why = document.createElement("p");
+        why.textContent = rationale || "—";
+        wrap.append(h, label, bar, why);
+        parent.appendChild(wrap);
+      }
+
+      function renderCompetitor(parent, competitor) {
+        const card = document.createElement("div");
+        card.className = "competitor";
+        const name = document.createElement("h4");
+        name.textContent = competitor.group || "Unnamed group";
+        const where = document.createElement("div");
+        where.className = "where";
+        where.textContent = competitor.institution || "—";
+        const list = document.createElement("dl");
+
+        const row = (term, text, className) => {
+          const holder = className ? document.createElement("div") : list;
+          if (className) holder.className = "tactic " + className;
+          const dt = document.createElement("dt");
+          dt.textContent = term;
+          const dd = document.createElement("dd");
+          dd.textContent = text || "—";
+          holder.append(dt, dd);
+          if (className) list.appendChild(holder);
+        };
+
+        row("Their strengths", competitor.their_strengths);
+        row("Versus the PI", competitor.vs_pi);
+        row("Attack", competitor.attack, "attack");
+        row("Avoid", competitor.avoid, "avoid");
+
+        card.append(name, where, list);
+        parent.appendChild(card);
+      }
+
+      function renderReport(report) {
+        lastReport = report;
+        reportBody.textContent = "";
+
+        const headline = document.createElement("div");
+        headline.className = "headline";
+        field(headline, "PI", report.pi);
+        field(headline, "Grant call", report.grant_call);
+        reportBody.appendChild(headline);
+
+        renderMatch(reportBody, report.grant_to_pi_match_pct, report.match_rationale);
+        field(reportBody, "Proposed direction", report.proposed_direction);
+        field(reportBody, "PI strengths and track record", report.pi_strengths_and_track_record);
+
+        const competitors = report.competitors || [];
+        const compWrap = document.createElement("div");
+        compWrap.className = "rfield";
+        const compHead = document.createElement("h3");
+        compHead.textContent = "Competitors (" + competitors.length + ")";
+        compWrap.appendChild(compHead);
+        if (competitors.length === 0) {
+          const none = document.createElement("p");
+          none.textContent = "None reported.";
+          compWrap.appendChild(none);
+        }
+        competitors.forEach((c) => renderCompetitor(compWrap, c));
+        reportBody.appendChild(compWrap);
+
+        const grants = report.relevant_past_grants || [];
+        const grantWrap = document.createElement("div");
+        grantWrap.className = "rfield";
+        const grantHead = document.createElement("h3");
+        grantHead.textContent = "Relevant past grants (" + grants.length + ")";
+        grantWrap.appendChild(grantHead);
+        if (grants.length === 0) {
+          const none = document.createElement("p");
+          none.textContent = "None found.";
+          grantWrap.appendChild(none);
+        } else {
+          const ul = document.createElement("ul");
+          ul.className = "grants";
+          grants.forEach((grant) => {
+            const li = document.createElement("li");
+            appendLinkified(li, String(grant));
+            ul.appendChild(li);
+          });
+          grantWrap.appendChild(ul);
+        }
+        reportBody.appendChild(grantWrap);
+
+        reportPanel.hidden = false;
+        reportPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+
+      downloadButton.addEventListener("click", () => {
+        if (!lastReport) return;
+        const blob = new Blob([JSON.stringify(lastReport, null, 2)], {
+          type: "application/json",
+        });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = "grant-fit-report.json";
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+        URL.revokeObjectURL(url);
+      });
+
       function handleEvent(event) {
         switch (event.type) {
           case "tool_call":
@@ -303,7 +559,7 @@
             break;
           case "report":
             addLine("Report ready.");
-            // WI-6 renders the fields; for now the payload is just acknowledged.
+            if (event.report) renderReport(event.report);
             break;
           case "error":
             addLine(event.text || "The run failed.", "err");
@@ -335,6 +591,11 @@
         button.disabled = true;
         button.textContent = "Analysing…";
         log.textContent = "";
+        reportPanel.hidden = true;
+        reportBody.textContent = "";
+        savedEl.hidden = true;
+        savedEl.textContent = "";
+        lastReport = null;
         openCalls = new Map();
         unpairable = new Set();
         streamingCall = null;

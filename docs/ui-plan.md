@@ -20,7 +20,7 @@ memory between sessions — an agent picking up the next item reads it and nothi
 | WI-3 | Document upload endpoint | ✅ done | WI-2 |
 | WI-4 | SSE analysis endpoint | ✅ done | WI-1, WI-3 |
 | WI-5 | Form and live progress log | ✅ done | WI-4 |
-| WI-6 | Render the report | pending | WI-5 |
+| WI-6 | Render the report | ✅ done | WI-5 |
 | WI-7 | Failure states and docs | pending | WI-6 |
 | WI-8 | (optional) `--call` into the analyst prompt | pending | — |
 
@@ -253,6 +253,33 @@ stream and assert the JSON events arrive in order and end with `report` then `do
 ---
 
 ## WI-6 — Render the report
+
+> **STATUS: ✅ DONE** — still `web/static/index.html` only; no Python changed. New ids for
+> WI-7 to work with: `#report` (hidden until a `report` event), `#report-body`, `#saved`,
+> `#download`. All eight `GrantFitReport` fields render: PI and grant call as a headline
+> pair, `grant_to_pi_match_pct` as a labelled bar (`.bar` with `role="img"` and an
+> `aria-label`, clamped to 0-100) above `match_rationale`, then proposed direction, PI
+> strengths, competitor cards, and past grants.
+> **Attack/avoid** are `.tactic.attack` (green, left border `--accent`) and `.tactic.avoid`
+> (amber, `--warn`) - the visual contrast the report exists for.
+> **Everything is built with `createElement`/`textContent`, never `innerHTML`**, because
+> every string in the report is model-written. Verified: a report containing
+> `<img onerror=...>` and `<script>` renders them as literal text, creates zero elements,
+> and does not execute. Keep this if you touch the rendering.
+> `appendLinkified()` turns bare `http(s)` URLs in `relevant_past_grants` into anchors
+> (`target="_blank" rel="noopener noreferrer"`), trimming trailing punctuation; the rest of
+> the string stays a text node.
+> **Download JSON** is a client-side `Blob` of the `report` event payload, saved as
+> `grant-fit-report.json` - no server round-trip, no new endpoint.
+> `#saved` shows the path from `save_report`'s `"saved: <path>"` output, and stays hidden
+> when the agent didn't call the tool (it often doesn't) or when the save failed.
+> **Rule-2 tension a human should settle:** that line puts an absolute *server* filesystem
+> path in the browser, which the Do list asked for but rule 2 forbids. The path is already
+> in the stream today via the `save_report` `tool_output`, so hiding it here would not stop
+> the disclosure. If it matters, the fix belongs in WI-7: show a path relative to
+> `settings.reports_dir` and strip absolute paths from tool-output previews.
+> Empty or missing fields degrade to "—", "None reported." and "None found." rather than
+> throwing.
 
 **Do:** on the `report` event, render every `GrantFitReport` field:
 - PI, grant call, proposed direction.

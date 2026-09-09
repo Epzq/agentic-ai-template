@@ -300,9 +300,12 @@ then fills in as the agent works - "Reading the document", "Researching the PI",
 "Searching the web: <question>" - with an elapsed timer, and the button comes
 back when the run finishes. A real run takes roughly one to several minutes.
 
-**The report fields are not rendered yet** (that is WI-6); the page currently ends
-at "Report ready.". Use `agentic-ai analyse` (section 7) if you need the full
-report today.
+When the run finishes, the report appears below the log: the PI and grant call,
+the match percentage as a bar with its rationale, the proposed direction, the PI's
+strengths, one card per competing lab with its **attack** and **avoid** angles, and
+the relevant past grants with any links made clickable. **Download JSON** saves the
+same report as a file. If the agent called `save_report`, the server-side path it
+wrote is shown at the bottom.
 
 ---
 
