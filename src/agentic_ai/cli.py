@@ -53,6 +53,19 @@ def _analyse(args: argparse.Namespace) -> None:
         print(f"  - {g}")
 
 
+def _serve(args: argparse.Namespace) -> None:
+    """Run the web UI. fastapi/uvicorn live in the optional ".[web]" extra, so both
+    are imported here rather than at module level."""
+    try:
+        import uvicorn
+
+        from .web import create_app
+    except ImportError as exc:
+        raise SystemExit(f'serve needs the web extra:  pip install -e ".[web]"  ({exc})') from exc
+
+    uvicorn.run(create_app(), host=args.host, port=args.port)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(prog="agentic-ai")
     sub = parser.add_subparsers(dest="command")
@@ -63,9 +76,15 @@ def main() -> None:
     a.add_argument("--call", default=None, help="Target grant call (optional; else best-fit found)")
     a.add_argument("--json", action="store_true", help="Print the raw JSON report")
 
+    s = sub.add_parser("serve", help="Run the web UI (needs the .[web] extra)")
+    s.add_argument("--host", default="127.0.0.1", help="Interface to bind (default 127.0.0.1)")
+    s.add_argument("--port", type=int, default=8000, help="Port to bind (default 8000)")
+
     args = parser.parse_args()
     if args.command == "analyse":
         _analyse(args)
+    elif args.command == "serve":
+        _serve(args)
     else:
         _repl()
 

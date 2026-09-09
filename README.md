@@ -399,6 +399,55 @@ data. Swap in a pipeline if you need every report strictly comparable.
 - `scripts/demo_analyst.py` - streams the raw token / tool-call view to the terminal.
 - `notebooks/analyst_ui.ipynb` - the same stream in a tiny `ipywidgets` form
   (`uv pip install -e ".[notebook]"`, then open the notebook and click *Run analyst*).
+- `agentic-ai serve` - the browser UI (`uv pip install -e ".[web]"`), on
+  http://127.0.0.1:8000: upload a context document, give a PI profile URL, and
+  watch the agent's steps stream in as it works.
+
+All three streaming views are built on `stream.py`'s `stream_analysis()`, which
+yields the run as `AnalysisEvent`s (`token`, `tool_call`, `tool_output`, `report`,
+`error`).
+
+---
+
+## 12. The web UI
+
+```bash
+uv pip install -e ".[web,gemini,docs]"   # fastapi + uvicorn, plus the analyst's own extras
+echo "GOOGLE_API_KEY=..." >> .env         # web research fails without this
+
+agentic-ai serve                          # http://127.0.0.1:8000
+agentic-ai serve --host 0.0.0.0 --port 8080
+```
+
+Upload a context document, give the PI's profile URL, optionally name the grant
+call, and press **Analyse**. The page then shows the run as it happens - "Reading
+the document", "Researching the PI", "Searching the web: <question>" - with an
+elapsed timer, and renders the finished `GrantFitReport` underneath: the match
+percentage as a bar with its rationale, the proposed direction, one card per
+competing lab with its **attack** and **avoid** angles, and the relevant past
+grants. **Download JSON** saves the report as a file.
+
+It is three routes over `stream_analysis()`, in `web/app.py`, plus one
+hand-written `web/static/index.html` - no build step, no framework, no CDN:
+
+| Route | What it does |
+|---|---|
+| `GET /api/health` | The model in use, and whether a Gemini key is set |
+| `POST /api/upload` | Stores one document, returns a `run_id` (never a path) |
+| `GET /api/analyse` | Server-sent events: one JSON `AnalysisEvent` per line, then `done` |
+
+**Failures are made visible, not swallowed.** Tools return error strings rather
+than raising (`gemini error:`, `read failed:`, ...), which means a run can look
+healthy and produce a thin report for no apparent reason. So the page marks any
+such tool result as a warning, ends the run with *"Finished with warnings"*, says
+plainly when a run produced no report at all, explains recursion-limit exhaustion
+in those terms, and - since every web step fails without a key - checks
+`/api/health` on load and shows a banner if `GOOGLE_API_KEY` is missing.
+
+`serve` binds `127.0.0.1` by default: these routes have no authentication, so
+`--host 0.0.0.0` exposes the analyst to your network. The `run_id` map is
+in-process, so a restart invalidates outstanding ids and multiple uvicorn workers
+would not share them.
 
 ---
 

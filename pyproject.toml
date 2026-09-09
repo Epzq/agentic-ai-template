@@ -37,6 +37,13 @@ gemini = ["google-genai>=2,<3"]
 docs = ["pypdf>=4", "python-docx>=1"]
 # Interactive notebook UI (notebooks/analyst_ui.ipynb).
 notebook = ["ipywidgets>=8"]
+# Browser UI: `agentic-ai serve`. python-multipart is what FastAPI uses to parse
+# the multipart upload in POST /api/upload.
+web = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "python-multipart>=0.0.9",
+]
 
 [project.scripts]
 agentic-ai = "agentic_ai.cli:main"
