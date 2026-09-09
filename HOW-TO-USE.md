@@ -265,6 +265,18 @@ curl -s localhost:8000/api/health | python -m json.tool
 # {"ok": true, "model": "google_genai:gemini-2.5-flash", "gemini_key": true}
 ```
 
+Upload a context document (the API the page will use in WI-5):
+
+```bash
+curl -s -F "file=@data/CRP Call Information Sheet.pdf" \
+     localhost:8000/api/upload | python -m json.tool
+# {"run_id": "50395eb6-...", "filename": "CRP Call Information Sheet.pdf"}
+```
+
+The file is stored under `workspace/uploads/<run_id>/`. Only `.pdf`, `.docx`,
+`.txt`, `.md`, `.markdown` and `.rst` are accepted (400 otherwise), up to 10 MB
+(413 otherwise).
+
 **At this stage the page itself is only a placeholder heading** - the upload form,
 the live progress log and the rendered report are still being built. Use
 `agentic-ai analyse` (section 7) for real runs for now.

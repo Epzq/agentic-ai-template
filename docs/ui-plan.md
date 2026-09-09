@@ -17,7 +17,7 @@ memory between sessions — an agent picking up the next item reads it and nothi
 |---|---|---|---|
 | WI-1 | Extract streaming loop into `agentic_ai.stream` | ✅ done | — |
 | WI-2 | FastAPI skeleton + `agentic-ai serve` | ✅ done | — |
-| WI-3 | Document upload endpoint | pending | WI-2 |
+| WI-3 | Document upload endpoint | ✅ done | WI-2 |
 | WI-4 | SSE analysis endpoint | pending | WI-1, WI-3 |
 | WI-5 | Form and live progress log | pending | WI-4 |
 | WI-6 | Render the report | pending | WI-5 |
@@ -119,6 +119,29 @@ so the default `.[dev]` install stays green.
 ---
 
 ## WI-3 — Document upload endpoint
+
+> **STATUS: ✅ DONE** — `POST /api/upload` (multipart field name **`file`**) →
+> `UploadResponse{run_id, filename}`, where `filename` is the *sanitised* name, not the
+> one sent. Stored at `<settings.workdir>/uploads/<run_id>/<name>`; `run_id` is
+> `str(uuid.uuid4())`.
+> **The run registry is `app.state.runs: dict[str, Path]`** — WI-4 looks the `run_id` up
+> there and 404s on a miss. It is per-app-instance and in-process: restarting the server
+> drops every run_id, and a multi-worker `uvicorn --workers N` would break it (each worker
+> gets its own dict). Fine for one local user; a human should confirm that's acceptable
+> before this is ever run multi-worker.
+> `SUPPORTED_SUFFIXES` is derived from `documents._TEXT_SUFFIXES | {".pdf", ".docx"}` rather
+> than retyped, so it can't drift from what `load_document` parses. Rejections:
+> **400** for an unsupported/absent suffix (detail lists the accepted set), **413** for
+> over `MAX_UPLOAD_BYTES` (10 MB, a module constant in `web/app.py`, deliberately *not* a
+> `Settings` field — the plan asked for a cap, not a knob). The body is streamed in 64 KB
+> chunks and checked as it goes, so an oversize file is never fully buffered; on any
+> failure the whole run folder is `rmtree`'d, leaving no partial upload.
+> `_safe_upload_path()` reduces the name with `PurePosixPath(name.replace("\\", "/")).name`
+> (so `../../x.md` → `x.md`, and a Windows-style path can't smuggle a directory through on
+> posix) and then re-checks that the resolved parent is the run dir. That second check is a
+> backstop the route cannot currently reach — it is the only uncovered line in `web/app.py`
+> — kept because rule 2 asks for the `_safe_path()` shape.
+> The browser never receives a filesystem path.
 
 **Do:**
 - `POST /api/upload` (multipart) → `{"run_id": "<uuid>", "filename": "..."}`.
