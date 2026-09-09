@@ -187,17 +187,16 @@
   </head>
   <body>
     <main>
-      <h1>Grant-fit analyst</h1>
+      <h1>Grant-Fit Analyst</h1>
       <p class="sub">
-        Upload a project-context document and point at a PI's profile. The analyst reads
-        both, researches the field, and reports how well they fit.
+        Evaluate how well a PI aligns with a funding opportunity and generate strategic insights for proposal development, including research directions, competitive positioning, and relevant past grants.
       </p>
 
       <div class="banner" id="banner" hidden></div>
 
       <form class="panel" id="form">
         <div class="field">
-          <label for="file">Context document</label>
+          <label for="file">Grant Call</label>
           <input
             type="file"
             id="file"
@@ -208,13 +207,13 @@
         </div>
 
         <div class="field">
-          <label for="pi">PI profile URL</label>
+          <label for="pi">PI Profile URL</label>
           <input type="url" id="pi" required placeholder="https://example.edu/~pi" />
           <span class="hint">A faculty page, ORCID, Google Scholar or lab site.</span>
         </div>
 
         <div class="field">
-          <label for="call">Target grant call <span class="hint">(optional)</span></label>
+          <label for="call">Target Grant Call <span class="hint">(optional)</span></label>
           <input type="text" id="call" placeholder="e.g. NRF CRP" />
           <span class="hint">Leave blank to let the analyst find the best-fit open call.</span>
         </div>
