@@ -80,6 +80,25 @@
         margin-top: 0.2rem;
       }
       .err .step { color: var(--warn); }
+      .warn { background: #fdf3ee; border-radius: 4px; padding-left: 0.5rem; }
+      .warn .step { color: var(--warn); }
+      .warn .detail { color: #7c3210; }
+      .banner {
+        background: #fdf3ee;
+        border: 1px solid #f0c4a8;
+        border-left: 4px solid var(--warn);
+        border-radius: 8px;
+        padding: 0.8rem 1rem;
+        margin-bottom: 1.25rem;
+        color: #7c3210;
+      }
+      .banner strong { display: block; margin-bottom: 0.15rem; color: var(--warn); }
+      .banner code {
+        background: #f7e2d5;
+        padding: 0 0.25rem;
+        border-radius: 3px;
+        font-size: 0.9em;
+      }
       .spin::after {
         content: "";
         animation: dots 1.2s steps(4, end) infinite;
@@ -174,6 +193,8 @@
         both, researches the field, and reports how well they fit.
       </p>
 
+      <div class="banner" id="banner" hidden></div>
+
       <form class="panel" id="form">
         <div class="field">
           <label for="file">Context document</label>
@@ -234,9 +255,25 @@
       const reportBody = document.getElementById("report-body");
       const savedEl = document.getElementById("saved");
       const downloadButton = document.getElementById("download");
+      const banner = document.getElementById("banner");
 
       // A run's whole document comes back through read_context; never dump it in the log.
       const MAX_DETAIL = 300;
+
+      // Tools never raise - they return these strings, and the agent carries on. Left
+      // unmarked they look like ordinary results and the run ends with a thin report
+      // for no visible reason, so every one of them is surfaced as a warning.
+      const TOOL_ERROR_PREFIXES = [
+        "gemini error:",
+        "read failed:",
+        "lookup failed:",
+        "save failed:",
+      ];
+
+      function toolErrorIn(text) {
+        const value = String(text == null ? "" : text).trimStart();
+        return TOOL_ERROR_PREFIXES.some((prefix) => value.startsWith(prefix));
+      }
 
       // Plain language for each tool, so the log reads as progress rather than as
       // internal function names.
@@ -258,6 +295,8 @@
       let startedAt = 0;
       let running = false;
       let lastReport = null; // the payload behind the Download JSON button
+      let sawReport = false; // so a run that ends without one can say so
+      let sawFailure = false; // a tool returned an error string, or the run errored
       // The agent often issues several tool calls before any of them returns, and can
       // run two of the same tool at once, so outputs are matched to calls by name in
       // FIFO order rather than by "the most recent call".
@@ -376,19 +415,28 @@
           savedEl.hidden = false;
         }
 
+        const failed = toolErrorIn(event.text);
+        if (failed) sawFailure = true;
+
         const queue = openCalls.get(event.name) || [];
         if (queue.length === 1 && !unpairable.has(event.name)) {
           const call = queue.shift();
           if (call === streamingCall) streamingCall = null;
           const step = call.li.querySelector(".step");
           step.textContent = step.textContent.replace(/…$/, ""); // this step is done
+          if (failed) {
+            call.li.classList.add("warn");
+            step.textContent = labelFor(event.name) + " — failed";
+          }
           setDetail(call.li, truncate(event.text));
           return;
         }
         // Attaching this result to one of the open calls would be a guess, and a
         // result shown under the wrong question is worse than one shown on its own.
         if (queue.length) queue.shift();
-        setDetail(addLine(labelFor(event.name) + " — result"), truncate(event.text));
+        const suffix = failed ? " — failed" : " — result";
+        setDetail(addLine(labelFor(event.name) + suffix, failed ? "warn" : null),
+                  truncate(event.text));
       }
 
       // Every string below is written by the model, so the report is built with
@@ -549,6 +597,24 @@
         URL.revokeObjectURL(url);
       });
 
+      // The agent's own failure text is written for a developer. Say what it means
+      // for the person waiting, and keep the original underneath.
+      function reportError(text) {
+        const li = addLine("The analysis stopped.", "err");
+        if (/recursion limit/i.test(text)) {
+          li.querySelector(".step").textContent =
+            "The analyst ran out of steps before it finished the report.";
+          setDetail(
+            li,
+            "It kept calling tools without reaching a conclusion - often a sign that " +
+              "web research is failing, or that the document does not give it enough to " +
+              "work with. Try a more specific context document or name the grant call."
+          );
+          return;
+        }
+        setDetail(li, text || "No further detail was reported.");
+      }
+
       function handleEvent(event) {
         switch (event.type) {
           case "tool_call":
@@ -558,15 +624,29 @@
             handleToolOutput(event);
             break;
           case "report":
+            sawReport = true;
             addLine("Report ready.");
             if (event.report) renderReport(event.report);
             break;
           case "error":
-            addLine(event.text || "The run failed.", "err");
+            sawFailure = true;
+            reportError(event.text || "");
             finish("Stopped");
             break;
           case "done":
-            finish("Finished");
+            if (!sawReport) {
+              addLine(
+                sawFailure
+                  ? "The run stopped before producing a report."
+                  : "The run finished without producing a report.",
+                "err"
+              );
+              finish("Stopped");
+            } else {
+              // A report can arrive even though a tool failed along the way - say so,
+              // because those fields were written with less evidence than they look.
+              finish(sawFailure ? "Finished with warnings" : "Finished");
+            }
             break;
         }
       }
@@ -582,6 +662,39 @@
         return payload;
       }
 
+      function showBanner(heading, detailNodes) {
+        banner.textContent = "";
+        const title = document.createElement("strong");
+        title.textContent = heading;
+        banner.append(title, ...detailNodes);
+        banner.hidden = false;
+      }
+
+      // Pre-flight. Without a Gemini key every web-research step returns
+      // "gemini error:" and the report comes back empty, so say so on page load
+      // rather than after a user has waited out a whole run.
+      (async function preflight() {
+        let health;
+        try {
+          const response = await fetch("/api/health");
+          if (!response.ok) return;
+          health = await response.json();
+        } catch (_) {
+          return; // the server will fail loudly enough on its own
+        }
+        if (health.gemini_key) return;
+        const code = document.createElement("code");
+        code.textContent = "GOOGLE_API_KEY";
+        showBanner("No web-research key is set.", [
+          document.createTextNode("Set "),
+          code,
+          document.createTextNode(
+            " in .env and restart the server. Without it every web-research and " +
+              "PI-profile step will fail, and the report will be empty."
+          ),
+        ]);
+      })();
+
       form.addEventListener("submit", async (submitEvent) => {
         submitEvent.preventDefault();
         const file = fileInput.files[0];
@@ -596,6 +709,8 @@
         savedEl.hidden = true;
         savedEl.textContent = "";
         lastReport = null;
+        sawReport = false;
+        sawFailure = false;
         openCalls = new Map();
         unpairable = new Set();
         streamingCall = null;

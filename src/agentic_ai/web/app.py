@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 import os
 import shutil
 import uuid
@@ -22,6 +23,8 @@ from ..stream import AnalysisEvent, stream_analysis
 # fastapi lives in the optional ".[web]" extra, so nothing here is imported by
 # `agentic_ai/__init__.py` - only `create_app()` and the CLI's `serve` reach it.
 # ---------------------------------------------------------------------------
+
+log = logging.getLogger(__name__)
 
 STATIC_DIR = Path(__file__).parent / "static"
 INDEX_HTML = STATIC_DIR / "index.html"
@@ -157,6 +160,15 @@ def create_app(settings: Settings | None = None) -> FastAPI:
                     str(document), pi_url, call, settings=settings, model=model
                 ):
                     yield _sse(event)
+            except GeneratorExit:
+                # Best-effort note when this generator is closed explicitly. The run
+                # stops either way: once the browser is gone nothing pulls from here,
+                # so the agent loop is left suspended at its yield and goes no
+                # further - measured, not assumed. A tool call already in flight does
+                # finish first, and this handler may not run promptly, so don't rely
+                # on it for cleanup that has to happen.
+                log.info("client disconnected; abandoning run %s", run_id)
+                raise
             except Exception as exc:  # noqa: BLE001 - the browser sees it, not a 500
                 yield _sse(AnalysisEvent(type="error", text=f"stream failed: {exc}"))
             yield DONE_EVENT

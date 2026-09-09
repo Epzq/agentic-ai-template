@@ -21,7 +21,7 @@ memory between sessions — an agent picking up the next item reads it and nothi
 | WI-4 | SSE analysis endpoint | ✅ done | WI-1, WI-3 |
 | WI-5 | Form and live progress log | ✅ done | WI-4 |
 | WI-6 | Render the report | ✅ done | WI-5 |
-| WI-7 | Failure states and docs | pending | WI-6 |
+| WI-7 | Failure states and docs | ✅ done | WI-6 |
 | WI-8 | (optional) `--call` into the analyst prompt | pending | — |
 
 ---
@@ -298,6 +298,40 @@ stream and assert the JSON events arrive in order and end with `report` then `do
 ---
 
 ## WI-7 — Failure states
+
+> **STATUS: ✅ DONE** — `web/app.py` (one `except GeneratorExit` + a module logger) and
+> `web/static/index.html`; plus a new README section 12.
+> **Tool error strings** are matched against `TOOL_ERROR_PREFIXES` in the page
+> (`gemini error:` / `read failed:` / `lookup failed:` / `save failed:`). A matching
+> `tool_output` turns its log line into `.warn` (amber) and relabels the step
+> "<tool> — failed". A run can still produce a report after one, so the end state has
+> three outcomes now: **"Finished"**, **"Finished with warnings"** (report produced but a
+> tool failed - those fields rest on less evidence than they look) and **"Stopped"** (no
+> report at all).
+> **No report ever arrives** → an explicit `.err` line, "The run stopped/finished without
+> producing a report", never a silent stop.
+> **Recursion-limit exhaustion** reaches the page as an `error` event whose text is
+> LangChain's own developer message plus a docs URL; `reportError()` rewrites it as
+> "The analyst ran out of steps before it finished the report" and keeps the original
+> underneath.
+> **Pre-flight banner:** the page fetches `/api/health` on load and shows `#banner` when
+> `gemini_key` is false. Note `agentic_ai/__init__` runs `load_dotenv()`, so a key in
+> `.env` counts as set even if it is absent from the shell environment.
+> **Disconnect:** measured, not assumed. Killing the client mid-run leaves the step count
+> frozen (2 steps, still 2 ten seconds later): once nothing pulls the generator the agent
+> loop stays suspended at its yield. A tool call already in flight finishes first. The
+> `except GeneratorExit` handler logs it *when* the generator is closed explicitly, which
+> did **not** happen in that test - it is a best-effort note, not the cancellation
+> mechanism, and nothing that must run belongs in it.
+> **Still open, needs a human decision:** WI-6's saved-path line still shows an absolute
+> server path, and the raw `save_report` tool output carries one into the log too. WI-7's
+> Do list does not mention it, so it was left alone rather than changed unilaterally. The
+> fix, if wanted, is to render paths relative to `settings.reports_dir` and strip absolute
+> paths from tool-output previews.
+> **Also found, not fixed (out of scope):** `tests/test_analyst.py` patches
+> `gemini.ask_gemini`, but `analyst.py` did `from .gemini import ask_gemini`, so its
+> `web_research` tool call reaches the **real network**. `tests/test_web.py` patches
+> `analyst.ask_gemini` for that reason. See the WI-7 report.
 
 The agent reports failures as *strings*, so nothing raises and the UI can stall looking healthy.
 

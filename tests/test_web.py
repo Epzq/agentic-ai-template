@@ -11,6 +11,7 @@ from fastapi import HTTPException  # noqa: E402
 from fastapi.testclient import TestClient  # noqa: E402
 from langchain_core.messages import AIMessage  # noqa: E402
 
+import agentic_ai.analyst as analyst  # noqa: E402
 import agentic_ai.web.app as app_module  # noqa: E402
 from agentic_ai.web import MAX_UPLOAD_BYTES, create_app  # noqa: E402
 from agentic_ai.web.app import DONE_EVENT, _safe_upload_path, get_model  # noqa: E402
@@ -234,3 +235,59 @@ def test_analyse_turns_a_generator_blow_up_into_an_error_event(client, uploaded,
     events = _sse_payloads(response)
     assert [e["type"] for e in events] == ["error", "done"]
     assert "agent exploded" in events[0]["text"]
+
+
+# --- failure states (WI-7) --------------------------------------------------
+
+
+def test_tool_error_strings_reach_the_browser_intact(client, uploaded, monkeypatch):
+    """Tools return 'gemini error: ...' instead of raising. The stream must carry
+    that through verbatim - the UI can only warn about what it is told."""
+    run_id, document = uploaded
+    # web_research resolves ask_gemini through analyst's own namespace (it did
+    # `from .gemini import ask_gemini`), so patching gemini.ask_gemini alone would
+    # leave this test making a real network call.
+    monkeypatch.setattr(analyst, "ask_gemini", lambda *a, **k: "gemini error: quota exhausted")
+    model = _RecordingModel(
+        responses=[
+            AIMessage(
+                content="",
+                tool_calls=[{"name": "web_research", "args": {"question": "q"}, "id": "1"}],
+            ),
+            AIMessage(content="No usable research came back."),
+        ],
+        structured_response=_REPORT,
+        seen=[],
+    )
+    client.app.dependency_overrides[get_model] = lambda: model
+
+    events = _sse_payloads(client.get(f"/api/analyse?run_id={run_id}&pi_url=http://pi"))
+
+    outputs = [e for e in events if e["type"] == "tool_output"]
+    assert outputs, "the failing tool call produced no tool_output event"
+    assert outputs[0]["text"] == "gemini error: quota exhausted"
+    assert outputs[0]["name"] == "web_research"
+    # the run still completes rather than dying on the error string
+    assert events[-1]["type"] == "done"
+
+
+def test_recursion_limit_exhaustion_ends_in_error_then_done(client, uploaded):
+    """No report ever arrives; the stream must still say why and terminate."""
+    run_id, document = uploaded
+    looping = [
+        AIMessage(
+            content="",
+            tool_calls=[{"name": "read_context", "args": {"path": str(document)}, "id": str(i)}],
+        )
+        for i in range(40)
+    ]
+    client.app.dependency_overrides[get_model] = lambda: ScriptedChatModel(
+        responses=looping, structured_response=_REPORT
+    )
+
+    response = client.get(f"/api/analyse?run_id={run_id}&pi_url=http://pi")
+    events = _sse_payloads(response)
+
+    assert [e["type"] for e in events[-2:]] == ["error", "done"]
+    assert "recursion limit" in events[-2]["text"].lower()
+    assert not any(e["type"] == "report" for e in events)

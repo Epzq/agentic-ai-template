@@ -300,6 +300,15 @@ then fills in as the agent works - "Reading the document", "Researching the PI",
 "Searching the web: <question>" - with an elapsed timer, and the button comes
 back when the run finishes. A real run takes roughly one to several minutes.
 
+If `GOOGLE_API_KEY` is missing, the page says so in a banner as soon as it loads -
+every web-research step would fail without it.
+
+When a tool fails, it does not stop the run: the agent gets an error string back
+and carries on, so the page marks that step amber ("Searching the web — failed")
+and ends with **Finished with warnings** rather than a plain "Finished". Treat
+such a report with suspicion - its fields were written with less evidence than
+usual. A run that produces no report at all says so explicitly.
+
 When the run finishes, the report appears below the log: the PI and grant call,
 the match percentage as a bar with its rationale, the proposed direction, the PI's
 strengths, one card per competing lab with its **attack** and **avoid** angles, and
