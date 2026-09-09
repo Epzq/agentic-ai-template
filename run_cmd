@@ -1,0 +1,3 @@
+agentic-ai analyse \
+    "/home/chinthani/home_of_nrf1/hackathon/agentic-ai-template/data/CRP Call Information Sheet.pdf" \
+    "https://basurafernando.github.io/"
