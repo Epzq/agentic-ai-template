@@ -22,6 +22,7 @@ from pathlib import Path
 
 import agentic_ai.analyst as analyst
 import agentic_ai.gemini as gemini
+from agentic_ai.stream import stream_analysis
 
 # --- canned "research" the orchestrator gets instead of live web calls ---
 
@@ -81,65 +82,29 @@ def main() -> None:
     #     "electrode interphases, targeting grid-scale storage. Budget ~S$4M, 4 years.",
     #     encoding="utf-8",
     # )
-    ctx='./test_data/InfoSheet.pdf'
-    agent = analyst.build_analyst()
-    task = (
-        f"Context document path: {ctx}\n"
-        "PI profile URL: https://chaneyddtt.github.io/\n"
-        #"Target grant call: not specified - identify the best-fit open call\n\n"
-        "Produce the grant-fit report."
-    )
-    inp = {"messages": [{"role": "user", "content": task}]}
-    cfg = {"recursion_limit": 25}
+    ctx = './test_data/InfoSheet.pdf'
 
-    # One stream. "values" only to keep the final state for the report below;
-    # everything shown comes from "messages" - the raw per-token model output.
-    final = None
-    for mode, chunk in agent.stream(inp, cfg, stream_mode=["values", "messages"]):
-        if mode == "values":
-            final = chunk
-            continue
-
-        msg, _meta = chunk
-        if type(msg).__name__ == "ToolMessage":
-            #print(f"\n<tool_output {msg.name}>\n{msg.content}\n", flush=True)
-            if msg.name == 'read_context':
-                print(f"\n<tool_output {msg.name}>\n{msg.content[:1000]}\n", flush=True)
-            else:
-                print(f"\n<tool_output {msg.name}>\n{msg.content}\n", flush=True)
-            continue
-
-        # reasoning models that separate their thinking (Claude thinking blocks,
-        # ollama `reasoning`). deepseek-r1 style <think>...</think> just rides in content.
-        rc = msg.additional_kwargs.get("reasoning_content")
-        if rc:
-            print(f"\033[2m{rc}\033[0m", end="", flush=True)  # dim
-        if isinstance(msg.content, list):
-            for part in msg.content:
-                if isinstance(part, dict) and part.get("type") in ("thinking", "reasoning"):
-                    t = part.get("thinking") or part.get("reasoning") or ""
-                    print(f"\033[2m{t}\033[0m", end="", flush=True)
-                elif isinstance(part, dict) and part.get("type") == "text":
-                    print(part["text"], end="", flush=True)
-        elif msg.content:
-            print(msg.content, end="", flush=True)
-
-        for tc in getattr(msg, "tool_call_chunks", None) or []:
-            print(f"\n<tool_call {tc['name']}> {tc['args']}", flush=True)
+    report = None
+    for event in stream_analysis(ctx, "https://chaneyddtt.github.io/"):
+        if event.type == "tool_output":
+            # read_context returns a whole document; keep the terminal readable
+            text = event.text or ""
+            if event.name == "read_context":
+                text = text[:1000]
+            print(f"\n<tool_output {event.name}>\n{text}\n", flush=True)
+        elif event.type == "tool_call":
+            print(f"\n<tool_call {event.name}> {event.text}", flush=True)
+        elif event.type == "token":
+            text = event.text or ""
+            print(f"\033[2m{text}\033[0m" if event.reasoning else text, end="", flush=True)
+        elif event.type == "report":
+            report = event.report
+        elif event.type == "error":
+            print(f"\n[{event.text}]", flush=True)
 
     print("\n\n" + "=" * 70 + "\nSTRUCTURED REPORT\n" + "=" * 70)
-    report = final.get("structured_response") if final else None
     if report is None:
-        from agentic_ai.analyst import COERCE_PROMPT
-        from agentic_ai.llm import build_model
-        from agentic_ai.report import GrantFitReport
-
-        coercer = build_model().with_structured_output(GrantFitReport)
-        try:
-            report = coercer.invoke(COERCE_PROMPT + str(final["messages"][-1].content))
-        except Exception as exc:  # noqa: BLE001
-            print(f"[structured coercion failed: {exc}]")
-            return
+        return
     print(report.model_dump_json(indent=2))
 
 
