@@ -1,0 +1,621 @@
+{
+ "url": "https://api.openalex.org/works/W3198379050?select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cauthorships%2Cabstract_inverted_index",
+ "status": 200,
+ "json": {
+  "id": "https://openalex.org/W3198379050",
+  "display_name": "Rendezvous: Attention mechanisms for the recognition of surgical action triplets in endoscopic videos",
+  "publication_year": 2022,
+  "cited_by_count": 199,
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5018519401",
+     "display_name": "Chinedu Innocent Nwoye",
+     "orcid": "https://orcid.org/0000-0003-4777-0857"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1294671590",
+      "display_name": "Centre National de la Recherche Scientifique",
+      "ror": "https://ror.org/02feahw73",
+      "country_code": "FR",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1294671590"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210100283",
+      "display_name": "Laboratoire des Sciences de l'Ing\u00e9nieur, de l'Informatique et de l'Imagerie",
+      "ror": "https://ror.org/00k4e5n71",
+      "country_code": "FR",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I1294671590",
+       "https://openalex.org/I1294671590",
+       "https://openalex.org/I1294671590",
+       "https://openalex.org/I1326498283",
+       "https://openalex.org/I2801509770",
+       "https://openalex.org/I4210095849",
+       "https://openalex.org/I4210100283",
+       "https://openalex.org/I4210159245",
+       "https://openalex.org/I68947357"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I68947357",
+      "display_name": "Universit\u00e9 de Strasbourg",
+      "ror": "https://ror.org/00pg6eq24",
+      "country_code": "FR",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I68947357"
+      ]
+     }
+    ],
+    "countries": [
+     "FR"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Chinedu Innocent Nwoye",
+    "raw_affiliation_strings": [
+     "ICube, University of Strasbourg, CNRS, France. Electronic address: nwoye@unistra.fr",
+     "ICube - Laboratoire des sciences de l'ing\u00e9nieur, de l'informatique et de l'imagerie (300 bd S\u00e9bastien Brant - BP 10413 - F-67412 Illkirch Cedex - France)"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0003-4777-0857",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "ICube, University of Strasbourg, CNRS, France. Electronic address: nwoye@unistra.fr",
+      "institution_ids": [
+       "https://openalex.org/I1294671590",
+       "https://openalex.org/I4210100283",
+       "https://openalex.org/I68947357"
+      ]
+     },
+     {
+      "raw_affiliation_string": "ICube - Laboratoire des sciences de l'ing\u00e9nieur, de l'informatique et de l'imagerie (300 bd S\u00e9bastien Brant - BP 10413 - F-67412 Illkirch Cedex - France)",
+      "institution_ids": [
+       "https://openalex.org/I4210100283"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100767817",
+     "display_name": "Tong Yu",
+     "orcid": "https://orcid.org/0000-0002-5991-2050"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1294671590",
+      "display_name": "Centre National de la Recherche Scientifique",
+      "ror": "https://ror.org/02feahw73",
+      "country_code": "FR",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1294671590"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210100283",
+      "display_name": "Laboratoire des Sciences de l'Ing\u00e9nieur, de l'Informatique et de l'Imagerie",
+      "ror": "https://ror.org/00k4e5n71",
+      "country_code": "FR",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I1294671590",
+       "https://openalex.org/I1294671590",
+       "https://openalex.org/I1294671590",
+       "https://openalex.org/I1326498283",
+       "https://openalex.org/I2801509770",
+       "https://openalex.org/I4210095849",
+       "https://openalex.org/I4210100283",
+       "https://openalex.org/I4210159245",
+       "https://openalex.org/I68947357"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I68947357",
+      "display_name": "Universit\u00e9 de Strasbourg",
+      "ror": "https://ror.org/00pg6eq24",
+      "country_code": "FR",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I68947357"
+      ]
+     }
+    ],
+    "countries": [
+     "FR"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Tong Yu",
+    "raw_affiliation_strings": [
+     "ICube, University of Strasbourg, CNRS, France",
+     "ICube - Laboratoire des sciences de l'ing\u00e9nieur, de l'informatique et de l'imagerie (300 bd S\u00e9bastien Brant - BP 10413 - F-67412 Illkirch Cedex - France)"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "ICube, University of Strasbourg, CNRS, France",
+      "institution_ids": [
+       "https://openalex.org/I1294671590",
+       "https://openalex.org/I68947357"
+      ]
+     },
+     {
+      "raw_affiliation_string": "ICube - Laboratoire des sciences de l'ing\u00e9nieur, de l'informatique et de l'imagerie (300 bd S\u00e9bastien Brant - BP 10413 - F-67412 Illkirch Cedex - France)",
+      "institution_ids": [
+       "https://openalex.org/I4210100283"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5006400135",
+     "display_name": "Cristians Gonz\u00e1lez",
+     "orcid": "https://orcid.org/0000-0001-5830-2931"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109354",
+      "display_name": "Institut de Recherche contre les Cancers de l\u2019Appareil Digestif",
+      "ror": "https://ror.org/01xyqts46",
+      "country_code": "FR",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109354"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210145324",
+      "display_name": "H\u00f4pitaux Universitaires de Strasbourg",
+      "ror": "https://ror.org/04bckew43",
+      "country_code": "FR",
+      "type": "healthcare",
+      "lineage": [
+       "https://openalex.org/I4210145324"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210160625",
+      "display_name": "Institut de Chirurgie Guid\u00e9e par l'Image",
+      "ror": "https://ror.org/053694011",
+      "country_code": "FR",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210160625"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I68947357",
+      "display_name": "Universit\u00e9 de Strasbourg",
+      "ror": "https://ror.org/00pg6eq24",
+      "country_code": "FR",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I68947357"
+      ]
+     }
+    ],
+    "countries": [
+     "FR"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Cristians Gonzalez",
+    "raw_affiliation_strings": [
+     "IHU Strasbourg, France; University Hospital of Strasbourg, France",
+     "CHU Strasbourg - Centre Hospitalier Universitaire [Strasbourg] (France)",
+     "IHU Strasbourg - L'Institut hospitalo-universitaire de Strasbourg (S/c IRCAD 1, place de l'H\u00f4pital 67091 Strasbourg - France)"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-5830-2931",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "IHU Strasbourg, France; University Hospital of Strasbourg, France",
+      "institution_ids": [
+       "https://openalex.org/I4210160625",
+       "https://openalex.org/I68947357"
+      ]
+     },
+     {
+      "raw_affiliation_string": "CHU Strasbourg - Centre Hospitalier Universitaire [Strasbourg] (France)",
+      "institution_ids": [
+       "https://openalex.org/I4210145324"
+      ]
+     },
+     {
+      "raw_affiliation_string": "IHU Strasbourg - L'Institut hospitalo-universitaire de Strasbourg (S/c IRCAD 1, place de l'H\u00f4pital 67091 Strasbourg - France)",
+      "institution_ids": [
+       "https://openalex.org/I4210109354"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5006383656",
+     "display_name": "Barbara Seeliger",
+     "orcid": "https://orcid.org/0000-0001-7451-7545"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109354",
+      "display_name": "Institut de Recherche contre les Cancers de l\u2019Appareil Digestif",
+      "ror": "https://ror.org/01xyqts46",
+      "country_code": "FR",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109354"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210145324",
+      "display_name": "H\u00f4pitaux Universitaires de Strasbourg",
+      "ror": "https://ror.org/04bckew43",
+      "country_code": "FR",
+      "type": "healthcare",
+      "lineage": [
+       "https://openalex.org/I4210145324"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210160625",
+      "display_name": "Institut de Chirurgie Guid\u00e9e par l'Image",
+      "ror": "https://ror.org/053694011",
+      "country_code": "FR",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210160625"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I68947357",
+      "display_name": "Universit\u00e9 de Strasbourg",
+      "ror": "https://ror.org/00pg6eq24",
+      "country_code": "FR",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I68947357"
+      ]
+     }
+    ],
+    "countries": [
+     "FR"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Barbara Seeliger",
+    "raw_affiliation_strings": [
+     "IHU Strasbourg, France; University Hospital of Strasbourg, France",
+     "CHU Strasbourg - Centre Hospitalier Universitaire [Strasbourg] (France)",
+     "IHU Strasbourg - L'Institut hospitalo-universitaire de Strasbourg (S/c IRCAD 1, place de l'H\u00f4pital 67091 Strasbourg - France)"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-7451-7545",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "IHU Strasbourg, France; University Hospital of Strasbourg, France",
+      "institution_ids": [
+       "https://openalex.org/I4210160625",
+       "https://openalex.org/I68947357"
+      ]
+     },
+     {
+      "raw_affiliation_string": "CHU Strasbourg - Centre Hospitalier Universitaire [Strasbourg] (France)",
+      "institution_ids": [
+       "https://openalex.org/I4210145324"
+      ]
+     },
+     {
+      "raw_affiliation_string": "IHU Strasbourg - L'Institut hospitalo-universitaire de Strasbourg (S/c IRCAD 1, place de l'H\u00f4pital 67091 Strasbourg - France)",
+      "institution_ids": [
+       "https://openalex.org/I4210109354"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5084800516",
+     "display_name": "Pietro Mascagni",
+     "orcid": "https://orcid.org/0000-0001-7288-3023"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1294671590",
+      "display_name": "Centre National de la Recherche Scientifique",
+      "ror": "https://ror.org/02feahw73",
+      "country_code": "FR",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1294671590"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I2802557943",
+      "display_name": "Agostino Gemelli University Polyclinic",
+      "ror": "https://ror.org/00rg70c39",
+      "country_code": "IT",
+      "type": "healthcare",
+      "lineage": [
+       "https://openalex.org/I2802557943"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210100283",
+      "display_name": "Laboratoire des Sciences de l'Ing\u00e9nieur, de l'Informatique et de l'Imagerie",
+      "ror": "https://ror.org/00k4e5n71",
+      "country_code": "FR",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I1294671590",
+       "https://openalex.org/I1294671590",
+       "https://openalex.org/I1294671590",
+       "https://openalex.org/I1326498283",
+       "https://openalex.org/I2801509770",
+       "https://openalex.org/I4210095849",
+       "https://openalex.org/I4210100283",
+       "https://openalex.org/I4210159245",
+       "https://openalex.org/I68947357"
+      ]
+     }
+    ],
+    "countries": [
+     "FR",
+     "IT"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Pietro Mascagni",
+    "raw_affiliation_strings": [
+     "ICube, University of Strasbourg, CNRS, France; Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Rome, Italy",
+     "Fondazione Policlinico Universitario Agostino Gemelli IRCCS (Largo Agostino Gemelli, 8, 00168 Roma - Italy)",
+     "ICube - Laboratoire des sciences de l'ing\u00e9nieur, de l'informatique et de l'imagerie (300 bd S\u00e9bastien Brant - BP 10413 - F-67412 Illkirch Cedex - France)"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-7288-3023",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "ICube, University of Strasbourg, CNRS, France; Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Rome, Italy",
+      "institution_ids": [
+       "https://openalex.org/I1294671590",
+       "https://openalex.org/I2802557943"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS (Largo Agostino Gemelli, 8, 00168 Roma - Italy)",
+      "institution_ids": [
+       "https://openalex.org/I2802557943"
+      ]
+     },
+     {
+      "raw_affiliation_string": "ICube - Laboratoire des sciences de l'ing\u00e9nieur, de l'informatique et de l'imagerie (300 bd S\u00e9bastien Brant - BP 10413 - F-67412 Illkirch Cedex - France)",
+      "institution_ids": [
+       "https://openalex.org/I4210100283"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5081252567",
+     "display_name": "Didier Mutter",
+     "orcid": "https://orcid.org/0000-0002-7559-3328"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109354",
+      "display_name": "Institut de Recherche contre les Cancers de l\u2019Appareil Digestif",
+      "ror": "https://ror.org/01xyqts46",
+      "country_code": "FR",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109354"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210145324",
+      "display_name": "H\u00f4pitaux Universitaires de Strasbourg",
+      "ror": "https://ror.org/04bckew43",
+      "country_code": "FR",
+      "type": "healthcare",
+      "lineage": [
+       "https://openalex.org/I4210145324"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210160625",
+      "display_name": "Institut de Chirurgie Guid\u00e9e par l'Image",
+      "ror": "https://ror.org/053694011",
+      "country_code": "FR",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210160625"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I68947357",
+      "display_name": "Universit\u00e9 de Strasbourg",
+      "ror": "https://ror.org/00pg6eq24",
+      "country_code": "FR",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I68947357"
+      ]
+     }
+    ],
+    "countries": [
+     "FR"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Didier Mutter",
+    "raw_affiliation_strings": [
+     "IHU Strasbourg, France; University Hospital of Strasbourg, France",
+     "CHU Strasbourg - Centre Hospitalier Universitaire [Strasbourg] (France)",
+     "IHU Strasbourg - L'Institut hospitalo-universitaire de Strasbourg (S/c IRCAD 1, place de l'H\u00f4pital 67091 Strasbourg - France)"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "IHU Strasbourg, France; University Hospital of Strasbourg, France",
+      "institution_ids": [
+       "https://openalex.org/I4210160625",
+       "https://openalex.org/I68947357"
+      ]
+     },
+     {
+      "raw_affiliation_string": "CHU Strasbourg - Centre Hospitalier Universitaire [Strasbourg] (France)",
+      "institution_ids": [
+       "https://openalex.org/I4210145324"
+      ]
+     },
+     {
+      "raw_affiliation_string": "IHU Strasbourg - L'Institut hospitalo-universitaire de Strasbourg (S/c IRCAD 1, place de l'H\u00f4pital 67091 Strasbourg - France)",
+      "institution_ids": [
+       "https://openalex.org/I4210109354"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5015981897",
+     "display_name": "Jacques Marescaux",
+     "orcid": "https://orcid.org/0000-0002-1400-6230"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109354",
+      "display_name": "Institut de Recherche contre les Cancers de l\u2019Appareil Digestif",
+      "ror": "https://ror.org/01xyqts46",
+      "country_code": "FR",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109354"
+      ]
+     }
+    ],
+    "countries": [
+     "FR"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Jacques Marescaux",
+    "raw_affiliation_strings": [
+     "IRCAD, France",
+     "l'Institut de Recherche contre les Cancers de l'Appareil Digestif (IRCAD) (France)"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-1400-6230",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "IRCAD, France",
+      "institution_ids": [
+       "https://openalex.org/I4210109354"
+      ]
+     },
+     {
+      "raw_affiliation_string": "l'Institut de Recherche contre les Cancers de l'Appareil Digestif (IRCAD) (France)",
+      "institution_ids": [
+       "https://openalex.org/I4210109354"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5071976104",
+     "display_name": "Nicolas Padoy",
+     "orcid": "https://orcid.org/0000-0002-5010-4137"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1294671590",
+      "display_name": "Centre National de la Recherche Scientifique",
+      "ror": "https://ror.org/02feahw73",
+      "country_code": "FR",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1294671590"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210100283",
+      "display_name": "Laboratoire des Sciences de l'Ing\u00e9nieur, de l'Informatique et de l'Imagerie",
+      "ror": "https://ror.org/00k4e5n71",
+      "country_code": "FR",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I1294671590",
+       "https://openalex.org/I1294671590",
+       "https://openalex.org/I1294671590",
+       "https://openalex.org/I1326498283",
+       "https://openalex.org/I2801509770",
+       "https://openalex.org/I4210095849",
+       "https://openalex.org/I4210100283",
+       "https://openalex.org/I4210159245",
+       "https://openalex.org/I68947357"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210109354",
+      "display_name": "Institut de Recherche contre les Cancers de l\u2019Appareil Digestif",
+      "ror": "https://ror.org/01xyqts46",
+      "country_code": "FR",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109354"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I68947357",
+      "display_name": "Universit\u00e9 de Strasbourg",
+      "ror": "https://ror.org/00pg6eq24",
+      "country_code": "FR",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I68947357"
+      ]
+     }
+    ],
+    "countries": [
+     "FR"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Nicolas Padoy",
+    "raw_affiliation_strings": [
+     "ICube, University of Strasbourg, CNRS, France; IHU Strasbourg, France. Electronic address: npadoy@unistra.fr",
+     "ICube - Laboratoire des sciences de l'ing\u00e9nieur, de l'informatique et de l'imagerie (300 bd S\u00e9bastien Brant - BP 10413 - F-67412 Illkirch Cedex - France)",
+     "IHU Strasbourg - L'Institut hospitalo-universitaire de Strasbourg (S/c IRCAD 1, place de l'H\u00f4pital 67091 Strasbourg - France)"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-5010-4137",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "ICube, University of Strasbourg, CNRS, France; IHU Strasbourg, France. Electronic address: npadoy@unistra.fr",
+      "institution_ids": [
+       "https://openalex.org/I1294671590",
+       "https://openalex.org/I68947357"
+      ]
+     },
+     {
+      "raw_affiliation_string": "ICube - Laboratoire des sciences de l'ing\u00e9nieur, de l'informatique et de l'imagerie (300 bd S\u00e9bastien Brant - BP 10413 - F-67412 Illkirch Cedex - France)",
+      "institution_ids": [
+       "https://openalex.org/I4210100283"
+      ]
+     },
+     {
+      "raw_affiliation_string": "IHU Strasbourg - L'Institut hospitalo-universitaire de Strasbourg (S/c IRCAD 1, place de l'H\u00f4pital 67091 Strasbourg - France)",
+      "institution_ids": [
+       "https://openalex.org/I4210109354"
+      ]
+     }
+    ]
+   }
+  ],
+  "abstract_inverted_index": null
+ }
+}

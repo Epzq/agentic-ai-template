@@ -1,0 +1,716 @@
+{
+ "url": "https://api.openalex.org/works/W4404658388?select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cauthorships%2Cabstract_inverted_index",
+ "status": 200,
+ "json": {
+  "id": "https://openalex.org/W4404658388",
+  "display_name": "A comprehensive survey on pretrained foundation models: a history from BERT to ChatGPT",
+  "publication_year": 2024,
+  "cited_by_count": 402,
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5100659606",
+     "display_name": "Ce Zhou",
+     "orcid": "https://orcid.org/0000-0002-3238-7444"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I87216513",
+      "display_name": "Michigan State University",
+      "ror": "https://ror.org/05hs6h993",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I87216513"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Ce Zhou",
+    "raw_affiliation_strings": [
+     "Michigan State University, East Lansing, MI, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Michigan State University, East Lansing, MI, USA",
+      "institution_ids": [
+       "https://openalex.org/I87216513"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100340569",
+     "display_name": "Qian Li",
+     "orcid": "https://orcid.org/0000-0002-1612-4644"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I82880672",
+      "display_name": "Beihang University",
+      "ror": "https://ror.org/00wk2mp56",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I82880672"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Qian Li",
+    "raw_affiliation_strings": [
+     "Beihang University, Beijing, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Beihang University, Beijing, China",
+      "institution_ids": [
+       "https://openalex.org/I82880672"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100369838",
+     "display_name": "Chen Li",
+     "orcid": "https://orcid.org/0000-0002-4175-1658"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I82880672",
+      "display_name": "Beihang University",
+      "ror": "https://ror.org/00wk2mp56",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I82880672"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Chen Li",
+    "raw_affiliation_strings": [
+     "Beihang University, Beijing, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Beihang University, Beijing, China",
+      "institution_ids": [
+       "https://openalex.org/I82880672"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5050817770",
+     "display_name": "Jun Yu",
+     "orcid": "https://orcid.org/0000-0003-1922-7283"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I186143895",
+      "display_name": "Lehigh University",
+      "ror": "https://ror.org/012afjb06",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I186143895"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Jun Yu",
+    "raw_affiliation_strings": [
+     "Lehigh University, Bethlehem, PA, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Lehigh University, Bethlehem, PA, USA",
+      "institution_ids": [
+       "https://openalex.org/I186143895"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100386682",
+     "display_name": "Yixin Liu",
+     "orcid": "https://orcid.org/0000-0002-4309-5076"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I186143895",
+      "display_name": "Lehigh University",
+      "ror": "https://ror.org/012afjb06",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I186143895"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Yixin Liu",
+    "raw_affiliation_strings": [
+     "Lehigh University, Bethlehem, PA, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Lehigh University, Bethlehem, PA, USA",
+      "institution_ids": [
+       "https://openalex.org/I186143895"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5082127736",
+     "display_name": "Guangjing Wang",
+     "orcid": null
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I87216513",
+      "display_name": "Michigan State University",
+      "ror": "https://ror.org/05hs6h993",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I87216513"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Guangjing Wang",
+    "raw_affiliation_strings": [
+     "Michigan State University, East Lansing, MI, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Michigan State University, East Lansing, MI, USA",
+      "institution_ids": [
+       "https://openalex.org/I87216513"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5018601884",
+     "display_name": "Kai Zhang",
+     "orcid": "https://orcid.org/0000-0002-6322-6096"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I186143895",
+      "display_name": "Lehigh University",
+      "ror": "https://ror.org/012afjb06",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I186143895"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Kai Zhang",
+    "raw_affiliation_strings": [
+     "Lehigh University, Bethlehem, PA, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Lehigh University, Bethlehem, PA, USA",
+      "institution_ids": [
+       "https://openalex.org/I186143895"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5085952082",
+     "display_name": "Cheng Ji",
+     "orcid": "https://orcid.org/0000-0003-2513-3822"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I82880672",
+      "display_name": "Beihang University",
+      "ror": "https://ror.org/00wk2mp56",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I82880672"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Cheng Ji",
+    "raw_affiliation_strings": [
+     "Beihang University, Beijing, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Beihang University, Beijing, China",
+      "institution_ids": [
+       "https://openalex.org/I82880672"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5084076598",
+     "display_name": "Qiben Yan",
+     "orcid": "https://orcid.org/0000-0003-0551-2163"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I87216513",
+      "display_name": "Michigan State University",
+      "ror": "https://ror.org/05hs6h993",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I87216513"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Qiben Yan",
+    "raw_affiliation_strings": [
+     "Michigan State University, East Lansing, MI, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Michigan State University, East Lansing, MI, USA",
+      "institution_ids": [
+       "https://openalex.org/I87216513"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5071709543",
+     "display_name": "Lifang He",
+     "orcid": "https://orcid.org/0000-0001-7810-9071"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I186143895",
+      "display_name": "Lehigh University",
+      "ror": "https://ror.org/012afjb06",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I186143895"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Lifang He",
+    "raw_affiliation_strings": [
+     "Lehigh University, Bethlehem, PA, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Lehigh University, Bethlehem, PA, USA",
+      "institution_ids": [
+       "https://openalex.org/I186143895"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5059015074",
+     "display_name": "Hao Peng",
+     "orcid": "https://orcid.org/0000-0002-5668-1680"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I82880672",
+      "display_name": "Beihang University",
+      "ror": "https://ror.org/00wk2mp56",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I82880672"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Hao Peng",
+    "raw_affiliation_strings": [
+     "Beihang University, Beijing, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Beihang University, Beijing, China",
+      "institution_ids": [
+       "https://openalex.org/I82880672"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100380474",
+     "display_name": "Jianxin Li",
+     "orcid": "https://orcid.org/0000-0002-9059-330X"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I82880672",
+      "display_name": "Beihang University",
+      "ror": "https://ror.org/00wk2mp56",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I82880672"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Jianxin Li",
+    "raw_affiliation_strings": [
+     "Beihang University, Beijing, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Beihang University, Beijing, China",
+      "institution_ids": [
+       "https://openalex.org/I82880672"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5007475662",
+     "display_name": "Jia Wu",
+     "orcid": "https://orcid.org/0000-0002-1371-5801"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I99043593",
+      "display_name": "Macquarie University",
+      "ror": "https://ror.org/01sf06y89",
+      "country_code": "AU",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I99043593"
+      ]
+     }
+    ],
+    "countries": [
+     "AU"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Jia Wu",
+    "raw_affiliation_strings": [
+     "Macquarie University, Sydney, Australia"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Macquarie University, Sydney, Australia",
+      "institution_ids": [
+       "https://openalex.org/I99043593"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100406050",
+     "display_name": "Ziwei Liu",
+     "orcid": "https://orcid.org/0000-0002-4220-5958"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I172675005",
+      "display_name": "Nanyang Technological University",
+      "ror": "https://ror.org/02e7b5302",
+      "country_code": "SG",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I172675005"
+      ]
+     }
+    ],
+    "countries": [
+     "SG"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Ziwei Liu",
+    "raw_affiliation_strings": [
+     "Nanyang Technological University, Singapore, Singapore"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Nanyang Technological University, Singapore, Singapore",
+      "institution_ids": [
+       "https://openalex.org/I172675005"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5083884675",
+     "display_name": "Pengtao Xie",
+     "orcid": "https://orcid.org/0000-0003-0521-174X"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I36258959",
+      "display_name": "University of California San Diego",
+      "ror": "https://ror.org/0168r3w48",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I36258959"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Pengtao Xie",
+    "raw_affiliation_strings": [
+     "University of California San Diego, San Diego, CA, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "University of California San Diego, San Diego, CA, USA",
+      "institution_ids": [
+       "https://openalex.org/I36258959"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5032046813",
+     "display_name": "Caiming Xiong",
+     "orcid": "https://orcid.org/0000-0003-0349-8628"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210155268",
+      "display_name": "Salesforce (United States)",
+      "ror": "https://ror.org/057315g56",
+      "country_code": "US",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I4210155268"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Caiming Xiong",
+    "raw_affiliation_strings": [
+     "Salesforce AI Research, Palo Alto, CA, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Salesforce AI Research, Palo Alto, CA, USA",
+      "institution_ids": [
+       "https://openalex.org/I4210155268"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5102940347",
+     "display_name": "Jian Pei",
+     "orcid": "https://orcid.org/0000-0002-4412-4609"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I170897317",
+      "display_name": "Duke University",
+      "ror": "https://ror.org/00py81415",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I170897317"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Jian Pei",
+    "raw_affiliation_strings": [
+     "Duke University, Durham, NC, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Duke University, Durham, NC, USA",
+      "institution_ids": [
+       "https://openalex.org/I170897317"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5036357902",
+     "display_name": "Philip S. Yu",
+     "orcid": "https://orcid.org/0000-0002-3491-5968"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I39422238",
+      "display_name": "University of Illinois Chicago",
+      "ror": "https://ror.org/02mpq6x41",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I39422238"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Philip S. Yu",
+    "raw_affiliation_strings": [
+     "University of Illinois at Chicago, Chicago, IL, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "University of Illinois at Chicago, Chicago, IL, USA",
+      "institution_ids": [
+       "https://openalex.org/I39422238"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5015105117",
+     "display_name": "Lichao Sun",
+     "orcid": "https://orcid.org/0000-0003-1539-7939"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I186143895",
+      "display_name": "Lehigh University",
+      "ror": "https://ror.org/012afjb06",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I186143895"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Lichao Sun",
+    "raw_affiliation_strings": [
+     "Lehigh University, Bethlehem, PA, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Lehigh University, Bethlehem, PA, USA",
+      "institution_ids": [
+       "https://openalex.org/I186143895"
+      ]
+     }
+    ]
+   }
+  ],
+  "abstract_inverted_index": null
+ }
+}

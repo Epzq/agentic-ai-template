@@ -1,0 +1,845 @@
+{
+ "url": "https://api.openalex.org/works/W4327919044?select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cauthorships%2Cabstract_inverted_index",
+ "status": 200,
+ "json": {
+  "id": "https://openalex.org/W4327919044",
+  "display_name": "Explainable AI in medical imaging: An overview for clinical practitioners \u2013 Beyond saliency-based XAI approaches",
+  "publication_year": 2023,
+  "cited_by_count": 222,
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5083996294",
+     "display_name": "Katarzyna Borys",
+     "orcid": "https://orcid.org/0000-0001-6987-6041"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210119759",
+      "display_name": "Essen University Hospital",
+      "ror": "https://ror.org/02na8dn90",
+      "country_code": "DE",
+      "type": "funder",
+      "lineage": [
+       "https://openalex.org/I4210119759"
+      ]
+     }
+    ],
+    "countries": [
+     "DE"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Katarzyna Borys",
+    "raw_affiliation_strings": [
+     "Institute for Artificial Intelligence in Medicine, University Hospital Essen, Girardetstra\u00dfe 2, 45131 Essen, Germany; Institute of Diagnostic and Interventional Radiology and Neuroradiology, University Hospital Essen, Hufelandstra\u00dfe 55, 45147 Essen, Germany. Electronic address: Katarzyna.Borys@uk-essen.de",
+     "Institute for Artificial Intelligence in Medicine, University Hospital Essen, Girardetstra\u00dfe 2, 45131 Essen, Germany",
+     "Institute of Diagnostic and Interventional Radiology and Neuroradiology, University Hospital Essen, Hufelandstra\u00dfe 55, 45147 Essen, Germany"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Institute for Artificial Intelligence in Medicine, University Hospital Essen, Girardetstra\u00dfe 2, 45131 Essen, Germany; Institute of Diagnostic and Interventional Radiology and Neuroradiology, University Hospital Essen, Hufelandstra\u00dfe 55, 45147 Essen, Germany. Electronic address: Katarzyna.Borys@uk-essen.de",
+      "institution_ids": [
+       "https://openalex.org/I4210119759"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Institute for Artificial Intelligence in Medicine, University Hospital Essen, Girardetstra\u00dfe 2, 45131 Essen, Germany",
+      "institution_ids": []
+     },
+     {
+      "raw_affiliation_string": "Institute of Diagnostic and Interventional Radiology and Neuroradiology, University Hospital Essen, Hufelandstra\u00dfe 55, 45147 Essen, Germany",
+      "institution_ids": [
+       "https://openalex.org/I4210119759"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5016995740",
+     "display_name": "Yasmin Alyssa Schmitt",
+     "orcid": null
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Yasmin Alyssa Schmitt",
+    "raw_affiliation_strings": [
+     "Institute for Artificial Intelligence in Medicine, University Hospital Essen, Girardetstra\u00dfe 2, 45131 Essen, Germany"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Institute for Artificial Intelligence in Medicine, University Hospital Essen, Girardetstra\u00dfe 2, 45131 Essen, Germany",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5074831496",
+     "display_name": "Meike Nauta",
+     "orcid": "https://orcid.org/0000-0002-0558-3810"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210119759",
+      "display_name": "Essen University Hospital",
+      "ror": "https://ror.org/02na8dn90",
+      "country_code": "DE",
+      "type": "funder",
+      "lineage": [
+       "https://openalex.org/I4210119759"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I94624287",
+      "display_name": "University of Twente",
+      "ror": "https://ror.org/006hf6230",
+      "country_code": "NL",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I94624287"
+      ]
+     }
+    ],
+    "countries": [
+     "DE",
+     "NL"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Meike Nauta",
+    "raw_affiliation_strings": [
+     "Institute for Artificial Intelligence in Medicine, University Hospital Essen, Girardetstra\u00dfe 2, 45131 Essen, Germany; Data Management & Biometrics Group, University of Twente, Drienerlolaan 5, 7522 NB Enschede, the Netherlands",
+     "Data Management & Biometrics Group, University of Twente, Drienerlolaan 5, 7522 NB Enschede, the Netherlands",
+     "Institute for Artificial Intelligence in Medicine, University Hospital Essen, Girardetstra\u00dfe 2, 45131 Essen, Germany"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Institute for Artificial Intelligence in Medicine, University Hospital Essen, Girardetstra\u00dfe 2, 45131 Essen, Germany; Data Management & Biometrics Group, University of Twente, Drienerlolaan 5, 7522 NB Enschede, the Netherlands",
+      "institution_ids": [
+       "https://openalex.org/I4210119759",
+       "https://openalex.org/I94624287"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Data Management & Biometrics Group, University of Twente, Drienerlolaan 5, 7522 NB Enschede, the Netherlands",
+      "institution_ids": [
+       "https://openalex.org/I94624287"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Institute for Artificial Intelligence in Medicine, University Hospital Essen, Girardetstra\u00dfe 2, 45131 Essen, Germany",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5054484216",
+     "display_name": "Christin Seifert",
+     "orcid": "https://orcid.org/0000-0002-6776-3868"
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Christin Seifert",
+    "raw_affiliation_strings": [
+     "Institute for Artificial Intelligence in Medicine, University Hospital Essen, Girardetstra\u00dfe 2, 45131 Essen, Germany"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Institute for Artificial Intelligence in Medicine, University Hospital Essen, Girardetstra\u00dfe 2, 45131 Essen, Germany",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5081823682",
+     "display_name": "Nicole C. Kr\u00e4mer",
+     "orcid": "https://orcid.org/0000-0001-7535-870X"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I200332995",
+      "display_name": "TU Dortmund University",
+      "ror": "https://ror.org/01k97gp34",
+      "country_code": "DE",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I200332995"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I62318514",
+      "display_name": "University of Duisburg-Essen",
+      "ror": "https://ror.org/04mz5ra38",
+      "country_code": "DE",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I62318514"
+      ]
+     }
+    ],
+    "countries": [
+     "DE"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Nicole Kr\u00e4mer",
+    "raw_affiliation_strings": [
+     "Department of Social Psychology, Media and Communication, University of Duisburg-Essen, Forsthausweg 2, 47057 Duisburg, Germany; Research Center \"Trustworthy Data Science and Security\", Otto-Hahn-Stra\u00dfe 14, 44227 Dortmund, Germany",
+     "Department of Social Psychology, Media and Communication, University of Duisburg-Essen, Forsthausweg 2, 47057 Duisburg, Germany",
+     "Research Center \u201cTrustworthy Data Science and Security\u201d, Otto-Hahn-Stra\u00dfe 14, 44227 Dortmund, Germany"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Social Psychology, Media and Communication, University of Duisburg-Essen, Forsthausweg 2, 47057 Duisburg, Germany; Research Center \"Trustworthy Data Science and Security\", Otto-Hahn-Stra\u00dfe 14, 44227 Dortmund, Germany",
+      "institution_ids": [
+       "https://openalex.org/I62318514"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Social Psychology, Media and Communication, University of Duisburg-Essen, Forsthausweg 2, 47057 Duisburg, Germany",
+      "institution_ids": [
+       "https://openalex.org/I62318514"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Research Center \u201cTrustworthy Data Science and Security\u201d, Otto-Hahn-Stra\u00dfe 14, 44227 Dortmund, Germany",
+      "institution_ids": [
+       "https://openalex.org/I200332995"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5060550755",
+     "display_name": "Christoph M. Friedrich",
+     "orcid": "https://orcid.org/0000-0001-7906-0038"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I159743108",
+      "display_name": "Dortmund University of Applied Sciences and Arts",
+      "ror": "https://ror.org/03dv91853",
+      "country_code": "DE",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I159743108"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210086407",
+      "display_name": "Institut f\u00fcr Medizinische Informatik, Biometrie und Epidemiologie",
+      "ror": "https://ror.org/00wqjrk21",
+      "country_code": "DE",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210086407"
+      ]
+     }
+    ],
+    "countries": [
+     "DE"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Christoph M. Friedrich",
+    "raw_affiliation_strings": [
+     "Department of Computer Science, University of Applied Sciences and Arts Dortmund, Emil-Figge-Stra\u00dfe 42, 44227 Dortmund, Germany; Institute for Medical Informatics, Biometry, and Epidemiology (IMIBE), Zweigertstra\u00dfe 37, 45130 Essen, Germany",
+     "Department of Computer Science, University of Applied Sciences and Arts Dortmund, Emil-Figge-Stra\u00dfe 42, 44227 Dortmund, Germany",
+     "Institute for Medical Informatics, Biometry, and Epidemiology (IMIBE), Zweigertstra\u00dfe 37, 45130 Essen, Germany"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Computer Science, University of Applied Sciences and Arts Dortmund, Emil-Figge-Stra\u00dfe 42, 44227 Dortmund, Germany; Institute for Medical Informatics, Biometry, and Epidemiology (IMIBE), Zweigertstra\u00dfe 37, 45130 Essen, Germany",
+      "institution_ids": [
+       "https://openalex.org/I159743108"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Computer Science, University of Applied Sciences and Arts Dortmund, Emil-Figge-Stra\u00dfe 42, 44227 Dortmund, Germany",
+      "institution_ids": [
+       "https://openalex.org/I159743108"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Institute for Medical Informatics, Biometry, and Epidemiology (IMIBE), Zweigertstra\u00dfe 37, 45130 Essen, Germany",
+      "institution_ids": [
+       "https://openalex.org/I4210086407"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5088487393",
+     "display_name": "Felix Nensa",
+     "orcid": "https://orcid.org/0000-0002-5811-7100"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210119759",
+      "display_name": "Essen University Hospital",
+      "ror": "https://ror.org/02na8dn90",
+      "country_code": "DE",
+      "type": "funder",
+      "lineage": [
+       "https://openalex.org/I4210119759"
+      ]
+     }
+    ],
+    "countries": [
+     "DE"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Felix Nensa",
+    "raw_affiliation_strings": [
+     "Institute for Artificial Intelligence in Medicine, University Hospital Essen, Girardetstra\u00dfe 2, 45131 Essen, Germany; Institute of Diagnostic and Interventional Radiology and Neuroradiology, University Hospital Essen, Hufelandstra\u00dfe 55, 45147 Essen, Germany",
+     "Institute for Artificial Intelligence in Medicine, University Hospital Essen, Girardetstra\u00dfe 2, 45131 Essen, Germany",
+     "Institute of Diagnostic and Interventional Radiology and Neuroradiology, University Hospital Essen, Hufelandstra\u00dfe 55, 45147 Essen, Germany"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Institute for Artificial Intelligence in Medicine, University Hospital Essen, Girardetstra\u00dfe 2, 45131 Essen, Germany; Institute of Diagnostic and Interventional Radiology and Neuroradiology, University Hospital Essen, Hufelandstra\u00dfe 55, 45147 Essen, Germany",
+      "institution_ids": [
+       "https://openalex.org/I4210119759"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Institute for Artificial Intelligence in Medicine, University Hospital Essen, Girardetstra\u00dfe 2, 45131 Essen, Germany",
+      "institution_ids": []
+     },
+     {
+      "raw_affiliation_string": "Institute of Diagnostic and Interventional Radiology and Neuroradiology, University Hospital Essen, Hufelandstra\u00dfe 55, 45147 Essen, Germany",
+      "institution_ids": [
+       "https://openalex.org/I4210119759"
+      ]
+     }
+    ]
+   }
+  ],
+  "abstract_inverted_index": {
+   "Driven": [
+    0
+   ],
+   "by": [
+    1,
+    134,
+    198
+   ],
+   "recent": [
+    2
+   ],
+   "advances": [
+    3
+   ],
+   "in": [
+    4,
+    17,
+    33,
+    114,
+    128
+   ],
+   "Artificial": [
+    5
+   ],
+   "Intelligence": [
+    6
+   ],
+   "(AI)": [
+    7
+   ],
+   "and": [
+    8,
+    47,
+    54,
+    78,
+    83,
+    144,
+    172,
+    181,
+    211
+   ],
+   "Computer": [
+    9
+   ],
+   "Vision": [
+    10
+   ],
+   "(CV),": [
+    11
+   ],
+   "the": [
+    12,
+    18,
+    28,
+    35,
+    57,
+    69,
+    86,
+    122,
+    129,
+    204
+   ],
+   "implementation": [
+    13,
+    67
+   ],
+   "of": [
+    14,
+    30,
+    37,
+    59,
+    75,
+    88,
+    125,
+    131
+   ],
+   "AI": [
+    15,
+    38,
+    50,
+    76,
+    90
+   ],
+   "systems": [
+    16,
+    77
+   ],
+   "medical": [
+    19,
+    31,
+    52,
+    95,
+    132
+   ],
+   "domain": [
+    20,
+    29
+   ],
+   "increased": [
+    21
+   ],
+   "correspondingly.": [
+    22
+   ],
+   "This": [
+    23
+   ],
+   "is": [
+    24,
+    97,
+    185
+   ],
+   "especially": [
+    25
+   ],
+   "true": [
+    26
+   ],
+   "for": [
+    27,
+    71,
+    169,
+    189
+   ],
+   "imaging,": [
+    32
+   ],
+   "which": [
+    34,
+    85,
+    184
+   ],
+   "incorporation": [
+    36
+   ],
+   "aids": [
+    39
+   ],
+   "several": [
+    40
+   ],
+   "imaging-based": [
+    41
+   ],
+   "tasks": [
+    42
+   ],
+   "such": [
+    43
+   ],
+   "as": [
+    44
+   ],
+   "classification,": [
+    45
+   ],
+   "segmentation,": [
+    46
+   ],
+   "registration.": [
+    48
+   ],
+   "Moreover,": [
+    49,
+    160
+   ],
+   "reshapes": [
+    51
+   ],
+   "research": [
+    53
+   ],
+   "contributes": [
+    55
+   ],
+   "to": [
+    56,
+    112,
+    120,
+    152
+   ],
+   "development": [
+    58
+   ],
+   "personalized": [
+    60
+   ],
+   "clinical": [
+    61
+   ],
+   "care.": [
+    62
+   ],
+   "Consequently,": [
+    63
+   ],
+   "alongside": [
+    64
+   ],
+   "its": [
+    65
+   ],
+   "extended": [
+    66
+   ],
+   "arises": [
+    68
+   ],
+   "need": [
+    70
+   ],
+   "an": [
+    72
+   ],
+   "extensive": [
+    73
+   ],
+   "understanding": [
+    74,
+    171
+   ],
+   "their": [
+    79
+   ],
+   "inner": [
+    80
+   ],
+   "workings,": [
+    81
+   ],
+   "potentials,": [
+    82
+   ],
+   "limitations": [
+    84
+   ],
+   "field": [
+    87,
+    130
+   ],
+   "eXplainable": [
+    89
+   ],
+   "(XAI)": [
+    91
+   ],
+   "aims": [
+    92,
+    163
+   ],
+   "at.": [
+    93
+   ],
+   "Because": [
+    94
+   ],
+   "imaging": [
+    96,
+    133
+   ],
+   "mainly": [
+    98
+   ],
+   "associated": [
+    99
+   ],
+   "with": [
+    100
+   ],
+   "visual": [
+    101
+   ],
+   "tasks,": [
+    102
+   ],
+   "most": [
+    103
+   ],
+   "explainability": [
+    104
+   ],
+   "approaches": [
+    105
+   ],
+   "incorporate": [
+    106
+   ],
+   "saliency-based": [
+    107
+   ],
+   "XAI": [
+    108,
+    126,
+    138,
+    194
+   ],
+   "methods.": [
+    109
+   ],
+   "In": [
+    110
+   ],
+   "contrast": [
+    111
+   ],
+   "that,": [
+    113
+   ],
+   "this": [
+    115,
+    161
+   ],
+   "article": [
+    116
+   ],
+   "we": [
+    117,
+    187
+   ],
+   "would": [
+    118
+   ],
+   "like": [
+    119
+   ],
+   "investigate": [
+    121
+   ],
+   "full": [
+    123
+   ],
+   "potential": [
+    124
+   ],
+   "methods": [
+    127,
+    195
+   ],
+   "specifically": [
+    135
+   ],
+   "focusing": [
+    136
+   ],
+   "on": [
+    137,
+    142
+   ],
+   "techniques": [
+    139
+   ],
+   "not": [
+    140
+   ],
+   "relying": [
+    141
+   ],
+   "saliency,": [
+    143
+   ],
+   "providing": [
+    145
+   ],
+   "diversified": [
+    146
+   ],
+   "examples.": [
+    147
+   ],
+   "We": [
+    148
+   ],
+   "dedicate": [
+    149
+   ],
+   "our": [
+    150
+   ],
+   "investigation": [
+    151
+   ],
+   "a": [
+    153,
+    166,
+    190,
+    199
+   ],
+   "broad": [
+    154
+   ],
+   "audience,": [
+    155
+   ],
+   "but": [
+    156
+   ],
+   "particularly": [
+    157
+   ],
+   "healthcare": [
+    158,
+    182
+   ],
+   "professionals.": [
+    159
+   ],
+   "work": [
+    162
+   ],
+   "at": [
+    164
+   ],
+   "establishing": [
+    165
+   ],
+   "common": [
+    167
+   ],
+   "ground": [
+    168
+   ],
+   "cross-disciplinary": [
+    170
+   ],
+   "exchange": [
+    173
+   ],
+   "across": [
+    174
+   ],
+   "disciplines": [
+    175
+   ],
+   "between": [
+    176
+   ],
+   "Deep": [
+    177
+   ],
+   "Learning": [
+    178
+   ],
+   "(DL)": [
+    179
+   ],
+   "builders": [
+    180
+   ],
+   "professionals,": [
+    183
+   ],
+   "why": [
+    186
+   ],
+   "aimed": [
+    188
+   ],
+   "non-technical": [
+    191
+   ],
+   "overview.": [
+    192
+   ],
+   "Presented": [
+    193
+   ],
+   "are": [
+    196
+   ],
+   "divided": [
+    197
+   ],
+   "method's": [
+    200
+   ],
+   "output": [
+    201
+   ],
+   "representation": [
+    202
+   ],
+   "into": [
+    203
+   ],
+   "following": [
+    205
+   ],
+   "categories:": [
+    206
+   ],
+   "Case-based": [
+    207
+   ],
+   "explanations,": [
+    208,
+    210
+   ],
+   "textual": [
+    209
+   ],
+   "auxiliary": [
+    212
+   ],
+   "explanations.": [
+    213
+   ]
+  }
+ }
+}

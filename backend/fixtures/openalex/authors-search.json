@@ -1,0 +1,176 @@
+{
+ "meta": {
+  "count": 1,
+  "db_response_time_ms": 51,
+  "page": 1,
+  "per_page": 25,
+  "groups_count": null,
+  "x_query": {
+   "oql": "authors where name has (Basura Fernando)",
+   "oqo": {
+    "get_rows": "authors",
+    "filter_rows": [
+     {
+      "column_id": "display_name.search",
+      "value": "Basura Fernando",
+      "operator": "has"
+     }
+    ]
+   },
+   "url": "/authors?filter=display_name.search:Basura Fernando&per_page=25"
+  },
+  "cost_usd": 0.001
+ },
+ "results": [
+  {
+   "id": "https://openalex.org/A5090467618",
+   "display_name": "Basura Fernando",
+   "works_count": 189,
+   "cited_by_count": 9082,
+   "topics": [
+    {
+     "id": "https://openalex.org/T11714",
+     "display_name": "Multimodal Machine Learning Applications",
+     "count": 69,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10812",
+     "display_name": "Human Pose and Action Recognition",
+     "count": 68,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10627",
+     "display_name": "Advanced Image and Video Retrieval Techniques",
+     "count": 38,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11307",
+     "display_name": "Domain Adaptation and Few-Shot Learning",
+     "count": 38,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11512",
+     "display_name": "Anomaly Detection Techniques and Applications",
+     "count": 33,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "last_known_institutions": [
+    {
+     "id": "https://openalex.org/I115228651",
+     "ror": "https://ror.org/036wvzt09",
+     "display_name": "Agency for Science, Technology and Research",
+     "country_code": "SG",
+     "type": "government",
+     "lineage": [
+      "https://openalex.org/I115228651"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I172675005",
+     "ror": "https://ror.org/02e7b5302",
+     "display_name": "Nanyang Technological University",
+     "country_code": "SG",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I172675005"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I2799772276",
+     "ror": "https://ror.org/00r91xh65",
+     "display_name": "Information and Communication Technology Agency",
+     "country_code": "LK",
+     "type": "government",
+     "lineage": [
+      "https://openalex.org/I2799772276"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I3004594783",
+     "ror": "https://ror.org/02n0ejh50",
+     "display_name": "Institute of High Performance Computing",
+     "country_code": "SG",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I115228651",
+      "https://openalex.org/I3004594783",
+      "https://openalex.org/I91275662"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210086780",
+     "ror": "https://ror.org/00097mb19",
+     "display_name": "Japan Science and Technology Agency",
+     "country_code": "JP",
+     "type": "government",
+     "lineage": [
+      "https://openalex.org/I1319490839",
+      "https://openalex.org/I4210086780"
+     ]
+    }
+   ],
+   "orcid": "https://orcid.org/0000-0002-6920-9916"
+  }
+ ],
+ "group_by": []
+}

@@ -1,0 +1,1062 @@
+{
+ "url": "https://api.openalex.org/works/W4319996536?select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cauthorships%2Cabstract_inverted_index",
+ "status": 200,
+ "json": {
+  "id": "https://openalex.org/W4319996536",
+  "display_name": "Large Scale Visual Food Recognition",
+  "publication_year": 2023,
+  "cited_by_count": 234,
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5039322394",
+     "display_name": "Weiqing Min",
+     "orcid": "https://orcid.org/0000-0001-6668-9208"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I19820366",
+      "display_name": "Chinese Academy of Sciences",
+      "ror": "https://ror.org/034t30j35",
+      "country_code": "CN",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I19820366"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210090176",
+      "display_name": "Institute of Computing Technology",
+      "ror": "https://ror.org/0090r4d87",
+      "country_code": "CN",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210090176"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210165038",
+      "display_name": "University of Chinese Academy of Sciences",
+      "ror": "https://ror.org/05qbk4x57",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210165038"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Weiqing Min",
+    "raw_affiliation_strings": [
+     "Key Laboratory of Intelligent Information Processing, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+     "University of Chinese Academy of Sciences, Beijing, China"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-6668-9208",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Key Laboratory of Intelligent Information Processing, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+      "institution_ids": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210090176"
+      ]
+     },
+     {
+      "raw_affiliation_string": "University of Chinese Academy of Sciences, Beijing, China",
+      "institution_ids": [
+       "https://openalex.org/I4210165038"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100376573",
+     "display_name": "Zhiling Wang",
+     "orcid": "https://orcid.org/0000-0003-2420-3956"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I19820366",
+      "display_name": "Chinese Academy of Sciences",
+      "ror": "https://ror.org/034t30j35",
+      "country_code": "CN",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I19820366"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210090176",
+      "display_name": "Institute of Computing Technology",
+      "ror": "https://ror.org/0090r4d87",
+      "country_code": "CN",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210090176"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210165038",
+      "display_name": "University of Chinese Academy of Sciences",
+      "ror": "https://ror.org/05qbk4x57",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210165038"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Zhiling Wang",
+    "raw_affiliation_strings": [
+     "Key Laboratory of Intelligent Information Processing, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+     "University of Chinese Academy of Sciences, Beijing, China"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0003-2420-3956",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Key Laboratory of Intelligent Information Processing, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+      "institution_ids": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210090176"
+      ]
+     },
+     {
+      "raw_affiliation_string": "University of Chinese Academy of Sciences, Beijing, China",
+      "institution_ids": [
+       "https://openalex.org/I4210165038"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100385828",
+     "display_name": "Yuxin Liu",
+     "orcid": "https://orcid.org/0000-0002-5388-9988"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I19820366",
+      "display_name": "Chinese Academy of Sciences",
+      "ror": "https://ror.org/034t30j35",
+      "country_code": "CN",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I19820366"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210090176",
+      "display_name": "Institute of Computing Technology",
+      "ror": "https://ror.org/0090r4d87",
+      "country_code": "CN",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210090176"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210165038",
+      "display_name": "University of Chinese Academy of Sciences",
+      "ror": "https://ror.org/05qbk4x57",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210165038"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Yuxin Liu",
+    "raw_affiliation_strings": [
+     "Key Laboratory of Intelligent Information Processing, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+     "University of Chinese Academy of Sciences, Beijing, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Key Laboratory of Intelligent Information Processing, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+      "institution_ids": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210090176"
+      ]
+     },
+     {
+      "raw_affiliation_string": "University of Chinese Academy of Sciences, Beijing, China",
+      "institution_ids": [
+       "https://openalex.org/I4210165038"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5019492874",
+     "display_name": "Mengjiang Luo",
+     "orcid": "https://orcid.org/0000-0003-0597-9855"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I19820366",
+      "display_name": "Chinese Academy of Sciences",
+      "ror": "https://ror.org/034t30j35",
+      "country_code": "CN",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I19820366"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210090176",
+      "display_name": "Institute of Computing Technology",
+      "ror": "https://ror.org/0090r4d87",
+      "country_code": "CN",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210090176"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210165038",
+      "display_name": "University of Chinese Academy of Sciences",
+      "ror": "https://ror.org/05qbk4x57",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210165038"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Mengjiang Luo",
+    "raw_affiliation_strings": [
+     "Key Laboratory of Intelligent Information Processing, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+     "University of Chinese Academy of Sciences, Beijing, China"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0003-0597-9855",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Key Laboratory of Intelligent Information Processing, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+      "institution_ids": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210090176"
+      ]
+     },
+     {
+      "raw_affiliation_string": "University of Chinese Academy of Sciences, Beijing, China",
+      "institution_ids": [
+       "https://openalex.org/I4210165038"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5103689648",
+     "display_name": "Liping Kang",
+     "orcid": "https://orcid.org/0009-0004-8513-1778"
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Liping Kang",
+    "raw_affiliation_strings": [
+     "Meituan Group, Beijing, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Meituan Group, Beijing, China",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5102862658",
+     "display_name": "Xiaoming Wei",
+     "orcid": "https://orcid.org/0000-0002-6788-4790"
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Xiaoming Wei",
+    "raw_affiliation_strings": [
+     "Meituan Group, Beijing, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Meituan Group, Beijing, China",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5009222019",
+     "display_name": "Xiaolin Wei",
+     "orcid": "https://orcid.org/0000-0002-3983-047X"
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Xiaolin Wei",
+    "raw_affiliation_strings": [
+     "Meituan Group, Beijing, China"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-3983-047X",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Meituan Group, Beijing, China",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5085719285",
+     "display_name": "Shuqiang Jiang",
+     "orcid": "https://orcid.org/0000-0002-1596-4326"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I19820366",
+      "display_name": "Chinese Academy of Sciences",
+      "ror": "https://ror.org/034t30j35",
+      "country_code": "CN",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I19820366"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210090176",
+      "display_name": "Institute of Computing Technology",
+      "ror": "https://ror.org/0090r4d87",
+      "country_code": "CN",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210090176"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210165038",
+      "display_name": "University of Chinese Academy of Sciences",
+      "ror": "https://ror.org/05qbk4x57",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210165038"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Shuqiang Jiang",
+    "raw_affiliation_strings": [
+     "Key Laboratory of Intelligent Information Processing, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+     "University of Chinese Academy of Sciences, Beijing, China"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-1596-4326",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Key Laboratory of Intelligent Information Processing, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+      "institution_ids": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210090176"
+      ]
+     },
+     {
+      "raw_affiliation_string": "University of Chinese Academy of Sciences, Beijing, China",
+      "institution_ids": [
+       "https://openalex.org/I4210165038"
+      ]
+     }
+    ]
+   }
+  ],
+  "abstract_inverted_index": {
+   "Food": [
+    0
+   ],
+   "recognition": [
+    1,
+    60,
+    83,
+    97,
+    278
+   ],
+   "plays": [
+    2
+   ],
+   "an": [
+    3
+   ],
+   "important": [
+    4
+   ],
+   "role": [
+    5
+   ],
+   "in": [
+    6,
+    57,
+    68,
+    102,
+    209
+   ],
+   "food": [
+    7,
+    42,
+    70,
+    82,
+    96,
+    124,
+    138,
+    213,
+    216,
+    222
+   ],
+   "choice": [
+    8
+   ],
+   "and": [
+    9,
+    17,
+    31,
+    38,
+    44,
+    49,
+    88,
+    105,
+    112,
+    151,
+    164,
+    224,
+    238,
+    247,
+    280
+   ],
+   "intake,": [
+    10
+   ],
+   "which": [
+    11,
+    78,
+    140
+   ],
+   "is": [
+    12,
+    22,
+    79
+   ],
+   "essential": [
+    13
+   ],
+   "to": [
+    14,
+    26,
+    119,
+    161,
+    173,
+    231,
+    258,
+    282
+   ],
+   "the": [
+    15,
+    27,
+    69,
+    80,
+    169,
+    193,
+    248,
+    260,
+    283
+   ],
+   "health": [
+    16
+   ],
+   "well-being": [
+    18
+   ],
+   "of": [
+    19,
+    24,
+    110,
+    143,
+    195,
+    207,
+    245,
+    262,
+    285
+   ],
+   "humans.": [
+    20
+   ],
+   "It": [
+    21
+   ],
+   "thus": [
+    23,
+    113
+   ],
+   "importance": [
+    25
+   ],
+   "computer": [
+    28
+   ],
+   "vision": [
+    29,
+    37
+   ],
+   "community,": [
+    30
+   ],
+   "can": [
+    32,
+    227,
+    253,
+    270
+   ],
+   "further": [
+    33,
+    184,
+    229
+   ],
+   "support": [
+    34
+   ],
+   "many": [
+    35
+   ],
+   "food-oriented": [
+    36
+   ],
+   "multimodal": [
+    39
+   ],
+   "tasks,": [
+    40,
+    211
+   ],
+   "e.g.,": [
+    41
+   ],
+   "detection": [
+    43,
+    223
+   ],
+   "segmentation,": [
+    45
+   ],
+   "cross-modal": [
+    46,
+    219
+   ],
+   "recipe": [
+    47,
+    220
+   ],
+   "retrieval": [
+    48
+   ],
+   "generation.": [
+    50
+   ],
+   "Unfortunately,": [
+    51
+   ],
+   "we": [
+    52,
+    75,
+    129,
+    201
+   ],
+   "have": [
+    53,
+    202
+   ],
+   "witnessed": [
+    54
+   ],
+   "remarkable": [
+    55
+   ],
+   "advancements": [
+    56
+   ],
+   "generic": [
+    58
+   ],
+   "visual": [
+    59,
+    125,
+    277,
+    289
+   ],
+   "for": [
+    61,
+    123,
+    137,
+    183
+   ],
+   "released": [
+    62
+   ],
+   "large-scale": [
+    63
+   ],
+   "datasets,": [
+    64,
+    98
+   ],
+   "yet": [
+    65
+   ],
+   "largely": [
+    66
+   ],
+   "lags": [
+    67
+   ],
+   "domain.": [
+    71
+   ],
+   "In": [
+    72
+   ],
+   "this": [
+    73
+   ],
+   "paper,": [
+    74
+   ],
+   "introduce": [
+    76
+   ],
+   "Food2K,": [
+    77
+   ],
+   "largest": [
+    81
+   ],
+   "dataset": [
+    84
+   ],
+   "with": [
+    85,
+    94,
+    177
+   ],
+   "2,000": [
+    86
+   ],
+   "categories": [
+    87,
+    104
+   ],
+   "over": [
+    89
+   ],
+   "1": [
+    90
+   ],
+   "million": [
+    91
+   ],
+   "images.": [
+    92
+   ],
+   "Compared": [
+    93
+   ],
+   "existing": [
+    95
+   ],
+   "Food2K": [
+    99,
+    191,
+    208,
+    226,
+    252,
+    269
+   ],
+   "bypasses": [
+    100
+   ],
+   "them": [
+    101
+   ],
+   "both": [
+    103
+   ],
+   "images": [
+    106
+   ],
+   "by": [
+    107
+   ],
+   "one": [
+    108
+   ],
+   "order": [
+    109
+   ],
+   "magnitude,": [
+    111
+   ],
+   "establishes": [
+    114
+   ],
+   "a": [
+    115,
+    131,
+    273
+   ],
+   "new": [
+    116
+   ],
+   "challenging": [
+    117
+   ],
+   "benchmark": [
+    118
+   ],
+   "develop": [
+    120
+   ],
+   "advanced": [
+    121
+   ],
+   "models": [
+    122,
+    250
+   ],
+   "representation": [
+    126
+   ],
+   "learning.": [
+    127
+   ],
+   "Furthermore,": [
+    128
+   ],
+   "propose": [
+    130
+   ],
+   "deep": [
+    132
+   ],
+   "progressive": [
+    133,
+    147,
+    159
+   ],
+   "region": [
+    134,
+    152
+   ],
+   "enhancement": [
+    135
+   ],
+   "network": [
+    136
+   ],
+   "recognition,": [
+    139,
+    215
+   ],
+   "mainly": [
+    141
+   ],
+   "consists": [
+    142
+   ],
+   "two": [
+    144
+   ],
+   "components,": [
+    145
+   ],
+   "namely": [
+    146
+   ],
+   "local": [
+    148,
+    166,
+    181,
+    185
+   ],
+   "feature": [
+    149,
+    153,
+    186
+   ],
+   "learning": [
+    150
+   ],
+   "enhancement.": [
+    154,
+    187
+   ],
+   "The": [
+    155
+   ],
+   "former": [
+    156
+   ],
+   "adopts": [
+    157
+   ],
+   "improved": [
+    158
+   ],
+   "training": [
+    160
+   ],
+   "learn": [
+    162
+   ],
+   "diverse": [
+    163
+   ],
+   "complementary": [
+    165
+   ],
+   "features,": [
+    167
+   ],
+   "while": [
+    168
+   ],
+   "latter": [
+    170
+   ],
+   "utilizes": [
+    171
+   ],
+   "self-attention": [
+    172
+   ],
+   "incorporate": [
+    174
+   ],
+   "richer": [
+    175
+   ],
+   "context": [
+    176
+   ],
+   "multiple": [
+    178
+   ],
+   "scales": [
+    179
+   ],
+   "into": [
+    180
+   ],
+   "features": [
+    182
+   ],
+   "Extensive": [
+    188
+   ],
+   "experiments": [
+    189
+   ],
+   "on": [
+    190,
+    251
+   ],
+   "demonstrate": [
+    192
+   ],
+   "effectiveness": [
+    194
+   ],
+   "our": [
+    196
+   ],
+   "proposed": [
+    197
+   ],
+   "method.": [
+    198
+   ],
+   "More": [
+    199
+   ],
+   "importantly,": [
+    200
+   ],
+   "verified": [
+    203
+   ],
+   "better": [
+    204
+   ],
+   "generalization": [
+    205
+   ],
+   "ability": [
+    206
+   ],
+   "various": [
+    210
+   ],
+   "including": [
+    212,
+    236
+   ],
+   "image": [
+    214,
+    217
+   ],
+   "retrieval,": [
+    218,
+    221
+   ],
+   "segmentation.": [
+    225
+   ],
+   "be": [
+    228,
+    254
+   ],
+   "explored": [
+    230
+   ],
+   "benefit": [
+    232
+   ],
+   "more": [
+    233,
+    239,
+    263
+   ],
+   "food-relevant": [
+    234,
+    264
+   ],
+   "tasks": [
+    235
+   ],
+   "emerging": [
+    237
+   ],
+   "complex": [
+    240
+   ],
+   "ones": [
+    241
+   ],
+   "(e.g.,": [
+    242
+   ],
+   "nutritional": [
+    243
+   ],
+   "understanding": [
+    244
+   ],
+   "food),": [
+    246
+   ],
+   "trained": [
+    249
+   ],
+   "expected": [
+    255
+   ],
+   "as": [
+    256,
+    272
+   ],
+   "backbones": [
+    257
+   ],
+   "improve": [
+    259
+   ],
+   "performance": [
+    261
+   ],
+   "tasks.": [
+    265
+   ],
+   "We": [
+    266
+   ],
+   "also": [
+    267
+   ],
+   "hope": [
+    268
+   ],
+   "serve": [
+    271
+   ],
+   "large": [
+    274,
+    286
+   ],
+   "scale": [
+    275,
+    287
+   ],
+   "fine-grained": [
+    276,
+    288
+   ],
+   "benchmark,": [
+    279
+   ],
+   "contributes": [
+    281
+   ],
+   "development": [
+    284
+   ],
+   "analysis.": [
+    290
+   ]
+  }
+ }
+}

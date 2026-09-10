@@ -1,0 +1,38 @@
+# secrets
+.env
+.env.local
+
+# python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# node
+node_modules/
+frontend/dist/
+.vite/
+
+# runtime artefacts
+runs/
+outputs/
+*.log
+
+# playwright
+test-results/
+playwright-report/
+# snapshots and console logs the Playwright MCP server drops while driving the app by hand
+.playwright-mcp/
+
+# os
+.DS_Store
+
+# ignore stray images dropped into the repo root
+/IMG_*.jpeg
+/IMG_*.jpg

@@ -1,0 +1,125 @@
+{
+ "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Across+domain+visual+understanding%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+ "status": 200,
+ "json": {
+  "meta": {
+   "count": 1637,
+   "db_response_time_ms": 116,
+   "page": 1,
+   "per_page": 15,
+   "groups_count": null,
+   "x_query": {
+    "oql": "works where date >= (2022-01-01)\n  and title/abstract has (cross domain visual understanding)",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "from_publication_date",
+       "value": "2022-01-01"
+      },
+      {
+       "column_id": "title_and_abstract.search",
+       "value": "cross domain visual understanding",
+       "operator": "has"
+      }
+     ]
+    },
+    "url": "/works?filter=from_publication_date:2022-01-01,title_and_abstract.search:cross domain visual understanding&per_page=15"
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4312233877",
+    "display_name": "OCR-Free Document Understanding Transformer",
+    "publication_year": 2022,
+    "cited_by_count": 391
+   },
+   {
+    "id": "https://openalex.org/W4319996536",
+    "display_name": "Large Scale Visual Food Recognition",
+    "publication_year": 2023,
+    "cited_by_count": 234
+   },
+   {
+    "id": "https://openalex.org/W4327919044",
+    "display_name": "Explainable AI in medical imaging: An overview for clinical practitioners \u2013 Beyond saliency-based XAI approaches",
+    "publication_year": 2023,
+    "cited_by_count": 222
+   },
+   {
+    "id": "https://openalex.org/W4323717348",
+    "display_name": "Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models",
+    "publication_year": 2023,
+    "cited_by_count": 189
+   },
+   {
+    "id": "https://openalex.org/W4295917908",
+    "display_name": "Multi-modal Masked Autoencoders for Medical Vision-and-Language Pre-training",
+    "publication_year": 2022,
+    "cited_by_count": 132
+   },
+   {
+    "id": "https://openalex.org/W4221155360",
+    "display_name": "MuKEA: Multimodal Knowledge Extraction and Accumulation for Knowledge-based Visual Question Answering",
+    "publication_year": 2022,
+    "cited_by_count": 125
+   },
+   {
+    "id": "https://openalex.org/W4402727075",
+    "display_name": "Sniffer: Multimodal Large Language Model for Explainable Out-of-Context Misinformation Detection",
+    "publication_year": 2024,
+    "cited_by_count": 76
+   },
+   {
+    "id": "https://openalex.org/W4401665589",
+    "display_name": "Semantic-driven dual consistency learning for weakly supervised video anomaly detection",
+    "publication_year": 2024,
+    "cited_by_count": 70
+   },
+   {
+    "id": "https://openalex.org/W4380079737",
+    "display_name": "Self-Supervised Intra-Modal and Cross-Modal Contrastive Learning for Point Cloud Understanding",
+    "publication_year": 2023,
+    "cited_by_count": 64
+   },
+   {
+    "id": "https://openalex.org/W7131659541",
+    "display_name": "Hyperspectral imaging",
+    "publication_year": 2026,
+    "cited_by_count": 62
+   },
+   {
+    "id": "https://openalex.org/W4406227623",
+    "display_name": "Hybrid intelligence: Human\u2013 AI coevolution and learning",
+    "publication_year": 2025,
+    "cited_by_count": 62
+   },
+   {
+    "id": "https://openalex.org/W4389648668",
+    "display_name": "Australian population norms for health-related quality of life measured using the EQ-5D\u20135L, and relationships with sociodemographic characteristics",
+    "publication_year": 2023,
+    "cited_by_count": 52
+   },
+   {
+    "id": "https://openalex.org/W4366679997",
+    "display_name": "An Aerial\u2013Wall Robotic Insect That Can Land, Climb, and Take Off from Vertical Surfaces",
+    "publication_year": 2023,
+    "cited_by_count": 47
+   },
+   {
+    "id": "https://openalex.org/W4304098689",
+    "display_name": "Multimodal Hate Speech Detection via Cross-Domain Knowledge Transfer",
+    "publication_year": 2022,
+    "cited_by_count": 42
+   },
+   {
+    "id": "https://openalex.org/W4402727014",
+    "display_name": "MAPLM: A Real-World Large-Scale Vision-Language Benchmark for Map and Traffic Scene Understanding",
+    "publication_year": 2024,
+    "cited_by_count": 41
+   }
+  ],
+  "group_by": []
+ }
+}

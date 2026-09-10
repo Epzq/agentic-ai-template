@@ -1,0 +1,678 @@
+{
+ "id": "https://openalex.org/W4313071966",
+ "display_name": "Revisiting the \u201cVideo\u201d in Video-Language Understanding",
+ "publication_year": 2022,
+ "cited_by_count": 129,
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5019482456",
+    "display_name": "Shyamal Buch",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I97018004",
+     "display_name": "Stanford University",
+     "ror": "https://ror.org/00f54p054",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I97018004"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Shyamal Buch",
+   "raw_affiliation_strings": [
+    "Stanford University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Stanford University",
+     "institution_ids": [
+      "https://openalex.org/I97018004"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5075608006",
+    "display_name": "Crist\u00f3bal Eyzaguirre",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I97018004",
+     "display_name": "Stanford University",
+     "ror": "https://ror.org/00f54p054",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I97018004"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Cristobal Eyzaguirre",
+   "raw_affiliation_strings": [
+    "Stanford University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Stanford University",
+     "institution_ids": [
+      "https://openalex.org/I97018004"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5075018873",
+    "display_name": "Adrien Gaidon",
+    "orcid": "https://orcid.org/0000-0001-8820-550X"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4391768151",
+     "display_name": "Toyota Research Institute",
+     "ror": "https://ror.org/04fpkc108",
+     "country_code": null,
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I4210125472",
+      "https://openalex.org/I4391768151"
+     ]
+    }
+   ],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "Adrien Gaidon",
+   "raw_affiliation_strings": [
+    "Toyota Research Institute"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Toyota Research Institute",
+     "institution_ids": [
+      "https://openalex.org/I4391768151"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5100621605",
+    "display_name": "Jiajun Wu",
+    "orcid": "https://orcid.org/0000-0002-4176-343X"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I97018004",
+     "display_name": "Stanford University",
+     "ror": "https://ror.org/00f54p054",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I97018004"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jiajun Wu",
+   "raw_affiliation_strings": [
+    "Stanford University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Stanford University",
+     "institution_ids": [
+      "https://openalex.org/I97018004"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5100450462",
+    "display_name": "Li Fei-Fei",
+    "orcid": "https://orcid.org/0000-0002-7481-0810"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I97018004",
+     "display_name": "Stanford University",
+     "ror": "https://ror.org/00f54p054",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I97018004"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Li Fei-Fei",
+   "raw_affiliation_strings": [
+    "Stanford University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Stanford University",
+     "institution_ids": [
+      "https://openalex.org/I97018004"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5018518655",
+    "display_name": "Juan Carlos Niebles",
+    "orcid": "https://orcid.org/0000-0001-8225-9793"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I97018004",
+     "display_name": "Stanford University",
+     "ror": "https://ror.org/00f54p054",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I97018004"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Juan Carlos Niebles",
+   "raw_affiliation_strings": [
+    "Stanford University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Stanford University",
+     "institution_ids": [
+      "https://openalex.org/I97018004"
+     ]
+    }
+   ]
+  }
+ ],
+ "abstract_inverted_index": {
+  "What": [
+   0
+  ],
+  "makes": [
+   1
+  ],
+  "a": [
+   2,
+   15,
+   44,
+   52,
+   143,
+   154
+  ],
+  "video": [
+   3,
+   34,
+   73,
+   79
+  ],
+  "task": [
+   4
+  ],
+  "uniquely": [
+   5
+  ],
+  "suited": [
+   6
+  ],
+  "for": [
+   7,
+   47,
+   145,
+   164
+  ],
+  "videos,": [
+   8
+  ],
+  "beyond": [
+   9
+  ],
+  "what": [
+   10
+  ],
+  "can": [
+   11,
+   133,
+   181
+  ],
+  "be": [
+   12
+  ],
+  "understood": [
+   13
+  ],
+  "from": [
+   14
+  ],
+  "single": [
+   16
+  ],
+  "image?": [
+   17
+  ],
+  "Building": [
+   18
+  ],
+  "on": [
+   19,
+   55
+  ],
+  "recent": [
+   20,
+   115
+  ],
+  "progress": [
+   21
+  ],
+  "in": [
+   22,
+   30,
+   120
+  ],
+  "self-supervised": [
+   23
+  ],
+  "image-language": [
+   24
+  ],
+  "models,": [
+   25
+  ],
+  "we": [
+   26,
+   85,
+   170
+  ],
+  "revisit": [
+   27
+  ],
+  "this": [
+   28,
+   68
+  ],
+  "question": [
+   29,
+   80
+  ],
+  "the": [
+   31,
+   40,
+   56,
+   87
+  ],
+  "context": [
+   32
+  ],
+  "of": [
+   33,
+   59,
+   91,
+   99,
+   157
+  ],
+  "and": [
+   35,
+   74,
+   82,
+   89,
+   119,
+   138,
+   166,
+   184
+  ],
+  "language": [
+   36,
+   75
+  ],
+  "tasks.": [
+   37
+  ],
+  "We": [
+   38,
+   95,
+   128,
+   141
+  ],
+  "propose": [
+   39
+  ],
+  "atemporal": [
+   41
+  ],
+  "probe": [
+   42
+  ],
+  "(ATP),": [
+   43
+  ],
+  "new": [
+   45
+  ],
+  "model": [
+   46,
+   69,
+   139
+  ],
+  "video-language": [
+   48,
+   93,
+   117,
+   136
+  ],
+  "analysis": [
+   49
+  ],
+  "which": [
+   50
+  ],
+  "provides": [
+   51
+  ],
+  "stronger": [
+   53
+  ],
+  "bound": [
+   54
+  ],
+  "baseline": [
+   57
+  ],
+  "accuracy": [
+   58
+  ],
+  "multimodal": [
+   60
+  ],
+  "models": [
+   61,
+   118,
+   180
+  ],
+  "constrained": [
+   62
+  ],
+  "by": [
+   63
+  ],
+  "image-level": [
+   64
+  ],
+  "understanding.": [
+   65,
+   127,
+   168
+  ],
+  "By": [
+   66
+  ],
+  "applying": [
+   67
+  ],
+  "to": [
+   70,
+   106,
+   123,
+   148
+  ],
+  "standard": [
+   71
+  ],
+  "discriminative": [
+   72
+  ],
+  "tasks,": [
+   76
+  ],
+  "such": [
+   77
+  ],
+  "as": [
+   78
+  ],
+  "answering": [
+   81
+  ],
+  "text-to-video": [
+   83
+  ],
+  "retrieval,": [
+   84
+  ],
+  "characterize": [
+   86
+  ],
+  "limitations": [
+   88
+  ],
+  "potential": [
+   90
+  ],
+  "current": [
+   92
+  ],
+  "benchmarks.": [
+   94
+  ],
+  "find": [
+   96
+  ],
+  "that": [
+   97,
+   172
+  ],
+  "understanding": [
+   98
+  ],
+  "event": [
+   100
+  ],
+  "temporality": [
+   101
+  ],
+  "is": [
+   102
+  ],
+  "often": [
+   103
+  ],
+  "not": [
+   104
+  ],
+  "necessary": [
+   105
+  ],
+  "achieve": [
+   107
+  ],
+  "strong": [
+   108
+  ],
+  "or": [
+   109
+  ],
+  "state-of-the-art": [
+   110,
+   185
+  ],
+  "performance,": [
+   111
+  ],
+  "even": [
+   112
+  ],
+  "compared": [
+   113
+  ],
+  "with": [
+   114,
+   153
+  ],
+  "large-scale": [
+   116
+  ],
+  "contexts": [
+   121
+  ],
+  "intended": [
+   122
+  ],
+  "benchmark": [
+   124
+  ],
+  "deeper": [
+   125
+  ],
+  "video-level": [
+   126,
+   178
+  ],
+  "also": [
+   129
+  ],
+  "demonstrate": [
+   130
+  ],
+  "how": [
+   131
+  ],
+  "ATP": [
+   132,
+   147,
+   175
+  ],
+  "improve": [
+   134,
+   182
+  ],
+  "both": [
+   135
+  ],
+  "dataset": [
+   137,
+   151
+  ],
+  "design.": [
+   140
+  ],
+  "describe": [
+   142
+  ],
+  "technique": [
+   144
+  ],
+  "leveraging": [
+   146
+  ],
+  "better": [
+   149
+  ],
+  "disentangle": [
+   150
+  ],
+  "subsets": [
+   152
+  ],
+  "higher": [
+   155
+  ],
+  "concentration": [
+   156
+  ],
+  "temporally": [
+   158
+  ],
+  "challenging": [
+   159
+  ],
+  "data,": [
+   160
+  ],
+  "improving": [
+   161
+  ],
+  "benchmarking": [
+   162
+  ],
+  "efficacy": [
+   163
+  ],
+  "causal": [
+   165
+  ],
+  "temporal": [
+   167,
+   179
+  ],
+  "Further,": [
+   169
+  ],
+  "show": [
+   171
+  ],
+  "effectively": [
+   173
+  ],
+  "integrating": [
+   174
+  ],
+  "into": [
+   176
+  ],
+  "full": [
+   177
+  ],
+  "efficiency": [
+   183
+  ],
+  "accuracy.11Project": [
+   186
+  ],
+  "website:": [
+   187
+  ],
+  "https://stanfordvl.github.io/atp-revisit-video-lang/": [
+   188
+  ]
+ }
+}

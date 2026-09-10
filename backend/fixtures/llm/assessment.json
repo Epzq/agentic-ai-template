@@ -1,0 +1,283 @@
+{
+  "directions": [
+    {
+      "title": "Egocentric Action Anticipation for Predictive Human-Robot Collaboration",
+      "problem_statement": {
+        "evidence_ids": [
+          "e1",
+          "e26",
+          "e32"
+        ],
+        "text": "Human-robot collaboration requires robots to anticipate human actions before they occur. While current systems can recognize activities after the fact, predicting future interactions from a first-person perspective remains challenging. The NRF CRP call emphasizes use-inspired basic research. Existing work has explored predicting hand motion and interaction hotspots from egocentric videos, but integrating these predictions into real-time robotic control for seamless collaboration is an open problem. The literature shows limited but growing interest in this specific intersection."
+      },
+      "evidence_backed_gap": {
+        "evidence_ids": [
+          "e26",
+          "e27",
+          "e28",
+          "e32"
+        ],
+        "text": "The retrieved evidence indicates that while video action prediction is a broad field with 397 recent papers, the specific niche of egocentric action anticipation for robotics is sparse, with only 17 works found since 2022. Current approaches focus on predicting hand trajectories and contact points, but we did not find evidence of these models being deployed in predictive human-robot collaboration scenarios. This gap presents an opportunity to translate egocentric vision models into actionable robotic systems."
+      },
+      "key_strengths": [
+        "Directly addresses the call's focus on use-inspired basic research.",
+        "Builds on established methods for predicting interaction hotspots.",
+        "Strong alignment with the applicant's expertise in robotic vision."
+      ],
+      "key_weaknesses": [
+        "The specific intersection of egocentric anticipation and robotics has very thin literature.",
+        "Integrating video prediction into real-time robotic control presents significant logistical challenges.",
+        "The realistic impact is likely limited to a niche subfield of human-robot interaction."
+      ],
+      "scores": {
+        "grant_alignment": {
+          "evidence_ids": [
+            "e1",
+            "e2"
+          ],
+          "value": 8,
+          "rationale": "Speaks directly to the call's objective of funding use-inspired basic research and fostering multidisciplinary teams.",
+          "provenance": "judged"
+        },
+        "scientific_novelty": {
+          "evidence_ids": [
+            "e32"
+          ],
+          "value": 5,
+          "rationale": "Represents a meaningful extension of predicting interaction hotspots from egocentric videos into the domain of robotics.",
+          "provenance": "judged"
+        },
+        "importance": {
+          "evidence_ids": [
+            "e27"
+          ],
+          "value": 4,
+          "rationale": "Solving this improves specific human-robot interaction tasks, which is a growing but niche subfield with 47 recent works.",
+          "provenance": "judged"
+        },
+        "applicant_fit": {
+          "evidence_ids": [
+            "e3",
+            "e32"
+          ],
+          "value": 8,
+          "rationale": "The applicant's established expertise in robotic vision perfectly matches the need to extend current egocentric prediction models under the Lead PI requirements.",
+          "provenance": "judged"
+        },
+        "feasibility": {
+          "evidence_ids": [
+            "e32"
+          ],
+          "value": 5,
+          "rationale": "Achievable with effort, but integrating egocentric video predictions into real-time robotic systems introduces substantial logistical dependencies.",
+          "provenance": "judged"
+        },
+        "impact_potential": {
+          "evidence_ids": [
+            "e27",
+            "e32"
+          ],
+          "value": 5,
+          "rationale": "The endpoint is likely a tool or dataset for predictive human-robot collaboration that other robotics groups would adopt.",
+          "provenance": "judged"
+        },
+        "evidence_strength": {
+          "evidence_ids": [
+            "e26",
+            "e32"
+          ],
+          "value": 3,
+          "rationale": "The claim rests on a very thin query returning only 17 works, with only one highly relevant paper read.",
+          "provenance": "judged"
+        }
+      }
+    },
+    {
+      "title": "Multimodal Knowledge Graph Integration for Explainable Visual Reasoning",
+      "problem_statement": {
+        "evidence_ids": [
+          "e2",
+          "e39",
+          "e40",
+          "e42"
+        ],
+        "text": "As vision-language models are increasingly deployed in critical domains like healthcare and robotics, their lack of interpretability becomes a significant barrier. The F-CRP scheme seeks to foster multidisciplinary teams to conduct cutting-edge research. While recent methods use vision-language models to build 3D scene graphs for perception, reasoning over these multimodal structures to provide explainable answers remains complex. The rapid explosion of research in multimodal knowledge graph reasoning highlights the urgency of developing transparent visual reasoning systems."
+      },
+      "evidence_backed_gap": {
+        "evidence_ids": [
+          "e35",
+          "e36",
+          "e39",
+          "e40"
+        ],
+        "text": "The catalogue shows massive interest in explainable visual question answering, with 1,308 works, and multimodal knowledge graph reasoning, with 1,035 works. However, while current models can generate medical reports or encode semantics into 3D representations, we did not find frameworks that seamlessly integrate these capabilities into a unified, explainable knowledge graph that can justify its visual reasoning steps. Bridging this gap would allow downstream systems to provide verifiable explanations for their multimodal decisions."
+      },
+      "key_strengths": [
+        "Addresses a critical need for explainability in high-stakes domains like healthcare.",
+        "Supported by a massive and rapidly growing body of literature.",
+        "High potential to change how downstream vision-language systems are trusted."
+      ],
+      "key_weaknesses": [
+        "Constructing open-vocabulary 3D scene graphs is technically complex.",
+        "Requires significant multidisciplinary coordination to execute successfully.",
+        "May face challenges in scaling knowledge graphs to open-world visual reasoning."
+      ],
+      "scores": {
+        "grant_alignment": {
+          "evidence_ids": [
+            "e2"
+          ],
+          "value": 6,
+          "rationale": "Addresses the call's goal of forming multidisciplinary teams for cutting-edge research, though the connection to Singapore's specific needs requires some argument.",
+          "provenance": "judged"
+        },
+        "scientific_novelty": {
+          "evidence_ids": [
+            "e39",
+            "e41"
+          ],
+          "value": 8,
+          "rationale": "Reformulates visual reasoning by integrating large vision-language models with 3D scene graphs, enabling new types of explainable queries.",
+          "provenance": "judged"
+        },
+        "importance": {
+          "evidence_ids": [
+            "e40"
+          ],
+          "value": 8,
+          "rationale": "Solving explainability in vision-language models changes how downstream systems are trusted, particularly in high-stakes areas like medical report generation.",
+          "provenance": "judged"
+        },
+        "applicant_fit": {
+          "evidence_ids": [
+            "e2",
+            "e40"
+          ],
+          "value": 7,
+          "rationale": "The researcher's capabilities in explainable AI align well with the project's goals and the call's multidisciplinary team objectives.",
+          "provenance": "judged"
+        },
+        "feasibility": {
+          "evidence_ids": [
+            "e39",
+            "e40"
+          ],
+          "value": 4,
+          "rationale": "Constructing open-vocabulary 3D scene graphs and integrating them with vision-language models presents significant unresolved technical dependencies.",
+          "provenance": "judged"
+        },
+        "impact_potential": {
+          "evidence_ids": [
+            "e40"
+          ],
+          "value": 8,
+          "rationale": "The realistic endpoint is a trusted capability for named user communities, such as clinical practitioners relying on medical vision-language models.",
+          "provenance": "judged"
+        },
+        "evidence_strength": {
+          "evidence_ids": [
+            "e39",
+            "e40",
+            "e42"
+          ],
+          "value": 8,
+          "rationale": "Multiple papers were read in full, and the trend shows massive growth to 579 expected works in 2026.",
+          "provenance": "judged"
+        }
+      }
+    },
+    {
+      "title": "Unsupervised Domain Adaptation for Vision-Language Physical Task Understanding",
+      "problem_statement": {
+        "evidence_ids": [
+          "e1",
+          "e47"
+        ],
+        "text": "Training robust computer vision models typically requires large-scale annotated datasets, and performance drops significantly when models are deployed in new, visually distinct environments. The F-CRP call supports use-inspired basic research. Unsupervised domain adaptation aims to solve this by transferring knowledge without target labels. While unsupervised domain adaptation is well-studied for standard object detection, applying it to complex vision-language physical task understanding remains underexplored."
+      },
+      "evidence_backed_gap": {
+        "evidence_ids": [
+          "e45",
+          "e46",
+          "e47",
+          "e50"
+        ],
+        "text": "The evidence demonstrates substantial work in cross-domain visual understanding, with 1,637 works, and unsupervised domain adaptation for object detectors. However, despite the emergence of visual foundation models, we did not find research extending unsupervised domain adaptation specifically to vision-language situation recognition, which has 426 recent works. The gap lies in adapting these complex, multimodal models to new physical environments without requiring expensive re-annotation, which is crucial for scalable real-world deployment."
+      },
+      "key_strengths": [
+        "Highly feasible as it primarily requires algorithmic innovation rather than new infrastructure.",
+        "Removes a significant obstacle for deploying vision-language models in new environments.",
+        "Builds on a strong foundation of existing unsupervised domain adaptation literature."
+      ],
+      "key_weaknesses": [
+        "The realistic endpoint is likely a benchmark entry rather than a deployed capability.",
+        "Does not speak as directly to the call's leading evaluation criteria as other directions.",
+        "May struggle to achieve the paradigm-shifting breakthrough potential sought by the funder."
+      ],
+      "scores": {
+        "grant_alignment": {
+          "evidence_ids": [
+            "e1",
+            "e2"
+          ],
+          "value": 4,
+          "rationale": "Fits the general remit of the Competitive Research Programme, but does not explicitly target the primary multidisciplinary evaluation criteria as strongly as the others.",
+          "provenance": "judged"
+        },
+        "scientific_novelty": {
+          "evidence_ids": [
+            "e47",
+            "e50"
+          ],
+          "value": 3,
+          "rationale": "Applies established unsupervised domain adaptation techniques to the newer domain of vision-language models.",
+          "provenance": "judged"
+        },
+        "importance": {
+          "evidence_ids": [
+            "e47"
+          ],
+          "value": 5,
+          "rationale": "Removes a real obstacle for the computer vision community by reducing the reliance on large-scale annotated datasets for new environments.",
+          "provenance": "judged"
+        },
+        "applicant_fit": {
+          "evidence_ids": [
+            "e2",
+            "e45",
+            "e47"
+          ],
+          "value": 5,
+          "rationale": "The applicant has foundational knowledge in transfer learning, but applying it to vision-language situation recognition may require additional domain expertise.",
+          "provenance": "judged"
+        },
+        "feasibility": {
+          "evidence_ids": [
+            "e47"
+          ],
+          "value": 8,
+          "rationale": "Unsupervised domain adaptation primarily requires algorithmic innovation rather than new physical infrastructure, building on extensive existing literature.",
+          "provenance": "judged"
+        },
+        "impact_potential": {
+          "evidence_ids": [
+            "e46",
+            "e47"
+          ],
+          "value": 4,
+          "rationale": "The realistic endpoint is a new benchmark entry and methodology for cross-domain visual understanding.",
+          "provenance": "judged"
+        },
+        "evidence_strength": {
+          "evidence_ids": [
+            "e44",
+            "e47"
+          ],
+          "value": 6,
+          "rationale": "Several retrieved records support the claim, including a comprehensive survey and a query returning 625 works.",
+          "provenance": "judged"
+        }
+      }
+    }
+  ]
+}

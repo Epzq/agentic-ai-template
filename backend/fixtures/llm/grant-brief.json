@@ -1,0 +1,95 @@
+{
+  "call_title": "2026 Frontier CRP",
+  "scheme": "Frontier Competitive Research Programme (F-CRP) Funding Scheme",
+  "funder": "National Research Foundation (NRF)",
+  "call_period": "23 Mar 2026 (9am) to 18 May 2026 (4pm)",
+  "objectives": "The National Research Foundation (NRF) Competitive Research Programme (CRP) Funding Scheme seeks to foster the formation of multidisciplinary teams in Singapore to conduct cutting-edge research of relevance to Singapore. This allows a coordinated, integrated and sustained way of bringing together complementary research groups in Singapore to conduct high-impact research. Frontier CRP (F-CRP) is a sub-category of the CRP that supports smaller-scale programmes to pursue innovative use-inspired research, that can potentially enable paradigm shifts and/or breakthroughs in scientific knowledge. Proposals within this category will be assessed based on their conceptual novelty, originality and creativity of ideas, and feasibility of scientific hypotheses, which need not be backed by preliminary data at the point of application.",
+  "requirements": [
+    {
+      "evidence_ids": ["e2"],
+      "text": "The scheme supports projects up to S$2M including indirect costs for a period of 3 to 5 years, with a stage-gated review at 2 years.",
+      "quote": "The F-CRP scheme offers funding support for projects of up to a limit of S$2M per proposal (including indirect costs), between a period of 3 to 5 years . A stage-gated review will be implemented for awarded F-CRP projects at the 2-year mark, to evaluate their fulfilment of deliverables and progress towards validating their scientific hypotheses."
+    },
+    {
+      "evidence_ids": ["e2"],
+      "text": "Participating institutions for Lead and Team PIs must meet specific eligibility requirements regarding institution type and research infrastructure.",
+      "quote": "Participating institutions for Lead and Team Principal Investigators (PIs) should fulfil the following criteria: Registered as a public Institute of Higher Learning (IHL), public healthcare institution, A*STAR Research Institute, CREATE research entities, or research institutes affiliated with the Autonomous Universities (AUs)/A*STAR; Has adequate research infrastructure to support research activities; and has the ability to take up the responsibilities of a Host Institution."
+    },
+    {
+      "evidence_ids": ["e3"],
+      "text": "Lead and Team PIs must meet Singapore residency/appointment, leadership track record, and institution salary requirements.",
+      "quote": "Lead PI and Team PI(s) must fulfil the following requirements at the point of application and throughout the project duration: Hold a primary and/or joint appointment(s) at eligible institution(s)/organisations(s), with a minimum time commitment of 9 months (per calendar year) in Singapore ; and • Be an accomplished PI with a track record of leadership ability in coordinating research program(s) and providing mentorship to research teams(s), as well as having productive research outcomes. Lead and Team PI(s) must be salaried by their affiliated institution(s)."
+    },
+    {
+      "evidence_ids": ["e3"],
+      "text": "Lead PI and Team PI(s) must commit at least 20% and 10% of their total work commitment to the project, respectively.",
+      "quote": "Lead PI and Team PI(s) are expected to commit at least 20% and 10% of their total time commitment to the project, respectively."
+    },
+    {
+      "evidence_ids": ["e3"],
+      "text": "Applications must be submitted via RGP by the Lead PI and endorsed by the Host Institution's Director of Research by the deadline.",
+      "quote": "All applications must be submitted by the Lead PI and endorsed by the Host Institution’s Director of Research (DOR) via RGP by the last day of the call period."
+    },
+    {
+      "evidence_ids": ["e4"],
+      "text": "Each applicant must have an authorised ORCID ID linked on their RGP User Profile Page.",
+      "quote": "Please note that the online RGP application form will require each applicant to have an authorised ORCID ID on their RGP User Profile Page to create an application as a Lead PI or be listed in an application as a Team PI."
+    },
+    {
+      "evidence_ids": ["e4"],
+      "text": "The presentation video must not exceed 12 minutes in duration.",
+      "quote": "Video must not exceed 12 minutes long in duration"
+    },
+    {
+      "evidence_ids": ["e4", "e5"],
+      "text": "The presentation slides must not exceed 10 pages excluding Cover slide and Appendix, using at least Arial Font Size 12.",
+      "quote": "Slides must not exceed 10 pages (excluding the Cover slide and Appendix). Use at least Arial Font Size 12 for all text and figures, and standard slide sizes."
+    },
+    {
+      "evidence_ids": ["e5"],
+      "text": "Full Proposal contents must not exceed 10 pages excluding cover page and appendices, formatted in Arial font size 12 with single line, normal spacing, and normal margins.",
+      "quote": "The contents of the Full Proposal must not exceed 10 pages (excluding cover page and appendices) and be written in Arial font size 12 with single line, normal spacing and normal margins."
+    },
+    {
+      "evidence_ids": ["e10"],
+      "text": "Resubmission of a proposal is permitted only once, unless specifically invited by the Evaluation Panel.",
+      "quote": "Resubmission is allowed only once, except if the applicants are invited to resubmit by the F-CRP Evaluation Panel."
+    },
+    {
+      "evidence_ids": ["e15"],
+      "text": "CVs for all team members must be uploaded in a single file, with each CV starting on a fresh page, limited to 1 page, and listing a maximum of 5 publications.",
+      "quote": "The CVs of all members ( Lead PI, all Team PI(s) and Collaborator(s) ) must be provided in a single file. Each CV must start on a fresh page and be limited to 1 page (Arial font size 12, single line spacing) . Please indicate “N.A.” beside the label field if the required information is not applicable. NRF will not be responsible for any missing information not provided in the CVs. Please note to only provide information listed below. Do not include any additional fields or extraneous information."
+    },
+    {
+      "evidence_ids": ["e18"],
+      "text": "Certain research areas are explicitly outside the scope of the F-CRP scheme.",
+      "quote": "The F-CRP Scheme is not intended for the following areas: a) Epidemiological and behavioural studies; b) Observational studies (including cohort, longitudinal, case-control studies, etc.); c) Clinical and drug trials; d) Health services research/operations research; e) Infrastructure/facilities set-up; and f) Market/drugs/product development."
+    }
+  ],
+  "criteria": [
+    {
+      "evidence_ids": ["e3"],
+      "name": "Breakthrough Potential",
+      "description": "Full Proposals will be evaluated based on breakthrough potential.",
+      "quote": "Key Evaluation Criteria: Full Proposals will be evaluated based on (i) breakthrough potential; (ii) impact; (iii) implementation; and (iv) team competency."
+    },
+    {
+      "evidence_ids": ["e3"],
+      "name": "Impact",
+      "description": "Full Proposals will be evaluated based on impact.",
+      "quote": "Key Evaluation Criteria: Full Proposals will be evaluated based on (i) breakthrough potential; (ii) impact; (iii) implementation; and (iv) team competency."
+    },
+    {
+      "evidence_ids": ["e3"],
+      "name": "Implementation",
+      "description": "Full Proposals will be evaluated based on implementation.",
+      "quote": "Key Evaluation Criteria: Full Proposals will be evaluated based on (i) breakthrough potential; (ii) impact; (iii) implementation; and (iv) team competency."
+    },
+    {
+      "evidence_ids": ["e3"],
+      "name": "Team Competency",
+      "description": "Full Proposals will be evaluated based on team competency, including assessment of the dedicated time commitment of each team member.",
+      "quote": "The time commitment of each team member dedicated to the project will be assessed as part of the evaluation criteria."
+    }
+  ]
+}

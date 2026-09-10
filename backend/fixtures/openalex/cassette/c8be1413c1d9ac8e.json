@@ -1,0 +1,125 @@
+{
+ "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Aegocentric+action+anticipation+robotics%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+ "status": 200,
+ "json": {
+  "meta": {
+   "count": 17,
+   "db_response_time_ms": 38,
+   "page": 1,
+   "per_page": 15,
+   "groups_count": null,
+   "x_query": {
+    "oql": "works where date >= (2022-01-01)\n  and title/abstract has (egocentric action anticipation robotics)",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "from_publication_date",
+       "value": "2022-01-01"
+      },
+      {
+       "column_id": "title_and_abstract.search",
+       "value": "egocentric action anticipation robotics",
+       "operator": "has"
+      }
+     ]
+    },
+    "url": "/works?filter=from_publication_date:2022-01-01,title_and_abstract.search:egocentric action anticipation robotics&per_page=15"
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4319300851",
+    "display_name": "Fine-grained Affordance Annotation for Egocentric Hand-Object Interaction Videos",
+    "publication_year": 2023,
+    "cited_by_count": 13
+   },
+   {
+    "id": "https://openalex.org/W4308233964",
+    "display_name": "Early Pedestrian Intent Prediction via Features Estimation",
+    "publication_year": 2022,
+    "cited_by_count": 12
+   },
+   {
+    "id": "https://openalex.org/W4383108698",
+    "display_name": "EgoHMR: Egocentric Human Mesh Recovery via Hierarchical Latent Diffusion Model",
+    "publication_year": 2023,
+    "cited_by_count": 11
+   },
+   {
+    "id": "https://openalex.org/W4392657514",
+    "display_name": "Intention action anticipation model with guide-feedback loop mechanism",
+    "publication_year": 2024,
+    "cited_by_count": 5
+   },
+   {
+    "id": "https://openalex.org/W4400770984",
+    "display_name": "Asymmetric Multi-Task Learning for Interpretable Gaze-Driven Grasping Action Forecasting",
+    "publication_year": 2024,
+    "cited_by_count": 4
+   },
+   {
+    "id": "https://openalex.org/W4389299511",
+    "display_name": "Toward Egocentric Compositional Action Anticipation with Adaptive Semantic Debiasing",
+    "publication_year": 2023,
+    "cited_by_count": 1
+   },
+   {
+    "id": "https://openalex.org/W7169857521",
+    "display_name": "Object State Change Anticipation in Procedural Videos: The OSCA Task, Benchmark, and Baseline",
+    "publication_year": 2026,
+    "cited_by_count": 0
+   },
+   {
+    "id": "https://openalex.org/W7134963579",
+    "display_name": "Test-time Ego-Exo-centric Adaptation for Action Anticipation via Multi-Label Prototype Growing and Dual-Clue Consistency",
+    "publication_year": 2026,
+    "cited_by_count": 0
+   },
+   {
+    "id": "https://openalex.org/W7134992756",
+    "display_name": "Test-time Ego-Exo-centric Adaptation for Action Anticipation via Multi-Label Prototype Growing and Dual-Clue Consistency",
+    "publication_year": 2026,
+    "cited_by_count": 0
+   },
+   {
+    "id": "https://openalex.org/W7135097876",
+    "display_name": "Decision-Aware Uncertainty Evaluation of Vision-Language Model-Based Early Action Anticipation for Human-Robot Interaction",
+    "publication_year": 2026,
+    "cited_by_count": 0
+   },
+   {
+    "id": "https://openalex.org/W7135429083",
+    "display_name": "Decision-Aware Uncertainty Evaluation of Vision-Language Model-Based Early Action Anticipation for Human-Robot Interaction",
+    "publication_year": 2026,
+    "cited_by_count": 0
+   },
+   {
+    "id": "https://openalex.org/W4417095915",
+    "display_name": "Uni-Hand: Universal Hand Motion Forecasting in Egocentric Views",
+    "publication_year": 2026,
+    "cited_by_count": 0
+   },
+   {
+    "id": "https://openalex.org/W4413925036",
+    "display_name": "Ego-$A^{\\mathbf{3}}$: Adaptive Fusion-Based Disentangled Transformer for Egocentric Action Anticipation",
+    "publication_year": 2025,
+    "cited_by_count": 0
+   },
+   {
+    "id": "https://openalex.org/W4399418893",
+    "display_name": "Pattern4Ego: Learning Egocentric Video Representation Using Cross-video Activity Patterns",
+    "publication_year": 2024,
+    "cited_by_count": 0
+   },
+   {
+    "id": "https://openalex.org/W4393027261",
+    "display_name": "Intention Action Anticipation Model with Guide-Feedback Loop Mechanism",
+    "publication_year": 2024,
+    "cited_by_count": 0
+   }
+  ],
+  "group_by": []
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "meta": {
+  "count": 0,
+  "db_response_time_ms": 121,
+  "page": 1,
+  "per_page": 25,
+  "groups_count": null,
+  "x_query": {
+   "oql": "authors where name has (Zzqx Nonexistent Person)",
+   "oqo": {
+    "get_rows": "authors",
+    "filter_rows": [
+     {
+      "column_id": "display_name.search",
+      "value": "Zzqx Nonexistent Person",
+      "operator": "has"
+     }
+    ]
+   },
+   "url": "/authors?filter=display_name.search:Zzqx Nonexistent Person&per_page=25"
+  },
+  "cost_usd": 0.001
+ },
+ "results": [],
+ "group_by": []
+}

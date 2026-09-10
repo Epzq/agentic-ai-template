@@ -1,0 +1,617 @@
+{
+ "id": "https://openalex.org/W4386075754",
+ "display_name": "Discovering the Real Association: Multimodal Causal Reasoning in Video Question Answering",
+ "publication_year": 2023,
+ "cited_by_count": 45,
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5066229334",
+    "display_name": "Chuanqi Zang",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I125839683",
+     "display_name": "Beijing Institute of Technology",
+     "ror": "https://ror.org/01skt4w74",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I125839683",
+      "https://openalex.org/I890469752"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Chuanqi Zang",
+   "raw_affiliation_strings": [
+    "School of Computer Science and Technology, Beijing Institute of Technology"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Computer Science and Technology, Beijing Institute of Technology",
+     "institution_ids": [
+      "https://openalex.org/I125839683"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5101837435",
+    "display_name": "Hanqing Wang",
+    "orcid": "https://orcid.org/0000-0001-9264-1646"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I125839683",
+     "display_name": "Beijing Institute of Technology",
+     "ror": "https://ror.org/01skt4w74",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I125839683",
+      "https://openalex.org/I890469752"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Hanqing Wang",
+   "raw_affiliation_strings": [
+    "School of Computer Science and Technology, Beijing Institute of Technology"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Computer Science and Technology, Beijing Institute of Technology",
+     "institution_ids": [
+      "https://openalex.org/I125839683"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5076449752",
+    "display_name": "Mingtao Pei",
+    "orcid": "https://orcid.org/0000-0003-4949-7997"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I125839683",
+     "display_name": "Beijing Institute of Technology",
+     "ror": "https://ror.org/01skt4w74",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I125839683",
+      "https://openalex.org/I890469752"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Mingtao Pei",
+   "raw_affiliation_strings": [
+    "School of Computer Science and Technology, Beijing Institute of Technology"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Computer Science and Technology, Beijing Institute of Technology",
+     "institution_ids": [
+      "https://openalex.org/I125839683"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5112277676",
+    "display_name": "Wei Liang",
+    "orcid": "https://orcid.org/0000-0002-4730-017X"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I125839683",
+     "display_name": "Beijing Institute of Technology",
+     "ror": "https://ror.org/01skt4w74",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I125839683",
+      "https://openalex.org/I890469752"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Wei Liang",
+   "raw_affiliation_strings": [
+    "School of Computer Science and Technology, Beijing Institute of Technology",
+    "Yangtze Delta Region Academy of Beijing Institute of Technology, Jiaxing"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Computer Science and Technology, Beijing Institute of Technology",
+     "institution_ids": [
+      "https://openalex.org/I125839683"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Yangtze Delta Region Academy of Beijing Institute of Technology, Jiaxing",
+     "institution_ids": [
+      "https://openalex.org/I125839683"
+     ]
+    }
+   ]
+  }
+ ],
+ "abstract_inverted_index": {
+  "Video": [
+   0
+  ],
+  "Question": [
+   1
+  ],
+  "Answering": [
+   2
+  ],
+  "(VideoQA)": [
+   3
+  ],
+  "is": [
+   4
+  ],
+  "challenging": [
+   5
+  ],
+  "as": [
+   6
+  ],
+  "it": [
+   7
+  ],
+  "requires": [
+   8
+  ],
+  "capturing": [
+   9,
+   122
+  ],
+  "accurate": [
+   10
+  ],
+  "correlations": [
+   11
+  ],
+  "between": [
+   12
+  ],
+  "modalities": [
+   13
+  ],
+  "from": [
+   14,
+   60,
+   100
+  ],
+  "redundant": [
+   15
+  ],
+  "information.": [
+   16
+  ],
+  "Recent": [
+   17
+  ],
+  "methods": [
+   18
+  ],
+  "focus": [
+   19
+  ],
+  "on": [
+   20,
+   41,
+   65,
+   141,
+   147,
+   170
+  ],
+  "the": [
+   21,
+   25,
+   38,
+   50,
+   85,
+   90,
+   93,
+   101,
+   110,
+   113,
+   117,
+   130,
+   135,
+   160,
+   163
+  ],
+  "explicit": [
+   22
+  ],
+  "challenges": [
+   23
+  ],
+  "of": [
+   24,
+   112,
+   137,
+   162
+  ],
+  "task,": [
+   26
+  ],
+  "e.g.": [
+   27
+  ],
+  "multimodal": [
+   28,
+   51,
+   66
+  ],
+  "feature": [
+   29
+  ],
+  "extraction,": [
+   30
+  ],
+  "video-text": [
+   31
+  ],
+  "alignment": [
+   32
+  ],
+  "and": [
+   33,
+   68,
+   133,
+   173
+  ],
+  "fusion.": [
+   34
+  ],
+  "Their": [
+   35
+  ],
+  "frameworks": [
+   36
+  ],
+  "reason": [
+   37
+  ],
+  "answer": [
+   39
+  ],
+  "relying": [
+   40
+  ],
+  "statistical": [
+   42
+  ],
+  "evidence": [
+   43
+  ],
+  "causes,": [
+   44
+  ],
+  "which": [
+   45,
+   97
+  ],
+  "ignores": [
+   46
+  ],
+  "potential": [
+   47
+  ],
+  "bias": [
+   48
+  ],
+  "in": [
+   49,
+   104
+  ],
+  "data.": [
+   52
+  ],
+  "In": [
+   53
+  ],
+  "our": [
+   54,
+   155
+  ],
+  "work,": [
+   55
+  ],
+  "we": [
+   56,
+   115
+  ],
+  "investigate": [
+   57
+  ],
+  "relational": [
+   58
+  ],
+  "structure": [
+   59
+  ],
+  "a": [
+   61,
+   70
+  ],
+  "causal": [
+   62,
+   150
+  ],
+  "representation": [
+   63
+  ],
+  "perspective": [
+   64
+  ],
+  "data": [
+   67
+  ],
+  "propose": [
+   69
+  ],
+  "novel": [
+   71
+  ],
+  "inference": [
+   72
+  ],
+  "framework.": [
+   73
+  ],
+  "For": [
+   74,
+   87
+  ],
+  "visual": [
+   75,
+   123
+  ],
+  "data,": [
+   76,
+   89
+  ],
+  "question-irrelevant": [
+   77
+  ],
+  "objects": [
+   78
+  ],
+  "may": [
+   79,
+   98
+  ],
+  "establish": [
+   80
+  ],
+  "simple": [
+   81
+  ],
+  "matching": [
+   82
+  ],
+  "associations": [
+   83
+  ],
+  "with": [
+   84
+  ],
+  "answer.": [
+   86
+  ],
+  "textual": [
+   88
+  ],
+  "model": [
+   91
+  ],
+  "prefers": [
+   92
+  ],
+  "local": [
+   94,
+   138
+  ],
+  "phrase": [
+   95
+  ],
+  "semantics": [
+   96,
+   103,
+   132,
+   140
+  ],
+  "deviate": [
+   99
+  ],
+  "global": [
+   102
+  ],
+  "long": [
+   105
+  ],
+  "sentences.": [
+   106
+  ],
+  "Therefore,": [
+   107
+  ],
+  "to": [
+   108,
+   129
+  ],
+  "enhance": [
+   109
+  ],
+  "generalization": [
+   111
+  ],
+  "model,": [
+   114
+  ],
+  "discover": [
+   116
+  ],
+  "real": [
+   118
+  ],
+  "association": [
+   119
+  ],
+  "by": [
+   120
+  ],
+  "explicitly": [
+   121
+  ],
+  "features": [
+   124
+  ],
+  "that": [
+   125,
+   154
+  ],
+  "are": [
+   126
+  ],
+  "causally": [
+   127
+  ],
+  "related": [
+   128
+  ],
+  "question": [
+   131,
+   142
+  ],
+  "weakening": [
+   134
+  ],
+  "impact": [
+   136
+  ],
+  "language": [
+   139
+  ],
+  "answering.": [
+   143
+  ],
+  "The": [
+   144,
+   175
+  ],
+  "experimental": [
+   145
+  ],
+  "results": [
+   146
+  ],
+  "two": [
+   148
+  ],
+  "large": [
+   149
+  ],
+  "VideoQA": [
+   151,
+   165
+  ],
+  "datasets": [
+   152
+  ],
+  "verify": [
+   153
+  ],
+  "proposed": [
+   156
+  ],
+  "framework": [
+   157
+  ],
+  "1)": [
+   158
+  ],
+  "improves": [
+   159
+  ],
+  "accuracy": [
+   161
+  ],
+  "existing": [
+   164
+  ],
+  "backbone,": [
+   166
+  ],
+  "2)": [
+   167
+  ],
+  "demonstrates": [
+   168
+  ],
+  "robustness": [
+   169
+  ],
+  "complex": [
+   171
+  ],
+  "scenes": [
+   172
+  ],
+  "questions.": [
+   174
+  ],
+  "code": [
+   176
+  ],
+  "will": [
+   177
+  ],
+  "be": [
+   178
+  ],
+  "released": [
+   179
+  ],
+  "at": [
+   180
+  ],
+  "https://github.com/Chuanqi-Zang/Discovering-the-Real-Association.": [
+   181
+  ]
+ }
+}

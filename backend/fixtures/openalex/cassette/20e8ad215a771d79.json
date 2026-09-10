@@ -1,0 +1,270 @@
+{
+ "url": "https://api.openalex.org/works?filter=author.id%3AA5090467618&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=40",
+ "status": 200,
+ "json": {
+  "meta": {
+   "count": 193,
+   "db_response_time_ms": 965,
+   "page": 1,
+   "per_page": 40,
+   "groups_count": null,
+   "x_query": {
+    "oql": "works where author is (A5090467618)",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "authorships.author.id",
+       "value": "A5090467618"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5090467618&per_page=40"
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2506483933",
+    "display_name": "SPICE: Semantic Propositional Image Caption Evaluation",
+    "publication_year": 2016,
+    "cited_by_count": 1978
+   },
+   {
+    "id": "https://openalex.org/W2104068492",
+    "display_name": "Unsupervised Visual Domain Adaptation Using Subspace Alignment",
+    "publication_year": 2013,
+    "cited_by_count": 1400
+   },
+   {
+    "id": "https://openalex.org/W1926645898",
+    "display_name": "Modeling video evolution for action recognition",
+    "publication_year": 2015,
+    "cited_by_count": 613
+   },
+   {
+    "id": "https://openalex.org/W2462996230",
+    "display_name": "Dynamic Image Networks for Action Recognition",
+    "publication_year": 2016,
+    "cited_by_count": 599
+   },
+   {
+    "id": "https://openalex.org/W2550462002",
+    "display_name": "Self-Supervised Video Representation Learning with Odd-One-Out Networks",
+    "publication_year": 2017,
+    "cited_by_count": 455
+   },
+   {
+    "id": "https://openalex.org/W2220981600",
+    "display_name": "Guiding the Long-Short Term Memory Model for Image Caption Generation",
+    "publication_year": 2015,
+    "cited_by_count": 441
+   },
+   {
+    "id": "https://openalex.org/W2193384753",
+    "display_name": "Rank Pooling for Action Recognition",
+    "publication_year": 2016,
+    "cited_by_count": 316
+   },
+   {
+    "id": "https://openalex.org/W2559833261",
+    "display_name": "Action Recognition with Dynamic Image Networks",
+    "publication_year": 2017,
+    "cited_by_count": 260
+   },
+   {
+    "id": "https://openalex.org/W2895542678",
+    "display_name": "Face Super-Resolution Guided by Facial Component Heatmaps",
+    "publication_year": 2018,
+    "cited_by_count": 246
+   },
+   {
+    "id": "https://openalex.org/W2798691622",
+    "display_name": "Super-Resolving Very Low-Resolution Face Images with Supplementary Attributes",
+    "publication_year": 2018,
+    "cited_by_count": 206
+   },
+   {
+    "id": "https://openalex.org/W1995543189",
+    "display_name": "Fine-Grained Categorization by Alignments",
+    "publication_year": 2013,
+    "cited_by_count": 198
+   },
+   {
+    "id": "https://openalex.org/W2605300166",
+    "display_name": "Encouraging LSTMs to Anticipate Actions Very Early",
+    "publication_year": 2017,
+    "cited_by_count": 172
+   },
+   {
+    "id": "https://openalex.org/W2505728881",
+    "display_name": "On Differentiating Parameterized Argmin and Argmax Problems with Application to Bi-level Optimization",
+    "publication_year": 2016,
+    "cited_by_count": 119
+   },
+   {
+    "id": "https://openalex.org/W2471775118",
+    "display_name": "Discriminative Hierarchical Rank Pooling for Activity Recognition",
+    "publication_year": 2016,
+    "cited_by_count": 113
+   },
+   {
+    "id": "https://openalex.org/W2084831455",
+    "display_name": "Discriminative feature fusion for image classification",
+    "publication_year": 2012,
+    "cited_by_count": 90
+   },
+   {
+    "id": "https://openalex.org/W2801606501",
+    "display_name": "Automated Quality Assessment of Colour Fundus Images for Diabetic Retinopathy Screening in Telemedicine",
+    "publication_year": 2018,
+    "cited_by_count": 87
+   },
+   {
+    "id": "https://openalex.org/W2894666173",
+    "display_name": "Action Anticipation with RBF Kernelized Feature Mapping RNN",
+    "publication_year": 2018,
+    "cited_by_count": 81
+   },
+   {
+    "id": "https://openalex.org/W2606212668",
+    "display_name": "Generalized Rank Pooling for Activity Recognition",
+    "publication_year": 2017,
+    "cited_by_count": 79
+   },
+   {
+    "id": "https://openalex.org/W2606014079",
+    "display_name": "DeepPermNet: Visual Permutation Learning",
+    "publication_year": 2017,
+    "cited_by_count": 77
+   },
+   {
+    "id": "https://openalex.org/W2077319423",
+    "display_name": "Mining Mid-level Features for Image Classification",
+    "publication_year": 2014,
+    "cited_by_count": 75
+   },
+   {
+    "id": "https://openalex.org/W2176091656",
+    "display_name": "Guiding Long-Short Term Memory for Image Caption Generation",
+    "publication_year": 2015,
+    "cited_by_count": 73
+   },
+   {
+    "id": "https://openalex.org/W25662080",
+    "display_name": "Effective Use of Frequent Itemset Mining for Image Classification",
+    "publication_year": 2012,
+    "cited_by_count": 71
+   },
+   {
+    "id": "https://openalex.org/W2014102544",
+    "display_name": "Local Alignments for Fine-Grained Categorization",
+    "publication_year": 2014,
+    "cited_by_count": 67
+   },
+   {
+    "id": "https://openalex.org/W2421253313",
+    "display_name": "Learning end-to-end video classification with rank-pooling",
+    "publication_year": 2016,
+    "cited_by_count": 61
+   },
+   {
+    "id": "https://openalex.org/W2885024018",
+    "display_name": "Action Anticipation by Predicting Future Dynamic Images",
+    "publication_year": 2019,
+    "cited_by_count": 55
+   },
+   {
+    "id": "https://openalex.org/W2946137858",
+    "display_name": "Semantic Face Hallucination: Super-Resolving Very Low-Resolution Face Images with Supplementary Attributes",
+    "publication_year": 2019,
+    "cited_by_count": 54
+   },
+   {
+    "id": "https://openalex.org/W2895478406",
+    "display_name": "Visual Permutation Learning",
+    "publication_year": 2018,
+    "cited_by_count": 51
+   },
+   {
+    "id": "https://openalex.org/W1573626183",
+    "display_name": "Joint cross-domain classification and subspace learning for unsupervised adaptation",
+    "publication_year": 2015,
+    "cited_by_count": 50
+   },
+   {
+    "id": "https://openalex.org/W2988058144",
+    "display_name": "Hallucinating Unaligned Face Images by Multiscale Transformative Discriminative Networks",
+    "publication_year": 2019,
+    "cited_by_count": 44
+   },
+   {
+    "id": "https://openalex.org/W2551557006",
+    "display_name": "Generalized BackPropagation, \u00c9tude De Cas: Orthogonality",
+    "publication_year": 2016,
+    "cited_by_count": 44
+   },
+   {
+    "id": "https://openalex.org/W3120889656",
+    "display_name": "DORi: Discovering Object Relationships for Moment Localization of a Natural Language Query in a Video",
+    "publication_year": 2021,
+    "cited_by_count": 43
+   },
+   {
+    "id": "https://openalex.org/W81851533",
+    "display_name": "Subspace Alignment For Domain Adaptation",
+    "publication_year": 2014,
+    "cited_by_count": 38
+   },
+   {
+    "id": "https://openalex.org/W2163250762",
+    "display_name": "Mining Multiple Queries for Image Retrieval: On-the-Fly Learning of an Object-Specific Mid-level Representation",
+    "publication_year": 2013,
+    "cited_by_count": 37
+   },
+   {
+    "id": "https://openalex.org/W3215287157",
+    "display_name": "Not All Relations are Equal: Mining Informative Labels for Scene Graph Generation",
+    "publication_year": 2022,
+    "cited_by_count": 36
+   },
+   {
+    "id": "https://openalex.org/W1991357498",
+    "display_name": "Supervised learning of Gaussian mixture models for visual vocabulary generation",
+    "publication_year": 2011,
+    "cited_by_count": 35
+   },
+   {
+    "id": "https://openalex.org/W3199612070",
+    "display_name": "Action Anticipation Using Pairwise Human-Object Interactions and Transformers",
+    "publication_year": 2021,
+    "cited_by_count": 34
+   },
+   {
+    "id": "https://openalex.org/W3020843970",
+    "display_name": "Forecasting Future Action Sequences With Attention: A New Approach to Weakly Supervised Action Forecasting",
+    "publication_year": 2020,
+    "cited_by_count": 33
+   },
+   {
+    "id": "https://openalex.org/W1534408538",
+    "display_name": "Location recognition over large time lags",
+    "publication_year": 2015,
+    "cited_by_count": 26
+   },
+   {
+    "id": "https://openalex.org/W125550756",
+    "display_name": "AXES at TRECVID 2012: KIS, INS, and MED",
+    "publication_year": 2012,
+    "cited_by_count": 25
+   },
+   {
+    "id": "https://openalex.org/W4394596846",
+    "display_name": "Interaction Region Visual Transformer for Egocentric Action Anticipation",
+    "publication_year": 2024,
+    "cited_by_count": 21
+   }
+  ],
+  "group_by": []
+ }
+}

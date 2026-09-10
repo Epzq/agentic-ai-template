@@ -1,0 +1,678 @@
+{
+ "id": "https://openalex.org/W4388189274",
+ "display_name": "Visual Causal Scene Refinement for Video Question Answering",
+ "publication_year": 2023,
+ "cited_by_count": 29,
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5020216130",
+    "display_name": "Yu-Shen Wei",
+    "orcid": "https://orcid.org/0000-0002-0527-5463"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I157773358",
+     "display_name": "Sun Yat-sen University",
+     "ror": "https://ror.org/0064kty71",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I157773358"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yushen Wei",
+   "raw_affiliation_strings": [
+    "Sun Yat-sen University, Guangzhou, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-0527-5463",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Sun Yat-sen University, Guangzhou, China",
+     "institution_ids": [
+      "https://openalex.org/I157773358"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5100356036",
+    "display_name": "Yang Liu",
+    "orcid": "https://orcid.org/0000-0002-9423-9252"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I157773358",
+     "display_name": "Sun Yat-sen University",
+     "ror": "https://ror.org/0064kty71",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I157773358"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yang Liu",
+   "raw_affiliation_strings": [
+    "Sun Yat-sen University, Guangzhou, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-9423-9252",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Sun Yat-sen University, Guangzhou, China",
+     "institution_ids": [
+      "https://openalex.org/I157773358"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5088836505",
+    "display_name": "Hong Yan",
+    "orcid": "https://orcid.org/0000-0003-4100-6751"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I157773358",
+     "display_name": "Sun Yat-sen University",
+     "ror": "https://ror.org/0064kty71",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I157773358"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Hong Yan",
+   "raw_affiliation_strings": [
+    "Sun Yat-sen University, Guangzhou, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-4100-6751",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Sun Yat-sen University, Guangzhou, China",
+     "institution_ids": [
+      "https://openalex.org/I157773358"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5042965510",
+    "display_name": "Guanbin Li",
+    "orcid": "https://orcid.org/0000-0002-4805-0926"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I157773358",
+     "display_name": "Sun Yat-sen University",
+     "ror": "https://ror.org/0064kty71",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I157773358"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Guanbin Li",
+   "raw_affiliation_strings": [
+    "Sun Yat-sen University, Guangzhou, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-4805-0926",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Sun Yat-sen University, Guangzhou, China",
+     "institution_ids": [
+      "https://openalex.org/I157773358"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5100412937",
+    "display_name": "Liang Lin",
+    "orcid": "https://orcid.org/0000-0003-2248-3755"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I157773358",
+     "display_name": "Sun Yat-sen University",
+     "ror": "https://ror.org/0064kty71",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I157773358"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Liang Lin",
+   "raw_affiliation_strings": [
+    "Sun Yat-sen University, Guangzhou, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-2248-3755",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Sun Yat-sen University, Guangzhou, China",
+     "institution_ids": [
+      "https://openalex.org/I157773358"
+     ]
+    }
+   ]
+  }
+ ],
+ "abstract_inverted_index": {
+  "Existing": [
+   0
+  ],
+  "methods": [
+   1,
+   31
+  ],
+  "for": [
+   2,
+   65,
+   80,
+   142
+  ],
+  "video": [
+   3,
+   54,
+   129,
+   206
+  ],
+  "question": [
+   4,
+   134,
+   207
+  ],
+  "answering": [
+   5
+  ],
+  "(VideoQA)": [
+   6
+  ],
+  "often": [
+   7
+  ],
+  "suffer": [
+   8
+  ],
+  "from": [
+   9
+  ],
+  "spurious": [
+   10
+  ],
+  "correlations": [
+   11
+  ],
+  "between": [
+   12
+  ],
+  "different": [
+   13
+  ],
+  "modalities,": [
+   14
+  ],
+  "leading": [
+   15
+  ],
+  "to": [
+   16,
+   39,
+   51,
+   101,
+   136
+  ],
+  "a": [
+   17,
+   71,
+   78,
+   92,
+   155,
+   179
+  ],
+  "failure": [
+   18
+  ],
+  "in": [
+   19,
+   178,
+   198
+  ],
+  "identifying": [
+   20
+  ],
+  "the": [
+   21,
+   26,
+   41,
+   45,
+   61,
+   104,
+   121,
+   133,
+   147,
+   165,
+   171,
+   175,
+   186,
+   193
+  ],
+  "dominant": [
+   22
+  ],
+  "visual": [
+   23,
+   42,
+   62,
+   105,
+   158,
+   200
+  ],
+  "evidence": [
+   24
+  ],
+  "and": [
+   25,
+   56,
+   76,
+   111,
+   160,
+   169,
+   189,
+   203
+  ],
+  "intended": [
+   27
+  ],
+  "question.": [
+   28
+  ],
+  "Moreover,": [
+   29
+  ],
+  "these": [
+   30
+  ],
+  "function": [
+   32
+  ],
+  "as": [
+   33,
+   60
+  ],
+  "black": [
+   34
+  ],
+  "boxes,": [
+   35
+  ],
+  "making": [
+   36
+  ],
+  "it": [
+   37
+  ],
+  "difficult": [
+   38
+  ],
+  "interpret": [
+   40
+  ],
+  "scene": [
+   43,
+   64,
+   202
+  ],
+  "during": [
+   44
+  ],
+  "QA": [
+   46
+  ],
+  "process.": [
+   47
+  ],
+  "In": [
+   48
+  ],
+  "this": [
+   49
+  ],
+  "paper,": [
+   50
+  ],
+  "discover": [
+   52
+  ],
+  "critical": [
+   53
+  ],
+  "segments": [
+   55
+  ],
+  "frames": [
+   57,
+   130
+  ],
+  "that": [
+   58
+  ],
+  "serve": [
+   59
+  ],
+  "causal": [
+   63,
+   72,
+   82,
+   95,
+   106,
+   143,
+   159,
+   167,
+   172,
+   201
+  ],
+  "generating": [
+   66
+  ],
+  "reliable": [
+   67
+  ],
+  "answers,": [
+   68
+  ],
+  "we": [
+   69
+  ],
+  "present": [
+   70
+  ],
+  "analysis": [
+   73
+  ],
+  "of": [
+   74,
+   94,
+   157,
+   174,
+   195
+  ],
+  "VideoQA": [
+   75
+  ],
+  "propose": [
+   77
+  ],
+  "framework": [
+   79
+  ],
+  "cross-modal": [
+   81
+  ],
+  "relational": [
+   83
+  ],
+  "reasoning,": [
+   84
+  ],
+  "named": [
+   85
+  ],
+  "Visual": [
+   86
+  ],
+  "Causal": [
+   87,
+   148
+  ],
+  "Scene": [
+   88,
+   149
+  ],
+  "Refinement": [
+   89
+  ],
+  "(VCSR).": [
+   90
+  ],
+  "Particularly,": [
+   91
+  ],
+  "set": [
+   93
+  ],
+  "front-door": [
+   96,
+   144
+  ],
+  "intervention": [
+   97,
+   177
+  ],
+  "operations": [
+   98
+  ],
+  "is": [
+   99
+  ],
+  "introduced": [
+   100
+  ],
+  "explicitly": [
+   102
+  ],
+  "find": [
+   103
+  ],
+  "scenes": [
+   107,
+   162
+  ],
+  "at": [
+   108
+  ],
+  "both": [
+   109
+  ],
+  "segment": [
+   110,
+   140
+  ],
+  "frame": [
+   112
+  ],
+  "levels.": [
+   113
+  ],
+  "Our": [
+   114
+  ],
+  "VCSR": [
+   115,
+   197
+  ],
+  "involves": [
+   116
+  ],
+  "two": [
+   117
+  ],
+  "essential": [
+   118
+  ],
+  "modules:": [
+   119
+  ],
+  "i)": [
+   120
+  ],
+  "Question-Guided": [
+   122
+  ],
+  "Refiner": [
+   123
+  ],
+  "(QGR)": [
+   124
+  ],
+  "module,": [
+   125,
+   152
+  ],
+  "which": [
+   126,
+   153
+  ],
+  "refines": [
+   127
+  ],
+  "consecutive": [
+   128
+  ],
+  "guided": [
+   131
+  ],
+  "by": [
+   132
+  ],
+  "semantics": [
+   135
+  ],
+  "obtain": [
+   137
+  ],
+  "more": [
+   138
+  ],
+  "representative": [
+   139
+  ],
+  "features": [
+   141
+  ],
+  "intervention;": [
+   145
+  ],
+  "ii)": [
+   146
+  ],
+  "Separator": [
+   150
+  ],
+  "(CSS)": [
+   151
+  ],
+  "discovers": [
+   154
+  ],
+  "collection": [
+   156
+  ],
+  "non-causal": [
+   161
+  ],
+  "based": [
+   163
+  ],
+  "on": [
+   164,
+   185
+  ],
+  "visual-linguistic": [
+   166
+  ],
+  "relevance": [
+   168
+  ],
+  "estimates": [
+   170
+  ],
+  "effect": [
+   173
+  ],
+  "scene-separating": [
+   176
+  ],
+  "contrastive": [
+   180
+  ],
+  "learning": [
+   181
+  ],
+  "manner.": [
+   182
+  ],
+  "Extensive": [
+   183
+  ],
+  "experiments": [
+   184
+  ],
+  "NExT-QA,": [
+   187
+  ],
+  "Causal-VidQA,": [
+   188
+  ],
+  "MSRVTT-QA": [
+   190
+  ],
+  "datasets": [
+   191
+  ],
+  "demonstrate": [
+   192
+  ],
+  "superiority": [
+   194
+  ],
+  "our": [
+   196
+  ],
+  "discovering": [
+   199
+  ],
+  "achieving": [
+   204
+  ],
+  "robust": [
+   205
+  ],
+  "answering.": [
+   208
+  ]
+ }
+}

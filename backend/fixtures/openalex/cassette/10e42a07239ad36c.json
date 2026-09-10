@@ -1,0 +1,125 @@
+{
+ "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Avideo+action+prediction+transformers%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+ "status": 200,
+ "json": {
+  "meta": {
+   "count": 397,
+   "db_response_time_ms": 41,
+   "page": 1,
+   "per_page": 15,
+   "groups_count": null,
+   "x_query": {
+    "oql": "works where date >= (2022-01-01)\n  and title/abstract has (video action prediction transformers)",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "from_publication_date",
+       "value": "2022-01-01"
+      },
+      {
+       "column_id": "title_and_abstract.search",
+       "value": "video action prediction transformers",
+       "operator": "has"
+      }
+     ]
+    },
+    "url": "/works?filter=from_publication_date:2022-01-01,title_and_abstract.search:video action prediction transformers&per_page=15"
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W3198379050",
+    "display_name": "Rendezvous: Attention mechanisms for the recognition of surgical action triplets in endoscopic videos",
+    "publication_year": 2022,
+    "cited_by_count": 199
+   },
+   {
+    "id": "https://openalex.org/W4312982010",
+    "display_name": "Unified Fully and Timestamp Supervised Temporal Action Segmentation via Sequence to Sequence Translation",
+    "publication_year": 2022,
+    "cited_by_count": 84
+   },
+   {
+    "id": "https://openalex.org/W4383751689",
+    "display_name": "ViT-ReT: Vision and Recurrent Transformer Neural Networks for Human Activity Recognition in Videos",
+    "publication_year": 2023,
+    "cited_by_count": 83
+   },
+   {
+    "id": "https://openalex.org/W4396731749",
+    "display_name": "Twenty\u2010first century technologies and language education: Charting a path forward",
+    "publication_year": 2024,
+    "cited_by_count": 77
+   },
+   {
+    "id": "https://openalex.org/W4383097607",
+    "display_name": "ADAPT: Action-aware Driving Caption Transformer",
+    "publication_year": 2023,
+    "cited_by_count": 73
+   },
+   {
+    "id": "https://openalex.org/W4312769771",
+    "display_name": "Joint Hand Motion and Interaction Hotspots Prediction from Egocentric Videos",
+    "publication_year": 2022,
+    "cited_by_count": 70
+   },
+   {
+    "id": "https://openalex.org/W3185943380",
+    "display_name": "EAN: Event Adaptive Network for Enhanced Action Recognition",
+    "publication_year": 2022,
+    "cited_by_count": 58
+   },
+   {
+    "id": "https://openalex.org/W4312841534",
+    "display_name": "Hierarchically Self-supervised Transformer for Human Skeleton Representation Learning",
+    "publication_year": 2022,
+    "cited_by_count": 54
+   },
+   {
+    "id": "https://openalex.org/W4402780112",
+    "display_name": "FACT: Frame-Action Cross-Attention Temporal Modeling for Efficient Action Segmentation",
+    "publication_year": 2024,
+    "cited_by_count": 46
+   },
+   {
+    "id": "https://openalex.org/W4292794840",
+    "display_name": "Pass Receiver Prediction in Soccer using Video and Players\u2019 Trajectories",
+    "publication_year": 2022,
+    "cited_by_count": 40
+   },
+   {
+    "id": "https://openalex.org/W3199332348",
+    "display_name": "PlaTe: Visually-Grounded Planning With Transformers in Procedural Tasks",
+    "publication_year": 2022,
+    "cited_by_count": 40
+   },
+   {
+    "id": "https://openalex.org/W4390874667",
+    "display_name": "MiniROAD: Minimal RNN Framework for Online Action Detection",
+    "publication_year": 2023,
+    "cited_by_count": 38
+   },
+   {
+    "id": "https://openalex.org/W4315491145",
+    "display_name": "Bidirectional Transformer GAN for Long-term Human Motion Prediction",
+    "publication_year": 2023,
+    "cited_by_count": 33
+   },
+   {
+    "id": "https://openalex.org/W4283395244",
+    "display_name": "Behavior Transformers: Cloning $k$ modes with one stone",
+    "publication_year": 2022,
+    "cited_by_count": 31
+   },
+   {
+    "id": "https://openalex.org/W4313023218",
+    "display_name": "Rethinking Learning Approaches for Long-Term Action Anticipation",
+    "publication_year": 2022,
+    "cited_by_count": 30
+   }
+  ],
+  "group_by": []
+ }
+}

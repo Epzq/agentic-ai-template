@@ -1,0 +1,158 @@
+{
+ "id": "https://openalex.org/W4220861052",
+ "display_name": "The causal effect of subscription video streaming on DVD sales: Evidence from a natural experiment",
+ "publication_year": 2022,
+ "cited_by_count": 22,
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5075382287",
+    "display_name": "Yinan Yu",
+    "orcid": "https://orcid.org/0000-0002-4581-8469"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I94658018",
+     "display_name": "University of Memphis",
+     "ror": "https://ror.org/01cq23130",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I94658018"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Yinan Yu",
+   "raw_affiliation_strings": [
+    "Department of Business Information and Technology, University of Memphis, 3675 Central Ave, Memphis, TN 38152, United States"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Business Information and Technology, University of Memphis, 3675 Central Ave, Memphis, TN 38152, United States",
+     "institution_ids": [
+      "https://openalex.org/I94658018"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5101892477",
+    "display_name": "Hailiang Chen",
+    "orcid": "https://orcid.org/0000-0001-9243-0718"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I889458895",
+     "display_name": "University of Hong Kong",
+     "ror": "https://ror.org/02zhqgq86",
+     "country_code": "HK",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I889458895"
+     ]
+    }
+   ],
+   "countries": [
+    "HK"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Hailiang Chen",
+   "raw_affiliation_strings": [
+    "Faculty of Business and Economics, The University of Hong Kong, Hong Kong"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty of Business and Economics, The University of Hong Kong, Hong Kong",
+     "institution_ids": [
+      "https://openalex.org/I889458895"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5034815848",
+    "display_name": "Chih-Hung Peng",
+    "orcid": "https://orcid.org/0000-0002-7101-7999"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I87354575",
+     "display_name": "National Chengchi University",
+     "ror": "https://ror.org/03rqk8h36",
+     "country_code": "TW",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I87354575"
+     ]
+    }
+   ],
+   "countries": [
+    "TW"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Chih-Hung Peng",
+   "raw_affiliation_strings": [
+    "National Chengchi University, Taibei City, Taiwan"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "National Chengchi University, Taibei City, Taiwan",
+     "institution_ids": [
+      "https://openalex.org/I87354575"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5091281072",
+    "display_name": "Patrick Y.K. Chau",
+    "orcid": "https://orcid.org/0000-0002-6890-8010"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I13591777",
+     "display_name": "University of Nottingham Ningbo China",
+     "ror": "https://ror.org/03y4dt428",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I13591777",
+      "https://openalex.org/I142263535"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Patrick Y.K. Chau",
+   "raw_affiliation_strings": [
+    "University of Nottingham Ningbo China, China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of Nottingham Ningbo China, China",
+     "institution_ids": [
+      "https://openalex.org/I13591777"
+     ]
+    }
+   ]
+  }
+ ],
+ "abstract_inverted_index": null
+}

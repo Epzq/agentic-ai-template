@@ -1,0 +1,125 @@
+{
+ "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Ahuman+robot+collaboration+anticipation%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+ "status": 200,
+ "json": {
+  "meta": {
+   "count": 47,
+   "db_response_time_ms": 49,
+   "page": 1,
+   "per_page": 15,
+   "groups_count": null,
+   "x_query": {
+    "oql": "works where date >= (2022-01-01)\n  and title/abstract has (human robot collaboration anticipation)",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "from_publication_date",
+       "value": "2022-01-01"
+      },
+      {
+       "column_id": "title_and_abstract.search",
+       "value": "human robot collaboration anticipation",
+       "operator": "has"
+      }
+     ]
+    },
+    "url": "/works?filter=from_publication_date:2022-01-01,title_and_abstract.search:human robot collaboration anticipation&per_page=15"
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4312312060",
+    "display_name": "Sociable and Ergonomic Human-Robot Collaboration through Action Recognition and Augmented Hierarchical Quadratic Programming",
+    "publication_year": 2022,
+    "cited_by_count": 11
+   },
+   {
+    "id": "https://openalex.org/W4285102170",
+    "display_name": "Improved Task Planning through Failure Anticipation in Human-Robot Collaboration",
+    "publication_year": 2022,
+    "cited_by_count": 10
+   },
+   {
+    "id": "https://openalex.org/W4390772744",
+    "display_name": "Action Recognition for Human\u2013Robot Teaming: Exploring Mutual Performance Monitoring Possibilities",
+    "publication_year": 2024,
+    "cited_by_count": 8
+   },
+   {
+    "id": "https://openalex.org/W4388380360",
+    "display_name": "Recognition of Grasping Patterns Using Deep Learning for Human\u2013Robot Collaboration",
+    "publication_year": 2023,
+    "cited_by_count": 8
+   },
+   {
+    "id": "https://openalex.org/W7126077850",
+    "display_name": "Artificial intelligence in precision poultry farming: opportunities, challenges, and future features",
+    "publication_year": 2026,
+    "cited_by_count": 7
+   },
+   {
+    "id": "https://openalex.org/W4404980254",
+    "display_name": "EEG-based action anticipation in human-robot interaction: a comparative pilot study",
+    "publication_year": 2024,
+    "cited_by_count": 6
+   },
+   {
+    "id": "https://openalex.org/W4412379163",
+    "display_name": "Building trust in the age of human-machine interaction: insights, challenges, and future directions",
+    "publication_year": 2025,
+    "cited_by_count": 5
+   },
+   {
+    "id": "https://openalex.org/W4405088019",
+    "display_name": "Music, body, and machine: gesture-based synchronization in human-robot musical interaction",
+    "publication_year": 2024,
+    "cited_by_count": 5
+   },
+   {
+    "id": "https://openalex.org/W4409980659",
+    "display_name": "PEAR: phrase-based hand-object interaction anticipation",
+    "publication_year": 2025,
+    "cited_by_count": 4
+   },
+   {
+    "id": "https://openalex.org/W4404789578",
+    "display_name": "Enhancing Human-Robot Collaborative Predictability through Rational Action Modeling of Robot Trajectories",
+    "publication_year": 2024,
+    "cited_by_count": 4
+   },
+   {
+    "id": "https://openalex.org/W4410511688",
+    "display_name": "Investigating Inverse Reinforcement Learning during Rapid Aiming Movement in Extended Reality and Human-Robot Interaction",
+    "publication_year": 2025,
+    "cited_by_count": 3
+   },
+   {
+    "id": "https://openalex.org/W4417318748",
+    "display_name": "Uncertainty-Aware Long-Term Multi-Worker Behavior Anticipation for Proactive Human-Robot Collaboration in Construction",
+    "publication_year": 2025,
+    "cited_by_count": 2
+   },
+   {
+    "id": "https://openalex.org/W4401421110",
+    "display_name": "Ethorobotics in practice",
+    "publication_year": 2024,
+    "cited_by_count": 2
+   },
+   {
+    "id": "https://openalex.org/W4400229101",
+    "display_name": "Let Me Help You! Neuro-Symbolic Short-Context Action Anticipation",
+    "publication_year": 2024,
+    "cited_by_count": 2
+   },
+   {
+    "id": "https://openalex.org/W4284971867",
+    "display_name": "Sociable and Ergonomic Human-Robot Collaboration through Action Recognition and Augmented Hierarchical Quadratic Programming",
+    "publication_year": 2022,
+    "cited_by_count": 2
+   }
+  ],
+  "group_by": []
+ }
+}

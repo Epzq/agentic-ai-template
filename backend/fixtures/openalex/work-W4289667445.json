@@ -1,0 +1,595 @@
+{
+ "id": "https://openalex.org/W4289667445",
+ "display_name": "Can videos affect learning outcomes? Evidence from an actual learning environment",
+ "publication_year": 2022,
+ "cited_by_count": 38,
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5076982333",
+    "display_name": "Massimiliano Tani",
+    "orcid": "https://orcid.org/0000-0001-7642-8343"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I188329596",
+     "display_name": "University of Canberra",
+     "ror": "https://ror.org/04s1nv328",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I188329596"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I31746571",
+     "display_name": "UNSW Sydney",
+     "ror": "https://ror.org/03r8z3t63",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I31746571"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I40053085",
+     "display_name": "Australian Defence Force Academy",
+     "ror": "https://ror.org/02j5s7g39",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I31746571",
+      "https://openalex.org/I40053085",
+      "https://openalex.org/I4394709116"
+     ]
+    }
+   ],
+   "countries": [
+    "AU"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Massimiliano Tani",
+   "raw_affiliation_strings": [
+    "School of Business, University of New South Wales (Canberra), Northcott Drive, Campbell, ACT 2612 Australia",
+    "School of Business, University of New South Wales (Canberra), Northcott Drive, Campbell, ACT, 2612, Australia"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-7642-8343",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Business, University of New South Wales (Canberra), Northcott Drive, Campbell, ACT 2612 Australia",
+     "institution_ids": [
+      "https://openalex.org/I188329596",
+      "https://openalex.org/I40053085"
+     ]
+    },
+    {
+     "raw_affiliation_string": "School of Business, University of New South Wales (Canberra), Northcott Drive, Campbell, ACT, 2612, Australia",
+     "institution_ids": [
+      "https://openalex.org/I31746571"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5043687718",
+    "display_name": "Maurizio Manuguerra",
+    "orcid": "https://orcid.org/0000-0002-8780-5551"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I99043593",
+     "display_name": "Macquarie University",
+     "ror": "https://ror.org/01sf06y89",
+     "country_code": "AU",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I99043593"
+     ]
+    }
+   ],
+   "countries": [
+    "AU"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Maurizio Manuguerra",
+   "raw_affiliation_strings": [
+    "Department of Statistics, Macquarie University, Talavera Road, North Ryde, NSW 2109 Australia",
+    "Department of Statistics, Macquarie University, Talavera Road, North Ryde, NSW, 2109, Australia"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Statistics, Macquarie University, Talavera Road, North Ryde, NSW 2109 Australia",
+     "institution_ids": [
+      "https://openalex.org/I99043593"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Statistics, Macquarie University, Talavera Road, North Ryde, NSW, 2109, Australia",
+     "institution_ids": [
+      "https://openalex.org/I99043593"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5063451894",
+    "display_name": "Samia Khan",
+    "orcid": "https://orcid.org/0000-0002-7137-3731"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I141945490",
+     "display_name": "University of British Columbia",
+     "ror": "https://ror.org/03rmrcq20",
+     "country_code": "CA",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I141945490"
+     ]
+    }
+   ],
+   "countries": [
+    "CA"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Samia Khan",
+   "raw_affiliation_strings": [
+    "Department of Curriculum and Pedagogy, University of British Columbia, Vancouver, Canada"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Curriculum and Pedagogy, University of British Columbia, Vancouver, Canada",
+     "institution_ids": [
+      "https://openalex.org/I141945490"
+     ]
+    }
+   ]
+  }
+ ],
+ "abstract_inverted_index": {
+  "We": [
+   0,
+   24,
+   88
+  ],
+  "examine": [
+   1
+  ],
+  "the": [
+   2,
+   30,
+   65,
+   86,
+   91,
+   100,
+   109,
+   156,
+   166
+  ],
+  "effect": [
+   3,
+   39
+  ],
+  "of": [
+   4,
+   13,
+   32,
+   43,
+   67,
+   85,
+   147,
+   158,
+   179
+  ],
+  "an": [
+   5,
+   8
+  ],
+  "innovation": [
+   6
+  ],
+  "in": [
+   7,
+   29,
+   112,
+   124,
+   160
+  ],
+  "educational": [
+   9
+  ],
+  "context,": [
+   10
+  ],
+  "a": [
+   11,
+   20,
+   33,
+   37,
+   50,
+   72,
+   82,
+   145
+  ],
+  "class": [
+   12
+  ],
+  "500": [
+   14
+  ],
+  "+": [
+   15
+  ],
+  "first-year": [
+   16
+  ],
+  "economics": [
+   17
+  ],
+  "students": [
+   18
+  ],
+  "at": [
+   19,
+   144
+  ],
+  "well-known": [
+   21
+  ],
+  "Australian": [
+   22
+  ],
+  "university.": [
+   23
+  ],
+  "study": [
+   25
+  ],
+  "whether": [
+   26
+  ],
+  "introducing": [
+   27
+  ],
+  "content": [
+   28
+  ],
+  "form": [
+   31
+  ],
+  "multimedia": [
+   34,
+   47,
+   92,
+   132
+  ],
+  "presentation": [
+   35,
+   48,
+   93
+  ],
+  "has": [
+   36,
+   49
+  ],
+  "detectable": [
+   38
+  ],
+  "on": [
+   40,
+   71,
+   99
+  ],
+  "specific": [
+   41
+  ],
+  "categories": [
+   42
+  ],
+  "student": [
+   44,
+   137
+  ],
+  "knowledge.": [
+   45,
+   118,
+   127
+  ],
+  "The": [
+   46,
+   152,
+   176
+  ],
+  "narrator": [
+   51
+  ],
+  "presenting": [
+   52
+  ],
+  "concepts": [
+   53
+  ],
+  "with": [
+   54
+  ],
+  "images,": [
+   55
+  ],
+  "words,": [
+   56
+  ],
+  "and": [
+   57,
+   116,
+   140,
+   162,
+   172
+  ],
+  "worked": [
+   58
+  ],
+  "examples.": [
+   59
+  ],
+  "Our": [
+   60
+  ],
+  "key": [
+   61
+  ],
+  "outcome": [
+   62
+  ],
+  "measure": [
+   63
+  ],
+  "is": [
+   64,
+   78
+  ],
+  "probability": [
+   66
+  ],
+  "answering": [
+   68
+  ],
+  "questions": [
+   69
+  ],
+  "correctly": [
+   70
+  ],
+  "mid-term": [
+   73
+  ],
+  "test.": [
+   74
+  ],
+  "A": [
+   75
+  ],
+  "quasi-experimental": [
+   76
+  ],
+  "design": [
+   77,
+   168
+  ],
+  "followed": [
+   79
+  ],
+  "to": [
+   80,
+   103,
+   114,
+   135,
+   164
+  ],
+  "offer": [
+   81,
+   141
+  ],
+  "causal": [
+   83
+  ],
+  "interpretation": [
+   84
+  ],
+  "results.": [
+   87
+  ],
+  "find": [
+   89
+  ],
+  "that": [
+   90,
+   105,
+   131
+  ],
+  "markedly": [
+   94
+  ],
+  "increases": [
+   95
+  ],
+  "students'": [
+   96,
+   125
+  ],
+  "academic": [
+   97
+  ],
+  "outcomes": [
+   98,
+   139
+  ],
+  "test": [
+   101
+  ],
+  "compared": [
+   102
+  ],
+  "those": [
+   104
+  ],
+  "did": [
+   106
+  ],
+  "not": [
+   107
+  ],
+  "view": [
+   108
+  ],
+  "presentation,": [
+   110
+  ],
+  "especially": [
+   111
+  ],
+  "regards": [
+   113
+  ],
+  "procedural": [
+   115
+  ],
+  "evaluative": [
+   117
+  ],
+  "An": [
+   119
+  ],
+  "additional": [
+   120
+  ],
+  "survey": [
+   121
+  ],
+  "reveals": [
+   122
+  ],
+  "gains": [
+   123
+  ],
+  "metacognitive": [
+   126
+  ],
+  "These": [
+   128
+  ],
+  "findings": [
+   129,
+   153
+  ],
+  "suggest": [
+   130
+  ],
+  "presentations": [
+   133
+  ],
+  "contribute": [
+   134
+  ],
+  "improved": [
+   136
+  ],
+  "learning": [
+   138
+  ],
+  "valuable": [
+   142
+  ],
+  "options": [
+   143
+  ],
+  "time": [
+   146
+  ],
+  "increased": [
+   148
+  ],
+  "online": [
+   149,
+   177
+  ],
+  "course": [
+   150
+  ],
+  "delivery.": [
+   151
+  ],
+  "also": [
+   154
+  ],
+  "highlight": [
+   155
+  ],
+  "relevance": [
+   157
+  ],
+  "investing": [
+   159
+  ],
+  "education": [
+   161
+  ],
+  "resources": [
+   163
+  ],
+  "develop": [
+   165
+  ],
+  "necessary": [
+   167
+  ],
+  "skills": [
+   169
+  ],
+  "among": [
+   170
+  ],
+  "academics": [
+   171
+  ],
+  "staff.": [
+   173
+  ],
+  "Supplementary": [
+   174
+  ],
+  "Information:": [
+   175
+  ],
+  "version": [
+   178
+  ],
+  "this": [
+   180
+  ],
+  "article": [
+   181
+  ],
+  "contains": [
+   182
+  ],
+  "supplementary": [
+   183
+  ],
+  "material": [
+   184
+  ],
+  "available": [
+   185
+  ],
+  "10.1007/s11423-022-10147-3.": [
+   186
+  ]
+ }
+}

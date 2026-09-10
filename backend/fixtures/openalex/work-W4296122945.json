@@ -1,0 +1,318 @@
+{
+ "id": "https://openalex.org/W4296122945",
+ "display_name": "D\u2019ARTAGNAN: Counterfactual Video Generation",
+ "publication_year": 2022,
+ "cited_by_count": 25,
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5068565867",
+    "display_name": "Hadrien Reynaud",
+    "orcid": "https://orcid.org/0000-0003-0261-2660"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I153355300",
+     "display_name": "Imperial College Healthcare NHS Trust",
+     "ror": "https://ror.org/056ffv270",
+     "country_code": "GB",
+     "type": "healthcare",
+     "lineage": [
+      "https://openalex.org/I153355300"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I47508984",
+     "display_name": "Imperial College London",
+     "ror": "https://ror.org/041kmwe10",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I47508984"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Hadrien Reynaud",
+   "raw_affiliation_strings": [
+    "Department of Computing, Imperial College London, London, UK",
+    "UKRI CDT in AI for Healthcare, Imperial College London, London, UK"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Computing, Imperial College London, London, UK",
+     "institution_ids": [
+      "https://openalex.org/I47508984"
+     ]
+    },
+    {
+     "raw_affiliation_string": "UKRI CDT in AI for Healthcare, Imperial College London, London, UK",
+     "institution_ids": [
+      "https://openalex.org/I153355300",
+      "https://openalex.org/I47508984"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5020902651",
+    "display_name": "Athanasios Vlontzos",
+    "orcid": "https://orcid.org/0000-0002-7672-2574"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I47508984",
+     "display_name": "Imperial College London",
+     "ror": "https://ror.org/041kmwe10",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I47508984"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Athanasios Vlontzos",
+   "raw_affiliation_strings": [
+    "Department of Computing, Imperial College London, London, UK"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Computing, Imperial College London, London, UK",
+     "institution_ids": [
+      "https://openalex.org/I47508984"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5004393712",
+    "display_name": "Mischa Dombrowski",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I181369854",
+     "display_name": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+     "ror": "https://ror.org/00f7hpc57",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I181369854"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Mischa Dombrowski",
+   "raw_affiliation_strings": [
+    "Friedrich\u2013Alexander University Erlangen\u2013N\u00fcrnberg, Erlangen, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Friedrich\u2013Alexander University Erlangen\u2013N\u00fcrnberg, Erlangen, Germany",
+     "institution_ids": [
+      "https://openalex.org/I181369854"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5048841044",
+    "display_name": "Ciar\u00e1n Gilligan Lee",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I45129253",
+     "display_name": "University College London",
+     "ror": "https://ror.org/02jx3x895",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I124357947",
+      "https://openalex.org/I45129253"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ciar\u00e1n Gilligan Lee",
+   "raw_affiliation_strings": [
+    "Spotify and University College London, London, UK"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Spotify and University College London, London, UK",
+     "institution_ids": [
+      "https://openalex.org/I45129253"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5065403614",
+    "display_name": "Arian Beqiri",
+    "orcid": "https://orcid.org/0000-0002-9169-1788"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I183935753",
+     "display_name": "King's College London",
+     "ror": "https://ror.org/0220mzb33",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I124357947",
+      "https://openalex.org/I183935753"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Arian Beqiri",
+   "raw_affiliation_strings": [
+    "King\u2019s College London, School of BioEng and Imaging Sciences, London, UK",
+    "Ultromics Ltd., Oxford, UK"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "King\u2019s College London, School of BioEng and Imaging Sciences, London, UK",
+     "institution_ids": [
+      "https://openalex.org/I183935753"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Ultromics Ltd., Oxford, UK",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5079689850",
+    "display_name": "Paul Leeson",
+    "orcid": "https://orcid.org/0000-0001-9181-9297"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I2802742124",
+     "display_name": "John Radcliffe Hospital",
+     "ror": "https://ror.org/0080acb59",
+     "country_code": "GB",
+     "type": "healthcare",
+     "lineage": [
+      "https://openalex.org/I2802742124",
+      "https://openalex.org/I4210127145",
+      "https://openalex.org/I4210147381"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Paul Leeson",
+   "raw_affiliation_strings": [
+    "John Radcliffe Hospital, Cardiovascular Clinical Research Facility, Oxford, UK",
+    "Ultromics Ltd., Oxford, UK"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "John Radcliffe Hospital, Cardiovascular Clinical Research Facility, Oxford, UK",
+     "institution_ids": [
+      "https://openalex.org/I2802742124"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Ultromics Ltd., Oxford, UK",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5078127596",
+    "display_name": "Bernhard Kainz",
+    "orcid": "https://orcid.org/0000-0002-7813-5023"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I181369854",
+     "display_name": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+     "ror": "https://ror.org/00f7hpc57",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I181369854"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I47508984",
+     "display_name": "Imperial College London",
+     "ror": "https://ror.org/041kmwe10",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I47508984"
+     ]
+    }
+   ],
+   "countries": [
+    "DE",
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Bernhard Kainz",
+   "raw_affiliation_strings": [
+    "Department of Computing, Imperial College London, London, UK",
+    "Friedrich\u2013Alexander University Erlangen\u2013N\u00fcrnberg, Erlangen, Germany"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Computing, Imperial College London, London, UK",
+     "institution_ids": [
+      "https://openalex.org/I47508984"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Friedrich\u2013Alexander University Erlangen\u2013N\u00fcrnberg, Erlangen, Germany",
+     "institution_ids": [
+      "https://openalex.org/I181369854"
+     ]
+    }
+   ]
+  }
+ ],
+ "abstract_inverted_index": null
+}

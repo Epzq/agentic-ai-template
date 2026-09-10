@@ -1,0 +1,202 @@
+{
+ "url": "https://api.openalex.org/works/W4312982010?select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cauthorships%2Cabstract_inverted_index",
+ "status": 200,
+ "json": {
+  "id": "https://openalex.org/W4312982010",
+  "display_name": "Unified Fully and Timestamp Supervised Temporal Action Segmentation via Sequence to Sequence Translation",
+  "publication_year": 2022,
+  "cited_by_count": 84,
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5019942158",
+     "display_name": "Nadine Behrmann",
+     "orcid": null
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210120115",
+      "display_name": "Robert Bosch (United States)",
+      "ror": "https://ror.org/02venad53",
+      "country_code": "US",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I4210120115",
+       "https://openalex.org/I889804353"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Nadine Behrmann",
+    "raw_affiliation_strings": [
+     "Bosch Center for Artificial Intelligence, Pittsburgh, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Bosch Center for Artificial Intelligence, Pittsburgh, USA",
+      "institution_ids": [
+       "https://openalex.org/I4210120115"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5030087058",
+     "display_name": "S. Alireza Golestaneh",
+     "orcid": "https://orcid.org/0000-0002-3230-2797"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210120115",
+      "display_name": "Robert Bosch (United States)",
+      "ror": "https://ror.org/02venad53",
+      "country_code": "US",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I4210120115",
+       "https://openalex.org/I889804353"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "S. Alireza Golestaneh",
+    "raw_affiliation_strings": [
+     "Bosch Center for Artificial Intelligence, Pittsburgh, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Bosch Center for Artificial Intelligence, Pittsburgh, USA",
+      "institution_ids": [
+       "https://openalex.org/I4210120115"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5075035644",
+     "display_name": "J. Zico Kolter",
+     "orcid": "https://orcid.org/0000-0002-8106-5759"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210120115",
+      "display_name": "Robert Bosch (United States)",
+      "ror": "https://ror.org/02venad53",
+      "country_code": "US",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I4210120115",
+       "https://openalex.org/I889804353"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Zico Kolter",
+    "raw_affiliation_strings": [
+     "Bosch Center for Artificial Intelligence, Pittsburgh, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Bosch Center for Artificial Intelligence, Pittsburgh, USA",
+      "institution_ids": [
+       "https://openalex.org/I4210120115"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5108351560",
+     "display_name": "J\u00fcrgen Gall",
+     "orcid": null
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I135140700",
+      "display_name": "University of Bonn",
+      "ror": "https://ror.org/041nas322",
+      "country_code": "DE",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I135140700"
+      ]
+     }
+    ],
+    "countries": [
+     "DE"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "J\u00fcrgen Gall",
+    "raw_affiliation_strings": [
+     "University of Bonn, Bonn, Germany"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "University of Bonn, Bonn, Germany",
+      "institution_ids": [
+       "https://openalex.org/I135140700"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5061617355",
+     "display_name": "Mehdi Noroozi",
+     "orcid": "https://orcid.org/0000-0001-6206-8121"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210120115",
+      "display_name": "Robert Bosch (United States)",
+      "ror": "https://ror.org/02venad53",
+      "country_code": "US",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I4210120115",
+       "https://openalex.org/I889804353"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Mehdi Noroozi",
+    "raw_affiliation_strings": [
+     "Bosch Center for Artificial Intelligence, Pittsburgh, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Bosch Center for Artificial Intelligence, Pittsburgh, USA",
+      "institution_ids": [
+       "https://openalex.org/I4210120115"
+      ]
+     }
+    ]
+   }
+  ],
+  "abstract_inverted_index": null
+ }
+}

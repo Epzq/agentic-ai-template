@@ -1,0 +1,398 @@
+{
+ "url": "https://api.openalex.org/works/W4312233877?select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cauthorships%2Cabstract_inverted_index",
+ "status": 200,
+ "json": {
+  "id": "https://openalex.org/W4312233877",
+  "display_name": "OCR-Free Document Understanding Transformer",
+  "publication_year": 2022,
+  "cited_by_count": 391,
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5082063964",
+     "display_name": "Geewook Kim",
+     "orcid": "https://orcid.org/0009-0001-6713-3858"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4405260609",
+      "display_name": "NAVER Cloud (South Korea)",
+      "ror": "https://ror.org/041051y78",
+      "country_code": "KR",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I4405260609",
+       "https://openalex.org/I60922564"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I60922564",
+      "display_name": "Naver (South Korea)",
+      "ror": "https://ror.org/04nzrnx83",
+      "country_code": "KR",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I60922564"
+      ]
+     }
+    ],
+    "countries": [
+     "KR"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Geewook Kim",
+    "raw_affiliation_strings": [
+     "NAVER CLOVA, Seongnam-si, South Korea"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "NAVER CLOVA, Seongnam-si, South Korea",
+      "institution_ids": [
+       "https://openalex.org/I4405260609",
+       "https://openalex.org/I60922564"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5064513745",
+     "display_name": "Teakgyu Hong",
+     "orcid": null
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Teakgyu Hong",
+    "raw_affiliation_strings": [
+     "Upstage, Yongin-si, South Korea"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Upstage, Yongin-si, South Korea",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5069451145",
+     "display_name": "Moonbin Yim",
+     "orcid": "https://orcid.org/0000-0002-7272-2198"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I60922564",
+      "display_name": "Naver (South Korea)",
+      "ror": "https://ror.org/04nzrnx83",
+      "country_code": "KR",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I60922564"
+      ]
+     }
+    ],
+    "countries": [
+     "KR"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Moonbin Yim",
+    "raw_affiliation_strings": [
+     "NAVER Search, Seongnam-si, South Korea"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "NAVER Search, Seongnam-si, South Korea",
+      "institution_ids": [
+       "https://openalex.org/I60922564"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5002474625",
+     "display_name": "JeongYeon Nam",
+     "orcid": null
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4405260609",
+      "display_name": "NAVER Cloud (South Korea)",
+      "ror": "https://ror.org/041051y78",
+      "country_code": "KR",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I4405260609",
+       "https://openalex.org/I60922564"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I60922564",
+      "display_name": "Naver (South Korea)",
+      "ror": "https://ror.org/04nzrnx83",
+      "country_code": "KR",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I60922564"
+      ]
+     }
+    ],
+    "countries": [
+     "KR"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "JeongYeon Nam",
+    "raw_affiliation_strings": [
+     "NAVER CLOVA, Seongnam-si, South Korea"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "NAVER CLOVA, Seongnam-si, South Korea",
+      "institution_ids": [
+       "https://openalex.org/I4405260609",
+       "https://openalex.org/I60922564"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100428898",
+     "display_name": "Jinyoung Park",
+     "orcid": "https://orcid.org/0000-0003-3962-5668"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210163888",
+      "display_name": "Nkmax (South Korea)",
+      "ror": "https://ror.org/05knvbx59",
+      "country_code": "KR",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I4210163888"
+      ]
+     }
+    ],
+    "countries": [
+     "KR"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Jinyoung Park",
+    "raw_affiliation_strings": [
+     "Tmax, Seongnam-si, South Korea"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Tmax, Seongnam-si, South Korea",
+      "institution_ids": [
+       "https://openalex.org/I4210163888"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5044445939",
+     "display_name": "Jinyeong Yim",
+     "orcid": "https://orcid.org/0009-0001-3450-5758"
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Jinyeong Yim",
+    "raw_affiliation_strings": [
+     "Google, Seoul, South Korea"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Google, Seoul, South Korea",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5014643514",
+     "display_name": "Wonseok Hwang",
+     "orcid": null
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Wonseok Hwang",
+    "raw_affiliation_strings": [
+     "LBox, Seoul, South Korea"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "LBox, Seoul, South Korea",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5003220288",
+     "display_name": "Sangdoo Yun",
+     "orcid": "https://orcid.org/0000-0002-0417-8450"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4405260609",
+      "display_name": "NAVER Cloud (South Korea)",
+      "ror": "https://ror.org/041051y78",
+      "country_code": "KR",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I4405260609",
+       "https://openalex.org/I60922564"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I60922564",
+      "display_name": "Naver (South Korea)",
+      "ror": "https://ror.org/04nzrnx83",
+      "country_code": "KR",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I60922564"
+      ]
+     }
+    ],
+    "countries": [
+     "KR"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Sangdoo Yun",
+    "raw_affiliation_strings": [
+     "NAVER AI Lab, Seongnam-si, South Korea"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "NAVER AI Lab, Seongnam-si, South Korea",
+      "institution_ids": [
+       "https://openalex.org/I4405260609",
+       "https://openalex.org/I60922564"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5017685264",
+     "display_name": "Dongyoon Han",
+     "orcid": "https://orcid.org/0000-0002-9130-8195"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4405260609",
+      "display_name": "NAVER Cloud (South Korea)",
+      "ror": "https://ror.org/041051y78",
+      "country_code": "KR",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I4405260609",
+       "https://openalex.org/I60922564"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I60922564",
+      "display_name": "Naver (South Korea)",
+      "ror": "https://ror.org/04nzrnx83",
+      "country_code": "KR",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I60922564"
+      ]
+     }
+    ],
+    "countries": [
+     "KR"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Dongyoon Han",
+    "raw_affiliation_strings": [
+     "NAVER AI Lab, Seongnam-si, South Korea"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "NAVER AI Lab, Seongnam-si, South Korea",
+      "institution_ids": [
+       "https://openalex.org/I4405260609",
+       "https://openalex.org/I60922564"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5048067770",
+     "display_name": "Seunghyun Park",
+     "orcid": "https://orcid.org/0000-0001-5260-1252"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4405260609",
+      "display_name": "NAVER Cloud (South Korea)",
+      "ror": "https://ror.org/041051y78",
+      "country_code": "KR",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I4405260609",
+       "https://openalex.org/I60922564"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I60922564",
+      "display_name": "Naver (South Korea)",
+      "ror": "https://ror.org/04nzrnx83",
+      "country_code": "KR",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I60922564"
+      ]
+     }
+    ],
+    "countries": [
+     "KR"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Seunghyun Park",
+    "raw_affiliation_strings": [
+     "NAVER CLOVA, Seongnam-si, South Korea"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "NAVER CLOVA, Seongnam-si, South Korea",
+      "institution_ids": [
+       "https://openalex.org/I4405260609",
+       "https://openalex.org/I60922564"
+      ]
+     }
+    ]
+   }
+  ],
+  "abstract_inverted_index": null
+ }
+}

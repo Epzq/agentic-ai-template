@@ -1,0 +1,125 @@
+{
+ "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Aexplainable+visual+question+answering%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+ "status": 200,
+ "json": {
+  "meta": {
+   "count": 1308,
+   "db_response_time_ms": 55,
+   "page": 1,
+   "per_page": 15,
+   "groups_count": null,
+   "x_query": {
+    "oql": "works where date >= (2022-01-01)\n  and title/abstract has (explainable visual question answering)",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "from_publication_date",
+       "value": "2022-01-01"
+      },
+      {
+       "column_id": "title_and_abstract.search",
+       "value": "explainable visual question answering",
+       "operator": "has"
+      }
+     ]
+    },
+    "url": "/works?filter=from_publication_date:2022-01-01,title_and_abstract.search:explainable visual question answering&per_page=15"
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4392681182",
+    "display_name": "How Is ChatGPT\u2019s Behavior Changing Over Time?",
+    "publication_year": 2024,
+    "cited_by_count": 315
+   },
+   {
+    "id": "https://openalex.org/W4404509535",
+    "display_name": "Vision-language models for medical report generation and visual question answering: a review",
+    "publication_year": 2024,
+    "cited_by_count": 210
+   },
+   {
+    "id": "https://openalex.org/W4317567565",
+    "display_name": "Using artificial neural networks to ask \u2018why\u2019 questions of minds and brains",
+    "publication_year": 2023,
+    "cited_by_count": 190
+   },
+   {
+    "id": "https://openalex.org/W4384807943",
+    "display_name": "How is ChatGPT's behavior changing over time?",
+    "publication_year": 2023,
+    "cited_by_count": 171
+   },
+   {
+    "id": "https://openalex.org/W206919334",
+    "display_name": "Aboriginal pedagogies at the cultural interface",
+    "publication_year": 2023,
+    "cited_by_count": 147
+   },
+   {
+    "id": "https://openalex.org/W4221155360",
+    "display_name": "MuKEA: Multimodal Knowledge Extraction and Accumulation for Knowledge-based Visual Question Answering",
+    "publication_year": 2022,
+    "cited_by_count": 125
+   },
+   {
+    "id": "https://openalex.org/W4312974690",
+    "display_name": "Invariant Grounding for Video Question Answering",
+    "publication_year": 2022,
+    "cited_by_count": 118
+   },
+   {
+    "id": "https://openalex.org/W4296326255",
+    "display_name": "ISPAD Clinical Practice Consensus Guidelines 2022: Diabetes education in children and adolescents",
+    "publication_year": 2022,
+    "cited_by_count": 101
+   },
+   {
+    "id": "https://openalex.org/W4407218144",
+    "display_name": "Vision-Language Models in medical image analysis: From simple fusion to general large models",
+    "publication_year": 2025,
+    "cited_by_count": 78
+   },
+   {
+    "id": "https://openalex.org/W4376506014",
+    "display_name": "Fatigue in Patients Receiving Maintenance Hemodialysis: A Review",
+    "publication_year": 2023,
+    "cited_by_count": 78
+   },
+   {
+    "id": "https://openalex.org/W4396731749",
+    "display_name": "Twenty\u2010first century technologies and language education: Charting a path forward",
+    "publication_year": 2024,
+    "cited_by_count": 77
+   },
+   {
+    "id": "https://openalex.org/W4307973993",
+    "display_name": "Standard for collecting and reporting outcomes of IOL\u2013based refractive surgery: update for enhanced monofocal, EDOF, and multifocal IOLs",
+    "publication_year": 2022,
+    "cited_by_count": 73
+   },
+   {
+    "id": "https://openalex.org/W4307033111",
+    "display_name": "Applications of artificial intelligence for nursing: has a new era arrived?",
+    "publication_year": 2022,
+    "cited_by_count": 68
+   },
+   {
+    "id": "https://openalex.org/W4403003860",
+    "display_name": "Histopathology in focus: a review on explainable multi-modal approaches for breast cancer diagnosis",
+    "publication_year": 2024,
+    "cited_by_count": 62
+   },
+   {
+    "id": "https://openalex.org/W4385645323",
+    "display_name": "MM-Vet: Evaluating Large Multimodal Models for Integrated Capabilities",
+    "publication_year": 2023,
+    "cited_by_count": 59
+   }
+  ],
+  "group_by": []
+ }
+}

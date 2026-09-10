@@ -1,0 +1,617 @@
+{
+ "url": "https://api.openalex.org/works/W4327852039?select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cauthorships%2Cabstract_inverted_index",
+ "status": 200,
+ "json": {
+  "id": "https://openalex.org/W4327852039",
+  "display_name": "Unsupervised Domain Adaptation of Object Detectors: A Survey",
+  "publication_year": 2023,
+  "cited_by_count": 279,
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5062459443",
+     "display_name": "Poojan Oza",
+     "orcid": "https://orcid.org/0000-0002-5993-6650"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I145311948",
+      "display_name": "Johns Hopkins University",
+      "ror": "https://ror.org/00za53h95",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I145311948"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Poojan Oza",
+    "raw_affiliation_strings": [
+     "Department of Electrical and Computer Engineering (ECE), Johns Hopkins University, Baltimore, MD, USA"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-5993-6650",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Electrical and Computer Engineering (ECE), Johns Hopkins University, Baltimore, MD, USA",
+      "institution_ids": [
+       "https://openalex.org/I145311948"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5036034054",
+     "display_name": "Vishwanath A. Sindagi",
+     "orcid": "https://orcid.org/0000-0003-4192-5547"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I145311948",
+      "display_name": "Johns Hopkins University",
+      "ror": "https://ror.org/00za53h95",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I145311948"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Vishwanath A. Sindagi",
+    "raw_affiliation_strings": [
+     "Department of Electrical and Computer Engineering (ECE), Johns Hopkins University, Baltimore, MD, USA"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0003-4192-5547",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Electrical and Computer Engineering (ECE), Johns Hopkins University, Baltimore, MD, USA",
+      "institution_ids": [
+       "https://openalex.org/I145311948"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5004330920",
+     "display_name": "Vibashan VS",
+     "orcid": null
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I145311948",
+      "display_name": "Johns Hopkins University",
+      "ror": "https://ror.org/00za53h95",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I145311948"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Vibashan VS",
+    "raw_affiliation_strings": [
+     "Department of Electrical and Computer Engineering (ECE), Johns Hopkins University, Baltimore, MD, USA"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0003-4766-2901",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Electrical and Computer Engineering (ECE), Johns Hopkins University, Baltimore, MD, USA",
+      "institution_ids": [
+       "https://openalex.org/I145311948"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5004716468",
+     "display_name": "Vishal M. Patel",
+     "orcid": "https://orcid.org/0000-0002-5239-692X"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I145311948",
+      "display_name": "Johns Hopkins University",
+      "ror": "https://ror.org/00za53h95",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I145311948"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Vishal M. Patel",
+    "raw_affiliation_strings": [
+     "Department of Electrical and Computer Engineering (ECE), Johns Hopkins University, Baltimore, MD, USA"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-5239-692X",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Electrical and Computer Engineering (ECE), Johns Hopkins University, Baltimore, MD, USA",
+      "institution_ids": [
+       "https://openalex.org/I145311948"
+      ]
+     }
+    ]
+   }
+  ],
+  "abstract_inverted_index": {
+   "Recent": [
+    0
+   ],
+   "advances": [
+    1
+   ],
+   "in": [
+    2,
+    87,
+    105,
+    160
+   ],
+   "deep": [
+    3
+   ],
+   "learning": [
+    4,
+    27
+   ],
+   "have": [
+    5,
+    93
+   ],
+   "led": [
+    6
+   ],
+   "to": [
+    7,
+    40,
+    66,
+    72,
+    154,
+    175
+   ],
+   "the": [
+    8,
+    33,
+    107,
+    119,
+    128,
+    137,
+    155,
+    161,
+    176,
+    182,
+    186
+   ],
+   "development": [
+    9
+   ],
+   "of": [
+    10,
+    35,
+    64,
+    118,
+    136,
+    163,
+    185
+   ],
+   "accurate": [
+    11,
+    29
+   ],
+   "and": [
+    12,
+    24,
+    69,
+    113,
+    127,
+    169,
+    178
+   ],
+   "efficient": [
+    13
+   ],
+   "models": [
+    14,
+    30,
+    71
+   ],
+   "for": [
+    15,
+    111,
+    143,
+    192
+   ],
+   "various": [
+    16,
+    120
+   ],
+   "computer": [
+    17,
+    88,
+    164
+   ],
+   "vision": [
+    18
+   ],
+   "applications": [
+    19
+   ],
+   "such": [
+    20
+   ],
+   "as": [
+    21,
+    56
+   ],
+   "classification,": [
+    22
+   ],
+   "segmentation,": [
+    23
+   ],
+   "detection.": [
+    25
+   ],
+   "However,": [
+    26
+   ],
+   "highly": [
+    28
+   ],
+   "relies": [
+    31
+   ],
+   "on": [
+    32,
+    48,
+    95
+   ],
+   "availability": [
+    34
+   ],
+   "large-scale": [
+    36
+   ],
+   "annotated": [
+    37
+   ],
+   "datasets.": [
+    38
+   ],
+   "Due": [
+    39
+   ],
+   "this,": [
+    41
+   ],
+   "model": [
+    42
+   ],
+   "performance": [
+    43
+   ],
+   "drops": [
+    44
+   ],
+   "drastically": [
+    45
+   ],
+   "when": [
+    46
+   ],
+   "evaluated": [
+    47
+   ],
+   "label-scarce": [
+    49,
+    73
+   ],
+   "datasets": [
+    50
+   ],
+   "having": [
+    51
+   ],
+   "visually": [
+    52
+   ],
+   "distinct": [
+    53
+   ],
+   "images,": [
+    54
+   ],
+   "termed": [
+    55
+   ],
+   "domain": [
+    57,
+    78,
+    98,
+    108
+   ],
+   "adaptation": [
+    58,
+    109
+   ],
+   "problem.": [
+    59
+   ],
+   "There": [
+    60
+   ],
+   "are": [
+    61,
+    140
+   ],
+   "a": [
+    62,
+    84
+   ],
+   "plethora": [
+    63
+   ],
+   "works": [
+    65,
+    92
+   ],
+   "adapt": [
+    67
+   ],
+   "classification": [
+    68
+   ],
+   "segmentation": [
+    70
+   ],
+   "target": [
+    74
+   ],
+   "dataset": [
+    75
+   ],
+   "through": [
+    76
+   ],
+   "unsupervised": [
+    77
+   ],
+   "adaptation.": [
+    79
+   ],
+   "Considering": [
+    80
+   ],
+   "that": [
+    81,
+    139,
+    148
+   ],
+   "detection": [
+    82,
+    100,
+    112
+   ],
+   "is": [
+    83
+   ],
+   "fundamental": [
+    85
+   ],
+   "task": [
+    86
+   ],
+   "vision,": [
+    89,
+    165
+   ],
+   "many": [
+    90
+   ],
+   "recent": [
+    91
+   ],
+   "focused": [
+    94
+   ],
+   "developing": [
+    96
+   ],
+   "novel": [
+    97
+   ],
+   "adaptive": [
+    99
+   ],
+   "techniques.": [
+    101
+   ],
+   "Here,": [
+    102
+   ],
+   "we": [
+    103,
+    123,
+    132
+   ],
+   "describe": [
+    104
+   ],
+   "detail": [
+    106
+   ],
+   "problem": [
+    110,
+    138
+   ],
+   "present": [
+    114
+   ],
+   "an": [
+    115
+   ],
+   "extensive": [
+    116
+   ],
+   "survey": [
+    117,
+    150
+   ],
+   "methods.": [
+    121
+   ],
+   "Furthermore,": [
+    122
+   ],
+   "highlight": [
+    124
+   ],
+   "strategies": [
+    125
+   ],
+   "proposed": [
+    126
+   ],
+   "associated": [
+    129
+   ],
+   "shortcomings.": [
+    130
+   ],
+   "Subsequently,": [
+    131
+   ],
+   "identify": [
+    133
+   ],
+   "multiple": [
+    134
+   ],
+   "aspects": [
+    135
+   ],
+   "most": [
+    141
+   ],
+   "promising": [
+    142,
+    190
+   ],
+   "future": [
+    144,
+    193
+   ],
+   "research.": [
+    145,
+    194
+   ],
+   "We": [
+    146
+   ],
+   "believe": [
+    147
+   ],
+   "this": [
+    149
+   ],
+   "shall": [
+    151
+   ],
+   "be": [
+    152
+   ],
+   "valuable": [
+    153
+   ],
+   "pattern": [
+    156
+   ],
+   "recognition": [
+    157
+   ],
+   "experts": [
+    158
+   ],
+   "working": [
+    159
+   ],
+   "fields": [
+    162
+   ],
+   "biometrics,": [
+    166
+   ],
+   "medical": [
+    167
+   ],
+   "imaging,": [
+    168
+   ],
+   "autonomous": [
+    170
+   ],
+   "navigation": [
+    171
+   ],
+   "by": [
+    172
+   ],
+   "introducing": [
+    173
+   ],
+   "them": [
+    174,
+    180
+   ],
+   "problem,": [
+    177
+   ],
+   "familiarizing": [
+    179
+   ],
+   "with": [
+    181
+   ],
+   "current": [
+    183
+   ],
+   "status": [
+    184
+   ],
+   "progress": [
+    187
+   ],
+   "while": [
+    188
+   ],
+   "providing": [
+    189
+   ],
+   "directions": [
+    191
+   ]
+  }
+ }
+}

@@ -1,0 +1,985 @@
+{
+ "url": "https://api.openalex.org/works/W4401414715?select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cauthorships%2Cabstract_inverted_index",
+ "status": 200,
+ "json": {
+  "id": "https://openalex.org/W4401414715",
+  "display_name": "ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning",
+  "publication_year": 2024,
+  "cited_by_count": 215,
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5100602746",
+     "display_name": "Qiao Gu",
+     "orcid": "https://orcid.org/0000-0001-9431-6716"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I185261750",
+      "display_name": "University of Toronto",
+      "ror": "https://ror.org/03dbr7087",
+      "country_code": "CA",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I185261750"
+      ]
+     }
+    ],
+    "countries": [
+     "CA"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Qiao Gu",
+    "raw_affiliation_strings": [
+     "University of Toronto"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "University of Toronto",
+      "institution_ids": [
+       "https://openalex.org/I185261750"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5023570906",
+     "display_name": "Ali Kuwajerwala",
+     "orcid": null
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I70931966",
+      "display_name": "Universit\u00e9 de Montr\u00e9al",
+      "ror": "https://ror.org/0161xgx34",
+      "country_code": "CA",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I70931966"
+      ]
+     }
+    ],
+    "countries": [
+     "CA"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Ali Kuwajerwala",
+    "raw_affiliation_strings": [
+     "Universit&#x00E9; de Montr&#x00E9;al"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Universit&#x00E9; de Montr&#x00E9;al",
+      "institution_ids": [
+       "https://openalex.org/I70931966"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5035945549",
+     "display_name": "Sacha Morin",
+     "orcid": null
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I70931966",
+      "display_name": "Universit\u00e9 de Montr\u00e9al",
+      "ror": "https://ror.org/0161xgx34",
+      "country_code": "CA",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I70931966"
+      ]
+     }
+    ],
+    "countries": [
+     "CA"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Sacha Morin",
+    "raw_affiliation_strings": [
+     "Universit&#x00E9; de Montr&#x00E9;al"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Universit&#x00E9; de Montr&#x00E9;al",
+      "institution_ids": [
+       "https://openalex.org/I70931966"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5047370393",
+     "display_name": "Krishna Murthy Jatavallabhula",
+     "orcid": "https://orcid.org/0000-0003-4927-3387"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109586",
+      "display_name": "Moscow Institute of Thermal Technology",
+      "ror": "https://ror.org/021es5e59",
+      "country_code": "RU",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109586"
+      ]
+     }
+    ],
+    "countries": [
+     "RU"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Krishna Murthy Jatavallabhula",
+    "raw_affiliation_strings": [
+     "MIT"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "MIT",
+      "institution_ids": [
+       "https://openalex.org/I4210109586"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5052657552",
+     "display_name": "Bipasha Sen",
+     "orcid": null
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I70931966",
+      "display_name": "Universit\u00e9 de Montr\u00e9al",
+      "ror": "https://ror.org/0161xgx34",
+      "country_code": "CA",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I70931966"
+      ]
+     }
+    ],
+    "countries": [
+     "CA"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Bipasha Sen",
+    "raw_affiliation_strings": [
+     "Universit&#x00E9; de Montr&#x00E9;al"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Universit&#x00E9; de Montr&#x00E9;al",
+      "institution_ids": [
+       "https://openalex.org/I70931966"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5022348177",
+     "display_name": "Aditya Agarwal",
+     "orcid": "https://orcid.org/0009-0007-0638-5086"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I70931966",
+      "display_name": "Universit\u00e9 de Montr\u00e9al",
+      "ror": "https://ror.org/0161xgx34",
+      "country_code": "CA",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I70931966"
+      ]
+     }
+    ],
+    "countries": [
+     "CA"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Aditya Agarwal",
+    "raw_affiliation_strings": [
+     "Universit&#x00E9; de Montr&#x00E9;al"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Universit&#x00E9; de Montr&#x00E9;al",
+      "institution_ids": [
+       "https://openalex.org/I70931966"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5003895515",
+     "display_name": "Corban G. Rivera",
+     "orcid": null
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Corban Rivera",
+    "raw_affiliation_strings": [
+     "JHU APL"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "JHU APL",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5110263262",
+     "display_name": "William Paul",
+     "orcid": null
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "William Paul",
+    "raw_affiliation_strings": [
+     "JHU APL"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "JHU APL",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5005354467",
+     "display_name": "Kirsty Ellis",
+     "orcid": null
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I70931966",
+      "display_name": "Universit\u00e9 de Montr\u00e9al",
+      "ror": "https://ror.org/0161xgx34",
+      "country_code": "CA",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I70931966"
+      ]
+     }
+    ],
+    "countries": [
+     "CA"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Kirsty Ellis",
+    "raw_affiliation_strings": [
+     "Universit&#x00E9; de Montr&#x00E9;al"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Universit&#x00E9; de Montr&#x00E9;al",
+      "institution_ids": [
+       "https://openalex.org/I70931966"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5102762707",
+     "display_name": "Rama Chellappa",
+     "orcid": "https://orcid.org/0000-0002-7638-1650"
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Rama Chellappa",
+    "raw_affiliation_strings": [
+     "JHU"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "JHU",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5040877128",
+     "display_name": "Chuang Gan",
+     "orcid": "https://orcid.org/0000-0003-4031-5886"
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Chuang Gan",
+    "raw_affiliation_strings": [
+     "UMass"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "UMass",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5064929876",
+     "display_name": "Celso Miguel de Melo",
+     "orcid": null
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210150771",
+      "display_name": "DevCom (Czechia)",
+      "ror": "https://ror.org/044jgn488",
+      "country_code": "CZ",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I4210150771"
+      ]
+     }
+    ],
+    "countries": [
+     "CZ"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Celso Miguel de Melo",
+    "raw_affiliation_strings": [
+     "DEVCOM ARL"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "DEVCOM ARL",
+      "institution_ids": [
+       "https://openalex.org/I4210150771"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5071093940",
+     "display_name": "Joshua B. Tenenbaum",
+     "orcid": "https://orcid.org/0000-0002-1925-2035"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109586",
+      "display_name": "Moscow Institute of Thermal Technology",
+      "ror": "https://ror.org/021es5e59",
+      "country_code": "RU",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109586"
+      ]
+     }
+    ],
+    "countries": [
+     "RU"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Joshua B. Tenenbaum",
+    "raw_affiliation_strings": [
+     "MIT"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "MIT",
+      "institution_ids": [
+       "https://openalex.org/I4210109586"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5085020955",
+     "display_name": "Antonio Torralba",
+     "orcid": "https://orcid.org/0000-0003-4915-0256"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109586",
+      "display_name": "Moscow Institute of Thermal Technology",
+      "ror": "https://ror.org/021es5e59",
+      "country_code": "RU",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109586"
+      ]
+     }
+    ],
+    "countries": [
+     "RU"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Antonio Torralba",
+    "raw_affiliation_strings": [
+     "MIT"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "MIT",
+      "institution_ids": [
+       "https://openalex.org/I4210109586"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5010648258",
+     "display_name": "Florian Shkurti",
+     "orcid": "https://orcid.org/0000-0002-5672-5831"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I185261750",
+      "display_name": "University of Toronto",
+      "ror": "https://ror.org/03dbr7087",
+      "country_code": "CA",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I185261750"
+      ]
+     }
+    ],
+    "countries": [
+     "CA"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Florian Shkurti",
+    "raw_affiliation_strings": [
+     "University of Toronto"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "University of Toronto",
+      "institution_ids": [
+       "https://openalex.org/I185261750"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5037065865",
+     "display_name": "Liam Paull",
+     "orcid": "https://orcid.org/0000-0003-2492-6660"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I70931966",
+      "display_name": "Universit\u00e9 de Montr\u00e9al",
+      "ror": "https://ror.org/0161xgx34",
+      "country_code": "CA",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I70931966"
+      ]
+     }
+    ],
+    "countries": [
+     "CA"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Liam Paull",
+    "raw_affiliation_strings": [
+     "Universit&#x00E9; de Montr&#x00E9;al"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Universit&#x00E9; de Montr&#x00E9;al",
+      "institution_ids": [
+       "https://openalex.org/I70931966"
+      ]
+     }
+    ]
+   }
+  ],
+  "abstract_inverted_index": {
+   "For": [
+    0
+   ],
+   "robots": [
+    1
+   ],
+   "to": [
+    2,
+    34,
+    41,
+    51,
+    109,
+    118,
+    125,
+    176
+   ],
+   "perform": [
+    3
+   ],
+   "a": [
+    4,
+    11,
+    141
+   ],
+   "wide": [
+    5
+   ],
+   "variety": [
+    6
+   ],
+   "of": [
+    7,
+    14,
+    137,
+    143,
+    168
+   ],
+   "tasks,": [
+    8
+   ],
+   "they": [
+    9,
+    68
+   ],
+   "require": [
+    10,
+    155
+   ],
+   "3D": [
+    12,
+    45,
+    95,
+    110,
+    128
+   ],
+   "representation": [
+    13,
+    93,
+    139
+   ],
+   "the": [
+    15,
+    76,
+    123,
+    135,
+    165
+   ],
+   "world": [
+    16
+   ],
+   "that": [
+    17,
+    147
+   ],
+   "is": [
+    18,
+    98
+   ],
+   "semantically": [
+    19
+   ],
+   "rich,": [
+    20
+   ],
+   "yet": [
+    21
+   ],
+   "compact": [
+    22
+   ],
+   "and": [
+    23,
+    28,
+    105,
+    154,
+    160,
+    171
+   ],
+   "efficient": [
+    24
+   ],
+   "for": [
+    25,
+    81,
+    94
+   ],
+   "task-driven": [
+    26
+   ],
+   "perception": [
+    27
+   ],
+   "planning.": [
+    29,
+    83
+   ],
+   "Recent": [
+    30
+   ],
+   "approaches": [
+    31,
+    49
+   ],
+   "have": [
+    32
+   ],
+   "attempted": [
+    33
+   ],
+   "leverage": [
+    35
+   ],
+   "features": [
+    36
+   ],
+   "from": [
+    37
+   ],
+   "large": [
+    38,
+    127
+   ],
+   "vision-language": [
+    39
+   ],
+   "models": [
+    40,
+    104
+   ],
+   "encode": [
+    42
+   ],
+   "semantics": [
+    43
+   ],
+   "in": [
+    44,
+    63,
+    75
+   ],
+   "representations.": [
+    46
+   ],
+   "However,": [
+    47
+   ],
+   "these": [
+    48
+   ],
+   "tend": [
+    50
+   ],
+   "produce": [
+    52
+   ],
+   "maps": [
+    53
+   ],
+   "with": [
+    54
+   ],
+   "per-point": [
+    55
+   ],
+   "feature": [
+    56
+   ],
+   "vectors,": [
+    57
+   ],
+   "which": [
+    58,
+    78
+   ],
+   "do": [
+    59,
+    67
+   ],
+   "not": [
+    60
+   ],
+   "scale": [
+    61
+   ],
+   "well": [
+    62
+   ],
+   "larger": [
+    64
+   ],
+   "environments,": [
+    65
+   ],
+   "nor": [
+    66
+   ],
+   "contain": [
+    69
+   ],
+   "semantic": [
+    70,
+    120,
+    161
+   ],
+   "spatial": [
+    71,
+    159
+   ],
+   "relationships": [
+    72
+   ],
+   "between": [
+    73
+   ],
+   "entities": [
+    74
+   ],
+   "environment,": [
+    77
+   ],
+   "are": [
+    79,
+    148
+   ],
+   "useful": [
+    80
+   ],
+   "downstream": [
+    82,
+    144
+   ],
+   "In": [
+    84
+   ],
+   "this": [
+    85,
+    138
+   ],
+   "work,": [
+    86
+   ],
+   "we": [
+    87,
+    173
+   ],
+   "propose": [
+    88
+   ],
+   "ConceptGraphs,": [
+    89
+   ],
+   "an": [
+    90
+   ],
+   "open-vocabulary": [
+    91
+   ],
+   "graph-structured": [
+    92
+   ],
+   "scenes.": [
+    96
+   ],
+   "ConceptGraphs": [
+    97
+   ],
+   "built": [
+    99
+   ],
+   "by": [
+    100,
+    111
+   ],
+   "leveraging": [
+    101
+   ],
+   "2D": [
+    102
+   ],
+   "foundation": [
+    103
+   ],
+   "fusing": [
+    106
+   ],
+   "their": [
+    107
+   ],
+   "output": [
+    108
+   ],
+   "multi-view": [
+    112
+   ],
+   "association.": [
+    113
+   ],
+   "The": [
+    114
+   ],
+   "resulting": [
+    115
+   ],
+   "representations": [
+    116
+   ],
+   "generalize": [
+    117
+   ],
+   "novel": [
+    119
+   ],
+   "classes,": [
+    121
+   ],
+   "without": [
+    122
+   ],
+   "need": [
+    124
+   ],
+   "collect": [
+    126
+   ],
+   "datasets": [
+    129
+   ],
+   "or": [
+    130
+   ],
+   "finetune": [
+    131
+   ],
+   "models.": [
+    132
+   ],
+   "We": [
+    133
+   ],
+   "demonstrate": [
+    134
+   ],
+   "utility": [
+    136
+   ],
+   "through": [
+    140,
+    150
+   ],
+   "number": [
+    142
+   ],
+   "planning": [
+    145
+   ],
+   "tasks": [
+    146
+   ],
+   "specified": [
+    149
+   ],
+   "abstract": [
+    151
+   ],
+   "(language)": [
+    152
+   ],
+   "prompts": [
+    153
+   ],
+   "complex": [
+    156
+   ],
+   "reasoning": [
+    157
+   ],
+   "over": [
+    158
+   ],
+   "concepts.": [
+    162
+   ],
+   "To": [
+    163
+   ],
+   "explore": [
+    164
+   ],
+   "full": [
+    166
+   ],
+   "scope": [
+    167
+   ],
+   "our": [
+    169,
+    178
+   ],
+   "experiments": [
+    170
+   ],
+   "results,": [
+    172
+   ],
+   "encourage": [
+    174
+   ],
+   "readers": [
+    175
+   ],
+   "visit": [
+    177
+   ],
+   "project": [
+    179
+   ],
+   "webpage.": [
+    180
+   ]
+  }
+ }
+}

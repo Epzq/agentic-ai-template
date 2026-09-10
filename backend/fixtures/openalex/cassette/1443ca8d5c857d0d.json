@@ -1,0 +1,966 @@
+{
+ "url": "https://api.openalex.org/works/W4383097607?select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cauthorships%2Cabstract_inverted_index",
+ "status": 200,
+ "json": {
+  "id": "https://openalex.org/W4383097607",
+  "display_name": "ADAPT: Action-aware Driving Caption Transformer",
+  "publication_year": 2023,
+  "cited_by_count": 73,
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5024635574",
+     "display_name": "Bu Jin",
+     "orcid": "https://orcid.org/0000-0001-7577-2177"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I19820366",
+      "display_name": "Chinese Academy of Sciences",
+      "ror": "https://ror.org/034t30j35",
+      "country_code": "CN",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I19820366"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210112150",
+      "display_name": "Institute of Automation",
+      "ror": "https://ror.org/022c3hy66",
+      "country_code": "CN",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210112150"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I99065089",
+      "display_name": "Tsinghua University",
+      "ror": "https://ror.org/03cve4549",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I99065089"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Bu Jin",
+    "raw_affiliation_strings": [
+     "Institute of Automation,Chinese Academy of Sciences,China",
+     "Chinese Academy of Sciences, Institute of Automation, China",
+     "Institute for AI Industry Research (AIR), Tsinghua University, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Institute of Automation,Chinese Academy of Sciences,China",
+      "institution_ids": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210112150"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Chinese Academy of Sciences, Institute of Automation, China",
+      "institution_ids": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210112150"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Institute for AI Industry Research (AIR), Tsinghua University, China",
+      "institution_ids": [
+       "https://openalex.org/I99065089"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100446465",
+     "display_name": "Xinyu Liu",
+     "orcid": "https://orcid.org/0009-0009-1047-3139"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I149594827",
+      "display_name": "Xidian University",
+      "ror": "https://ror.org/05s92vm98",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I149594827"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I99065089",
+      "display_name": "Tsinghua University",
+      "ror": "https://ror.org/03cve4549",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I99065089"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xinyu Liu",
+    "raw_affiliation_strings": [
+     "Institute for AI Industry Research (AIR), Tsinghua University,China",
+     "Institute for AI Industry Research (AIR), Tsinghua University, China",
+     "Xidian University, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Institute for AI Industry Research (AIR), Tsinghua University,China",
+      "institution_ids": [
+       "https://openalex.org/I99065089"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Institute for AI Industry Research (AIR), Tsinghua University, China",
+      "institution_ids": [
+       "https://openalex.org/I99065089"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Xidian University, China",
+      "institution_ids": [
+       "https://openalex.org/I149594827"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5103047903",
+     "display_name": "Yupeng Zheng",
+     "orcid": "https://orcid.org/0000-0003-4450-7586"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I19820366",
+      "display_name": "Chinese Academy of Sciences",
+      "ror": "https://ror.org/034t30j35",
+      "country_code": "CN",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I19820366"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210112150",
+      "display_name": "Institute of Automation",
+      "ror": "https://ror.org/022c3hy66",
+      "country_code": "CN",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210112150"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I99065089",
+      "display_name": "Tsinghua University",
+      "ror": "https://ror.org/03cve4549",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I99065089"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Yupeng Zheng",
+    "raw_affiliation_strings": [
+     "Institute for AI Industry Research (AIR), Tsinghua University,China",
+     "Institute of Automation,Chinese Academy of Sciences,China",
+     "Chinese Academy of Sciences, Institute of Automation, China",
+     "Institute for AI Industry Research (AIR), Tsinghua University, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Institute for AI Industry Research (AIR), Tsinghua University,China",
+      "institution_ids": [
+       "https://openalex.org/I99065089"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Institute of Automation,Chinese Academy of Sciences,China",
+      "institution_ids": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210112150"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Chinese Academy of Sciences, Institute of Automation, China",
+      "institution_ids": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210112150"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Institute for AI Industry Research (AIR), Tsinghua University, China",
+      "institution_ids": [
+       "https://openalex.org/I99065089"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100339792",
+     "display_name": "Pengfei Li",
+     "orcid": "https://orcid.org/0009-0009-8114-6207"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I99065089",
+      "display_name": "Tsinghua University",
+      "ror": "https://ror.org/03cve4549",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I99065089"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Pengfei Li",
+    "raw_affiliation_strings": [
+     "Tsinghua University,Department of Computer Science and Technology,China",
+     "Department of Computer Science and Technology, Tsinghua University, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Tsinghua University,Department of Computer Science and Technology,China",
+      "institution_ids": [
+       "https://openalex.org/I99065089"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Computer Science and Technology, Tsinghua University, China",
+      "institution_ids": [
+       "https://openalex.org/I99065089"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5025049450",
+     "display_name": "Hao Zhao",
+     "orcid": "https://orcid.org/0000-0001-7903-581X"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I99065089",
+      "display_name": "Tsinghua University",
+      "ror": "https://ror.org/03cve4549",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I99065089"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Hao Zhao",
+    "raw_affiliation_strings": [
+     "Institute for AI Industry Research (AIR), Tsinghua University,China",
+     "Institute for AI Industry Research (AIR), Tsinghua University, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Institute for AI Industry Research (AIR), Tsinghua University,China",
+      "institution_ids": [
+       "https://openalex.org/I99065089"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Institute for AI Industry Research (AIR), Tsinghua University, China",
+      "institution_ids": [
+       "https://openalex.org/I99065089"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100602481",
+     "display_name": "Tong Zhang",
+     "orcid": "https://orcid.org/0000-0002-8838-4963"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I3045169105",
+      "display_name": "Southern University of Science and Technology",
+      "ror": "https://ror.org/049tv2d57",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I3045169105"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Tong Zhang",
+    "raw_affiliation_strings": [
+     "Southern University of Science and Technology,China",
+     "Southern University of Science and Technology, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Southern University of Science and Technology,China",
+      "institution_ids": [
+       "https://openalex.org/I3045169105"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Southern University of Science and Technology, China",
+      "institution_ids": [
+       "https://openalex.org/I3045169105"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5030295721",
+     "display_name": "Yuhang Zheng",
+     "orcid": "https://orcid.org/0000-0001-9628-1940"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I19820366",
+      "display_name": "Chinese Academy of Sciences",
+      "ror": "https://ror.org/034t30j35",
+      "country_code": "CN",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I19820366"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210112150",
+      "display_name": "Institute of Automation",
+      "ror": "https://ror.org/022c3hy66",
+      "country_code": "CN",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210112150"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I82880672",
+      "display_name": "Beihang University",
+      "ror": "https://ror.org/00wk2mp56",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I82880672"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I99065089",
+      "display_name": "Tsinghua University",
+      "ror": "https://ror.org/03cve4549",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I99065089"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Yuhang Zheng",
+    "raw_affiliation_strings": [
+     "Institute for AI Industry Research (AIR), Tsinghua University,China",
+     "Institute of Automation,Chinese Academy of Sciences,China",
+     "Institute for AI Industry Research (AIR), Tsinghua University, China",
+     "School of Mechanical Engineering and Automation, Beihang University, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Institute for AI Industry Research (AIR), Tsinghua University,China",
+      "institution_ids": [
+       "https://openalex.org/I99065089"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Institute of Automation,Chinese Academy of Sciences,China",
+      "institution_ids": [
+       "https://openalex.org/I19820366",
+       "https://openalex.org/I4210112150"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Institute for AI Industry Research (AIR), Tsinghua University, China",
+      "institution_ids": [
+       "https://openalex.org/I99065089"
+      ]
+     },
+     {
+      "raw_affiliation_string": "School of Mechanical Engineering and Automation, Beihang University, China",
+      "institution_ids": [
+       "https://openalex.org/I82880672"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5011913905",
+     "display_name": "Guyue Zhou",
+     "orcid": "https://orcid.org/0000-0002-3894-9858"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I99065089",
+      "display_name": "Tsinghua University",
+      "ror": "https://ror.org/03cve4549",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I99065089"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Guyue Zhou",
+    "raw_affiliation_strings": [
+     "Institute for AI Industry Research (AIR), Tsinghua University,China",
+     "Institute for AI Industry Research (AIR), Tsinghua University, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Institute for AI Industry Research (AIR), Tsinghua University,China",
+      "institution_ids": [
+       "https://openalex.org/I99065089"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Institute for AI Industry Research (AIR), Tsinghua University, China",
+      "institution_ids": [
+       "https://openalex.org/I99065089"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5100442562",
+     "display_name": "Jingjing Liu",
+     "orcid": "https://orcid.org/0000-0002-1379-9670"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I99065089",
+      "display_name": "Tsinghua University",
+      "ror": "https://ror.org/03cve4549",
+      "country_code": "CN",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I99065089"
+      ]
+     }
+    ],
+    "countries": [
+     "CN"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Jingjing Liu",
+    "raw_affiliation_strings": [
+     "Institute for AI Industry Research (AIR), Tsinghua University,China",
+     "Institute for AI Industry Research (AIR), Tsinghua University, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Institute for AI Industry Research (AIR), Tsinghua University,China",
+      "institution_ids": [
+       "https://openalex.org/I99065089"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Institute for AI Industry Research (AIR), Tsinghua University, China",
+      "institution_ids": [
+       "https://openalex.org/I99065089"
+      ]
+     }
+    ]
+   }
+  ],
+  "abstract_inverted_index": {
+   "End-to-end": [
+    0
+   ],
+   "autonomous": [
+    1,
+    82
+   ],
+   "driving": [
+    2,
+    92
+   ],
+   "has": [
+    3
+   ],
+   "great": [
+    4
+   ],
+   "potential": [
+    5
+   ],
+   "in": [
+    6,
+    26,
+    135,
+    158
+   ],
+   "the": [
+    7,
+    11,
+    18,
+    55,
+    91,
+    96,
+    117,
+    129,
+    132,
+    153
+   ],
+   "transportation": [
+    8
+   ],
+   "industry.": [
+    9
+   ],
+   "However,": [
+    10
+   ],
+   "lack": [
+    12
+   ],
+   "of": [
+    13,
+    17,
+    81,
+    116,
+    131
+   ],
+   "transparency": [
+    14
+   ],
+   "and": [
+    15,
+    74,
+    85,
+    95,
+    124,
+    151,
+    156,
+    164
+   ],
+   "interpretability": [
+    16
+   ],
+   "automatic": [
+    19,
+    122
+   ],
+   "decision-making": [
+    20
+   ],
+   "process": [
+    21
+   ],
+   "hinders": [
+    22
+   ],
+   "its": [
+    23
+   ],
+   "industrial": [
+    24
+   ],
+   "adoption": [
+    25
+   ],
+   "practice.": [
+    27
+   ],
+   "There": [
+    28
+   ],
+   "have": [
+    29
+   ],
+   "been": [
+    30
+   ],
+   "some": [
+    31
+   ],
+   "early": [
+    32
+   ],
+   "attempts": [
+    33
+   ],
+   "to": [
+    34,
+    51
+   ],
+   "use": [
+    35
+   ],
+   "attention": [
+    36
+   ],
+   "maps": [
+    37
+   ],
+   "or": [
+    38
+   ],
+   "cost": [
+    39
+   ],
+   "volume": [
+    40
+   ],
+   "for": [
+    41,
+    48,
+    76
+   ],
+   "better": [
+    42
+   ],
+   "model": [
+    43
+   ],
+   "explainability": [
+    44
+   ],
+   "which": [
+    45,
+    68
+   ],
+   "is": [
+    46
+   ],
+   "difficult": [
+    47
+   ],
+   "ordinary": [
+    49
+   ],
+   "passengers": [
+    50
+   ],
+   "understand.": [
+    52
+   ],
+   "To": [
+    53,
+    127
+   ],
+   "bridge": [
+    54
+   ],
+   "gap,": [
+    56
+   ],
+   "we": [
+    57,
+    138
+   ],
+   "propose": [
+    58
+   ],
+   "an": [
+    59
+   ],
+   "end-to-end": [
+    60
+   ],
+   "transformer-based": [
+    61
+   ],
+   "architecture,": [
+    62
+   ],
+   "ADAPT": [
+    63,
+    87,
+    118
+   ],
+   "(Action-aware": [
+    64
+   ],
+   "Driving": [
+    65
+   ],
+   "cAPtion": [
+    66
+   ],
+   "Transformer),": [
+    67
+   ],
+   "provides": [
+    69
+   ],
+   "user-friendly": [
+    70
+   ],
+   "natural": [
+    71
+   ],
+   "language": [
+    72
+   ],
+   "narrations": [
+    73,
+    155
+   ],
+   "reasoning": [
+    75,
+    157
+   ],
+   "each": [
+    77
+   ],
+   "decision": [
+    78
+   ],
+   "making": [
+    79
+   ],
+   "step": [
+    80
+   ],
+   "vehicular": [
+    83,
+    97
+   ],
+   "control": [
+    84,
+    98
+   ],
+   "action.": [
+    86
+   ],
+   "jointly": [
+    88
+   ],
+   "trains": [
+    89
+   ],
+   "both": [
+    90,
+    121
+   ],
+   "caption": [
+    93
+   ],
+   "task": [
+    94
+   ],
+   "prediction": [
+    99
+   ],
+   "task,": [
+    100
+   ],
+   "through": [
+    101
+   ],
+   "a": [
+    102,
+    140
+   ],
+   "shared": [
+    103
+   ],
+   "video": [
+    104
+   ],
+   "representation.": [
+    105
+   ],
+   "Experiments": [
+    106
+   ],
+   "on": [
+    107,
+    120
+   ],
+   "BDD-X": [
+    108
+   ],
+   "(Berkeley": [
+    109
+   ],
+   "DeepDrive": [
+    110
+   ],
+   "eXplanation)": [
+    111
+   ],
+   "dataset": [
+    112
+   ],
+   "demonstrate": [
+    113
+   ],
+   "state-of-the-art": [
+    114
+   ],
+   "performance": [
+    115
+   ],
+   "framework": [
+    119,
+    134
+   ],
+   "metrics": [
+    123
+   ],
+   "human": [
+    125
+   ],
+   "evaluation.": [
+    126
+   ],
+   "illustrate": [
+    128
+   ],
+   "feasibility": [
+    130
+   ],
+   "proposed": [
+    133
+   ],
+   "real-world": [
+    136
+   ],
+   "applications,": [
+    137
+   ],
+   "build": [
+    139
+   ],
+   "novel": [
+    141
+   ],
+   "deployable": [
+    142
+   ],
+   "system": [
+    143
+   ],
+   "that": [
+    144
+   ],
+   "takes": [
+    145
+   ],
+   "raw": [
+    146
+   ],
+   "car": [
+    147
+   ],
+   "videos": [
+    148
+   ],
+   "as": [
+    149
+   ],
+   "input": [
+    150
+   ],
+   "outputs": [
+    152
+   ],
+   "action": [
+    154
+   ],
+   "real": [
+    159
+   ],
+   "time.": [
+    160
+   ],
+   "The": [
+    161
+   ],
+   "code,": [
+    162
+   ],
+   "models": [
+    163
+   ],
+   "data": [
+    165
+   ],
+   "are": [
+    166
+   ],
+   "available": [
+    167
+   ],
+   "at": [
+    168
+   ],
+   "https://github.com/jxbbb/ADAPT.": [
+    169
+   ]
+  }
+ }
+}

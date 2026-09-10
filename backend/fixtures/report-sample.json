@@ -1,0 +1,546 @@
+{
+  "run_id": "run-001",
+  "generated_at": "2026-09-05T09:12:44Z",
+  "inputs": {
+    "grant_url": "https://www.rgp.gov.sg/nrf-ar/crp",
+    "grant_document": "F-CRP Call Information Sheet (2026).pdf",
+    "grant_sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+    "profile_url": "https://basurafernando.github.io/"
+  },
+  "identity": {
+    "author_id": "https://openalex.org/A5090467618",
+    "display_name": "Basura Fernando",
+    "institution": "Agency for Science, Technology and Research",
+    "confidence": "unverified"
+  },
+  "weights": {
+    "grant_alignment": 0.1111111111111111,
+    "scientific_novelty": 0.1111111111111111,
+    "importance": 0.1111111111111111,
+    "applicant_fit": 0.1111111111111111,
+    "feasibility": 0.1111111111111111,
+    "competitive_differentiation": 0.1111111111111111,
+    "collaboration_potential": 0.1111111111111111,
+    "impact_potential": 0.1111111111111111,
+    "evidence_strength": 0.1111111111111111
+  },
+  "directions": [
+    {
+      "rank": 1,
+      "overall": 7.57,
+      "confidence": "high",
+      "thin_evidence": false,
+      "title": "Causally grounded action anticipation with auditable rationales",
+      "problem_statement": {
+        "text": "Models that predict what a person is about to do are getting steadily more accurate and remain almost entirely unaccountable: the prediction arrives without the visual evidence that produced it, so an operator cannot separate a genuine causal cue from a dataset shortcut. The F-CRP call is an unusually good fit for attacking that at the level of formulation rather than accuracy, because it assesses conceptual novelty and the feasibility of a hypothesis that need not yet be backed by preliminary data. The applicant already works on visual reasoning and action prediction as separate threads; the proposal is to make the causal account of a prediction a first-class, checkable output rather than a post-hoc saliency map.",
+        "evidence_ids": ["e1", "e4"]
+      },
+      "evidence_backed_gap": {
+        "text": "Causal reasoning over video is an active and still-growing literature: works matching \"causal video question answering\" rose from 30 in 2022 to 58 in 2025 (e7), and the field's two most-cited recent entries are being built on, with 154 works published since 2023 citing Liu et al. (e8). Both of those entries, however, reason retrospectively about events that have already completed — CMCIR intervenes on cross-modal spurious correlations in answering (e9) and Invariant Grounding isolates question-critical scenes after the fact (e10). None of the 261 works retrieved for this query (e6) carries that machinery across to anticipation, where the causal claim has to be made before the outcome is observable and therefore cannot be validated against the answer. On the evidence retrieved this is an open question rather than a settled one.",
+        "evidence_ids": ["e6", "e7", "e8", "e9", "e10"]
+      },
+      "key_strengths": [
+        "Sits exactly on the applicant's two existing threads — visual reasoning and action prediction — which the profile lists as separate interests and this direction merges (e4).",
+        "The novelty is in the problem formulation, not in an accuracy delta, which is what the call says it will assess (e1).",
+        "The literature is active enough to give the work an audience and specific enough to leave the anticipation case open (e6, e7)."
+      ],
+      "key_weaknesses": [
+        "Causal claims about a future action are hard to validate — the counterfactual is unobservable, so evaluation design is a research problem in its own right and not a detail.",
+        "Existing causal-video benchmarks are answer-based; a new evaluation protocol is likely needed before the central claim can be tested at all."
+      ],
+      "evidence_ids": ["e1", "e4", "e6", "e7", "e9", "e10"],
+      "scores": {
+        "grant_alignment": {
+          "value": 8.0,
+          "provenance": "judged",
+          "evidence_ids": ["e1", "e2"],
+          "rationale": "The call explicitly assesses conceptual novelty and originality of ideas over preliminary data (e1), and lists breakthrough potential first among four evaluation criteria (e2). A reformulation of anticipation as a causal, auditable claim is that kind of proposal. It loses two points because F-CRP is open-topic, so there is no stated priority area to match against and alignment can only be argued from objectives and criteria."
+        },
+        "scientific_novelty": {
+          "value": 8.0,
+          "provenance": "judged",
+          "evidence_ids": ["e6", "e9", "e10"],
+          "rationale": "Causal intervention over video is established for retrospective question answering (e9, e10), but nothing in the 261 retrieved works (e6) makes the causal account of a not-yet-observed action the object of study. Novel in framing while resting on machinery that already exists — an 8 rather than a 9 or 10."
+        },
+        "importance": {
+          "value": 7.0,
+          "provenance": "judged",
+          "evidence_ids": ["e2", "e8"],
+          "rationale": "The call weights impact alongside breakthrough potential (e2), and 154 citing works since 2023 (e8) show a research community that would take up a result. Importance is capped below the applied directions because the immediate beneficiary is other researchers, not a deployed system."
+        },
+        "applicant_fit": {
+          "value": 9.0,
+          "provenance": "judged",
+          "evidence_ids": ["e4", "e5"],
+          "rationale": "The profile lists visual reasoning, action prediction and explainable AI as current threads and an NRF Fellowship project titled \"Learning Why Do We Do What We Do\" running to 2027 (e4); the resolved OpenAlex record carries 189 works and 9,082 citations concentrated in multimodal machine learning and human pose and action recognition (e5). This is the direction closest to work already underway."
+        },
+        "feasibility": {
+          "value": 6.0,
+          "provenance": "judged",
+          "evidence_ids": ["e4", "e9"],
+          "rationale": "The group has the video-reasoning infrastructure (e4) and the causal machinery is published and reproducible (e9). The score is held to 6 because the evaluation protocol for a pre-outcome causal claim does not exist yet and has to be built before the central hypothesis can be tested."
+        },
+        "competitive_differentiation": null,
+        "collaboration_potential": null,
+        "impact_potential": {
+          "value": 7.0,
+          "provenance": "judged",
+          "evidence_ids": ["e2", "e3"],
+          "rationale": "Impact is a named criterion (e2) and the call asks for a competitive scan and an articulated route to impact (e3). Auditable anticipation is a precondition for deploying prediction in any setting where someone has to act on it, but the route runs through other people's systems, so 7."
+        },
+        "evidence_strength": {
+          "value": 8.0,
+          "provenance": "judged",
+          "evidence_ids": ["e6", "e7", "e8", "e9", "e10"],
+          "rationale": "Five retrieved records back this direction: a 261-work query (e6), an eight-year trend (e7), a citing count (e8) and two abstracts read in full (e9, e10). The gap statement rests on what those records do and do not contain rather than on assertion."
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "overall": 6.57,
+      "confidence": "medium",
+      "thin_evidence": false,
+      "title": "Anticipatory embodied assistance for ageing in place",
+      "problem_statement": {
+        "text": "An assistive robot that acts only after a person's action has finished is too late to be useful for the tasks that matter in a home — reaching, steadying, catching. Acting earlier means committing to a prediction of intent from a partial observation, and being wrong in public. Singapore's demographics make this a national problem rather than a laboratory one, and the call is explicitly for use-inspired research of relevance to Singapore. The applicant has run two NRF-funded projects on anticipating human actions and on in-situ human-centred assistance, so the framing is not speculative.",
+        "evidence_ids": ["e1", "e4"]
+      },
+      "evidence_backed_gap": {
+        "text": "Intent prediction for human–robot collaboration is growing but still small: 8 works in 2022 against 25 in 2025 across the whole query (e12), 66 since 2022 in total (e11). The field's own survey is candid that intentions are usually inferred with Bayesian posteriors over a closed goal set and that prediction is treated as a precursor to assistance rather than as a decision under a cost of being wrong (e13, e14). The one work that does attack earliness directly predicts intent before the action completes but evaluates on a fixed laboratory task set (e15). What the retrieved literature does not show is any treatment of the asymmetric cost of an early wrong assist in an unstructured home — the question that decides whether such a system can be deployed at all.",
+        "evidence_ids": ["e11", "e12", "e13", "e14", "e15"]
+      },
+      "key_strengths": [
+        "Direct national relevance, which the call's objectives ask for, and a use-inspired framing that does not need to be argued (e1).",
+        "Two prior NRF-funded projects on exactly this problem — anticipating human actions, and in-situ assistive AI (e4).",
+        "The gap is about deployment cost rather than accuracy, so a negative result is still publishable and still useful."
+      ],
+      "key_weaknesses": [
+        "Needs a robot platform, a physical test environment and human-subject approval — none of which the profile evidences (e4).",
+        "The applicant's record is in video understanding rather than in control or manipulation, so a Team PI from robotics is effectively mandatory.",
+        "The literature is thin at 66 works since 2022 (e11), which cuts both ways: a real opening, and less prior art to build on."
+      ],
+      "evidence_ids": ["e1", "e4", "e11", "e12", "e14", "e15"],
+      "scores": {
+        "grant_alignment": {
+          "value": 7.0,
+          "provenance": "judged",
+          "evidence_ids": ["e1", "e2"],
+          "rationale": "\"Use-inspired\" research \"of relevance to Singapore\" is the call's opening objective (e1) and this direction satisfies it more literally than the other two. It scores below D1 on the same criterion because the call also asks for paradigm shifts and breakthroughs in scientific knowledge (e1), and this is closer to an engineering programme than to a reformulation."
+        },
+        "scientific_novelty": {
+          "value": 5.0,
+          "provenance": "judged",
+          "evidence_ids": ["e11", "e14"],
+          "rationale": "Intent inference for collaboration is a reviewed, consolidating subfield with an established methodological core (e14), and 66 works since 2022 (e11) show steady rather than exploratory activity. The novelty is in the cost model around the prediction, not in the prediction, so mid-scale."
+        },
+        "importance": {
+          "value": 9.0,
+          "provenance": "judged",
+          "evidence_ids": ["e2", "e12"],
+          "rationale": "Impact is a named evaluation criterion (e2), and this is the only direction with a beneficiary outside the research community. The upward year curve (e12) shows the problem being taken seriously elsewhere while remaining unsolved."
+        },
+        "applicant_fit": {
+          "value": 6.0,
+          "provenance": "judged",
+          "evidence_ids": ["e4", "e5"],
+          "rationale": "Two directly relevant funded projects on the profile (e4), but the OpenAlex record is concentrated in video understanding and action recognition rather than robotics or control (e5). Fit is real on the perception half and absent on the embodiment half."
+        },
+        "feasibility": {
+          "value": 4.0,
+          "provenance": "judged",
+          "evidence_ids": ["e4", "e15"],
+          "rationale": "The lowest feasibility of the three. Hardware, a physical testbed and human-subject approval are all required and none is evidenced on the profile (e4), and even the closest published work confines itself to a fixed laboratory task set (e15) — real-home evaluation is a substantially larger undertaking."
+        },
+        "competitive_differentiation": null,
+        "collaboration_potential": null,
+        "impact_potential": {
+          "value": 9.0,
+          "provenance": "judged",
+          "evidence_ids": ["e2", "e3"],
+          "rationale": "Impact is explicitly assessed (e2) and the call asks applicants to be specific and quantitative about it (e3). An assistive system for ageing in place has a measurable, benchmarkable endpoint, which is what that guidance is asking for."
+        },
+        "evidence_strength": {
+          "value": 6.0,
+          "provenance": "judged",
+          "evidence_ids": ["e11", "e12", "e13", "e14", "e15"],
+          "rationale": "Five records back the direction, but the base is narrower than D1's: 66 retrieved works against 261 (e11), and 54 citing works since 2023 against 154 (e13). Well-evidenced for its size; the size is the limit."
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "overall": 5.57,
+      "confidence": "low",
+      "thin_evidence": false,
+      "title": "Auditable knowledge-graph grounding for analyst-facing video question answering",
+      "problem_statement": {
+        "text": "When a video question answering system is used to support a decision rather than to score on a benchmark, the answer is worth less than the chain that produced it. Grounding answers in an explicit multimodal knowledge graph makes that chain inspectable — an analyst can see which entities and events an answer rests on, and can reject it. The applicant has already built event extraction into a multimodal knowledge graph for intelligence analysis under the AiKEiA project, so the components exist; what does not exist is a treatment of the grounding itself as the auditable artefact.",
+        "evidence_ids": ["e3", "e4"]
+      },
+      "evidence_backed_gap": {
+        "text": "This is the thinnest of the three literatures and the retrieval says so plainly: 22 works since 2022 for the whole query (e16), on a year curve that never exceeds 8 works in any year (e17). The two strongest entries show what exists — a benchmark that abstracts situations into graphs for logic-grounded question answering (e19) and a surgical system that injects scene-graph knowledge into VQA (e20) — and the benchmark has drawn only 15 citing works since 2023 (e18). Neither treats the grounding graph as something a human reviewer inspects and overrides. With 22 retrieved works this is weak positive evidence of an opening, not a demonstration that the space is empty, and it should be read as the least certain of the three findings.",
+        "evidence_ids": ["e16", "e17", "e18", "e19", "e20"]
+      },
+      "key_strengths": [
+        "The nearest to existing infrastructure: AiKEiA already builds multimodal knowledge graphs for question answering over documents (e4).",
+        "The application has a named user with an explicit need to audit, which makes the evaluation concrete.",
+        "A surgical VQA system shows scene-graph injection working end to end in a real domain, so the approach is not hypothetical (e20)."
+      ],
+      "key_weaknesses": [
+        "The evidence base is thin — 22 works, peaking at 8 in a year (e16, e17) — so the gap claim is the weakest of the three and could be an artefact of query wording.",
+        "Conceptual novelty is limited: this is largely an integration of components that exist, which is the criterion the call says it will assess first (e1).",
+        "Analyst-facing evaluation needs domain users, and none are evidenced on the profile (e4)."
+      ],
+      "evidence_ids": ["e3", "e4", "e16", "e17", "e19", "e20"],
+      "scores": {
+        "grant_alignment": {
+          "value": 5.0,
+          "provenance": "judged",
+          "evidence_ids": ["e1", "e2"],
+          "rationale": "Use-inspired in the call's sense (e1) and defensible against impact and implementation (e2), but weak against breakthrough potential, which the call lists first: integrating existing components is not the paradigm shift the objectives describe (e1)."
+        },
+        "scientific_novelty": {
+          "value": 4.0,
+          "provenance": "judged",
+          "evidence_ids": ["e16", "e19", "e20"],
+          "rationale": "Situated reasoning over abstracted graphs (e19) and scene-graph-injected VQA (e20) both exist. Making the graph reviewable is a genuine increment but a small one, and the 22-work base (e16) offers little room to claim a new direction."
+        },
+        "importance": {
+          "value": 6.0,
+          "provenance": "judged",
+          "evidence_ids": ["e2", "e17"],
+          "rationale": "Impact is a named criterion (e2), and the year curve (e17) shows a real if small community. Importance is bounded by how few settings need this specific combination of video, graph and human audit."
+        },
+        "applicant_fit": {
+          "value": 7.0,
+          "provenance": "judged",
+          "evidence_ids": ["e4", "e5"],
+          "rationale": "AiKEiA is a direct precedent for the machinery (e4) and the OpenAlex topics include multimodal machine learning applications and image and video retrieval (e5). Below D1 because the applicant's centre of mass is reasoning over video, not knowledge representation."
+        },
+        "feasibility": {
+          "value": 8.0,
+          "provenance": "judged",
+          "evidence_ids": ["e4", "e20"],
+          "rationale": "The highest feasibility of the three: the pipeline has been built once already under AiKEiA (e4), and an independent group has shown the same pattern working end to end in a deployed clinical domain (e20). No new hardware, no human-subject protocol."
+        },
+        "competitive_differentiation": null,
+        "collaboration_potential": null,
+        "impact_potential": {
+          "value": 5.0,
+          "provenance": "judged",
+          "evidence_ids": ["e3", "e19"],
+          "rationale": "The call asks for a specific, quantitative account of impact (e3). The realistic endpoint here is a benchmark and a tool for a narrow analyst community, closer in kind to the existing STAR benchmark (e19) than to a deployed capability."
+        },
+        "evidence_strength": {
+          "value": 4.0,
+          "provenance": "judged",
+          "evidence_ids": ["e16", "e17", "e18"],
+          "rationale": "The weakest evidence base of the three by a clear margin: 22 retrieved works (e16), no year above 8 (e17), and 15 citing works since 2023 on the strongest entry (e18). Enough to say the space is sparse, not enough to say it is open."
+        }
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "source_type": "grant_doc",
+      "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+      "title": "F-CRP Call Information Sheet (2026).pdf — p. 1",
+      "authors": [],
+      "year": 2026,
+      "page": 1,
+      "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+      "quote": "Proposals within this category will be assessed based on their conceptual novelty, originality and creativity of ideas, and feasibility of scientific hypotheses, which need not be backed by preliminary data at the point of application.",
+      "summary": "Section 1, Objectives, and the opening of section 2, Eligibility. F-CRP funds smaller-scale use-inspired programmes that can enable paradigm shifts, up to S$2M over 3 to 5 years with a stage-gated review at the 2-year mark. Eligible host institutions include A*STAR Research Institutes and public IHLs.",
+      "derived_from": null,
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:08:07Z"
+    },
+    {
+      "id": "e2",
+      "source_type": "grant_doc",
+      "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+      "title": "F-CRP Call Information Sheet (2026).pdf — p. 2",
+      "authors": [],
+      "year": 2026,
+      "page": 2,
+      "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+      "quote": "Full Proposals will be evaluated based on (i) breakthrough potential; (ii) impact; (iii) implementation; and (iv) team competency.",
+      "summary": "Rest of section 2 and all of section 3. PIs must hold an appointment at an eligible institution with at least 9 months per calendar year in Singapore and be salaried by it. Proposals go to independent peer reviewers and the Frontier CRP Evaluation Panel; Lead and Team PIs must commit 20% and 10% of their time.",
+      "derived_from": null,
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:08:07Z"
+    },
+    {
+      "id": "e3",
+      "source_type": "grant_doc",
+      "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+      "title": "F-CRP Call Information Sheet (2026).pdf — p. 12",
+      "authors": [],
+      "year": 2026,
+      "page": 12,
+      "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+      "quote": "Show that you have an understanding of the existing competition. This should include performing a competitive scan and comprehensive literature search of ongoing efforts in the proposed topics",
+      "summary": "Appendix A, Pointers for Writing Good Proposals. Asks applicants to define the problem statement up front, perform a competitive scan and comprehensive literature search, avoid inflating the budget, and articulate impact specifically and quantitatively rather than as KPI counts.",
+      "derived_from": null,
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:08:08Z"
+    },
+    {
+      "id": "e4",
+      "source_type": "webpage",
+      "url": "https://basurafernando.github.io/",
+      "title": "Basura Fernando (CFAR, IHPC, NTU)",
+      "authors": [],
+      "year": null,
+      "page": null,
+      "sha256": null,
+      "quote": "I am a Principal Scientist and NRF Fellow at A*STAR, Singapore, and a Principal Investigator at the Centre for Frontier AI Research (CFAR)",
+      "summary": "Personal profile page, 55,094 characters of text. Research interests listed as visual reasoning, action prediction, action recognition, transfer learning and embodied AI. Funded projects include an NRF Fellowship, \"Learning Why Do We Do What We Do\" (2022-2027), AiKEiA on multimodal knowledge graphs, and two AI Singapore projects on assistive AI and anticipating human actions.",
+      "derived_from": null,
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:08:22Z"
+    },
+    {
+      "id": "e5",
+      "source_type": "api_query",
+      "url": "https://api.openalex.org/authors?filter=display_name.search%3ABasura+Fernando&select=id%2Cdisplay_name%2Cworks_count%2Ccited_by_count%2Ctopics%2Clast_known_institutions%2Corcid&sort=works_count%3Adesc&per_page=3",
+      "title": "OpenAlex author search: \"Basura Fernando\"",
+      "authors": [],
+      "year": null,
+      "page": null,
+      "sha256": null,
+      "quote": null,
+      "summary": "1 candidate returned. Top match A5090467618, 189 works, 9,082 citations, ORCID 0000-0002-6920-9916; last known institutions include A*STAR, NTU and IHPC. Top topics: multimodal machine learning applications, human pose and action recognition, image and video retrieval. No runner-up, so no disambiguation margin. meta.cost_usd 0.001.",
+      "derived_from": null,
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:08:31Z"
+    },
+    {
+      "id": "e6",
+      "source_type": "api_query",
+      "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Acausal+video+question+answering%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+      "title": "OpenAlex works search: \"causal video question answering\", 2022 onwards",
+      "authors": [],
+      "year": null,
+      "page": null,
+      "sha256": null,
+      "quote": null,
+      "summary": "261 works match; the 15 most cited were retrieved. OpenAlex echoes the query as: works where date >= (2022-01-01) and title/abstract has (causal video question answering). meta.cost_usd 0.001.",
+      "derived_from": null,
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:09:14Z"
+    },
+    {
+      "id": "e7",
+      "source_type": "api_query",
+      "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Acausal+video+question+answering%2Cfrom_publication_date%3A2019-01-01&group_by=publication_year",
+      "title": "OpenAlex topic trend: \"causal video question answering\" by publication year",
+      "authors": [],
+      "year": null,
+      "page": null,
+      "sha256": null,
+      "quote": null,
+      "summary": "Works per year: 2019 11, 2020 15, 2021 22, 2022 30, 2023 36, 2024 28, 2025 58, 2026 109. Growing, with a dip in 2024; 2026 is a partial year and inflated by preprint indexing. meta.cost_usd 0.0001.",
+      "derived_from": null,
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:09:52Z"
+    },
+    {
+      "id": "e8",
+      "source_type": "api_query",
+      "url": "https://api.openalex.org/works?filter=cites%3AW4379929708%2Cfrom_publication_date%3A2023-01-01&select=id&per_page=1",
+      "title": "OpenAlex citing count: W4379929708 since 2023-01-01",
+      "authors": [],
+      "year": null,
+      "page": null,
+      "sha256": null,
+      "quote": null,
+      "summary": "154 works published on or after 2023-01-01 cite Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering, out of 341 citations in total. meta.cost_usd 0.0001.",
+      "derived_from": null,
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:09:58Z"
+    },
+    {
+      "id": "e9",
+      "source_type": "paper",
+      "url": "https://openalex.org/W4379929708",
+      "title": "Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering",
+      "authors": ["Yang Liu", "Guanbin Li", "Liang Lin"],
+      "year": 2023,
+      "page": null,
+      "sha256": null,
+      "quote": null,
+      "summary": "Existing visual question answering methods often suffer from cross-modal spurious correlations and oversimplified event-level reasoning processes that fail to capture event temporality, causality, and dynamics spanning over the video. In this work, to address the task of event-level visual question answering, we propose a framework for cross-modal causal …",
+      "derived_from": "e6",
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:10:31Z"
+    },
+    {
+      "id": "e10",
+      "source_type": "paper",
+      "url": "https://openalex.org/W4312974690",
+      "title": "Invariant Grounding for Video Question Answering",
+      "authors": ["Yicong Li", "Xiang Wang", "Junbin Xiao", "Wei Ji", "Tat‐Seng Chua"],
+      "year": 2022,
+      "page": null,
+      "sha256": null,
+      "quote": null,
+      "summary": "Video Question Answering (VideoQA) is the task of answering questions about a video. At its core is understanding the alignments between visual scenes in video and linguistic semantics in question to yield the answer. In leading VideoQA models, the typical learning objective, empirical risk minimization (ERM), latches on superficial correlations …",
+      "derived_from": "e6",
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:10:33Z"
+    },
+    {
+      "id": "e11",
+      "source_type": "api_query",
+      "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Aintent+prediction+human+robot+collaboration%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+      "title": "OpenAlex works search: \"intent prediction human robot collaboration\", 2022 onwards",
+      "authors": [],
+      "year": null,
+      "page": null,
+      "sha256": null,
+      "quote": null,
+      "summary": "66 works match; the 15 most cited were retrieved. OpenAlex echoes the query as: works where date >= (2022-01-01) and title/abstract has (intent prediction human robot collaboration). meta.cost_usd 0.001.",
+      "derived_from": null,
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:09:21Z"
+    },
+    {
+      "id": "e12",
+      "source_type": "api_query",
+      "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Aintent+prediction+human+robot+collaboration%2Cfrom_publication_date%3A2019-01-01&group_by=publication_year",
+      "title": "OpenAlex topic trend: \"intent prediction human robot collaboration\" by publication year",
+      "authors": [],
+      "year": null,
+      "page": null,
+      "sha256": null,
+      "quote": null,
+      "summary": "Works per year: 2019 1, 2020 3, 2021 4, 2022 8, 2023 9, 2024 9, 2025 25, 2026 15. A small field growing steeply from 2025; 2026 is a partial year. meta.cost_usd 0.0001.",
+      "derived_from": null,
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:09:55Z"
+    },
+    {
+      "id": "e13",
+      "source_type": "api_query",
+      "url": "https://api.openalex.org/works?filter=cites%3AW4389121755%2Cfrom_publication_date%3A2023-01-01&select=id&per_page=1",
+      "title": "OpenAlex citing count: W4389121755 since 2023-01-01",
+      "authors": [],
+      "year": null,
+      "page": null,
+      "sha256": null,
+      "quote": null,
+      "summary": "54 works published on or after 2023-01-01 cite Inferring Human Intent and Predicting Human Action in Human-Robot Collaboration — its entire citation count, the review having been published in late 2023. meta.cost_usd 0.0001.",
+      "derived_from": null,
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:10:02Z"
+    },
+    {
+      "id": "e14",
+      "source_type": "paper",
+      "url": "https://openalex.org/W4389121755",
+      "title": "Inferring Human Intent and Predicting Human Action in Human–Robot Collaboration",
+      "authors": ["Guy Hoffman", "Tapomayukh Bhattacharjee", "Stefanos Nikolaidis"],
+      "year": 2023,
+      "page": null,
+      "sha256": null,
+      "quote": null,
+      "summary": "Researchers in human–robot collaboration have extensively studied methods for inferring human intentions and predicting their actions, as this is an important precursor for robots to provide useful assistance. We review contemporary methods for intention inference and human activity prediction. Our survey finds that intentions and goals are often inferred …",
+      "derived_from": "e11",
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:10:38Z"
+    },
+    {
+      "id": "e15",
+      "source_type": "paper",
+      "url": "https://openalex.org/W4389670840",
+      "title": "Early Prediction of Human Intention for Human–Robot Collaboration Using Transformer Network",
+      "authors": ["Xinyao Zhang", "Sibo Tian", "Xiao Liang", "Minghui Zheng", "Sara Behdad"],
+      "year": 2023,
+      "page": null,
+      "sha256": null,
+      "quote": null,
+      "summary": "Human intention prediction plays a critical role in human–robot collaboration, as it helps robots improve efficiency and safety by accurately anticipating human intentions and proactively assisting with tasks. While current applications often focus on predicting intent once human action is completed, recognizing human intent in advance has received …",
+      "derived_from": "e11",
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:10:40Z"
+    },
+    {
+      "id": "e16",
+      "source_type": "api_query",
+      "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Aknowledge+graph+grounded+video+question+answering%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+      "title": "OpenAlex works search: \"knowledge graph grounded video question answering\", 2022 onwards",
+      "authors": [],
+      "year": null,
+      "page": null,
+      "sha256": null,
+      "quote": null,
+      "summary": "22 works match — the thinnest of the three direction queries; all were retrieved. OpenAlex echoes the query as: works where date >= (2022-01-01) and title/abstract has (knowledge graph grounded video question answering). meta.cost_usd 0.001.",
+      "derived_from": null,
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:09:29Z"
+    },
+    {
+      "id": "e17",
+      "source_type": "api_query",
+      "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Aknowledge+graph+grounded+video+question+answering%2Cfrom_publication_date%3A2019-01-01&group_by=publication_year",
+      "title": "OpenAlex topic trend: \"knowledge graph grounded video question answering\" by publication year",
+      "authors": [],
+      "year": null,
+      "page": null,
+      "sha256": null,
+      "quote": null,
+      "summary": "Works per year: 2019 1, 2022 1, 2023 2, 2024 4, 2025 8, 2026 7; 2020 and 2021 returned no works. Rising but from close to nothing, and never above 8 in a year. meta.cost_usd 0.0001.",
+      "derived_from": null,
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:09:57Z"
+    },
+    {
+      "id": "e18",
+      "source_type": "api_query",
+      "url": "https://api.openalex.org/works?filter=cites%3AW3206166878%2Cfrom_publication_date%3A2023-01-01&select=id&per_page=1",
+      "title": "OpenAlex citing count: W3206166878 since 2023-01-01",
+      "authors": [],
+      "year": null,
+      "page": null,
+      "sha256": null,
+      "quote": null,
+      "summary": "15 works published on or after 2023-01-01 cite STAR: A Benchmark for Situated Reasoning in Real-World Videos, out of 22 citations in total. meta.cost_usd 0.0001.",
+      "derived_from": null,
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:10:05Z"
+    },
+    {
+      "id": "e19",
+      "source_type": "paper",
+      "url": "https://openalex.org/W3206166878",
+      "title": "STAR: A Benchmark for Situated Reasoning in Real-World Videos",
+      "authors": ["Bo Wu", "Shoubin Yu", "Zhenfang Chen", "Joshua B. Tenenbaum", "Chuang Gan"],
+      "year": 2024,
+      "page": null,
+      "sha256": null,
+      "quote": null,
+      "summary": "Reasoning in the real world is not divorced from situations. How to capture the present knowledge from surrounding situations and perform reasoning accordingly is crucial and challenging for machine intelligence. This paper introduces a new benchmark that evaluates the situated reasoning ability via situation abstraction and logic-grounded question …",
+      "derived_from": "e16",
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:10:44Z"
+    },
+    {
+      "id": "e20",
+      "source_type": "paper",
+      "url": "https://openalex.org/W4398395817",
+      "title": "Advancing surgical VQA with scene graph knowledge",
+      "authors": ["Kun Yuan", "Manasi Kattel", "Joël L. Lavanchy", "Nassir Navab", "Vinkle Srivastav", "Nicolas Padoy"],
+      "year": 2024,
+      "page": null,
+      "sha256": null,
+      "quote": null,
+      "summary": "The modern operating room is becoming increasingly complex, requiring innovative intra-operative support systems. While the focus of surgical data science has largely been on video analysis, integrating surgical computer vision with natural language capabilities is emerging as a necessity. Our work aims to advance visual question answering (VQA) …",
+      "derived_from": "e16",
+      "http_status": 200,
+      "retrieved_at": "2026-09-05T09:10:47Z"
+    }
+  ]
+}

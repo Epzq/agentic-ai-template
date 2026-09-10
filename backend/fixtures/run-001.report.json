@@ -1,0 +1,1688 @@
+{
+ "run_id": "run-20260906-025302",
+ "generated_at": "2026-09-06T02:55:40.720588Z",
+ "inputs": {
+  "grant_url": "https://www.rgp.gov.sg/nrf-ar/crp",
+  "profile_url": "https://basurafernando.github.io/",
+  "grant_document": "CRP Call Information Sheet.pdf",
+  "grant_sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7"
+ },
+ "identity": {
+  "author_id": "https://openalex.org/A5090467618",
+  "display_name": "Basura Fernando",
+  "institution": "Agency for Science, Technology and Research",
+  "confidence": "unverified",
+  "margin": 0.0
+ },
+ "weights": {
+  "grant_alignment": 0.1111111111111111,
+  "scientific_novelty": 0.1111111111111111,
+  "importance": 0.1111111111111111,
+  "applicant_fit": 0.1111111111111111,
+  "feasibility": 0.1111111111111111,
+  "competitive_differentiation": 0.1111111111111111,
+  "collaboration_potential": 0.1111111111111111,
+  "impact_potential": 0.1111111111111111,
+  "evidence_strength": 0.1111111111111111
+ },
+ "directions": [
+  {
+   "rank": 1,
+   "overall": 6.86,
+   "confidence": "medium",
+   "thin_evidence": false,
+   "title": "Predictive Robotic Vision for Safe Human-Robot Collaboration",
+   "problem_statement": {
+    "evidence_ids": [
+     "e63"
+    ],
+    "text": "Human-robot collaboration requires robots to anticipate human actions to ensure safety and efficiency. While intention prediction is recognized as crucial in human-robot interaction, current systems often struggle with complex, real-world dynamics. The challenge lies in developing embodied AI frameworks that can accurately predict human actions in real-time to facilitate seamless cooperation."
+   },
+   "evidence_backed_gap": {
+    "evidence_ids": [
+     "e59",
+     "e60",
+     "e61",
+     "e63",
+     "e64"
+    ],
+    "text": "The literature shows significant interest in assistive robot human action prediction, with 155 recent works, and predictive visual reasoning for embodied robots, with 60 works. However, the specific intersection of human action anticipation for robotics collaboration yielded only 31 works. The retrieved papers, such as those on gaze-based intention estimation and teleoperation, do not demonstrate a unified predictive visual reasoning framework for safe, adaptive physical collaboration. We did not find a comprehensive solution addressing this specific need."
+   },
+   "key_strengths": [
+    "Directly addresses the call's focus on use-inspired basic research.",
+    "Builds on a solid foundation of 155 recent works in assistive robot human action prediction.",
+    "Strong alignment with the applicant's established expertise in robotic vision."
+   ],
+   "key_weaknesses": [
+    "The specific intersection of human action anticipation and robotics collaboration has only 31 recent works, indicating a nascent subfield.",
+    "May require significant effort to translate intention prediction into real-time physical collaboration."
+   ],
+   "evidence_ids": [
+    "e63",
+    "e59",
+    "e60",
+    "e61",
+    "e64",
+    "e2",
+    "e52",
+    "e3"
+   ],
+   "scores": {
+    "grant_alignment": {
+     "evidence_ids": [
+      "e2",
+      "e52"
+     ],
+     "value": 8.0,
+     "rationale": "The proposal directly addresses the call's objective to fund use-inspired basic research and cutting-edge research of relevance to Singapore.",
+     "provenance": "judged"
+    },
+    "scientific_novelty": {
+     "evidence_ids": [
+      "e60",
+      "e63"
+     ],
+     "value": 5.0,
+     "rationale": "It represents a meaningful extension of known intention prediction methods into embodied predictive visual reasoning, which has 60 recent works.",
+     "provenance": "judged"
+    },
+    "importance": {
+     "evidence_ids": [
+      "e63"
+     ],
+     "value": 6.0,
+     "rationale": "Solving this removes a real obstacle for the human-robot interaction research community, as intention prediction is highly relevant for artificial systems cooperating with humans.",
+     "provenance": "judged"
+    },
+    "applicant_fit": {
+     "evidence_ids": [
+      "e3"
+     ],
+     "value": 8.0,
+     "rationale": "The applicant's established expertise in human action anticipation and robotic vision directly supports this direction, aligning with the need for an accomplished PI with productive research outcomes.",
+     "provenance": "judged"
+    },
+    "feasibility": {
+     "evidence_ids": [
+      "e2"
+     ],
+     "value": 8.0,
+     "rationale": "The core ingredients are in place, making the primary risks scientific rather than logistical, which fits the call's expectations for a coordinated research programme.",
+     "provenance": "judged"
+    },
+    "competitive_differentiation": null,
+    "collaboration_potential": null,
+    "impact_potential": {
+     "evidence_ids": [
+      "e52"
+     ],
+     "value": 6.0,
+     "rationale": "The realistic endpoint is a predictive framework and toolset that the robotics community would adopt, fulfilling the call's mandate for use-inspired basic research.",
+     "provenance": "judged"
+    },
+    "evidence_strength": {
+     "evidence_ids": [
+      "e61",
+      "e63"
+     ],
+     "value": 7.0,
+     "rationale": "Several queries returned substantial results, such as 155 works on assistive robot human action prediction, and relevant papers on intention estimation were read.",
+     "provenance": "judged"
+    }
+   }
+  },
+  {
+   "rank": 2,
+   "overall": 5.57,
+   "confidence": "low",
+   "thin_evidence": false,
+   "title": "Multimodal Knowledge Graph Reasoning for Autonomous Industrial Quality Inspection",
+   "problem_statement": {
+    "evidence_ids": [
+     "e71",
+     "e72"
+    ],
+    "text": "Autonomous industrial quality inspection requires robust systems to identify defects in complex manufacturing environments. While multimodal event processing is being explored for various applications, applying these techniques to industrial defect analysis remains challenging. The need is for advanced reasoning capabilities that can integrate diverse data modalities to accurately assess part quality and improve manufacturing efficiency."
+   },
+   "evidence_backed_gap": {
+    "evidence_ids": [
+     "e68",
+     "e69",
+     "e70",
+     "e71",
+     "e72"
+    ],
+    "text": "There is substantial research on multimodal event knowledge graph analysis, with 80 recent works. However, applying this to industrial inspection is sparse; a search for multimodal knowledge graph industrial inspection returned only 7 works, and visual reasoning for defect recognition in manufacturing yielded just 3 works. The retrieved literature does not contain frameworks specifically adapting multimodal knowledge graphs for autonomous industrial quality inspection. We did not find evidence of this specific application in the current literature."
+   },
+   "key_strengths": [
+    "Targets a practical problem in advanced manufacturing, aligning with use-inspired research goals.",
+    "Leverages the applicant's domain experience in aerospace part inspection."
+   ],
+   "key_weaknesses": [
+    "The literature for multimodal knowledge graph industrial inspection is very thin, with only 7 recent works.",
+    "Retrieved papers focus on adjacent domains like traffic event detection rather than manufacturing."
+   ],
+   "evidence_ids": [
+    "e71",
+    "e72",
+    "e68",
+    "e69",
+    "e70",
+    "e52",
+    "e3",
+    "e4"
+   ],
+   "scores": {
+    "grant_alignment": {
+     "evidence_ids": [
+      "e52"
+     ],
+     "value": 7.0,
+     "rationale": "The direction aligns with the call's focus on use-inspired basic research to solve practical problems, though slightly less directly than the primary objectives.",
+     "provenance": "judged"
+    },
+    "scientific_novelty": {
+     "evidence_ids": [
+      "e68",
+      "e71"
+     ],
+     "value": 4.0,
+     "rationale": "It applies established multimodal event processing methods to a new dataset and domain in manufacturing, which has only 7 recent works.",
+     "provenance": "judged"
+    },
+    "importance": {
+     "evidence_ids": [
+      "e72"
+     ],
+     "value": 5.0,
+     "rationale": "Solving this removes a real obstacle for the advanced manufacturing research community, similar to how multimodal graphs aid traffic event detection.",
+     "provenance": "judged"
+    },
+    "applicant_fit": {
+     "evidence_ids": [
+      "e3"
+     ],
+     "value": 7.0,
+     "rationale": "The applicant has domain experience in aerospace part inspection and multimodal knowledge graphs, requiring minimal new learning to meet the PI track record requirements.",
+     "provenance": "judged"
+    },
+    "feasibility": {
+     "evidence_ids": [
+      "e4"
+     ],
+     "value": 7.0,
+     "rationale": "Achievable with effort, though integrating multimodal data in industrial settings may present logistical dependencies that must be managed for successful project implementation.",
+     "provenance": "judged"
+    },
+    "competitive_differentiation": null,
+    "collaboration_potential": null,
+    "impact_potential": {
+     "evidence_ids": [
+      "e52"
+     ],
+     "value": 5.0,
+     "rationale": "The realistic endpoint is a tool or dataset for industrial defect analysis that another group would adopt, aligning with the call's focus on practical problems.",
+     "provenance": "judged"
+    },
+    "evidence_strength": {
+     "evidence_ids": [
+      "e69",
+      "e71",
+      "e72"
+     ],
+     "value": 4.0,
+     "rationale": "The claim rests on queries that returned very few results, such as 3 works for visual reasoning defect recognition, and the read papers are from adjacent domains.",
+     "provenance": "judged"
+    }
+   }
+  },
+  {
+   "rank": 3,
+   "overall": 4.57,
+   "confidence": "low",
+   "thin_evidence": false,
+   "title": "Explainable 3D Spatial Reasoning for Assistive Healthcare Agents",
+   "problem_statement": {
+    "evidence_ids": [
+     "e82"
+    ],
+    "text": "Assistive healthcare agents need to understand and explain 3D spatial environments to effectively support care providers and patients. While AI is increasingly ubiquitous, healthcare applications require high reliability and explainability. The challenge is to develop agents capable of explainable 3D spatial reasoning to safely navigate and describe clinical or home care settings."
+   },
+   "evidence_backed_gap": {
+    "evidence_ids": [
+     "e77",
+     "e78",
+     "e79",
+     "e80",
+     "e81",
+     "e83"
+    ],
+    "text": "Explainable multimodal action prediction is an active area with 121 recent works, and explainable visual reasoning in 3D scenes shows a growing trend with 17 works. However, the specific application to assistive embodied spatial reasoning in healthcare returned only 3 works. Furthermore, the retrieved papers focus on general AI in business, education, and society, and we did not find any addressing explainable 3D spatial reasoning specifically for healthcare agents."
+   },
+   "key_strengths": [
+    "Explores a novel intersection of explainable visual reasoning and 3D scenes.",
+    "Addresses the growing need for explainable AI in sensitive domains."
+   ],
+   "key_weaknesses": [
+    "Health services research is explicitly out of scope for the CRP scheme unless it is not the main objective.",
+    "The specific application has almost no literature support, with only 3 works found.",
+    "Retrieved papers are entirely unrelated to the technical claims of the proposal."
+   ],
+   "evidence_ids": [
+    "e82",
+    "e77",
+    "e78",
+    "e79",
+    "e80",
+    "e81",
+    "e83",
+    "e18",
+    "e43",
+    "e52",
+    "e55",
+    "e2"
+   ],
+   "scores": {
+    "grant_alignment": {
+     "evidence_ids": [
+      "e18",
+      "e43",
+      "e52",
+      "e55"
+     ],
+     "value": 4.0,
+     "rationale": "While it proposes use-inspired research, it risks falling into health services research, which is explicitly out of scope for the CRP scheme unless it is not the main objective.",
+     "provenance": "judged"
+    },
+    "scientific_novelty": {
+     "evidence_ids": [
+      "e77"
+     ],
+     "value": 6.0,
+     "rationale": "It reformulates the problem of explainable visual reasoning, which has 17 works, into a complex 3D healthcare context.",
+     "provenance": "judged"
+    },
+    "importance": {
+     "evidence_ids": [
+      "e83"
+     ],
+     "value": 4.0,
+     "rationale": "Solving it would improve capabilities, but the immediate impact is likely limited to a benchmark, as AI in society is still an uncharted era.",
+     "provenance": "judged"
+    },
+    "applicant_fit": {
+     "evidence_ids": [
+      "e2"
+     ],
+     "value": 6.0,
+     "rationale": "The applicant has expertise in explainable AI, but lacks evidenced healthcare domain experience, which may challenge the requirement for a coordinated multidisciplinary team.",
+     "provenance": "judged"
+    },
+    "feasibility": {
+     "evidence_ids": [
+      "e18"
+     ],
+     "value": 5.0,
+     "rationale": "Achievable with effort, but requires unresolved dependencies such as healthcare data access and clinical approvals, which are complex to manage.",
+     "provenance": "judged"
+    },
+    "competitive_differentiation": null,
+    "collaboration_potential": null,
+    "impact_potential": {
+     "evidence_ids": [
+      "e52"
+     ],
+     "value": 4.0,
+     "rationale": "The realistic endpoint is a paper and a benchmark entry for explainable 3D reasoning in healthcare, which may not fully meet the use-inspired goals.",
+     "provenance": "judged"
+    },
+    "evidence_strength": {
+     "evidence_ids": [
+      "e78",
+      "e80",
+      "e81",
+      "e82"
+     ],
+     "value": 3.0,
+     "rationale": "The claim rests on a query that returned only 3 works, and the read papers are entirely unrelated to the specific technical claim.",
+     "provenance": "judged"
+    }
+   }
+  }
+ ],
+ "evidence": [
+  {
+   "id": "e1",
+   "source_type": "webpage",
+   "url": "https://www.rgp.gov.sg/nrf-ar/crp",
+   "title": "CRP | Optical",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "# NRF Competitive Research Programme (NRF CRP)\n\n## News & Announcements\n\n## Featured Articles\n\n## Introduction\n\nThe National Research Foundation\u00a0**Competitive Research Programme (CRP)** funding initiative funds use-inspired basic research and seeks to foster multi-disciplinary teams to conduct cutting-edge research in Singapore. Proposals are submitted bottom-up by researchers and are selected thr",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:03.936080Z"
+  },
+  {
+   "id": "e2",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 1",
+   "authors": [],
+   "year": null,
+   "page": 1,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "# **COMPETITIVE RESEARCH PROGRAMME (CRP) FUNDING SCHEME** \n\n# **Information Sheet** \n\n# **CRP Call-for-Proposals** \n\n## **1 Objectives** \n\n- 1.1 The National Research Foundation (NRF) Competitive Research Programme (CRP) Funding Scheme seeks to foster the formation of multidisciplinary teams in Singapore to conduct cutting-edge research of relevance to Singapore. This allows a coordinated, integra",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.277747Z"
+  },
+  {
+   "id": "e3",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 2",
+   "authors": [],
+   "year": null,
+   "page": 2,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "- Hold a primary and/or joint appointment(s) at eligible institution(s)/organisations(s), with a minimum time commitment of **9 months (per calendar year) in Singapore** ; \n\n   - Be an accomplished PI<sup>2</sup> with a track record of leadership ability in coordinating research programme(s) and providing mentorship to research team(s), as well as having productive research outcomes; and \n\n   - Le",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.277826Z"
+  },
+  {
+   "id": "e4",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 3",
+   "authors": [],
+   "year": null,
+   "page": 3,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "- <u>Stage 2 (Full Proposal): (i) Research Excellence and Vision; (ii) Impact and</u> Innovation Potential; (iii) Technical Competencies and Team Composition; and (iv) Project Management and Implementation. \n\n- 3.4 Lead PI and Team PI(s) are expected to commit at least 20% and 10% of their total time commitment to the project, respectively. The time commitment of each team member dedicated to the ",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.277849Z"
+  },
+  {
+   "id": "e5",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 4",
+   "authors": [],
+   "year": null,
+   "page": 4,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "- (c) Video should be **up to 12 minutes** long in duration<sup>6</sup> \n\n   - (d) Video file format **should not exceed 500 MB** and should be compatible with Windows Media Player (e.g. MP4 video file, QuickTime movie file, etc). Microsoft PowerPoint format can also be used. \n\n   - (e) Video must be uploaded to a cloud storage with a generatable link, made accessible and downloadable by external ",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.277867Z"
+  },
+  {
+   "id": "e6",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 5",
+   "authors": [],
+   "year": null,
+   "page": 5,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "## **6 Application Form Sections** \n\n- 6.1 The following attachments in <u>PDF format</u> should be uploaded at the respective sections of the RGP application form **using the filenames as listed in blue** : \n\n<u>Table 1. Documents Related to Stage 1</u> \n\n|**Document**|**Remarks for**<br>**Submission**<br>**Requirement**|**Format of**<br>**Filename**|**Description**|\n|---|---|---|---|\n|**Video**|",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.277882Z"
+  },
+  {
+   "id": "e7",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 6",
+   "authors": [],
+   "year": null,
+   "page": 6,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "|**Document**|**Remarks for**<br>**Submission**<br>**Requirement**|**Format of**<br>**Filename**|**De**|**scription**||\n|---|---|---|---|---|---|\n||||and research diff<br>CRP application.<br>|er from tha<br> <br>|t in the<br>|\n||||**Project ID**|<Indicate<br>of related|Project ID<br>grant>|\n||||**Title**|<Indicate<br>related gra|Title of<br>nt>|\n||||**Similarity or**<br>**Relationship**<br>**with ",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.277900Z"
+  },
+  {
+   "id": "e8",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 7",
+   "authors": [],
+   "year": null,
+   "page": 7,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "|**Document**|**Remarks for**<br>**Submission**<br>**Requirement**|**Format of**<br>**Filename**|**Description**|\n|---|---|---|---|\n||||**Please include the full titles and DOI**<br>**numbers of the publications listed. Do**<br>**not forget to reference your own key**<br>**publications related to the proposal (if**<br>**any).**_[Note: Hyperlinksnot necessary]._<br>**(c)Gantt Chart**|\n||||Provide<b",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.277914Z"
+  },
+  {
+   "id": "e9",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 8",
+   "authors": [],
+   "year": null,
+   "page": 8,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "- 6.5 Applicants must provide **<u>a single file</u>** which includes the CVs of all the team members (Lead PI, Team PI(s) and Collaborator(s)). Please use the format in <u>Appendix B and name the file using the filename in blue below.</u> _Note: Please do not add any underscores to the filenames._ \n\n   - 04 CRP <mark>XX</mark> CVs of Team Members _<Insert Lead PI Name>_ \n\n## <u>Budget</u> \n\n- 6.6",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.277927Z"
+  },
+  {
+   "id": "e10",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 9",
+   "authors": [],
+   "year": null,
+   "page": 9,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "deliverables should be key research milestones and should be as quantitative (e.g. technical specifications) as possible as measures of success at mid-term and completion. Please refer to Appendix E for more information. \n\n- 6.13 The Stage 1 Video link, Stage 1 Annex and the Full Proposal should be uploaded under this section. \n\n## <u>Declaration (Proposal Submission)</u> \n\n- 6.14 This section is ",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.277941Z"
+  },
+  {
+   "id": "e11",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 10",
+   "authors": [],
+   "year": null,
+   "page": 10,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "- 9.2 For technical enquiries related to RGP, please refer to the RGP Helpdesk <u>(Research Grants Portal (RGP) Helpdesk</u> \u2013 Government Technology <u>Agency of Singapore | GovTech).</u> \n\n## **Enclosed for Reference** \n\n- a) Attachment 1: Stage 1 Annex Template \n\n- b) Attachment 2: CRP Full Proposal Template \n\n10",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.277954Z"
+  },
+  {
+   "id": "e12",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 11",
+   "authors": [],
+   "year": null,
+   "page": 11,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "## **<u>Overview of the Review Process and Requirements</u>** \n\n\n\n11",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.277966Z"
+  },
+  {
+   "id": "e13",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 12",
+   "authors": [],
+   "year": null,
+   "page": 12,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "**APPENDIX A** \n\n## **Pointers for Writing Good Proposals** \n\nGood ideas are often undermined by missteps in proposal preparation. Most winning proposals have been polished repeatedly. Allow time to write and rewrite the proposal. Read the instructions and understand the evaluation criteria. Touch all the bases, and not just the ones you are comfortable with. Each section of the forms must be fill",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.277978Z"
+  },
+  {
+   "id": "e14",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 13",
+   "authors": [],
+   "year": null,
+   "page": 13,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "When writing your Full Proposals, try to answer these questions adapted from Heilmeier\u2019s Catechism: \n\n1. What are you trying to do? Articulate your objectives using absolutely no jargon. What is the problem? Why is it hard? \n\n2. How is it done today, and what are the limits of current practice? \n\n3. What's new in your approach and why do you think it will be successful? \n\n4. Who cares? \n\n5. If you",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.277990Z"
+  },
+  {
+   "id": "e15",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 14",
+   "authors": [],
+   "year": null,
+   "page": 14,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "## **APPENDIX B** \n\n## **Format of Curriculum Vitae** \n\n<u>For Lead PI, Team PI(s) and Collaborator(s): Please upload a single file containing all</u> the CVs of the Team Members, to the _\u2018Proposal, Outcomes and Key Deliverables\u2019_ section of the RGP application. \n\nThe CVs of all members ( **Lead PI, all Team PI(s) and Collaborator(s)** ) must be provided in a single file. **Each CV must start on a",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.278002Z"
+  },
+  {
+   "id": "e16",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 15",
+   "authors": [],
+   "year": null,
+   "page": 15,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "**APPENDIX C** \n\n## **CHECKLIST FOR PREPARATION OF A RESEARCH BUDGET** \n\n## **<u><mark>Before you Begin</mark></u>** \n\n<mark>1. Read NRF\u2019s Instructions for Submission of Full Proposal for the Competitive Research Programme (CRP) funding scheme carefully.</mark> \n\n<mark>2. Review the instructions and guidelines to ensure that the proposed items are eligible and in concordance to your Host Instituti",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.278014Z"
+  },
+  {
+   "id": "e17",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 16",
+   "authors": [],
+   "year": null,
+   "page": 16,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "|**S/N**|**Item**|**Description**||\n|---|---|---|---|\n|1.|Manpower<br>Cost (EOM)|Are the positions of all individuals working on this<br>project listed?|`\u2610`|\n|2.||Is the proposed manpower headcount sufficient and<br>reasonable to meet the project objectives and<br>deliverables?|`\u2610`|\n|3.||Is the EOM per pax in agreement with the salary<br>package stipulated by your Host Institution\u2019s HR<br>policy?|",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.278027Z"
+  },
+  {
+   "id": "e18",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 17",
+   "authors": [],
+   "year": null,
+   "page": 17,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "**APPENDIX D** \n\n## **I. AREAS OUT OF CRP SCOPE** \n\nThe CRP Scheme is not intended for the following areas: \n\n- a) Epidemiological and behavioural studies; \n\n- b) Observational studies (including cohort, longitudinal, case-control studies, etc.); \n\n- c) Clinical and drug trials; \n\n- d) Health services research/operations research; \n\n- e) Infrastructure/facilities set-up; and \n\n- f) Market/drugs/pr",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.278039Z"
+  },
+  {
+   "id": "e19",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 18",
+   "authors": [],
+   "year": null,
+   "page": 18,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "|Audit fees (Internal and external<br>audit) and Legal fees<br>Fines and Penalties<br>Professional Membership Fees<br>Staff retreat and team-building<br>activities|Not allowable, as this is an indirect cost*.|\n|---|---|\n|Patent Application|Not allowable, as this should be supported from<br>overheads given to I&E Office (IEO)*. This includes<br>patent application filing, maintenance and other<br>re",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.278051Z"
+  },
+  {
+   "id": "e20",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 19",
+   "authors": [],
+   "year": null,
+   "page": 19,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "**APPENDIX E** \n\n### **SUMMARY OF POTENTIAL IMPACT** \n\nA summary of potential impact of the proposed CRP project is intended to inform the NRF and its reviewers that the team has scoped its research project based on the understanding of how it would impact the beneficiaries and/ or users, if the project succeeds. An impact summary should include a clear description of the problem that the project ",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.278064Z"
+  },
+  {
+   "id": "e21",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 20",
+   "authors": [],
+   "year": null,
+   "page": 20,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "## **APPENDIX F** \n\n## **GUIDING CHECKLIST FOR COMPETITIVE RESEARCH PROGRAMME (CRP) COMPLETENESS CHECKS** \n\nThis is a non-exhaustive list for PIs to take reference to ensure completeness of the submissions, and for the Office of Research to take reference when verifying the submissions. \n\n|**S/N**|**Document**|**Section**|**Item to Check**|\n|---|---|---|---|\n|1|Stage 1<br>Annex|Supporting<br>Docum",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.278076Z"
+  },
+  {
+   "id": "e22",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/708dad37-041a-48af-9e63-b3ac3835f7b3.zip?download=",
+   "title": "CRP Call Information Sheet.pdf \u2014 p. 21",
+   "authors": [],
+   "year": null,
+   "page": 21,
+   "sha256": "2b2b9b7756a27403606b447ca5093a1379b557267749f19bd9a67f06082c74b7",
+   "quote": null,
+   "summary": "- Full titles, DOI numbers are included for all references. \n\n- \u2022 File Names are correct (refer to <u>Paragraph 6.1, Table 1 and 2).</u> \n\n- 3 For resubmissions \u2022 The proposal has not been <u>resubmitted more than once.</u> \n\n- 4 CVs \u2022 All CVs of Team Members should be combined into a single file. \n\n- \u2022 CVs should include the Lead PI, Team PI(s) and Collaborator(s) . \n\n- \u2022 Indicate % time spent in",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:12.278087Z"
+  },
+  {
+   "id": "e23",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "Attachment 1 - F-CRP Slides Template.pdf \u2014 p. 1",
+   "authors": [],
+   "year": null,
+   "page": 1,
+   "sha256": "6affdc07ca2b606e535a18b2453a206b81cce02872fa9c1dfbb1d64030be6574",
+   "quote": null,
+   "summary": "# **1. Cover page** \n\n## \u2022 Please include the following in the cover slide: \n\n- Proposal Title \n\n- Lead PI \n\n- Host Institution \n\n- Team PI(s) \n\n- Collaborator(s) \n\n- Budget requested (including indirect costs) \n\n- \u2022 Proposed Project Duration \n\n**_Note: Please remove all these template slides from final submission. They only serve as content guides._**",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:13.632191Z"
+  },
+  {
+   "id": "e24",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "Attachment 1 - F-CRP Slides Template.pdf \u2014 p. 2",
+   "authors": [],
+   "year": null,
+   "page": 2,
+   "sha256": "6affdc07ca2b606e535a18b2453a206b81cce02872fa9c1dfbb1d64030be6574",
+   "quote": null,
+   "summary": "# **2. Instructions** \n\n- All text and figures should be at least Arial Font Size 12. \n\n   - Follow the Standard 4:3 or Widescreen 16:9 slide size format on Microsoft PowerPoint (or similar) for all slides. \n\n- Limit to 10 slides (excluding Cover Slide and appendices) \n\n   - Any additional content slides may disqualify your submission before review. \n\n- **Convert this document to PDF.** Please tak",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:13.632288Z"
+  },
+  {
+   "id": "e25",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "Attachment 1 - F-CRP Slides Template.pdf \u2014 p. 3",
+   "authors": [],
+   "year": null,
+   "page": 3,
+   "sha256": "6affdc07ca2b606e535a18b2453a206b81cce02872fa9c1dfbb1d64030be6574",
+   "quote": null,
+   "summary": "# **3. Suggested Table of Contents for Slides** \n\n- Research Aims and Objectives \n\n   - Clearly articulate the use-inspired objectives, why it is significant, and the expected outcomes of the programme, and how it would contribute towards achieving its objectives. \n\n- Background and Rationale \n\n   - A competitive scan on your proposed technology/ system/solution as compared to existing state-of-th",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:13.632309Z"
+  },
+  {
+   "id": "e26",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "Attachment 1 - F-CRP Slides Template.pdf \u2014 p. 4",
+   "authors": [],
+   "year": null,
+   "page": 4,
+   "sha256": "6affdc07ca2b606e535a18b2453a206b81cce02872fa9c1dfbb1d64030be6574",
+   "quote": null,
+   "summary": "# **4. Appendix** \n\n- **References:** a listing of all references cited in the presentation slides. \n\n   - Please include the full titles and DOI numbers of the publications listed. Do not forget to reference your own key publications related to the proposal (if any). _[Note: Hyperlinks not necessary]_ \n\n- **Response to Feedback** _(Mandatory for resubmitted applications only)_ \n\n   - Include the ",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:13.632324Z"
+  },
+  {
+   "id": "e27",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 1",
+   "authors": [],
+   "year": null,
+   "page": 1,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "# **FRONTIER COMPETITIVE RESEARCH PROGRAMME (F-CRP) FUNDING SCHEME** \n\n# **Information Sheet** \n\n**F-CRP Call-for-Proposals** \n\n## **1 Objectives** \n\n- 1.1 The National Research Foundation (NRF) Competitive Research Programme (CRP) Funding Scheme seeks to foster the formation of multidisciplinary teams in Singapore to conduct cutting-edge research of relevance to Singapore. This allows a coordinat",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529265Z"
+  },
+  {
+   "id": "e28",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 2",
+   "authors": [],
+   "year": null,
+   "page": 2,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "- 2.2 Private sector and other entities can participate as Collaborator(s). \n\n- 2.3 Lead PI and Team PI(s) must fulfil the following requirements at the point of application and throughout the project duration: \n\n   - Hold a primary and/or joint appointment(s) at eligible institution(s)/organisations(s), with a minimum time commitment of **9 months (per calendar year) in Singapore** ; and \n\n   - \u2022",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529358Z"
+  },
+  {
+   "id": "e29",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 3",
+   "authors": [],
+   "year": null,
+   "page": 3,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "- 4.3 **Prior to the submission** , the Lead PI is required to have a registered RGP account as a ApplyGov User to submit the application on behalf of the Host Institution. Each Team PI is also required to have a registered RGP account as a ApplyGov User to be added as team members in the application. For new applicants **without** an RGP account, please refer to the User Guide, FAQs and Demonstra",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529380Z"
+  },
+  {
+   "id": "e30",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 4",
+   "authors": [],
+   "year": null,
+   "page": 4,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "the presentation slides must be shortened/summarized to meet the 10slides limit with no additional information]. Please ensure the final PDF file **does not exceed 10 MB** . \n\n   - c) All supplementary information, limited to figures, tables, charts or diagrams ONLY, and referenced in the Video and Slides, must be appended to the **Appendix** (see <u>Paragraph 6.1) in the same document.</u> \n\n   -",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529399Z"
+  },
+  {
+   "id": "e31",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 5",
+   "authors": [],
+   "year": null,
+   "page": 5,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "<u>Table 1. Documents Related to Full Proposal</u> \n\n|**Document**|**Remarks for**<br>**Submission**<br>**Requirement**|**Format of**<br>**Filename**|**Description**|\n|---|---|---|---|\n|**Video**|<br>Mandatory|01 F-<br>CRP2026<br>Video<br><_Input_<br>_Lead PI_<br>_Name_>|Please insert the video link into the RGP<br>application form. Video cannot exceed<br>500 MB in size. Please readParagraph<br>5.",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529423Z"
+  },
+  {
+   "id": "e32",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 6",
+   "authors": [],
+   "year": null,
+   "page": 6,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "|**Document**|**Remarks for**<br>**Submission**<br>**Requirement**|**Format of**<br>**Filename**|**Description**|\n|---|---|---|---|\n|**(including**<br>**appendices)**|<br> <br>c) Gantt Chart<br>d) Ethics<br>Statement<br>e) Write-up on all<br>related grants<br>Optional for:<br>f) Figures,<br>Charts,<br>Diagrams or<br>Tables only<br>(optional)|Proposal<br><_Input_<br>_Lead PI_<br>_Name_>|Please use ",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529446Z"
+  },
+  {
+   "id": "e33",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 7",
+   "authors": [],
+   "year": null,
+   "page": 7,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "|**Document**|**Remarks for**<br>**Submission**<br>**Requirement**|**Format of**<br>**Filename**|**D**|**escription**||\n|---|---|---|---|---|---|\n||||**Title**|<Indicate T<br>grant>|itle of related|\n||||**Similarity or**<br>**Relationship**<br>**with 2026 F-**<br>**CRP**|_e.g. follow-_<br>_similar_<br>_methodolo_|_up grant,_<br>_gy/concept._|\n|||||**<Project**<br>**ID>**|**2026 F-**<br>**CRP**|\n||",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529467Z"
+  },
+  {
+   "id": "e34",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 8",
+   "authors": [],
+   "year": null,
+   "page": 8,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "- 6.5 The consolidated CVs should be uploaded as a single file under this section. Please use the format in Appendix B. \n\n## <u>Budget</u> \n\n- 6.6 This section is to input the associated costs within each budget categories applicable for F-CRP, which are: (i) Expenditure on manpower (EOM); (ii) Other operating expenses (OOE); (iii) Equipment (EQP); (iv) Overseas travel (OT); and (v) Research schol",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529486Z"
+  },
+  {
+   "id": "e35",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 9",
+   "authors": [],
+   "year": null,
+   "page": 9,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "success at the 2-year Stage-gate and at Completion. Please refer to <u>Appendix E</u> for more information. \n\n- 6.13 The Full Proposal should be uploaded under this section. \n\n## <u>Declaration (Proposal Submission)</u> \n\n- 6.14 This section is for the respective declarations from the Lead PI, Host Institution verifier and DOR endorser. \n\n## **7 Completeness Check** \n\n- 7.1 The Lead PI\u2019s Host Inst",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529499Z"
+  },
+  {
+   "id": "e36",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 10",
+   "authors": [],
+   "year": null,
+   "page": 10,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "## **Enclosed for Reference** \n\n- a) Attachment 1: F-CRP Slide Template \n\n- b) Attachment 2: F-CRP Full Proposal Template \n\n10",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529511Z"
+  },
+  {
+   "id": "e37",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 11",
+   "authors": [],
+   "year": null,
+   "page": 11,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "## **<u>Overview of the Review Process and Requirements</u>** \n\n\n\n11",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529522Z"
+  },
+  {
+   "id": "e38",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 12",
+   "authors": [],
+   "year": null,
+   "page": 12,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "**APPENDIX A** \n\n## **Pointers for Writing Good Proposals** \n\nGood ideas are often undermined by missteps in proposal preparation. Most winning proposals have been polished repeatedly. Allow time to write and rewrite the proposal. Read the instructions and understand the evaluation criteria. Touch all the bases, and not just the ones you are comfortable with. Each section of the forms must be fill",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529535Z"
+  },
+  {
+   "id": "e39",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 13",
+   "authors": [],
+   "year": null,
+   "page": 13,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "When writing your Full Proposals, try to answer these questions adapted from Heilmeier\u2019s Catechism: \n\n1. What are you trying to do? Articulate your objectives using absolutely no jargon. What is the problem? Why is it hard? \n\n2. How is it done today, and what are the limits of current practice? \n\n3. What's new in your approach and why do you think it will be successful? \n\n4. Who cares? \n\n5. If you",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529547Z"
+  },
+  {
+   "id": "e40",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 14",
+   "authors": [],
+   "year": null,
+   "page": 14,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "## **APPENDIX B** \n\n## **Format of Curriculum Vitae** \n\n<u>For Lead PI, Team PI(s) and Collaborator(s): Please upload a single file containing all</u> the CVs of the Team Members, to the _\u2018Proposal, Outcomes and Key Deliverables\u2019_ section of the RGP application. \n\nThe CVs of all members ( **Lead PI, all Team PI(s) and Collaborator(s)** ) must be provided in a single file. **Each CV must start on a",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529560Z"
+  },
+  {
+   "id": "e41",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 15",
+   "authors": [],
+   "year": null,
+   "page": 15,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "**APPENDIX C** \n\n## **CHECKLIST FOR PREPARATION OF A RESEARCH BUDGET** \n\n## **<u><mark>Before you Begin</mark></u>** \n\n<mark>1. Read NRF\u2019s Instructions for Submission of Full Proposal for the Competitive Research Programme (F-CRP) funding scheme carefully.</mark> \n\n<mark>2. Review the instructions and guidelines to ensure that the proposed items are eligible and in concordance to your Host Institu",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529572Z"
+  },
+  {
+   "id": "e42",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 16",
+   "authors": [],
+   "year": null,
+   "page": 16,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "|**S/N**|**Item**|**Description**||\n|---|---|---|---|\n|1.|Manpower<br>Cost (EOM)|Are the positions of all individuals working on this<br>project listed?|`\u2610`|\n|2.||Is the proposed manpower headcount sufficient and<br>reasonable to meet the project objectives and<br>deliverables?|`\u2610`|\n|3.||Is the EOM per pax in agreement with the salary<br>package stipulated by your Host Institution\u2019s HR<br>policy?|",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529585Z"
+  },
+  {
+   "id": "e43",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 17",
+   "authors": [],
+   "year": null,
+   "page": 17,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "**APPENDIX D** \n\n## **I. AREAS OUT OF F-CRP SCOPE** \n\nThe F-CRP Scheme is not intended for the following areas: \n\n- a) Epidemiological and behavioural studies; \n\n- b) Observational studies (including cohort, longitudinal, case-control studies, etc.); \n\n- c) Clinical and drug trials; \n\n- d) Health services research/operations research; \n\n- e) Infrastructure/facilities set-up; and \n\n- f) Market/drug",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529598Z"
+  },
+  {
+   "id": "e44",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 18",
+   "authors": [],
+   "year": null,
+   "page": 18,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "|Audit fees (Internal and external<br>audit) and Legal fees<br>Fines and Penalties<br>Professional Membership Fees<br>Staff retreat and team-building<br>activities|Not allowable, as this is an indirect cost*.|\n|---|---|\n|Patent Application|Not allowable, as this should be supported from<br>overheads given to I&E Office (IEO)*. This includes<br>patent application filing, maintenance and other<br>re",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529617Z"
+  },
+  {
+   "id": "e45",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 19",
+   "authors": [],
+   "year": null,
+   "page": 19,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "**APPENDIX E** \n\n### **SUMMARY OF POTENTIAL IMPACT** \n\nA summary of potential impact of the proposed F-CRP project is intended to inform the NRF and its reviewers that the team has scoped its research project based on the understanding of how it would impact the beneficiaries and/or users, if the project succeeds. An impact summary should include a clear description of the problem that the project",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529632Z"
+  },
+  {
+   "id": "e46",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 20",
+   "authors": [],
+   "year": null,
+   "page": 20,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "**APPENDIX F** \n\n## **GUIDING CHECKLIST FOR FRONTIER COMPETITIVE RESEARCH PROGRAMME (F-CRP) COMPLETENESS CHECKS** \n\nThis is a non-exhaustive list for PIs to take reference to ensure completeness of the submissions, and for the Office of Research to take reference when verifying the submissions. \n\n|**S/N**|**Document**|**Section**|**Item to Check**|\n|---|---|---|---|\n|1|Video||\u2022Link to Video has be",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529644Z"
+  },
+  {
+   "id": "e47",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/ee9b60cc-1ee9-4444-a2ba-327bd9b7fe56.zip?download=",
+   "title": "F-CRP Call Information Sheet (2026).pdf \u2014 p. 21",
+   "authors": [],
+   "year": null,
+   "page": 21,
+   "sha256": "a04308020652f7321a87533ead49ac208e94a3fb11ce188ab7699f3b5f11667e",
+   "quote": null,
+   "summary": "|||outcomes and deliverables) are<br>addressed.<br>\u2022Headings for all appendix sub-sections<br>should be clearly stated.<br>\u2022Full titles, DOI numbers are included for<br>all references.<br>\u2022File Names are correct (refer to<br>Paragraph 6.1,Table 1).|\n|---|---|---|\n|4|For resubmissions|\u2022The proposal has not been resubmitted<br>more than once.|\n|5|CVs|\u2022All CVs of Team Members should be<br>combined in",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:21.529656Z"
+  },
+  {
+   "id": "e48",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/1955a3df-3cae-4bed-b5da-071181bfda40.pdf?download=",
+   "title": "1955a3df-3cae-4bed-b5da-071181bfda40.pdf \u2014 p. 1",
+   "authors": [],
+   "year": null,
+   "page": 1,
+   "sha256": "5a3d6d0aa8bc1cd68ee2824b1ab8d9a2a1f2af21d5bdf8ea9e1faf01dd7ad69a",
+   "quote": null,
+   "summary": "|**S/N**<br>**_CRP3_**|**Project Title**<br>**_3_**|**Lead PI**|**Host Institution**|\n|---|---|---|---|\n|1|Development of a Novel Scleral Treatment for High (HM) and Pathologic Myopia (PM)|Hoang Quan Van Manh|NUS|\n|2|Decoding Cellular Adaptive Immunity through AI-driven Modeling and Design of TCR-<br>pMHC Interactions|Yang Zhang|NUS|\n|3<br>4|Self-sustainingEmbedded Electronics in Knitted Fabric<br",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:23.726841Z"
+  },
+  {
+   "id": "e49",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/1955a3df-3cae-4bed-b5da-071181bfda40.pdf?download=",
+   "title": "1955a3df-3cae-4bed-b5da-071181bfda40.pdf \u2014 p. 2",
+   "authors": [],
+   "year": null,
+   "page": 2,
+   "sha256": "5a3d6d0aa8bc1cd68ee2824b1ab8d9a2a1f2af21d5bdf8ea9e1faf01dd7ad69a",
+   "quote": null,
+   "summary": "|34|Traversing Geodesics in Discovery-Development Space - from Novel<br>Electrophotocatalysis to Sustainable and Scalable ManufacturingProcesses|Shunsuke Chiba|NTU|\n|---|---|---|---|\n|35|Targeting Energy of Life for the Development of Drug Combination to Eradicate<br>Antibiotic-tolerant Mycobacterium Abscessus,a Clinical Nightmare|Gerhard Gr\u00fcber|NTU|\n|36|DevelopingRNA Vaccines for Dengue Virus|Lok",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:23.726913Z"
+  },
+  {
+   "id": "e50",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/4522e610-20de-49b0-9d66-7cb7ed322100.pdf?download=",
+   "title": "4522e610-20de-49b0-9d66-7cb7ed322100.pdf \u2014 p. 1",
+   "authors": [],
+   "year": null,
+   "page": 1,
+   "sha256": "909a4d32a933f7cf2b31c3eca35e1dd9befcbf50d032fcecc6063bec87a0e6de",
+   "quote": null,
+   "summary": "|**S/N**|**Project Title**|**Lead PI**|**Host Institution**|\n|---|---|---|---|\n|**_2024_**|**_F-CRP_**|||\n|1|Overcoming Boltzmann\u2019s Tyranny with Quantum Tunnelling Transistors for<br>Sustainable Nanoelectronics|Lau Chit Siong|A*STAR Research Entities<br>(ARES)|\n|2|Establishing the SINgapore Carbohydrate Engineering and Research Enterprise<br>(SINCERE)|Sham Lok To|NUS|\n|3|Understanding and tackling",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:24.554473Z"
+  },
+  {
+   "id": "e51",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/7bd9a30d-15e8-4362-adf0-d94313d9a4e0.pdf?download=",
+   "title": "7bd9a30d-15e8-4362-adf0-d94313d9a4e0.pdf \u2014 p. 1",
+   "authors": [],
+   "year": null,
+   "page": 1,
+   "sha256": "e723b994e21916b7eb9ed747691dfe5c4285caced95cf6962c4722302acaac75",
+   "quote": null,
+   "summary": "|**S/N**|**Project Title**|**Lead PI**|**Host Institution**|\n|---|---|---|---|\n|**_2025_**|**_T-CRP_**|||\n|1|Orbital currents and torques for spin memoryapplications|YangHyunsoo|NUS|\n|2|Reservoir-Enabled Materials-Based Robotics (REMBots): Integrating Foundation<br>Models, Resource-Constrained AI, and Continuous Sensor Feedback for Terrestrial &<br>Aerial Manipulation|Pablo Alvaro Valdivia y<br>Al",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:25.469474Z"
+  },
+  {
+   "id": "e52",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/f0b366d3-2948-40e1-85b5-01dc40e75f02.pdf?download=",
+   "title": "f0b366d3-2948-40e1-85b5-01dc40e75f02.pdf \u2014 p. 1",
+   "authors": [],
+   "year": null,
+   "page": 1,
+   "sha256": "9abaa607fa784105ac3a4a98eb975b309b5221b2924c69dadc94080db8f20ed3",
+   "quote": null,
+   "summary": "# **APPENDIX G** \n\n# **Frequently Asked Questions** \n\n## **General** \n\n|S/N|Question|Response|\n|---|---|---|\n|**Appl **|**ication**||\n|1|What is \u201cuse-inspired basic<br>research\u201d?|The research undertaken is inspired by the quest to<br>advance fundamental scientific knowledge and<br>understanding that is motivated by an unmet need<br>or to address a practical problem. The research<br>need not necess",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:28.013565Z"
+  },
+  {
+   "id": "e53",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/f0b366d3-2948-40e1-85b5-01dc40e75f02.pdf?download=",
+   "title": "f0b366d3-2948-40e1-85b5-01dc40e75f02.pdf \u2014 p. 2",
+   "authors": [],
+   "year": null,
+   "page": 2,
+   "sha256": "9abaa607fa784105ac3a4a98eb975b309b5221b2924c69dadc94080db8f20ed3",
+   "quote": null,
+   "summary": "|||future grant calls, with amendments to address<br>review feedback.|\n|---|---|---|\n|**Elig**|**ibility Criteria**||\n|10|Are early career scientists (e.g.<br>post-docs) eligible to be Lead or<br>Team PIs?<br>How do we determine if a PI<br>meets the criteria of a Lead or<br>Team PI?|We will leave it to the Institutions to endorse your<br>qualification as either a Lead or Team PI, as there<br>are i",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:28.013664Z"
+  },
+  {
+   "id": "e54",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/f0b366d3-2948-40e1-85b5-01dc40e75f02.pdf?download=",
+   "title": "f0b366d3-2948-40e1-85b5-01dc40e75f02.pdf \u2014 p. 3",
+   "authors": [],
+   "year": null,
+   "page": 3,
+   "sha256": "9abaa607fa784105ac3a4a98eb975b309b5221b2924c69dadc94080db8f20ed3",
+   "quote": null,
+   "summary": "|**Bud**|**get**||\n|---|---|---|\n|15|Can international collaborators<br>receive funding for some<br>elements of the research?|Applicants may propose OOE budget lines for<br>Visiting Professors/Experts, which can cover<br>honorarium, travel and accommodation expenses.<br>Visiting Professors/Experts should be clearly<br>identified in the proposal, or to NRF, with<br>justifications for visits provide",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:28.013685Z"
+  },
+  {
+   "id": "e55",
+   "source_type": "grant_doc",
+   "url": "https://assets.app.optical.gov.sg/rgp/production/published/base/pages/9/f0b366d3-2948-40e1-85b5-01dc40e75f02.pdf?download=",
+   "title": "f0b366d3-2948-40e1-85b5-01dc40e75f02.pdf \u2014 p. 4",
+   "authors": [],
+   "year": null,
+   "page": 4,
+   "sha256": "9abaa607fa784105ac3a4a98eb975b309b5221b2924c69dadc94080db8f20ed3",
+   "quote": null,
+   "summary": "||(iv) health services<br>research/operations<br>research;<br>(v) infrastructure/facilities set-<br>up; and<br>(vi) market/drugs/product<br>development.<br>Can elements of the above be<br>incorporated in CRP proposals?|Some elements of research in the areas listed can<br>still be incorporated in CRP proposals but should<br>not form the sole or main objectives of the proposal,<br>and their inclusio",
+   "derived_from": null,
+   "http_status": null,
+   "retrieved_at": "2026-09-06T02:53:28.013700Z"
+  },
+  {
+   "id": "e56",
+   "source_type": "webpage",
+   "url": "https://basurafernando.github.io/",
+   "title": "Basura Fernando (CFAR, IHPC, NTU)",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "I am a Principal Scientist and NRF Fellow at A*STAR, Singapore, and a Principal Investigator at the [Centre for Frontier AI Research (CFAR)](https://www.a-star.edu.sg/cfar/about-cfar/our-team). I also serve as an Adjunct Assistant Professor at the [College of Computing and Data Science, NTU](https://www.ntu.edu.sg/computing/our-people/adjunct-visiting-faculty). Previously, I was an Honorary Lectur",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:28.299765Z"
+  },
+  {
+   "id": "e57",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/authors?filter=display_name.search%3ABasura+Fernando&select=id%2Cdisplay_name%2Cworks_count%2Ccited_by_count%2Ctopics%2Clast_known_institutions&sort=works_count%3Adesc&per_page=25",
+   "title": "OpenAlex author search: \"Basura Fernando\"",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "1 candidate(s) for 'Basura Fernando'. meta.cost_usd 0.001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:30.744989Z"
+  },
+  {
+   "id": "e58",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/works?filter=author.id%3AA5090467618&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=40",
+   "title": "OpenAlex works by A5090467618",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "40 of 193 works retrieved, most cited first. meta.cost_usd 0.0001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:31.091511Z"
+  },
+  {
+   "id": "e59",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Ahuman+action+anticipation+robotics+collaboration%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+   "title": "OpenAlex works search: \"human action anticipation robotics collaboration\", 2022 onwards",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "31 works match; the 15 most cited were retrieved. OpenAlex reads the query as: works where date >= (2022-01-01)\n  and title/abstract has (human action anticipation robotics collaboration). meta.cost_usd 0.001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:48.241454Z"
+  },
+  {
+   "id": "e60",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Apredictive+visual+reasoning+embodied+robots%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+   "title": "OpenAlex works search: \"predictive visual reasoning embodied robots\", 2022 onwards",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "60 works match; the 15 most cited were retrieved. OpenAlex reads the query as: works where date >= (2022-01-01)\n  and title/abstract has (predictive visual reasoning embodied robots). meta.cost_usd 0.001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:49.397882Z"
+  },
+  {
+   "id": "e61",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Aassistive+robot+human+action+prediction%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+   "title": "OpenAlex works search: \"assistive robot human action prediction\", 2022 onwards",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "155 works match; the 15 most cited were retrieved. OpenAlex reads the query as: works where date >= (2022-01-01)\n  and title/abstract has (assistive robot human action prediction). meta.cost_usd 0.001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:49.729404Z"
+  },
+  {
+   "id": "e62",
+   "source_type": "paper",
+   "url": "https://openalex.org/W4385792115",
+   "title": "Digital transformation in operations management: Fundamental change through agency reversal",
+   "authors": [
+    "Spyros Angelopoulos",
+    "Elliot Bendoly",
+    "Jan C. Fransoo",
+    "Kai Hoberg",
+    "Carol Xiaojuan Ou",
+    "Antti Tenhi\u00e4l\u00e4"
+   ],
+   "year": 2023,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "The emergence of digital technologies across all aspects of operations management (OM) has enabled shifts in decision making, shaping new operational dynamics and business opportunities. The associated scholarly discussions in information systems (IS) and OM span digital manufacturing (e.g., Roscoe et al., 2019), the digitalization of OM and supply chain management (e.g., Holmstr\u00f6m et al \u2026",
+   "derived_from": "e61",
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:50.282658Z"
+  },
+  {
+   "id": "e63",
+   "source_type": "paper",
+   "url": "https://openalex.org/W4395689600",
+   "title": "Gaze-Based Intention Estimation: Principles, Methodologies, and Applications in HRI",
+   "authors": [
+    "Anna Belardinelli"
+   ],
+   "year": 2024,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "Intention prediction has become a relevant field of research in Human\u2013Machine and Human\u2013Robot Interaction. Indeed, any artificial system (co)-operating with and along humans, designed to assist and coordinate its actions with a human partner, would benefit from first inferring the human\u2019s current intention. To spare the user the cognitive burden of explicitly uttering their goals, this \u2026",
+   "derived_from": "e61",
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:50.580940Z"
+  },
+  {
+   "id": "e64",
+   "source_type": "paper",
+   "url": "https://openalex.org/W4293704400",
+   "title": "Robot-Assisted Teleoperation Ultrasound System Based on Fusion of Augmented Reality and Predictive Force",
+   "authors": [
+    "Yongqing Fu",
+    "Weiyang Lin",
+    "Xinghu Yu",
+    "Juan J. Rodr\u00edguez-Andina",
+    "Huijun Gao"
+   ],
+   "year": 2022,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "This study presents a novel method to realize an augmented reality (AR) and haptic feedback teleoperation ultrasound system, which can reduce the influence of time delay on the operator. The physician uses a haptic device to send commands to a remote site while observing the AR environment. In the virtual environment, the organ model is projected onto the corresponding position according to the \u2026",
+   "derived_from": "e61",
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:50.876365Z"
+  },
+  {
+   "id": "e65",
+   "source_type": "paper",
+   "url": "https://openalex.org/W4410183135",
+   "title": "AI with agency: a vision for adaptive, efficient, and ethical healthcare",
+   "authors": [
+    "Vasco Gerardo Hinostroza Fuentes",
+    "Hezerul Abdul Karim",
+    "Myles Joshua Toledo Tan",
+    "Nouar AlDahoul"
+   ],
+   "year": 2025,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "The healthcare industry continues to face significant operational challenges in patient care, resource allocation, and administrative processes. For instance, despite spending 16.8% of its gross domestic product on healthcare by 2015, the United States reported higher rates of preventable hospitalizations and lower life expectancy compared to countries that spent nearly half as much \u2026",
+   "derived_from": "e61",
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:51.471637Z"
+  },
+  {
+   "id": "e66",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Ahuman+action+anticipation+robotics+collaboration%2Cfrom_publication_date%3A2019-01-01&group_by=publication_year",
+   "title": "OpenAlex topic trend: \"human action anticipation robotics collaboration\" by publication year",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "Works per year: 2019 5, 2020 1, 2021 1, 2022 3, 2023 1, 2024 13, 2025 5, 2026 9. meta.cost_usd 0.0001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:51.845800Z"
+  },
+  {
+   "id": "e67",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/works?filter=cites%3AW4385792115%2Cfrom_publication_date%3A2023-01-01&select=id&per_page=1",
+   "title": "OpenAlex citing count: W4385792115 since 2023-01-01",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "94 works published on or after 2023-01-01 cite W4385792115. meta.cost_usd 0.0001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:52.143871Z"
+  },
+  {
+   "id": "e68",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Amultimodal+knowledge+graph+industrial+inspection%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+   "title": "OpenAlex works search: \"multimodal knowledge graph industrial inspection\", 2022 onwards",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "7 works match; the 7 most cited were retrieved. OpenAlex reads the query as: works where date >= (2022-01-01)\n  and title/abstract has (multimodal knowledge graph industrial inspection). meta.cost_usd 0.001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:52.697555Z"
+  },
+  {
+   "id": "e69",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Avisual+reasoning+defect+recognition+manufacturing%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+   "title": "OpenAlex works search: \"visual reasoning defect recognition manufacturing\", 2022 onwards",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "3 works match; the 3 most cited were retrieved. OpenAlex reads the query as: works where date >= (2022-01-01)\n  and title/abstract has (visual reasoning defect recognition manufacturing). meta.cost_usd 0.001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:53.777305Z"
+  },
+  {
+   "id": "e70",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Amultimodal+event+knowledge+graph+analysis%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+   "title": "OpenAlex works search: \"multimodal event knowledge graph analysis\", 2022 onwards",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "80 works match; the 15 most cited were retrieved. OpenAlex reads the query as: works where date >= (2022-01-01)\n  and title/abstract has (multimodal event knowledge graph analysis). meta.cost_usd 0.001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:54.115697Z"
+  },
+  {
+   "id": "e71",
+   "source_type": "paper",
+   "url": "https://openalex.org/W4206305425",
+   "title": "Multimodal Event Processing: A Neural-Symbolic Paradigm for the Internet of Multimedia Things",
+   "authors": [
+    "Edward Curry",
+    "Dhaval Salwala",
+    "Praneet Dhingra",
+    "Felipe Arruda Pontes",
+    "Piyush Yadav"
+   ],
+   "year": 2022,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "With the Internet of Multimedia Things (IoMT) becoming a reality, new approaches are needed to process real-time multimodal event streams. Existing approaches to event processing have limited consideration for the challenges of multimodal events, including the need for complex content extraction, and increased computational and memory costs. This article explores event processing as a basis for \u2026",
+   "derived_from": "e70",
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:54.406004Z"
+  },
+  {
+   "id": "e72",
+   "source_type": "paper",
+   "url": "https://openalex.org/W4312570539",
+   "title": "A Multimodal Coupled Graph Attention Network for Joint Traffic Event Detection and Sentiment Classification",
+   "authors": [
+    "Yazhou Zhang",
+    "Prayag Tiwari",
+    "Qian Zheng",
+    "Abdulmotaleb El Saddik",
+    "M. Shamim Hossain"
+   ],
+   "year": 2022,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "Traffic events are one of the main causes of traffic accidents, leading to traffic event detection being a challenging research problem in traffic management and intelligent transportation systems (ITSs). The main gap in this task lies in how to extract and represent the valuable information from various kinds of traffic data. Considering the important role that social networks play in traffic \u2026",
+   "derived_from": "e70",
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:54.745493Z"
+  },
+  {
+   "id": "e73",
+   "source_type": "paper",
+   "url": "https://openalex.org/W4412925204",
+   "title": "From data-driven cities to data-driven tumors: dynamic digital twins for adaptive oncology",
+   "authors": [
+    "\u0130rem Karaman",
+    "Burhan Sebin"
+   ],
+   "year": 2025,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "IntroductionOncology is undergoing a transformation due to the advent of digital twin technology, which enables precision therapy by creating synchronized virtual copies of physical systems. Unlike static models, dynamic digital twins continually integrate multimodal patient data such as clinical, imaging, and molecular data, to simulate therapy scenarios and direct real-time therapeutic \u2026",
+   "derived_from": "e70",
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:55.360783Z"
+  },
+  {
+   "id": "e74",
+   "source_type": "paper",
+   "url": "https://openalex.org/W4385717044",
+   "title": "Pain management in indigenous and tribal peoples: a scoping review protocol",
+   "authors": [
+    "P\u00e2mela Roberta de Oliveira",
+    "L\u00edlian Varanda Pereira",
+    "Vanessa da Silva Carvalho Vila",
+    "Aliss\u00e9ia Guimar\u00e3es Lemes",
+    "Elias Marcelino da Rocha",
+    "Adriano Borges Ferreira"
+   ],
+   "year": 2023,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "INTRODUCTION: Effective and culturally safe pain management can facilitate analgesia and improve the quality of life. Individualised, multimodal and multidisciplinary approaches are highly recommended. There exist gaps in the knowledge on pain management, in terms of the assessment and/or treatment, in indigenous peoples and the currently available information is scattered in the literature. A \u2026",
+   "derived_from": "e70",
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:55.667510Z"
+  },
+  {
+   "id": "e75",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Amultimodal+knowledge+graph+industrial+inspection%2Cfrom_publication_date%3A2019-01-01&group_by=publication_year",
+   "title": "OpenAlex topic trend: \"multimodal knowledge graph industrial inspection\" by publication year",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "Works per year: 2019 1, 2024 1, 2025 2, 2026 4. meta.cost_usd 0.0001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:55.998878Z"
+  },
+  {
+   "id": "e76",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/works?filter=cites%3AW4206305425%2Cfrom_publication_date%3A2023-01-01&select=id&per_page=1",
+   "title": "OpenAlex citing count: W4206305425 since 2023-01-01",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "27 works published on or after 2023-01-01 cite W4206305425. meta.cost_usd 0.0001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:56.383801Z"
+  },
+  {
+   "id": "e77",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Aexplainable+visual+reasoning+3d+scenes%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+   "title": "OpenAlex works search: \"explainable visual reasoning 3d scenes\", 2022 onwards",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "17 works match; the 15 most cited were retrieved. OpenAlex reads the query as: works where date >= (2022-01-01)\n  and title/abstract has (explainable visual reasoning 3d scenes). meta.cost_usd 0.001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:56.794326Z"
+  },
+  {
+   "id": "e78",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Aassistive+embodied+spatial+reasoning+healthcare%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+   "title": "OpenAlex works search: \"assistive embodied spatial reasoning healthcare\", 2022 onwards",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "3 works match; the 3 most cited were retrieved. OpenAlex reads the query as: works where date >= (2022-01-01)\n  and title/abstract has (assistive embodied spatial reasoning healthcare). meta.cost_usd 0.001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:57.159729Z"
+  },
+  {
+   "id": "e79",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Aexplainable+multimodal+action+prediction%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+   "title": "OpenAlex works search: \"explainable multimodal action prediction\", 2022 onwards",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "121 works match; the 15 most cited were retrieved. OpenAlex reads the query as: works where date >= (2022-01-01)\n  and title/abstract has (explainable multimodal action prediction). meta.cost_usd 0.001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:57.511618Z"
+  },
+  {
+   "id": "e80",
+   "source_type": "paper",
+   "url": "https://openalex.org/W4391042079",
+   "title": "Theory\u2010Driven Perspectives on Generative Artificial Intelligence in Business and Management",
+   "authors": [
+    "Olivia Brown",
+    "Robert M. Davison",
+    "Stephanie Decker",
+    "David A. Ellis",
+    "James Faulconbridge",
+    "Julie Gore"
+   ],
+   "year": 2024,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "Shuang Ren, Riikka M. Sarala, Paul Hibbert The advent of generative artificial intelligence (GAI) has sparked both enthusiasm and anxiety as different stakeholders grapple with the potential to reshape the business and management landscape. This dynamic discourse extends beyond GAI itself to encompass closely related innovations that have existed for some time, for example, machine learning \u2026",
+   "derived_from": "e79",
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:58.278883Z"
+  },
+  {
+   "id": "e81",
+   "source_type": "paper",
+   "url": "https://openalex.org/W4396731749",
+   "title": "Twenty\u2010first century technologies and language education: Charting a path forward",
+   "authors": [
+    "Richard Kern"
+   ],
+   "year": 2024,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "The COVID-19 pandemic, necessitating remote instruction in the vast majority of educational institutions around the world, put technology squarely at the center of language learning and teaching. Virtually all teaching and learning was mediated by Zoom or similar videoconferencing platforms. Students could see one another's faces (rather than the backs of their peers\u2019 heads), but they could \u2026",
+   "derived_from": "e79",
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:58.842977Z"
+  },
+  {
+   "id": "e82",
+   "source_type": "paper",
+   "url": "https://openalex.org/W4406227623",
+   "title": "Hybrid intelligence: Human\u2013 AI coevolution and learning",
+   "authors": [
+    "Sanna J\u00e4rvel\u00e4",
+    "Guoying Zhao",
+    "Andy Nguyen",
+    "Haoyu Chen"
+   ],
+   "year": 2025,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "Artificial intelligence (AI) is becoming increasingly ubiquitous in all areas of life. A concrete example is the urgent need to develop new educational practices in the post-pandemic world, as called for in the OECD 2021 Report on Digital Education (OECD, 2021). Furthermore, it has been estimated that more than half of the tasks associated with almost half of all jobs have been exposed to AI \u2026",
+   "derived_from": "e79",
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:59.457057Z"
+  },
+  {
+   "id": "e83",
+   "source_type": "paper",
+   "url": "https://openalex.org/W4226016139",
+   "title": "Getting AI Right: Introductory Notes on AI & Society",
+   "authors": [
+    "James Manyika"
+   ],
+   "year": 2022,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "This dialogue is from an early scene in the 2014 film Ex Machina, in which Nathan has invited Caleb to determine whether Nathan has succeeded in creating artificial intelligence.1 The achievement of powerful artificial general intelligence has long held a grip on our imagination not only for its exciting as well as worrisome possibilities, but also for its suggestion of a new, uncharted era for \u2026",
+   "derived_from": "e79",
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:53:59.750495Z"
+  },
+  {
+   "id": "e84",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Aexplainable+visual+reasoning+3d+scenes%2Cfrom_publication_date%3A2019-01-01&group_by=publication_year",
+   "title": "OpenAlex topic trend: \"explainable visual reasoning 3d scenes\" by publication year",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "Works per year: 2020 1, 2022 1, 2024 1, 2025 3, 2026 12. meta.cost_usd 0.0001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:54:00.080589Z"
+  },
+  {
+   "id": "e85",
+   "source_type": "api_query",
+   "url": "https://api.openalex.org/works?filter=cites%3AW4391042079%2Cfrom_publication_date%3A2023-01-01&select=id&per_page=1",
+   "title": "OpenAlex citing count: W4391042079 since 2023-01-01",
+   "authors": [],
+   "year": null,
+   "page": null,
+   "sha256": null,
+   "quote": null,
+   "summary": "120 works published on or after 2023-01-01 cite W4391042079. meta.cost_usd 0.0001.",
+   "derived_from": null,
+   "http_status": 200,
+   "retrieved_at": "2026-09-06T02:54:00.480006Z"
+  }
+ ]
+}

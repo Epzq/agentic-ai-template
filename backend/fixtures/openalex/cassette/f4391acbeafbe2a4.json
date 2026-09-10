@@ -1,0 +1,675 @@
+{
+ "url": "https://api.openalex.org/works/W4383751689?select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cauthorships%2Cabstract_inverted_index",
+ "status": 200,
+ "json": {
+  "id": "https://openalex.org/W4383751689",
+  "display_name": "ViT-ReT: Vision and Recurrent Transformer Neural Networks for Human Activity Recognition in Videos",
+  "publication_year": 2023,
+  "cited_by_count": 83,
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5067183988",
+     "display_name": "James Wensel",
+     "orcid": null
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I189590672",
+      "display_name": "Kansas State University",
+      "ror": "https://ror.org/05p1j8758",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I189590672"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "James Wensel",
+    "raw_affiliation_strings": [
+     "Department of Computer Science, Kansas State University, Manhattan, KS, USA",
+     "Department of Computer Science, Kansas State University, Manhattan, Kansas, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Computer Science, Kansas State University, Manhattan, KS, USA",
+      "institution_ids": [
+       "https://openalex.org/I189590672"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Computer Science, Kansas State University, Manhattan, Kansas, USA",
+      "institution_ids": [
+       "https://openalex.org/I189590672"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5027895192",
+     "display_name": "Hayat Ullah",
+     "orcid": "https://orcid.org/0000-0001-9120-4882"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I189590672",
+      "display_name": "Kansas State University",
+      "ror": "https://ror.org/05p1j8758",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I189590672"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Hayat Ullah",
+    "raw_affiliation_strings": [
+     "Department of Computer Science, Kansas State University, Manhattan, KS, USA",
+     "Department of Computer Science, Kansas State University, Manhattan, Kansas, USA"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-9120-4882",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Computer Science, Kansas State University, Manhattan, KS, USA",
+      "institution_ids": [
+       "https://openalex.org/I189590672"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Computer Science, Kansas State University, Manhattan, Kansas, USA",
+      "institution_ids": [
+       "https://openalex.org/I189590672"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5024203425",
+     "display_name": "Arslan Munir",
+     "orcid": "https://orcid.org/0000-0002-3126-8945"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I189590672",
+      "display_name": "Kansas State University",
+      "ror": "https://ror.org/05p1j8758",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I189590672"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Arslan Munir",
+    "raw_affiliation_strings": [
+     "Department of Computer Science, Kansas State University, Manhattan, KS, USA",
+     "Department of Computer Science, Kansas State University, Manhattan, Kansas, USA"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-3126-8945",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Computer Science, Kansas State University, Manhattan, KS, USA",
+      "institution_ids": [
+       "https://openalex.org/I189590672"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Computer Science, Kansas State University, Manhattan, Kansas, USA",
+      "institution_ids": [
+       "https://openalex.org/I189590672"
+      ]
+     }
+    ]
+   }
+  ],
+  "abstract_inverted_index": {
+   "Human": [
+    0
+   ],
+   "activity": [
+    1,
+    17,
+    45,
+    89,
+    129,
+    150,
+    238
+   ],
+   "recognition": [
+    2,
+    46,
+    151,
+    208,
+    239
+   ],
+   "is": [
+    3
+   ],
+   "an": [
+    4,
+    18,
+    134
+   ],
+   "emerging": [
+    5
+   ],
+   "and": [
+    6,
+    41,
+    64,
+    81,
+    126,
+    147,
+    157,
+    216,
+    242
+   ],
+   "important": [
+    7
+   ],
+   "area": [
+    8
+   ],
+   "in": [
+    9,
+    36,
+    153,
+    210,
+    224,
+    240
+   ],
+   "computer": [
+    10
+   ],
+   "vision": [
+    11,
+    111
+   ],
+   "which": [
+    12
+   ],
+   "seeks": [
+    13
+   ],
+   "to": [
+    14,
+    38,
+    57,
+    69,
+    100,
+    123
+   ],
+   "determine": [
+    15,
+    70
+   ],
+   "the": [
+    16,
+    62,
+    71,
+    76,
+    138,
+    144,
+    170,
+    180,
+    187,
+    196,
+    204,
+    221,
+    229,
+    232
+   ],
+   "individual": [
+    19
+   ],
+   "or": [
+    20
+   ],
+   "group": [
+    21
+   ],
+   "of": [
+    22,
+    28,
+    52,
+    75,
+    105,
+    128,
+    137,
+    155,
+    177,
+    190,
+    212,
+    220,
+    231
+   ],
+   "individuals": [
+    23
+   ],
+   "are": [
+    24
+   ],
+   "performing.": [
+    25
+   ],
+   "The": [
+    26
+   ],
+   "applications": [
+    27
+   ],
+   "this": [
+    29
+   ],
+   "field": [
+    30
+   ],
+   "ranges": [
+    31
+   ],
+   "from": [
+    32,
+    61,
+    121
+   ],
+   "generating": [
+    33
+   ],
+   "highlight": [
+    34
+   ],
+   "videos": [
+    35
+   ],
+   "sports,": [
+    37
+   ],
+   "intelligent": [
+    39
+   ],
+   "surveillance": [
+    40
+   ],
+   "gesture": [
+    42
+   ],
+   "recognition.": [
+    43,
+    130
+   ],
+   "Most": [
+    44
+   ],
+   "systems": [
+    47
+   ],
+   "rely": [
+    48
+   ],
+   "on": [
+    49,
+    103
+   ],
+   "a": [
+    50,
+    91,
+    95,
+    110,
+    114,
+    175
+   ],
+   "combination": [
+    51
+   ],
+   "convolutional": [
+    53
+   ],
+   "neural": [
+    54,
+    66,
+    85,
+    97,
+    141
+   ],
+   "networks": [
+    55,
+    67,
+    86,
+    142
+   ],
+   "(CNNs)": [
+    56
+   ],
+   "perform": [
+    58
+   ],
+   "feature": [
+    59
+   ],
+   "extraction": [
+    60
+   ],
+   "data": [
+    63
+   ],
+   "recurrent": [
+    65,
+    92
+   ],
+   "(RNNs)": [
+    68
+   ],
+   "time": [
+    72
+   ],
+   "dependent": [
+    73
+   ],
+   "nature": [
+    74
+   ],
+   "data.": [
+    77
+   ],
+   "This": [
+    78
+   ],
+   "paper": [
+    79
+   ],
+   "proposes": [
+    80
+   ],
+   "designs": [
+    82
+   ],
+   "two": [
+    83
+   ],
+   "transformer": [
+    84,
+    93,
+    112,
+    115,
+    140
+   ],
+   "for": [
+    87,
+    117,
+    159,
+    218,
+    236
+   ],
+   "human": [
+    88,
+    149,
+    163,
+    206,
+    237
+   ],
+   "recognition:": [
+    90
+   ],
+   "(ReT),": [
+    94
+   ],
+   "specialized": [
+    96
+   ],
+   "network": [
+    98
+   ],
+   "used": [
+    99,
+    223
+   ],
+   "make": [
+    101
+   ],
+   "predictions": [
+    102
+   ],
+   "sequences": [
+    104
+   ],
+   "data,": [
+    106
+   ],
+   "as": [
+    107,
+    109
+   ],
+   "well": [
+    108
+   ],
+   "(ViT),": [
+    113
+   ],
+   "optimized": [
+    116
+   ],
+   "extracting": [
+    118
+   ],
+   "salient": [
+    119
+   ],
+   "features": [
+    120
+   ],
+   "images,": [
+    122
+   ],
+   "improve": [
+    124
+   ],
+   "speed": [
+    125,
+    156
+   ],
+   "scalability": [
+    127
+   ],
+   "We": [
+    131
+   ],
+   "have": [
+    132
+   ],
+   "provided": [
+    133
+   ],
+   "extensive": [
+    135
+   ],
+   "comparison": [
+    136
+   ],
+   "proposed": [
+    139,
+    171,
+    197,
+    233
+   ],
+   "with": [
+    143
+   ],
+   "contemporary": [
+    145
+   ],
+   "CNN": [
+    146
+   ],
+   "RNN-based": [
+    148
+   ],
+   "models": [
+    152
+   ],
+   "terms": [
+    154,
+    211
+   ],
+   "accuracy": [
+    158,
+    215
+   ],
+   "four": [
+    160
+   ],
+   "publicly": [
+    161
+   ],
+   "available": [
+    162
+   ],
+   "action": [
+    164,
+    207
+   ],
+   "datasets.": [
+    165
+   ],
+   "Experimental": [
+    166
+   ],
+   "results": [
+    167,
+    193
+   ],
+   "reveal": [
+    168
+   ],
+   "that": [
+    169,
+    195
+   ],
+   "ViT-ReT": [
+    172,
+    198,
+    234
+   ],
+   "framework": [
+    173,
+    199,
+    235
+   ],
+   "attains": [
+    174,
+    200
+   ],
+   "speedup": [
+    176
+   ],
+   "2\u00d7": [
+    178
+   ],
+   "over": [
+    179,
+    203
+   ],
+   "baseline": [
+    181
+   ],
+   "ResNet50-LSTM": [
+    182
+   ],
+   "approach": [
+    183
+   ],
+   "while": [
+    184
+   ],
+   "attaining": [
+    185
+   ],
+   "nearly": [
+    186
+   ],
+   "same": [
+    188
+   ],
+   "level": [
+    189
+   ],
+   "accuracy.": [
+    191
+   ],
+   "Furthermore,": [
+    192
+   ],
+   "show": [
+    194
+   ],
+   "significant": [
+    201
+   ],
+   "improvements": [
+    202
+   ],
+   "state-of-the-art": [
+    205
+   ],
+   "methods": [
+    209
+   ],
+   "both": [
+    213
+   ],
+   "model": [
+    214
+   ],
+   "runtime": [
+    217
+   ],
+   "each": [
+    219
+   ],
+   "datasets": [
+    222
+   ],
+   "our": [
+    225
+   ],
+   "experiments,": [
+    226
+   ],
+   "thus": [
+    227
+   ],
+   "verifying": [
+    228
+   ],
+   "suitability": [
+    230
+   ],
+   "resource-constrained": [
+    241
+   ],
+   "real-time": [
+    243
+   ],
+   "environments.": [
+    244
+   ]
+  }
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "url": "https://api.ror.org/v2/organizations?query.advanced=domains%3A%22basurafernando.github.io%22",
+ "status": 200,
+ "json": {
+  "number_of_results": 0,
+  "time_taken": 0,
+  "items": [],
+  "meta": {
+   "types": [],
+   "countries": [],
+   "continents": [],
+   "statuses": []
+  }
+ }
+}

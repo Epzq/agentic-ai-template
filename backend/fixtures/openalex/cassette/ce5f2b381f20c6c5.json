@@ -1,0 +1,74 @@
+{
+ "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Aegocentric+action+anticipation+robotics%2Cfrom_publication_date%3A2019-01-01&group_by=publication_year",
+ "status": 200,
+ "json": {
+  "meta": {
+   "count": 22,
+   "db_response_time_ms": 22,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 7,
+   "x_query": {
+    "oql": "works where date >= (2019-01-01)\n  and title/abstract has (egocentric action anticipation robotics)\ngroup by year",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "from_publication_date",
+       "value": "2019-01-01"
+      },
+      {
+       "column_id": "title_and_abstract.search",
+       "value": "egocentric action anticipation robotics",
+       "operator": "has"
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "publication_year"
+      }
+     ]
+    },
+    "url": "/works?filter=from_publication_date:2019-01-01,title_and_abstract.search:egocentric action anticipation robotics&group_by=publication_year"
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": [
+   {
+    "key": "2026",
+    "key_display_name": "2026",
+    "count": 6
+   },
+   {
+    "key": "2021",
+    "key_display_name": "2021",
+    "count": 4
+   },
+   {
+    "key": "2023",
+    "key_display_name": "2023",
+    "count": 4
+   },
+   {
+    "key": "2024",
+    "key_display_name": "2024",
+    "count": 4
+   },
+   {
+    "key": "2022",
+    "key_display_name": "2022",
+    "count": 2
+   },
+   {
+    "key": "2020",
+    "key_display_name": "2020",
+    "count": 1
+   },
+   {
+    "key": "2025",
+    "key_display_name": "2025",
+    "count": 1
+   }
+  ]
+ }
+}

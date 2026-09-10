@@ -1,0 +1,706 @@
+{
+ "url": "https://api.openalex.org/works/W4392681182?select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cauthorships%2Cabstract_inverted_index",
+ "status": 200,
+ "json": {
+  "id": "https://openalex.org/W4392681182",
+  "display_name": "How Is ChatGPT\u2019s Behavior Changing Over Time?",
+  "publication_year": 2024,
+  "cited_by_count": 315,
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5003134390",
+     "display_name": "Lingjiao Chen",
+     "orcid": "https://orcid.org/0009-0001-4473-7544"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I97018004",
+      "display_name": "Stanford University",
+      "ror": "https://ror.org/00f54p054",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I97018004"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Lingjiao Chen",
+    "raw_affiliation_strings": [
+     "Stanford University, Stanford, California, United States of America",
+     "Stanford University, Stanford, California, United States of America,"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Stanford University, Stanford, California, United States of America",
+      "institution_ids": [
+       "https://openalex.org/I97018004"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Stanford University, Stanford, California, United States of America,",
+      "institution_ids": [
+       "https://openalex.org/I97018004"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5005554337",
+     "display_name": "Matei Zaharia",
+     "orcid": "https://orcid.org/0000-0002-7547-7204"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I95457486",
+      "display_name": "University of California, Berkeley",
+      "ror": "https://ror.org/01an7q238",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I95457486"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Matei Zaharia",
+    "raw_affiliation_strings": [
+     "University of California Berkeley, Berkeley, California, United States of America"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "University of California Berkeley, Berkeley, California, United States of America",
+      "institution_ids": [
+       "https://openalex.org/I95457486"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5005779176",
+     "display_name": "James Zou",
+     "orcid": "https://orcid.org/0000-0001-8880-4764"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I97018004",
+      "display_name": "Stanford University",
+      "ror": "https://ror.org/00f54p054",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I97018004"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "James Zou",
+    "raw_affiliation_strings": [
+     "Stanford University, Stanford, California, United States of America",
+     "Stanford University, Stanford, California, United States of America,"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Stanford University, Stanford, California, United States of America",
+      "institution_ids": [
+       "https://openalex.org/I97018004"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Stanford University, Stanford, California, United States of America,",
+      "institution_ids": [
+       "https://openalex.org/I97018004"
+      ]
+     }
+    ]
+   }
+  ],
+  "abstract_inverted_index": {
+   "GPT-3.5": [
+    0,
+    37,
+    78,
+    128,
+    178
+   ],
+   "and": [
+    1,
+    16,
+    32,
+    38,
+    65,
+    74,
+    79,
+    148,
+    177
+   ],
+   "GPT-4": [
+    2,
+    39,
+    80,
+    88,
+    102,
+    140,
+    157,
+    176
+   ],
+   "are": [
+    3,
+    20
+   ],
+   "the": [
+    4,
+    29,
+    72,
+    211,
+    220,
+    223,
+    238
+   ],
+   "two": [
+    5
+   ],
+   "most": [
+    6
+   ],
+   "widely": [
+    7
+   ],
+   "used": [
+    8
+   ],
+   "large": [
+    9
+   ],
+   "language": [
+    10
+   ],
+   "model": [
+    11
+   ],
+   "(LLM)": [
+    12
+   ],
+   "services.": [
+    13
+   ],
+   "However,": [
+    14
+   ],
+   "when": [
+    15
+   ],
+   "how": [
+    17
+   ],
+   "these": [
+    18,
+    108
+   ],
+   "models": [
+    19
+   ],
+   "updated": [
+    21
+   ],
+   "over": [
+    22,
+    84,
+    203
+   ],
+   "time": [
+    23
+   ],
+   "is": [
+    24,
+    114,
+    206
+   ],
+   "opaque.": [
+    25
+   ],
+   "Here,": [
+    26
+   ],
+   "we": [
+    27
+   ],
+   "evaluate": [
+    28
+   ],
+   "March": [
+    30,
+    136
+   ],
+   "2023": [
+    31,
+    34
+   ],
+   "June": [
+    33,
+    133,
+    153,
+    164,
+    187
+   ],
+   "versions": [
+    35
+   ],
+   "of": [
+    36,
+    76,
+    222,
+    235,
+    243
+   ],
+   "on": [
+    40,
+    107,
+    172
+   ],
+   "several": [
+    41
+   ],
+   "diverse": [
+    42
+   ],
+   "tasks:": [
+    43
+   ],
+   "1)": [
+    44
+   ],
+   "math": [
+    45
+   ],
+   "problems,": [
+    46
+   ],
+   "2)": [
+    47
+   ],
+   "sensitive/dangerous": [
+    48
+   ],
+   "questions,": [
+    49,
+    56
+   ],
+   "3)": [
+    50
+   ],
+   "opinion": [
+    51,
+    149
+   ],
+   "surveys,": [
+    52
+   ],
+   "4)": [
+    53
+   ],
+   "multi-hop": [
+    54,
+    161
+   ],
+   "knowledge-intensive": [
+    55
+   ],
+   "5)": [
+    57
+   ],
+   "generating": [
+    58
+   ],
+   "code,": [
+    59
+   ],
+   "6)": [
+    60
+   ],
+   "US": [
+    61
+   ],
+   "Medical": [
+    62
+   ],
+   "License": [
+    63
+   ],
+   "tests,": [
+    64
+   ],
+   "7)": [
+    66
+   ],
+   "visual": [
+    67
+   ],
+   "reasoning.": [
+    68
+   ],
+   "We": [
+    69,
+    191
+   ],
+   "find": [
+    70
+   ],
+   "that": [
+    71,
+    194,
+    219
+   ],
+   "performance": [
+    73,
+    170
+   ],
+   "behavior": [
+    75,
+    213,
+    221
+   ],
+   "both": [
+    77
+   ],
+   "can": [
+    81,
+    227
+   ],
+   "vary": [
+    82
+   ],
+   "greatly": [
+    83
+   ],
+   "time.": [
+    85
+   ],
+   "For": [
+    86
+   ],
+   "example,": [
+    87
+   ],
+   "(March": [
+    89
+   ],
+   "2023)": [
+    90,
+    104
+   ],
+   "was": [
+    91,
+    105,
+    129
+   ],
+   "reasonable": [
+    92
+   ],
+   "at": [
+    93,
+    160
+   ],
+   "identifying": [
+    94
+   ],
+   "prime": [
+    95
+   ],
+   "vs.": [
+    96
+   ],
+   "composite": [
+    97
+   ],
+   "numbers": [
+    98
+   ],
+   "(84%": [
+    99
+   ],
+   "accuracy)": [
+    100
+   ],
+   "but": [
+    101
+   ],
+   "(June": [
+    103
+   ],
+   "poor": [
+    106
+   ],
+   "same": [
+    109
+   ],
+   "questions": [
+    110,
+    147,
+    151,
+    162
+   ],
+   "(51%": [
+    111
+   ],
+   "accuracy).": [
+    112
+   ],
+   "This": [
+    113
+   ],
+   "partly": [
+    115
+   ],
+   "explained": [
+    116
+   ],
+   "by": [
+    117
+   ],
+   "a": [
+    118,
+    231
+   ],
+   "drop": [
+    119
+   ],
+   "in": [
+    120,
+    132,
+    135,
+    137,
+    152,
+    155,
+    163,
+    166,
+    183,
+    186,
+    189,
+    230
+   ],
+   "GPT-4\u2019s": [
+    121,
+    195
+   ],
+   "amenity": [
+    122
+   ],
+   "to": [
+    123,
+    144,
+    197
+   ],
+   "follow": [
+    124,
+    198
+   ],
+   "chain-of-thought": [
+    125
+   ],
+   "prompting.": [
+    126
+   ],
+   "Interestingly,": [
+    127
+   ],
+   "much": [
+    130
+   ],
+   "better": [
+    131,
+    159
+   ],
+   "than": [
+    134,
+    154,
+    165,
+    188
+   ],
+   "this": [
+    138,
+    173
+   ],
+   "task.": [
+    139,
+    174
+   ],
+   "became": [
+    141
+   ],
+   "less": [
+    142
+   ],
+   "willing": [
+    143
+   ],
+   "answer": [
+    145
+   ],
+   "sensitive": [
+    146
+   ],
+   "survey": [
+    150
+   ],
+   "March.": [
+    156,
+    190
+   ],
+   "performed": [
+    158
+   ],
+   "March,": [
+    167
+   ],
+   "while": [
+    168
+   ],
+   "GPT-3.5\u2019s": [
+    169
+   ],
+   "dropped": [
+    171
+   ],
+   "Both": [
+    175
+   ],
+   "had": [
+    179
+   ],
+   "more": [
+    180
+   ],
+   "formatting": [
+    181
+   ],
+   "mistakes": [
+    182
+   ],
+   "code": [
+    184
+   ],
+   "generation": [
+    185
+   ],
+   "provide": [
+    192
+   ],
+   "evidence": [
+    193
+   ],
+   "ability": [
+    196
+   ],
+   "user": [
+    199
+   ],
+   "instructions": [
+    200
+   ],
+   "has": [
+    201
+   ],
+   "decreased": [
+    202
+   ],
+   "time,": [
+    204,
+    236
+   ],
+   "which": [
+    205
+   ],
+   "one": [
+    207
+   ],
+   "common": [
+    208
+   ],
+   "factor": [
+    209
+   ],
+   "behind": [
+    210
+   ],
+   "many": [
+    212
+   ],
+   "drifts.": [
+    214
+   ],
+   "Overall,": [
+    215
+   ],
+   "our": [
+    216
+   ],
+   "findings": [
+    217
+   ],
+   "show": [
+    218
+   ],
+   "\u201csame\u201d": [
+    224
+   ],
+   "LLM": [
+    225
+   ],
+   "service": [
+    226
+   ],
+   "change": [
+    228
+   ],
+   "substantially": [
+    229
+   ],
+   "relatively": [
+    232
+   ],
+   "short": [
+    233
+   ],
+   "amount": [
+    234
+   ],
+   "highlighting": [
+    237
+   ],
+   "need": [
+    239
+   ],
+   "for": [
+    240
+   ],
+   "continuous": [
+    241
+   ],
+   "monitoring": [
+    242
+   ],
+   "LLMs.": [
+    244
+   ]
+  }
+ }
+}

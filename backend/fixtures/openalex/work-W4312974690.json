@@ -1,0 +1,686 @@
+{
+ "id": "https://openalex.org/W4312974690",
+ "display_name": "Invariant Grounding for Video Question Answering",
+ "publication_year": 2022,
+ "cited_by_count": 118,
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5101762861",
+    "display_name": "Yicong Li",
+    "orcid": "https://orcid.org/0000-0002-5659-793X"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I165932596",
+     "display_name": "National University of Singapore",
+     "ror": "https://ror.org/01tgyzw49",
+     "country_code": "SG",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I165932596"
+     ]
+    }
+   ],
+   "countries": [
+    "SG"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yicong Li",
+   "raw_affiliation_strings": [
+    "National University of Singapore"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "National University of Singapore",
+     "institution_ids": [
+      "https://openalex.org/I165932596"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5100389037",
+    "display_name": "Xiang Wang",
+    "orcid": "https://orcid.org/0000-0002-6148-6329"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I126520041",
+     "display_name": "University of Science and Technology of China",
+     "ror": "https://ror.org/04c4dkn09",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I126520041",
+      "https://openalex.org/I19820366"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Xiang Wang",
+   "raw_affiliation_strings": [
+    "University of Science and Technology of China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of Science and Technology of China",
+     "institution_ids": [
+      "https://openalex.org/I126520041"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5024669782",
+    "display_name": "Junbin Xiao",
+    "orcid": "https://orcid.org/0000-0001-5573-6195"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I165932596",
+     "display_name": "National University of Singapore",
+     "ror": "https://ror.org/01tgyzw49",
+     "country_code": "SG",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I165932596"
+     ]
+    }
+   ],
+   "countries": [
+    "SG"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Junbin Xiao",
+   "raw_affiliation_strings": [
+    "National University of Singapore"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "National University of Singapore",
+     "institution_ids": [
+      "https://openalex.org/I165932596"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5101397422",
+    "display_name": "Wei Ji",
+    "orcid": "https://orcid.org/0000-0002-8106-9768"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I165932596",
+     "display_name": "National University of Singapore",
+     "ror": "https://ror.org/01tgyzw49",
+     "country_code": "SG",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I165932596"
+     ]
+    }
+   ],
+   "countries": [
+    "SG"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Wei Ji",
+   "raw_affiliation_strings": [
+    "National University of Singapore"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "National University of Singapore",
+     "institution_ids": [
+      "https://openalex.org/I165932596"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5089404640",
+    "display_name": "Tat\u2010Seng Chua",
+    "orcid": "https://orcid.org/0000-0001-6097-7807"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I165932596",
+     "display_name": "National University of Singapore",
+     "ror": "https://ror.org/01tgyzw49",
+     "country_code": "SG",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I165932596"
+     ]
+    }
+   ],
+   "countries": [
+    "SG"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tat-Seng Chua",
+   "raw_affiliation_strings": [
+    "National University of Singapore"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "National University of Singapore",
+     "institution_ids": [
+      "https://openalex.org/I165932596"
+     ]
+    }
+   ]
+  }
+ ],
+ "abstract_inverted_index": {
+  "Video": [
+   0
+  ],
+  "Question": [
+   1
+  ],
+  "Answering": [
+   2
+  ],
+  "(VideoQA)": [
+   3
+  ],
+  "is": [
+   4,
+   16,
+   111,
+   202
+  ],
+  "the": [
+   5,
+   18,
+   32,
+   38,
+   56,
+   68,
+   79,
+   88,
+   112,
+   117,
+   136,
+   150,
+   154,
+   161,
+   165,
+   174,
+   183,
+   197
+  ],
+  "task": [
+   6
+  ],
+  "of": [
+   7,
+   77,
+   82,
+   168,
+   185,
+   189
+  ],
+  "an-swering": [
+   8
+  ],
+  "questions": [
+   9
+  ],
+  "about": [
+   10
+  ],
+  "a": [
+   11,
+   86,
+   101,
+   125
+  ],
+  "video.": [
+   12
+  ],
+  "At": [
+   13
+  ],
+  "its": [
+   14
+  ],
+  "core": [
+   15
+  ],
+  "understanding": [
+   17
+  ],
+  "alignments": [
+   19
+  ],
+  "between": [
+   20,
+   50,
+   71
+  ],
+  "visual": [
+   21,
+   191
+  ],
+  "scenes": [
+   22,
+   73
+  ],
+  "in": [
+   23,
+   28,
+   187
+  ],
+  "video": [
+   24
+  ],
+  "and": [
+   25,
+   53,
+   74,
+   106,
+   193
+  ],
+  "linguistic": [
+   26
+  ],
+  "semantics": [
+   27
+  ],
+  "question": [
+   29
+  ],
+  "to": [
+   30,
+   66,
+   114,
+   134,
+   159
+  ],
+  "yield": [
+   31
+  ],
+  "answer.": [
+   33
+  ],
+  "In": [
+   34,
+   95
+  ],
+  "leading": [
+   35,
+   198
+  ],
+  "VideoQA": [
+   36,
+   89,
+   105,
+   132,
+   155
+  ],
+  "models,": [
+   37
+  ],
+  "typical": [
+   39
+  ],
+  "learning": [
+   40,
+   127
+  ],
+  "objective,": [
+   41
+  ],
+  "empirical": [
+   42
+  ],
+  "risk": [
+   43
+  ],
+  "minimization": [
+   44
+  ],
+  "(ERM),": [
+   45
+  ],
+  "latches": [
+   46
+  ],
+  "on": [
+   47,
+   149,
+   178
+  ],
+  "superficial": [
+   48
+  ],
+  "correlations": [
+   49,
+   70
+  ],
+  "video-question": [
+   51
+  ],
+  "pairs": [
+   52
+  ],
+  "answers": [
+   54,
+   143
+  ],
+  "as": [
+   55
+  ],
+  "alignments.": [
+   57
+  ],
+  "However,": [
+   58
+  ],
+  "ERM": [
+   59
+  ],
+  "can": [
+   60
+  ],
+  "be": [
+   61
+  ],
+  "problematic,": [
+   62
+  ],
+  "because": [
+   63
+  ],
+  "it": [
+   64
+  ],
+  "tends": [
+   65
+  ],
+  "over-exploit": [
+   67
+  ],
+  "spurious": [
+   69,
+   118,
+   169
+  ],
+  "question-irrelevant": [
+   72
+  ],
+  "answers,": [
+   75
+  ],
+  "instead": [
+   76
+  ],
+  "inspecting": [
+   78
+  ],
+  "causal": [
+   80,
+   102,
+   140
+  ],
+  "effect": [
+   81
+  ],
+  "question-critical": [
+   83,
+   137
+  ],
+  "scenes.": [
+   84
+  ],
+  "As": [
+   85
+  ],
+  "result,": [
+   87
+  ],
+  "models": [
+   90
+  ],
+  "suffer": [
+   91
+  ],
+  "from": [
+   92,
+   164
+  ],
+  "unreliable": [
+   93
+  ],
+  "reasoning.": [
+   94
+  ],
+  "this": [
+   96,
+   121
+  ],
+  "work,": [
+   97
+  ],
+  "we": [
+   98,
+   123
+  ],
+  "first": [
+   99
+  ],
+  "take": [
+   100
+  ],
+  "look": [
+   103
+  ],
+  "at": [
+   104,
+   204
+  ],
+  "argue": [
+   107
+  ],
+  "that": [
+   108
+  ],
+  "invariant": [
+   109,
+   145
+  ],
+  "grounding": [
+   110
+  ],
+  "key": [
+   113
+  ],
+  "ruling": [
+   115
+  ],
+  "out": [
+   116
+  ],
+  "correlations.": [
+   119
+  ],
+  "Towards": [
+   120
+  ],
+  "end,": [
+   122
+  ],
+  "propose": [
+   124
+  ],
+  "new": [
+   126
+  ],
+  "framework,": [
+   128
+  ],
+  "Invariant": [
+   129
+  ],
+  "Grounding": [
+   130
+  ],
+  "for": [
+   131
+  ],
+  "(IGV),": [
+   133
+  ],
+  "ground": [
+   135
+  ],
+  "scene,": [
+   138
+  ],
+  "whose": [
+   139
+  ],
+  "relations": [
+   141
+  ],
+  "with": [
+   142
+  ],
+  "are": [
+   144,
+   157
+  ],
+  "across": [
+   146
+  ],
+  "different": [
+   147
+  ],
+  "interventions": [
+   148
+  ],
+  "complement.": [
+   151
+  ],
+  "With": [
+   152
+  ],
+  "IGV,": [
+   153
+  ],
+  "mod-els": [
+   156
+  ],
+  "forced": [
+   158
+  ],
+  "shield": [
+   160
+  ],
+  "answering": [
+   162
+  ],
+  "process": [
+   163
+  ],
+  "negative": [
+   166
+  ],
+  "influence": [
+   167
+  ],
+  "correlations,": [
+   170
+  ],
+  "which": [
+   171
+  ],
+  "significantly": [
+   172
+  ],
+  "improves": [
+   173
+  ],
+  "reasoning": [
+   175
+  ],
+  "ability.": [
+   176
+  ],
+  "Experiments": [
+   177
+  ],
+  "three": [
+   179
+  ],
+  "benchmark": [
+   180
+  ],
+  "datasets": [
+   181
+  ],
+  "validate": [
+   182
+  ],
+  "superiority": [
+   184
+  ],
+  "IGV": [
+   186
+  ],
+  "terms": [
+   188
+  ],
+  "accuracy,": [
+   190
+  ],
+  "explainability,": [
+   192
+  ],
+  "generalization": [
+   194
+  ],
+  "ability": [
+   195
+  ],
+  "over": [
+   196
+  ],
+  "baselines.": [
+   199
+  ],
+  "Our": [
+   200
+  ],
+  "code": [
+   201
+  ],
+  "available": [
+   203
+  ],
+  "https://github.com/y13800/IGV.": [
+   205
+  ]
+ }
+}

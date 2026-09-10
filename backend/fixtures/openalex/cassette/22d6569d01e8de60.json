@@ -1,0 +1,555 @@
+{
+ "url": "https://api.openalex.org/works/W4323717348?select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cauthorships%2Cabstract_inverted_index",
+ "status": 200,
+ "json": {
+  "id": "https://openalex.org/W4323717348",
+  "display_name": "Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models",
+  "publication_year": 2023,
+  "cited_by_count": 189,
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5101571309",
+     "display_name": "Chenfei Wu",
+     "orcid": "https://orcid.org/0000-0002-5678-9691"
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Wu, Chenfei",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5101005060",
+     "display_name": "Shengming Yin",
+     "orcid": "https://orcid.org/0009-0003-7769-184X"
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Yin, Shengming",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5055695439",
+     "display_name": "Weizhen Qi",
+     "orcid": null
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Qi, Weizhen",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5100382629",
+     "display_name": "Xiaodong Wang",
+     "orcid": "https://orcid.org/0000-0001-5997-4174"
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Wang, Xiaodong",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5071526907",
+     "display_name": "Zecheng Tang",
+     "orcid": "https://orcid.org/0000-0002-4688-7394"
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Tang, Zecheng",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5042018181",
+     "display_name": "Nan Duan",
+     "orcid": "https://orcid.org/0000-0002-3387-4674"
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Duan, Nan",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   }
+  ],
+  "abstract_inverted_index": {
+   "ChatGPT": [
+    0,
+    24,
+    100,
+    168,
+    178
+   ],
+   "is": [
+    1,
+    25,
+    30,
+    188
+   ],
+   "attracting": [
+    2
+   ],
+   "a": [
+    3,
+    9,
+    83,
+    141
+   ],
+   "cross-field": [
+    4
+   ],
+   "interest": [
+    5
+   ],
+   "as": [
+    6,
+    51
+   ],
+   "it": [
+    7,
+    29
+   ],
+   "provides": [
+    8
+   ],
+   "language": [
+    10
+   ],
+   "interface": [
+    11
+   ],
+   "with": [
+    12,
+    27,
+    72,
+    99,
+    129,
+    179
+   ],
+   "remarkable": [
+    13
+   ],
+   "conversational": [
+    14
+   ],
+   "competency": [
+    15
+   ],
+   "and": [
+    16,
+    62,
+    76,
+    104,
+    134,
+    158
+   ],
+   "reasoning": [
+    17
+   ],
+   "capabilities": [
+    18
+   ],
+   "across": [
+    19
+   ],
+   "many": [
+    20
+   ],
+   "domains.": [
+    21
+   ],
+   "However,": [
+    22
+   ],
+   "since": [
+    23
+   ],
+   "trained": [
+    26
+   ],
+   "languages,": [
+    28
+   ],
+   "currently": [
+    31
+   ],
+   "not": [
+    32,
+    106
+   ],
+   "capable": [
+    33
+   ],
+   "of": [
+    34,
+    125,
+    143,
+    155,
+    177,
+    182
+   ],
+   "processing": [
+    35
+   ],
+   "or": [
+    36,
+    54,
+    117
+   ],
+   "generating": [
+    37
+   ],
+   "images": [
+    38,
+    111
+   ],
+   "from": [
+    39
+   ],
+   "the": [
+    40,
+    44,
+    95,
+    123,
+    147,
+    170,
+    174,
+    180
+   ],
+   "visual": [
+    41,
+    60,
+    115,
+    118,
+    148,
+    162,
+    175
+   ],
+   "world.": [
+    42
+   ],
+   "At": [
+    43
+   ],
+   "same": [
+    45
+   ],
+   "time,": [
+    46
+   ],
+   "Visual": [
+    47,
+    52,
+    90,
+    167,
+    183
+   ],
+   "Foundation": [
+    48,
+    91,
+    184
+   ],
+   "Models,": [
+    49,
+    92
+   ],
+   "such": [
+    50
+   ],
+   "Transformers": [
+    53
+   ],
+   "Stable": [
+    55
+   ],
+   "Diffusion,": [
+    56
+   ],
+   "although": [
+    57
+   ],
+   "showing": [
+    58
+   ],
+   "great": [
+    59
+   ],
+   "understanding": [
+    61
+   ],
+   "generation": [
+    63
+   ],
+   "capabilities,": [
+    64
+   ],
+   "they": [
+    65
+   ],
+   "are": [
+    66
+   ],
+   "only": [
+    67,
+    107
+   ],
+   "experts": [
+    68
+   ],
+   "on": [
+    69
+   ],
+   "specific": [
+    70
+   ],
+   "tasks": [
+    71
+   ],
+   "one-round": [
+    73
+   ],
+   "fixed": [
+    74
+   ],
+   "inputs": [
+    75
+   ],
+   "outputs.": [
+    77
+   ],
+   "To": [
+    78
+   ],
+   "this": [
+    79
+   ],
+   "end,": [
+    80
+   ],
+   "We": [
+    81,
+    139
+   ],
+   "build": [
+    82
+   ],
+   "system": [
+    84,
+    187
+   ],
+   "called": [
+    85
+   ],
+   "\\textbf{Visual": [
+    86
+   ],
+   "ChatGPT},": [
+    87
+   ],
+   "incorporating": [
+    88
+   ],
+   "different": [
+    89
+   ],
+   "to": [
+    93,
+    97,
+    145,
+    172
+   ],
+   "enable": [
+    94
+   ],
+   "user": [
+    96
+   ],
+   "interact": [
+    98
+   ],
+   "by": [
+    101
+   ],
+   "1)": [
+    102
+   ],
+   "sending": [
+    103
+   ],
+   "receiving": [
+    105
+   ],
+   "languages": [
+    108
+   ],
+   "but": [
+    109
+   ],
+   "also": [
+    110
+   ],
+   "2)": [
+    112
+   ],
+   "providing": [
+    113,
+    132
+   ],
+   "complex": [
+    114
+   ],
+   "questions": [
+    116
+   ],
+   "editing": [
+    119
+   ],
+   "instructions": [
+    120
+   ],
+   "that": [
+    121,
+    160,
+    166
+   ],
+   "require": [
+    122,
+    161
+   ],
+   "collaboration": [
+    124
+   ],
+   "multiple": [
+    126,
+    156
+   ],
+   "AI": [
+    127
+   ],
+   "models": [
+    128,
+    154,
+    159
+   ],
+   "multi-steps.": [
+    130
+   ],
+   "3)": [
+    131
+   ],
+   "feedback": [
+    133
+   ],
+   "asking": [
+    135
+   ],
+   "for": [
+    136
+   ],
+   "corrected": [
+    137
+   ],
+   "results.": [
+    138
+   ],
+   "design": [
+    140
+   ],
+   "series": [
+    142
+   ],
+   "prompts": [
+    144
+   ],
+   "inject": [
+    146
+   ],
+   "model": [
+    149
+   ],
+   "information": [
+    150
+   ],
+   "into": [
+    151
+   ],
+   "ChatGPT,": [
+    152
+   ],
+   "considering": [
+    153
+   ],
+   "inputs/outputs": [
+    157
+   ],
+   "feedback.": [
+    163
+   ],
+   "Experiments": [
+    164
+   ],
+   "show": [
+    165
+   ],
+   "opens": [
+    169
+   ],
+   "door": [
+    171
+   ],
+   "investigating": [
+    173
+   ],
+   "roles": [
+    176
+   ],
+   "help": [
+    181
+   ],
+   "Models.": [
+    185
+   ],
+   "Our": [
+    186
+   ],
+   "publicly": [
+    189
+   ],
+   "available": [
+    190
+   ],
+   "at": [
+    191
+   ],
+   "\\url{https://github.com/microsoft/visual-chatgpt}.": [
+    192
+   ]
+  }
+ }
+}

@@ -1,0 +1,464 @@
+{
+ "id": "https://openalex.org/W4312761939",
+ "display_name": "From Representation to Reasoning: Towards both Evidence and Commonsense Reasoning for Video Question-Answering",
+ "publication_year": 2022,
+ "cited_by_count": 55,
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5047636121",
+    "display_name": "Jiangtong Li",
+    "orcid": "https://orcid.org/0000-0003-3873-4053"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I183067930",
+     "display_name": "Shanghai Jiao Tong University",
+     "ror": "https://ror.org/0220qvk04",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I183067930"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jiangtong Li",
+   "raw_affiliation_strings": [
+    "MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University,Department of Computer Science and Engineering",
+    "Department of Computer Science and Engineering, MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University,Department of Computer Science and Engineering",
+     "institution_ids": [
+      "https://openalex.org/I183067930"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Computer Science and Engineering, MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University",
+     "institution_ids": [
+      "https://openalex.org/I183067930"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5032618817",
+    "display_name": "Li Niu",
+    "orcid": "https://orcid.org/0000-0003-1970-8634"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I183067930",
+     "display_name": "Shanghai Jiao Tong University",
+     "ror": "https://ror.org/0220qvk04",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I183067930"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Li Niu",
+   "raw_affiliation_strings": [
+    "MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University,Department of Computer Science and Engineering",
+    "Department of Computer Science and Engineering, MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University,Department of Computer Science and Engineering",
+     "institution_ids": [
+      "https://openalex.org/I183067930"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Computer Science and Engineering, MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University",
+     "institution_ids": [
+      "https://openalex.org/I183067930"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5100741568",
+    "display_name": "Liqing Zhang",
+    "orcid": "https://orcid.org/0000-0001-7597-8503"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I183067930",
+     "display_name": "Shanghai Jiao Tong University",
+     "ror": "https://ror.org/0220qvk04",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I183067930"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Liqing Zhang",
+   "raw_affiliation_strings": [
+    "MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University,Department of Computer Science and Engineering",
+    "Department of Computer Science and Engineering, MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University,Department of Computer Science and Engineering",
+     "institution_ids": [
+      "https://openalex.org/I183067930"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Computer Science and Engineering, MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University",
+     "institution_ids": [
+      "https://openalex.org/I183067930"
+     ]
+    }
+   ]
+  }
+ ],
+ "abstract_inverted_index": {
+  "Video": [
+   0
+  ],
+  "understanding": [
+   1,
+   38,
+   118
+  ],
+  "has": [
+   2
+  ],
+  "achieved": [
+   3
+  ],
+  "great": [
+   4
+  ],
+  "success": [
+   5
+  ],
+  "in": [
+   6,
+   102,
+   106
+  ],
+  "representation": [
+   7,
+   120
+  ],
+  "learning,": [
+   8
+  ],
+  "such": [
+   9
+  ],
+  "as": [
+   10
+  ],
+  "video": [
+   11,
+   13,
+   17,
+   26,
+   37,
+   40,
+   117
+  ],
+  "caption,": [
+   12
+  ],
+  "object": [
+   14
+  ],
+  "grounding,": [
+   15
+  ],
+  "and": [
+   16,
+   31,
+   63,
+   67,
+   82,
+   127
+  ],
+  "descriptive": [
+   18
+  ],
+  "question-answer.": [
+   19
+  ],
+  "However,": [
+   20
+  ],
+  "current": [
+   21
+  ],
+  "methods": [
+   22,
+   99
+  ],
+  "still": [
+   23
+  ],
+  "struggle": [
+   24
+  ],
+  "on": [
+   25,
+   90
+  ],
+  "reasoning,": [
+   27,
+   41,
+   71
+  ],
+  "including": [
+   28
+  ],
+  "evidence": [
+   29,
+   60
+  ],
+  "reasoning": [
+   30,
+   61,
+   65
+  ],
+  "commonsense": [
+   32,
+   64,
+   70
+  ],
+  "reasoning.": [
+   33,
+   107,
+   124
+  ],
+  "To": [
+   34
+  ],
+  "facilitate": [
+   35
+  ],
+  "deeper": [
+   36,
+   123
+  ],
+  "towards": [
+   39
+  ],
+  "we": [
+   42,
+   72,
+   94
+  ],
+  "present": [
+   43
+  ],
+  "the": [
+   44,
+   80,
+   97,
+   114
+  ],
+  "task": [
+   45
+  ],
+  "of": [
+   46,
+   52,
+   116
+  ],
+  "Causal-VidQA,": [
+   47
+  ],
+  "which": [
+   48
+  ],
+  "includes": [
+   49
+  ],
+  "four": [
+   50
+  ],
+  "types": [
+   51
+  ],
+  "questions": [
+   53
+  ],
+  "ranging": [
+   54
+  ],
+  "from": [
+   55,
+   119
+  ],
+  "scene": [
+   56
+  ],
+  "description": [
+   57
+  ],
+  "(description)": [
+   58
+  ],
+  "to": [
+   59,
+   122
+  ],
+  "(explanation)": [
+   62
+  ],
+  "(prediction": [
+   66
+  ],
+  "counterfactual).": [
+   68
+  ],
+  "For": [
+   69
+  ],
+  "set": [
+   73
+  ],
+  "up": [
+   74
+  ],
+  "a": [
+   75,
+   84
+  ],
+  "two-step": [
+   76
+  ],
+  "solution": [
+   77
+  ],
+  "by": [
+   78
+  ],
+  "answering": [
+   79
+  ],
+  "question": [
+   81
+  ],
+  "providing": [
+   83
+  ],
+  "proper": [
+   85
+  ],
+  "reason.": [
+   86
+  ],
+  "Through": [
+   87
+  ],
+  "extensive": [
+   88
+  ],
+  "experiments": [
+   89
+  ],
+  "existing": [
+   91
+  ],
+  "VideoQA": [
+   92
+  ],
+  "methods,": [
+   93
+  ],
+  "find": [
+   95
+  ],
+  "that": [
+   96,
+   110
+  ],
+  "state-of-the-art": [
+   98
+  ],
+  "are": [
+   100,
+   130
+  ],
+  "strong": [
+   101
+  ],
+  "descriptions": [
+   103
+  ],
+  "but": [
+   104
+  ],
+  "weak": [
+   105
+  ],
+  "We": [
+   108
+  ],
+  "hope": [
+   109
+  ],
+  "Causal-VidQA": [
+   111
+  ],
+  "can": [
+   112
+  ],
+  "guide": [
+   113
+  ],
+  "research": [
+   115
+  ],
+  "learning": [
+   121
+  ],
+  "The": [
+   125
+  ],
+  "dataset": [
+   126
+  ],
+  "related": [
+   128
+  ],
+  "resources": [
+   129
+  ],
+  "available": [
+   131
+  ],
+  "at": [
+   132
+  ],
+  "https://github.com/bcmi/Causal-VidQA.git.": [
+   133
+  ]
+ }
+}

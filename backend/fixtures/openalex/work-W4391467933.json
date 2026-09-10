@@ -1,0 +1,5732 @@
+{
+ "id": "https://openalex.org/W4391467933",
+ "display_name": "Cohort Profile Update: The Young-HUNT Study, Norway",
+ "publication_year": 2024,
+ "cited_by_count": 20,
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5070405308",
+    "display_name": "Vegar Rangul",
+    "orcid": "https://orcid.org/0000-0001-8863-0557"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I204778367",
+     "display_name": "Norwegian University of Science and Technology",
+     "ror": "https://ror.org/05xg72x27",
+     "country_code": "NO",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I204778367"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I2800375777",
+     "display_name": "Levanger Hospital",
+     "ror": "https://ror.org/029nzwk08",
+     "country_code": "NO",
+     "type": "healthcare",
+     "lineage": [
+      "https://openalex.org/I2800375777"
+     ]
+    }
+   ],
+   "countries": [
+    "NO"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Vegar Rangul",
+   "raw_affiliation_strings": [
+    "HUNT Research Centre, Department of Public Health and Nursing, Faculty of Medicine and Health Sciences, Norwegian University of Science and Technology , Levanger, Norway",
+    "Levanger Hospital, Nord-Tr\u00f8ndelag Hospital Trust , Levanger, Norway"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-8863-0557",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "HUNT Research Centre, Department of Public Health and Nursing, Faculty of Medicine and Health Sciences, Norwegian University of Science and Technology , Levanger, Norway",
+     "institution_ids": [
+      "https://openalex.org/I204778367"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Levanger Hospital, Nord-Tr\u00f8ndelag Hospital Trust , Levanger, Norway",
+     "institution_ids": [
+      "https://openalex.org/I2800375777"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5084325968",
+    "display_name": "Turid Lingaas Holmen",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I204778367",
+     "display_name": "Norwegian University of Science and Technology",
+     "ror": "https://ror.org/05xg72x27",
+     "country_code": "NO",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I204778367"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I2800375777",
+     "display_name": "Levanger Hospital",
+     "ror": "https://ror.org/029nzwk08",
+     "country_code": "NO",
+     "type": "healthcare",
+     "lineage": [
+      "https://openalex.org/I2800375777"
+     ]
+    }
+   ],
+   "countries": [
+    "NO"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Turid Lingaas Holmen",
+   "raw_affiliation_strings": [
+    "HUNT Research Centre, Department of Public Health and Nursing, Faculty of Medicine and Health Sciences, Norwegian University of Science and Technology , Levanger, Norway",
+    "Levanger Hospital, Nord-Tr\u00f8ndelag Hospital Trust , Levanger, Norway"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "HUNT Research Centre, Department of Public Health and Nursing, Faculty of Medicine and Health Sciences, Norwegian University of Science and Technology , Levanger, Norway",
+     "institution_ids": [
+      "https://openalex.org/I204778367"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Levanger Hospital, Nord-Tr\u00f8ndelag Hospital Trust , Levanger, Norway",
+     "institution_ids": [
+      "https://openalex.org/I2800375777"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5062771347",
+    "display_name": "Arnulf Langhammer",
+    "orcid": "https://orcid.org/0000-0001-5296-6673"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I204778367",
+     "display_name": "Norwegian University of Science and Technology",
+     "ror": "https://ror.org/05xg72x27",
+     "country_code": "NO",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I204778367"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I2800375777",
+     "display_name": "Levanger Hospital",
+     "ror": "https://ror.org/029nzwk08",
+     "country_code": "NO",
+     "type": "healthcare",
+     "lineage": [
+      "https://openalex.org/I2800375777"
+     ]
+    }
+   ],
+   "countries": [
+    "NO"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Arnulf Langhammer",
+   "raw_affiliation_strings": [
+    "HUNT Research Centre, Department of Public Health and Nursing, Faculty of Medicine and Health Sciences, Norwegian University of Science and Technology , Levanger, Norway",
+    "Levanger Hospital, Nord-Tr\u00f8ndelag Hospital Trust , Levanger, Norway"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "HUNT Research Centre, Department of Public Health and Nursing, Faculty of Medicine and Health Sciences, Norwegian University of Science and Technology , Levanger, Norway",
+     "institution_ids": [
+      "https://openalex.org/I204778367"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Levanger Hospital, Nord-Tr\u00f8ndelag Hospital Trust , Levanger, Norway",
+     "institution_ids": [
+      "https://openalex.org/I2800375777"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5080876332",
+    "display_name": "Jo Magne Ingul",
+    "orcid": "https://orcid.org/0000-0002-5506-9238"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I204778367",
+     "display_name": "Norwegian University of Science and Technology",
+     "ror": "https://ror.org/05xg72x27",
+     "country_code": "NO",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I204778367"
+     ]
+    }
+   ],
+   "countries": [
+    "NO"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jo Magne Ingul",
+   "raw_affiliation_strings": [
+    "Regional Centre for Child and Youth Mental Health and Child Welfare, Department of Mental Health, Faculty of Medicine and Health Sciences, Norwegian University of Science and Technology , Trondheim, Norway"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Regional Centre for Child and Youth Mental Health and Child Welfare, Department of Mental Health, Faculty of Medicine and Health Sciences, Norwegian University of Science and Technology , Trondheim, Norway",
+     "institution_ids": [
+      "https://openalex.org/I204778367"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5086190960",
+    "display_name": "Kristine Pape",
+    "orcid": "https://orcid.org/0000-0001-9287-7245"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I204778367",
+     "display_name": "Norwegian University of Science and Technology",
+     "ror": "https://ror.org/05xg72x27",
+     "country_code": "NO",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I204778367"
+     ]
+    }
+   ],
+   "countries": [
+    "NO"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Kristine Pape",
+   "raw_affiliation_strings": [
+    "Department of Public Health and Nursing, Faculty and Medicine and Health Sciences, Norwegian University of Science and Technology, NTNU , Trondheim, Norway"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Public Health and Nursing, Faculty and Medicine and Health Sciences, Norwegian University of Science and Technology, NTNU , Trondheim, Norway",
+     "institution_ids": [
+      "https://openalex.org/I204778367"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5031605150",
+    "display_name": "J\u00f8rn Fenstad",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I204778367",
+     "display_name": "Norwegian University of Science and Technology",
+     "ror": "https://ror.org/05xg72x27",
+     "country_code": "NO",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I204778367"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I2800375777",
+     "display_name": "Levanger Hospital",
+     "ror": "https://ror.org/029nzwk08",
+     "country_code": "NO",
+     "type": "healthcare",
+     "lineage": [
+      "https://openalex.org/I2800375777"
+     ]
+    }
+   ],
+   "countries": [
+    "NO"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "J\u00f8rn S\u00f8berg Fenstad",
+   "raw_affiliation_strings": [
+    "HUNT Research Centre, Department of Public Health and Nursing, Faculty of Medicine and Health Sciences, Norwegian University of Science and Technology , Levanger, Norway",
+    "Levanger Hospital, Nord-Tr\u00f8ndelag Hospital Trust , Levanger, Norway"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "HUNT Research Centre, Department of Public Health and Nursing, Faculty of Medicine and Health Sciences, Norwegian University of Science and Technology , Levanger, Norway",
+     "institution_ids": [
+      "https://openalex.org/I204778367"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Levanger Hospital, Nord-Tr\u00f8ndelag Hospital Trust , Levanger, Norway",
+     "institution_ids": [
+      "https://openalex.org/I2800375777"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5056663920",
+    "display_name": "Kirsti Kval\u00f8y",
+    "orcid": "https://orcid.org/0000-0002-8038-917X"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I204778367",
+     "display_name": "Norwegian University of Science and Technology",
+     "ror": "https://ror.org/05xg72x27",
+     "country_code": "NO",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I204778367"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I2800375777",
+     "display_name": "Levanger Hospital",
+     "ror": "https://ror.org/029nzwk08",
+     "country_code": "NO",
+     "type": "healthcare",
+     "lineage": [
+      "https://openalex.org/I2800375777"
+     ]
+    }
+   ],
+   "countries": [
+    "NO"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Kirsti Kval\u00f8y",
+   "raw_affiliation_strings": [
+    "HUNT Research Centre, Department of Public Health and Nursing, Faculty of Medicine and Health Sciences, Norwegian University of Science and Technology , Levanger, Norway",
+    "Levanger Hospital, Nord-Tr\u00f8ndelag Hospital Trust , Levanger, Norway"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "HUNT Research Centre, Department of Public Health and Nursing, Faculty of Medicine and Health Sciences, Norwegian University of Science and Technology , Levanger, Norway",
+     "institution_ids": [
+      "https://openalex.org/I204778367"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Levanger Hospital, Nord-Tr\u00f8ndelag Hospital Trust , Levanger, Norway",
+     "institution_ids": [
+      "https://openalex.org/I2800375777"
+     ]
+    }
+   ]
+  }
+ ],
+ "abstract_inverted_index": {
+  "Young-HUNT": [
+   0,
+   13,
+   122,
+   200,
+   265,
+   306,
+   370,
+   500,
+   1106,
+   1148,
+   1547,
+   1618,
+   1935,
+   2122,
+   2659,
+   2700
+  ],
+  "is": [
+   1,
+   124,
+   267,
+   433,
+   464,
+   774,
+   868,
+   925,
+   1019,
+   1155,
+   1268,
+   1283,
+   1314,
+   1357,
+   1390,
+   1402,
+   1467,
+   1500,
+   1512,
+   1809,
+   2272,
+   2308,
+   2325,
+   2524,
+   2556,
+   2661,
+   2781,
+   2802,
+   2819,
+   2900,
+   3056,
+   3106,
+   3213
+  ],
+  "the": [
+   2,
+   6,
+   12,
+   22,
+   69,
+   112,
+   125,
+   129,
+   150,
+   159,
+   189,
+   205,
+   228,
+   240,
+   257,
+   273,
+   329,
+   352,
+   369,
+   375,
+   422,
+   439,
+   475,
+   483,
+   556,
+   562,
+   584,
+   602,
+   624,
+   631,
+   650,
+   655,
+   669,
+   678,
+   684,
+   708,
+   746,
+   762,
+   777,
+   844,
+   878,
+   899,
+   905,
+   939,
+   975,
+   979,
+   996,
+   999,
+   1009,
+   1015,
+   1028,
+   1034,
+   1041,
+   1067,
+   1070,
+   1076,
+   1085,
+   1094,
+   1098,
+   1102,
+   1147,
+   1158,
+   1168,
+   1176,
+   1272,
+   1329,
+   1358,
+   1370,
+   1377,
+   1403,
+   1439,
+   1468,
+   1480,
+   1487,
+   1513,
+   1568,
+   1589,
+   1616,
+   1650,
+   1656,
+   1665,
+   1673,
+   1680,
+   1698,
+   1702,
+   1705,
+   1722,
+   1725,
+   1743,
+   1812,
+   1971,
+   1981,
+   2011,
+   2037,
+   2121,
+   2132,
+   2143,
+   2169,
+   2176,
+   2180,
+   2185,
+   2251,
+   2293,
+   2326,
+   2336,
+   2351,
+   2359,
+   2383,
+   2427,
+   2469,
+   2477,
+   2671,
+   2675,
+   2679,
+   2721,
+   2767,
+   2795,
+   2805,
+   2810,
+   2817,
+   2820,
+   2836,
+   2850,
+   2853,
+   2897,
+   2969,
+   2992,
+   2999,
+   3018,
+   3049,
+   3059,
+   3125,
+   3128,
+   3133,
+   3136,
+   3145,
+   3163,
+   3177,
+   3187,
+   3193,
+   3203,
+   3242,
+   3250,
+   3270,
+   3273,
+   3284,
+   3295
+  ],
+  "adolescent": [
+   3,
+   126,
+   182,
+   419,
+   547,
+   652,
+   1140,
+   1160,
+   1794,
+   2432,
+   2855,
+   2892,
+   2915
+  ],
+  "part": [
+   4,
+   24,
+   127,
+   152,
+   161,
+   226,
+   255,
+   941,
+   1032,
+   2859,
+   3254
+  ],
+  "of": [
+   5,
+   25,
+   57,
+   128,
+   148,
+   153,
+   162,
+   181,
+   198,
+   227,
+   239,
+   256,
+   287,
+   320,
+   328,
+   343,
+   368,
+   442,
+   456,
+   478,
+   485,
+   497,
+   505,
+   542,
+   593,
+   623,
+   634,
+   649,
+   658,
+   692,
+   711,
+   738,
+   764,
+   767,
+   779,
+   788,
+   796,
+   810,
+   863,
+   907,
+   917,
+   942,
+   973,
+   990,
+   1008,
+   1069,
+   1087,
+   1153,
+   1164,
+   1172,
+   1180,
+   1250,
+   1259,
+   1326,
+   1369,
+   1376,
+   1382,
+   1397,
+   1405,
+   1430,
+   1436,
+   1479,
+   1486,
+   1492,
+   1507,
+   1515,
+   1540,
+   1621,
+   1629,
+   1667,
+   1672,
+   1679,
+   1697,
+   1701,
+   1704,
+   1721,
+   1724,
+   1753,
+   1996,
+   2000,
+   2010,
+   2053,
+   2128,
+   2142,
+   2149,
+   2152,
+   2171,
+   2254,
+   2288,
+   2320,
+   2328,
+   2471,
+   2492,
+   2518,
+   2569,
+   2606,
+   2618,
+   2622,
+   2670,
+   2674,
+   2707,
+   2755,
+   2816,
+   2838,
+   2845,
+   2860,
+   2863,
+   2878,
+   3127,
+   3135,
+   3144,
+   3181,
+   3221,
+   3229,
+   3245,
+   3255,
+   3280,
+   3301
+  ],
+  "Tr\u00f8ndelag": [
+   7,
+   130,
+   154,
+   943,
+   2861,
+   3207,
+   3233,
+   3256
+  ],
+  "Health": [
+   8,
+   118,
+   131,
+   2975,
+   3208,
+   3224,
+   3239
+  ],
+  "Study": [
+   9,
+   123,
+   132,
+   201,
+   266,
+   901,
+   1107,
+   1149,
+   2660,
+   2750,
+   3209
+  ],
+  "(HUNT).": [
+   10
+  ],
+  "In": [
+   11,
+   672,
+   1912,
+   1937,
+   2075,
+   2135,
+   2188,
+   2228,
+   2467
+  ],
+  "Study,": [
+   14,
+   71
+  ],
+  "all": [
+   15,
+   141,
+   288,
+   335,
+   826,
+   974,
+   1024,
+   2348,
+   2435
+  ],
+  "inhabitants": [
+   16
+  ],
+  "aged": [
+   17,
+   143,
+   184,
+   945,
+   2205,
+   2209,
+   2465,
+   2554
+  ],
+  "13\u201319": [
+   18,
+   185,
+   276,
+   946,
+   2555
+  ],
+  "years,": [
+   19,
+   186,
+   277,
+   947,
+   2211
+  ],
+  "living": [
+   20,
+   1771,
+   2880
+  ],
+  "in": [
+   21,
+   51,
+   68,
+   158,
+   170,
+   192,
+   204,
+   216,
+   252,
+   272,
+   302,
+   345,
+   374,
+   445,
+   583,
+   628,
+   668,
+   833,
+   894,
+   898,
+   933,
+   938,
+   957,
+   978,
+   992,
+   1006,
+   1021,
+   1033,
+   1048,
+   1063,
+   1084,
+   1146,
+   1157,
+   1167,
+   1175,
+   1185,
+   1189,
+   1234,
+   1328,
+   1438,
+   1567,
+   1661,
+   1689,
+   1695,
+   1786,
+   1821,
+   1828,
+   1846,
+   1851,
+   1930,
+   1946,
+   2014,
+   2100,
+   2131,
+   2157,
+   2168,
+   2179,
+   2184,
+   2225,
+   2235,
+   2242,
+   2250,
+   2368,
+   2412,
+   2418,
+   2430,
+   2447,
+   2461,
+   2510,
+   2515,
+   2611,
+   2625,
+   2654,
+   2686,
+   2804,
+   2827,
+   2852,
+   2881,
+   2889,
+   2908,
+   2917,
+   2979,
+   3002,
+   3252,
+   3272
+  ],
+  "northern": [
+   23,
+   151,
+   940,
+   2858,
+   3253
+  ],
+  "Tr\u00f8ndelag,": [
+   26
+  ],
+  "Norway,": [
+   27
+  ],
+  "have": [
+   28,
+   348,
+   404,
+   426,
+   1201,
+   1216,
+   1239,
+   1278,
+   1836,
+   2117,
+   2286,
+   2424,
+   2762,
+   2995
+  ],
+  "been": [
+   29,
+   349,
+   405,
+   427,
+   1279,
+   1837,
+   2164,
+   2257,
+   2763,
+   3077
+  ],
+  "invited": [
+   30,
+   350,
+   949,
+   1074
+  ],
+  "to": [
+   31,
+   42,
+   316,
+   334,
+   351,
+   411,
+   435,
+   472,
+   520,
+   535,
+   571,
+   579,
+   589,
+   666,
+   701,
+   728,
+   775,
+   792,
+   848,
+   857,
+   955,
+   962,
+   984,
+   1066,
+   1075,
+   1092,
+   1200,
+   1591,
+   1594,
+   1602,
+   1610,
+   1649,
+   1687,
+   1769,
+   1825,
+   1839,
+   1872,
+   1919,
+   1939,
+   1970,
+   1988,
+   2159,
+   2259,
+   2378,
+   2392,
+   2463,
+   2501,
+   2563,
+   2628,
+   2642,
+   2656,
+   2667,
+   2683,
+   2738,
+   2769,
+   2776,
+   2902,
+   2913,
+   2936,
+   2945,
+   2959,
+   2986,
+   2991,
+   3107,
+   3260,
+   3294
+  ],
+  "repeated": [
+   32,
+   66,
+   524,
+   2668
+  ],
+  "surveys": [
+   33,
+   173,
+   403,
+   1715,
+   1735,
+   2669,
+   2768
+  ],
+  "since": [
+   34,
+   2678
+  ],
+  "1995\u201397.": [
+   35
+  ],
+  "The": [
+   36,
+   48,
+   59,
+   121,
+   164,
+   194,
+   199,
+   209,
+   231,
+   246,
+   264,
+   305,
+   494,
+   511,
+   704,
+   815,
+   915,
+   971,
+   988,
+   1043,
+   1080,
+   1105,
+   1257,
+   1637,
+   1740,
+   1964,
+   1984,
+   2364,
+   2402,
+   2596,
+   2658,
+   2748,
+   2857,
+   3206
+  ],
+  "study": [
+   37,
+   139,
+   166,
+   1017,
+   1099,
+   2613,
+   3075,
+   3164
+  ],
+  "data": [
+   38,
+   61,
+   101,
+   169,
+   471,
+   496,
+   516,
+   525,
+   552,
+   604,
+   722,
+   733,
+   850,
+   1549,
+   1638,
+   1668,
+   1908,
+   2119,
+   2129,
+   2685,
+   2734,
+   2790,
+   2982,
+   3000,
+   3026,
+   3029,
+   3130,
+   3149,
+   3172
+  ],
+  "may": [
+   39,
+   724,
+   804,
+   830,
+   2264,
+   2694,
+   2735,
+   2834,
+   2873,
+   2950,
+   2983,
+   3014
+  ],
+  "be": [
+   40,
+   577,
+   664,
+   702,
+   726,
+   805,
+   831,
+   1137,
+   1840,
+   2379,
+   2393,
+   2564,
+   2695,
+   2736,
+   2777,
+   2876,
+   2966,
+   2984,
+   3015,
+   3108
+  ],
+  "linked": [
+   41,
+   578,
+   727,
+   2737
+  ],
+  "local": [
+   43
+  ],
+  "and": [
+   44,
+   72,
+   91,
+   117,
+   146,
+   278,
+   298,
+   322,
+   360,
+   372,
+   381,
+   388,
+   414,
+   431,
+   452,
+   461,
+   481,
+   487,
+   534,
+   540,
+   544,
+   564,
+   587,
+   598,
+   612,
+   619,
+   636,
+   647,
+   689,
+   698,
+   715,
+   731,
+   741,
+   748,
+   754,
+   783,
+   791,
+   813,
+   823,
+   838,
+   892,
+   909,
+   928,
+   1037,
+   1053,
+   1060,
+   1132,
+   1143,
+   1196,
+   1206,
+   1214,
+   1224,
+   1243,
+   1271,
+   1277,
+   1308,
+   1319,
+   1335,
+   1364,
+   1372,
+   1401,
+   1409,
+   1445,
+   1474,
+   1482,
+   1511,
+   1519,
+   1559,
+   1606,
+   1677,
+   1684,
+   1712,
+   1732,
+   1757,
+   1760,
+   1764,
+   1766,
+   1776,
+   1797,
+   1831,
+   1842,
+   1864,
+   1867,
+   1879,
+   1889,
+   1891,
+   1899,
+   1924,
+   1928,
+   1943,
+   1952,
+   1968,
+   1973,
+   1993,
+   2045,
+   2067,
+   2072,
+   2084,
+   2091,
+   2154,
+   2173,
+   2183,
+   2208,
+   2237,
+   2278,
+   2313,
+   2324,
+   2333,
+   2350,
+   2370,
+   2373,
+   2407,
+   2415,
+   2442,
+   2458,
+   2473,
+   2486,
+   2512,
+   2521,
+   2536,
+   2561,
+   2594,
+   2604,
+   2620,
+   2647,
+   2649,
+   2688,
+   2717,
+   2733,
+   2744,
+   2758,
+   2772,
+   2785,
+   2798,
+   2829,
+   2841,
+   2848,
+   2867,
+   2906,
+   2910,
+   2953,
+   2974,
+   2997,
+   3010,
+   3027,
+   3037,
+   3042,
+   3052,
+   3089,
+   3113,
+   3132,
+   3160,
+   3165,
+   3168,
+   3179,
+   3184,
+   3201,
+   3223,
+   3231,
+   3241,
+   3265,
+   3267,
+   3278,
+   3299
+  ],
+  "national": [
+   45,
+   323,
+   729,
+   1159,
+   2294,
+   2689
+  ],
+  "health": [
+   46,
+   138,
+   324,
+   444,
+   459,
+   646,
+   675,
+   687,
+   714,
+   828,
+   865,
+   871,
+   1134,
+   1141,
+   1646,
+   1762,
+   1795,
+   1808,
+   1874,
+   1922,
+   2277,
+   2409,
+   2422,
+   2771,
+   2839,
+   2886,
+   3111,
+   3116
+  ],
+  "registries.": [
+   47
+  ],
+  "Young-HUNT4": [
+   49,
+   60,
+   958,
+   1169,
+   1177,
+   1181,
+   1190,
+   1330,
+   1440,
+   1581,
+   1713,
+   1733,
+   1787,
+   1931,
+   2133,
+   2144,
+   2337,
+   2419,
+   2527,
+   2786,
+   2898
+  ],
+  "Survey": [
+   50,
+   259,
+   2899
+  ],
+  "2017\u201319": [
+   52
+  ],
+  "included": [
+   53,
+   1083,
+   1742,
+   1820,
+   2020
+  ],
+  "8066": [
+   54,
+   966
+  ],
+  "participants": [
+   55,
+   243,
+   501,
+   575,
+   1025,
+   1039,
+   1182,
+   1327,
+   1378,
+   1437,
+   1488,
+   2080,
+   2437,
+   2464
+  ],
+  "(76%": [
+   56
+  ],
+  "invited).": [
+   58,
+   1383,
+   1493
+  ],
+  "enable": [
+   62,
+   412,
+   2770
+  ],
+  "longitudinal": [
+   63,
+   308,
+   470,
+   495,
+   559
+  ],
+  "follow-ups": [
+   64,
+   560
+  ],
+  "through": [
+   65,
+   561,
+   877,
+   883,
+   1552,
+   1627,
+   2024,
+   2042,
+   2955
+  ],
+  "participations": [
+   67
+  ],
+  "HUNT": [
+   70,
+   100,
+   104,
+   134,
+   165,
+   585,
+   900,
+   2436,
+   2687,
+   2710,
+   2749,
+   2789,
+   2796,
+   2807,
+   2811,
+   2937,
+   2961,
+   3019,
+   3025,
+   3060,
+   3105,
+   3129,
+   3217,
+   3288
+  ],
+  "within-family": [
+   73
+  ],
+  "studies.": [
+   74,
+   2719
+  ],
+  "New": [
+   75
+  ],
+  "measures": [
+   76,
+   614,
+   2035
+  ],
+  "include": [
+   77
+  ],
+  "body": [
+   78,
+   620,
+   755,
+   824,
+   1208,
+   1343,
+   1355,
+   1362,
+   1365,
+   1453,
+   1465,
+   1472,
+   1475,
+   2021,
+   2038,
+   2054,
+   2063,
+   2269,
+   2371
+  ],
+  "composition": [
+   79,
+   756,
+   2022,
+   2055
+  ],
+  "analysis": [
+   80,
+   2023,
+   2027,
+   3178
+  ],
+  "using": [
+   81,
+   758,
+   1322,
+   1957,
+   2103
+  ],
+  "bioelectrical": [
+   82,
+   759,
+   2025
+  ],
+  "impedance;": [
+   83
+  ],
+  "a": [
+   84,
+   136,
+   225,
+   236,
+   268,
+   295,
+   317,
+   491,
+   514,
+   550,
+   642,
+   770,
+   834,
+   869,
+   1109,
+   1202,
+   1217,
+   1247,
+   1395,
+   1505,
+   1553,
+   1556,
+   1573,
+   1584,
+   1662,
+   1750,
+   1994,
+   2049,
+   2150,
+   2195,
+   2213,
+   2246,
+   2297,
+   2318,
+   2444,
+   2453,
+   2496,
+   2612,
+   2703,
+   2752,
+   2923,
+   2928,
+   2946,
+   2956,
+   2987,
+   3094,
+   3110,
+   3115,
+   3214
+  ],
+  "1-week": [
+   85
+  ],
+  "accelerometer": [
+   86,
+   752,
+   2312
+  ],
+  "recording": [
+   87
+  ],
+  "on": [
+   88,
+   283,
+   490,
+   538,
+   595,
+   1596,
+   1608,
+   2505,
+   2533,
+   2599,
+   2741,
+   3048,
+   3124
+  ],
+  "movement": [
+   89
+  ],
+  "behaviour;": [
+   90
+  ],
+  "saliva": [
+   92,
+   1630
+  ],
+  "for": [
+   93,
+   99,
+   115,
+   188,
+   468,
+   508,
+   513,
+   529,
+   558,
+   565,
+   615,
+   680,
+   706,
+   873,
+   903,
+   998,
+   1624,
+   1655,
+   1793,
+   1803,
+   1976,
+   2061,
+   2070,
+   2484,
+   2488,
+   2576,
+   2663,
+   2715,
+   2934,
+   2972,
+   3033,
+   3054,
+   3073,
+   3195,
+   3257,
+   3275,
+   3291
+  ],
+  "DNA": [
+   94,
+   1625,
+   1633
+  ],
+  "samples.": [
+   95
+  ],
+  "Researchers": [
+   96
+  ],
+  "can": [
+   97,
+   576,
+   2932
+  ],
+  "apply": [
+   98,
+   2933,
+   2954
+  ],
+  "access": [
+   102,
+   2935,
+   3055
+  ],
+  "from": [
+   103,
+   111,
+   569,
+   851,
+   889,
+   959,
+   1746,
+   2081,
+   2120,
+   2438,
+   2746,
+   2783,
+   3040,
+   3079
+  ],
+  "Research": [
+   105,
+   119,
+   2812,
+   2976,
+   3218,
+   3289
+  ],
+  "Centre": [
+   106,
+   3219,
+   3290
+  ],
+  "[https://www.ntnu.edu/hunt]": [
+   107
+  ],
+  "after": [
+   108
+  ],
+  "project": [
+   109,
+   3036
+  ],
+  "approval": [
+   110,
+   3039,
+   3072
+  ],
+  "Regional": [
+   113,
+   2970,
+   3238
+  ],
+  "Committee": [
+   114,
+   2971
+  ],
+  "Medical": [
+   116,
+   2973
+  ],
+  "Ethics.": [
+   120
+  ],
+  "(The": [
+   133
+  ],
+  "Study),": [
+   135
+  ],
+  "population-based": [
+   137
+  ],
+  "inviting": [
+   140
+  ],
+  "inhabitants,": [
+   142
+  ],
+  "13": [
+   144,
+   2440
+  ],
+  "years": [
+   145,
+   342,
+   2207,
+   2441
+  ],
+  "above,": [
+   147
+  ],
+  "primarily": [
+   149,
+   271
+  ],
+  "County": [
+   155,
+   3234
+  ],
+  "(former": [
+   156
+  ],
+  "Nord-Tr\u00f8ndelag)": [
+   157
+  ],
+  "central": [
+   160
+  ],
+  "Norway.": [
+   163,
+   2980
+  ],
+  "has": [
+   167,
+   1108,
+   2163,
+   2256,
+   2499,
+   2609,
+   2723,
+   2868,
+   3076,
+   3121
+  ],
+  "collected": [
+   168,
+   1551
+  ],
+  "four": [
+   171
+  ],
+  "subsequent": [
+   172,
+   402
+  ],
+  "every": [
+   174
+  ],
+  "11th": [
+   175
+  ],
+  "year": [
+   176
+  ],
+  "over": [
+   177,
+   532,
+   1398,
+   1508,
+   2175,
+   2321,
+   2426
+  ],
+  "1984\u20132017,1": [
+   178
+  ],
+  "but": [
+   179,
+   881,
+   1117,
+   3119
+  ],
+  "collections": [
+   180,
+   526
+  ],
+  "data,": [
+   183,
+   919,
+   3264
+  ],
+  "started": [
+   187
+  ],
+  "first": [
+   190,
+   195,
+   210
+  ],
+  "time": [
+   191,
+   533,
+   1297,
+   1389,
+   1406,
+   1419,
+   1432,
+   1499,
+   1516,
+   1529,
+   1542,
+   1775,
+   1942,
+   2307,
+   2329,
+   2509,
+   2532,
+   2540,
+   2546,
+   2589,
+   2603
+  ],
+  "1995.": [
+   193
+  ],
+  "three": [
+   196,
+   2098
+  ],
+  "waves": [
+   197,
+   378
+  ],
+  "were": [
+   202,
+   948,
+   995,
+   1073,
+   1422,
+   1433,
+   1532,
+   1543,
+   1550,
+   1565,
+   1675,
+   1682,
+   1784,
+   1917,
+   1955,
+   1966,
+   1986,
+   2096
+  ],
+  "described": [
+   203
+  ],
+  "original": [
+   206
+  ],
+  "cohort": [
+   207,
+   399
+  ],
+  "profile.2": [
+   208
+  ],
+  "survey,": [
+   211
+  ],
+  "Young-HUNT1": [
+   212,
+   242,
+   392,
+   1706,
+   1726
+  ],
+  "(YH1),": [
+   213,
+   1707,
+   1727
+  ],
+  "was": [
+   214,
+   235,
+   250,
+   518,
+   1004,
+   1046,
+   1082,
+   1579,
+   1583,
+   1626,
+   1641,
+   1658,
+   2005,
+   2410,
+   2450,
+   2482,
+   2573,
+   2582,
+   3086,
+   3099
+  ],
+  "performed": [
+   215,
+   251
+  ],
+  "1995\u201397": [
+   217
+  ],
+  "(n": [
+   218,
+   260
+  ],
+  "=": [
+   219,
+   261
+  ],
+  "8983,": [
+   220
+  ],
+  "response": [
+   221,
+   389
+  ],
+  "rate": [
+   222,
+   1112,
+   2823
+  ],
+  "88%)": [
+   223
+  ],
+  "as": [
+   224,
+   254,
+   312,
+   314,
+   695,
+   800,
+   1265,
+   1392,
+   1502,
+   1693,
+   1799,
+   1845,
+   1861,
+   1876,
+   1895,
+   1906,
+   2315,
+   2495,
+   3093,
+   3097,
+   3101
+  ],
+  "HUNT2": [
+   229,
+   354
+  ],
+  "Survey.": [
+   230,
+   2134
+  ],
+  "Young-HUNT2": [
+   232,
+   395,
+   1708,
+   1728
+  ],
+  "9YH2)": [
+   233
+  ],
+  "survey": [
+   234,
+   249,
+   270,
+   377,
+   1077,
+   1161,
+   1170,
+   1178,
+   1657,
+   1674,
+   2722,
+   2818
+  ],
+  "4-year": [
+   237
+  ],
+  "follow-up": [
+   238,
+   309,
+   732,
+   849,
+   2684
+  ],
+  "youngest": [
+   241,
+   2352
+  ],
+  "(13\u201315": [
+   244
+  ],
+  "years).": [
+   245
+  ],
+  "Young-HUNT3": [
+   247,
+   398,
+   1710,
+   1730,
+   2413,
+   2784
+  ],
+  "(YH3)": [
+   248,
+   1711,
+   1731
+  ],
+  "2006\u201308": [
+   253
+  ],
+  "HUNT3": [
+   258,
+   361,
+   380
+  ],
+  "8200,": [
+   262
+  ],
+  "78.4%).": [
+   263
+  ],
+  "school-based": [
+   269
+  ],
+  "age": [
+   274,
+   344,
+   384,
+   1195,
+   1336,
+   1446,
+   2439
+  ],
+  "range": [
+   275,
+   319,
+   1752,
+   1995,
+   2151,
+   2754
+  ],
+  "participant": [
+   279
+  ],
+  "invitations": [
+   280
+  ],
+  "are": [
+   281,
+   504,
+   527,
+   717,
+   743,
+   1150,
+   1183,
+   1230,
+   1321,
+   1790,
+   1843,
+   1854,
+   2340,
+   2346,
+   2354,
+   2791,
+   3030,
+   3150
+  ],
+  "based": [
+   282
+  ],
+  "schools\u2019": [
+   284
+  ],
+  "class": [
+   285,
+   994
+  ],
+  "lists": [
+   286,
+   989
+  ],
+  "registered": [
+   289
+  ],
+  "school": [
+   290,
+   1071,
+   1574,
+   2828
+  ],
+  "pupils,": [
+   291
+  ],
+  "therefore": [
+   292
+  ],
+  "also": [
+   293,
+   725,
+   882,
+   2583,
+   2911
+  ],
+  "including": [
+   294,
+   751,
+   1246,
+   2146,
+   3211,
+   3269
+  ],
+  "few": [
+   296
+  ],
+  "12-": [
+   297
+  ],
+  "20-year-olds.": [
+   299
+  ],
+  "As": [
+   300
+  ],
+  "illustrated": [
+   301
+  ],
+  "Figure": [
+   303
+  ],
+  "1,": [
+   304
+  ],
+  "allows": [
+   307,
+   902
+  ],
+  "into": [
+   310,
+   502,
+   683,
+   853,
+   2282
+  ],
+  "adulthood,": [
+   311
+  ],
+  "well": [
+   313,
+   2874
+  ],
+  "linkage": [
+   315,
+   2682,
+   2698
+  ],
+  "wide": [
+   318
+  ],
+  "regional": [
+   321
+  ],
+  "registries": [
+   325,
+   730
+  ],
+  "by": [
+   326,
+   719,
+   807,
+   1078,
+   1333,
+   1443,
+   1644,
+   1811,
+   2240,
+   2311,
+   2794,
+   2968,
+   3091
+  ],
+  "means": [
+   327,
+   2940
+  ],
+  "unique": [
+   330,
+   931,
+   2713
+  ],
+  "identification": [
+   331
+  ],
+  "number": [
+   332
+  ],
+  "allocated": [
+   333
+  ],
+  "Norwegian": [
+   336,
+   2226,
+   2883,
+   2891,
+   2929,
+   2947,
+   2957,
+   3227,
+   3243
+  ],
+  "residents.1": [
+   337
+  ],
+  "All": [
+   338,
+   936,
+   1670,
+   2963,
+   3189,
+   3198
+  ],
+  "current": [
+   339,
+   685
+  ],
+  "residents": [
+   340
+  ],
+  "\u226513": [
+   341
+  ],
+  "former": [
+   346
+  ],
+  "Nord-Tr\u00f8ndelag": [
+   347
+  ],
+  "surveys:": [
+   353
+  ],
+  "(1995\u201397,": [
+   355
+  ],
+  "74": [
+   356
+  ],
+  "208": [
+   357
+  ],
+  "participants,": [
+   358,
+   365,
+   2145,
+   2338,
+   2528,
+   2701,
+   2711
+  ],
+  "78.0%)": [
+   359
+  ],
+  "(2006\u201308,": [
+   362
+  ],
+  "58": [
+   363
+  ],
+  "999": [
+   364
+  ],
+  "70.1%).3": [
+   366
+  ],
+  "Flowchart": [
+   367
+  ],
+  "cohorts": [
+   371,
+   2673,
+   2916
+  ],
+  "participation": [
+   373,
+   1044,
+   2725,
+   2822
+  ],
+  "adult": [
+   376,
+   1805
+  ],
+  "(HUNT2,": [
+   379
+  ],
+  "HUNT4):": [
+   382
+  ],
+  "cohort\u2019s": [
+   383
+  ],
+  "range,": [
+   385
+  ],
+  "sample": [
+   386,
+   1381,
+   1491,
+   2705
+  ],
+  "size": [
+   387,
+   2706
+  ],
+  "rate.": [
+   390
+  ],
+  "aYH1,": [
+   391
+  ],
+  "cohort;": [
+   393,
+   396
+  ],
+  "YH2,": [
+   394
+  ],
+  "YH3,": [
+   397
+  ],
+  "Since": [
+   400
+  ],
+  "1995,": [
+   401
+  ],
+  "carried": [
+   406,
+   1659,
+   3170,
+   3175
+  ],
+  "out": [
+   407,
+   1027,
+   1660,
+   3171,
+   3176
+  ],
+  "at": [
+   408,
+   1097,
+   1909,
+   1990,
+   2001,
+   2347,
+   2809,
+   3017,
+   3058,
+   3069,
+   3152,
+   3287
+  ],
+  "11-yearly": [
+   409
+  ],
+  "intervals": [
+   410,
+   2102
+  ],
+  "tracking": [
+   413
+  ],
+  "revealing": [
+   415
+  ],
+  "potential": [
+   416,
+   656
+  ],
+  "trends": [
+   417,
+   531,
+   1142,
+   2775,
+   2887
+  ],
+  "between": [
+   418,
+   818,
+   1194,
+   1306,
+   1360,
+   1470,
+   2404,
+   2586,
+   2699,
+   3024,
+   3216
+  ],
+  "cohorts.": [
+   420,
+   548
+  ],
+  "During": [
+   421
+  ],
+  "past": [
+   423,
+   2177,
+   2428
+  ],
+  "decade": [
+   424
+  ],
+  "there": [
+   425,
+   463
+  ],
+  "major": [
+   428
+  ],
+  "societal": [
+   429,
+   626
+  ],
+  "changes,": [
+   430
+  ],
+  "it": [
+   432,
+   3098
+  ],
+  "important": [
+   434,
+   528,
+   665,
+   1800,
+   2842,
+   3263
+  ],
+  "uncover": [
+   436
+  ],
+  "what": [
+   437,
+   1154
+  ],
+  "influences": [
+   438
+  ],
+  "increasing": [
+   440,
+   1294
+  ],
+  "incidences": [
+   441
+  ],
+  "mental": [
+   443,
+   686,
+   1133,
+   1242,
+   1756,
+   1873,
+   1921,
+   2155,
+   2276,
+   2408,
+   2448,
+   2559,
+   2600,
+   2633,
+   2637
+  ],
+  "youth": [
+   446
+  ],
+  "populations.4,5": [
+   447
+  ],
+  "With": [
+   448,
+   761
+  ],
+  "increased": [
+   449,
+   1824,
+   2425
+  ],
+  "life": [
+   450,
+   713,
+   859,
+   1778,
+   1858,
+   2691
+  ],
+  "expectancy,": [
+   451
+  ],
+  "thereby": [
+   453,
+   2047
+  ],
+  "rising": [
+   454
+  ],
+  "prevalence": [
+   455,
+   539,
+   2147,
+   2170,
+   2470,
+   2514,
+   2617
+  ],
+  "long-term": [
+   457,
+   709
+  ],
+  "adverse": [
+   458,
+   1130
+  ],
+  "conditions": [
+   460,
+   3053
+  ],
+  "multimorbidity,": [
+   462
+  ],
+  "an": [
+   465,
+   1291,
+   2165,
+   2502,
+   2584,
+   2728
+  ],
+  "urgent": [
+   466
+  ],
+  "need": [
+   467,
+   512
+  ],
+  "robust,": [
+   469
+  ],
+  "help": [
+   473
+  ],
+  "understand": [
+   474
+  ],
+  "risk": [
+   476,
+   1262,
+   2773
+  ],
+  "trajectory": [
+   477
+  ],
+  "age-related": [
+   479
+  ],
+  "diseases": [
+   480,
+   545,
+   2743
+  ],
+  "explore": [
+   482,
+   858
+  ],
+  "effects": [
+   484
+  ],
+  "behavioural": [
+   486,
+   2843
+  ],
+  "biological": [
+   488,
+   1622,
+   2799,
+   3008
+  ],
+  "determinants": [
+   489,
+   693
+  ],
+  "healthy": [
+   492
+  ],
+  "life.": [
+   493,
+   1806
+  ],
+  "approximately": [
+   498,
+   2114
+  ],
+  "2800": [
+   499
+  ],
+  "adulthood": [
+   503,
+   854
+  ],
+  "immense": [
+   506
+  ],
+  "value": [
+   507
+  ],
+  "this": [
+   509,
+   659,
+   934,
+   1690,
+   1852,
+   3074
+  ],
+  "purpose.": [
+   510
+  ],
+  "new": [
+   515,
+   551,
+   574,
+   603,
+   674,
+   681,
+   721,
+   747,
+   2597,
+   2672
+  ],
+  "collection": [
+   517,
+   553,
+   605,
+   1628,
+   1639,
+   2130,
+   3001,
+   3131,
+   3298
+  ],
+  "related": [
+   519,
+   1768,
+   1871
+  ],
+  "several": [
+   521,
+   895,
+   1281
+  ],
+  "issues;": [
+   522
+  ],
+  "First,": [
+   523
+  ],
+  "investigating": [
+   530
+  ],
+  "get": [
+   536,
+   3142
+  ],
+  "updates": [
+   537,
+   676
+  ],
+  "incidence": [
+   541
+  ],
+  "disorders": [
+   543
+  ],
+  "across": [
+   546,
+   1014,
+   1980,
+   2766
+  ],
+  "Second,": [
+   549
+  ],
+  "will": [
+   554,
+   663
+  ],
+  "expand": [
+   555
+  ],
+  "opportunities": [
+   557,
+   705,
+   856,
+   932,
+   2714
+  ],
+  "lifespan": [
+   563
+  ],
+  "exploring": [
+   566,
+   2614
+  ],
+  "causal": [
+   567
+  ],
+  "pathways": [
+   568
+  ],
+  "adolescence": [
+   570,
+   852
+  ],
+  "adulthood.": [
+   572
+  ],
+  "Third,": [
+   573
+  ],
+  "their": [
+   580,
+   982,
+   985,
+   2531,
+   2539,
+   3258
+  ],
+  "family": [
+   581,
+   879
+  ],
+  "members": [
+   582
+  ],
+  "database": [
+   586
+  ],
+  "contribute": [
+   588,
+   3261
+  ],
+  "larger": [
+   590
+  ],
+  "intergenerational": [
+   591,
+   2716
+  ],
+  "studies": [
+   592,
+   691,
+   737,
+   2693
+  ],
+  "inheritance": [
+   594
+  ],
+  "selected": [
+   596,
+   2079
+  ],
+  "traits": [
+   597
+  ],
+  "health-related": [
+   599,
+   2756
+  ],
+  "relationships.": [
+   600
+  ],
+  "Last,": [
+   601
+  ],
+  "provide": [
+   606,
+   677,
+   855
+  ],
+  "improved": [
+   607,
+   749
+  ],
+  "methodology": [
+   608
+  ],
+  "with": [
+   609,
+   745,
+   921,
+   1090,
+   1127,
+   1212,
+   1255,
+   1261,
+   1288,
+   1290,
+   1293,
+   1386,
+   1394,
+   1412,
+   1425,
+   1496,
+   1504,
+   1522,
+   1535,
+   1817,
+   1933,
+   2017,
+   2190,
+   2212,
+   2222,
+   2245,
+   2274,
+   2296,
+   2317,
+   2330,
+   2397,
+   2399,
+   2452,
+   2558,
+   2566,
+   2632,
+   2636,
+   2922,
+   2927,
+   2952,
+   3262
+  ],
+  "standardizes": [
+   610
+  ],
+  "scales": [
+   611
+  ],
+  "objective": [
+   613
+  ],
+  "daily": [
+   616,
+   789,
+   1266,
+   2299,
+   2497,
+   2592
+  ],
+  "physical": [
+   617,
+   739,
+   768,
+   780,
+   819,
+   1219,
+   1944,
+   1948,
+   2289,
+   2300,
+   2365,
+   2405
+  ],
+  "activity": [
+   618,
+   740,
+   781,
+   1220,
+   2290,
+   2301,
+   2366,
+   2406,
+   2498
+  ],
+  "composition.": [
+   621
+  ],
+  "One": [
+   622
+  ],
+  "largest": [
+   625
+  ],
+  "experiments": [
+   627
+  ],
+  "modern": [
+   629
+  ],
+  "times,": [
+   630
+  ],
+  "widespread": [
+   632
+  ],
+  "use": [
+   633,
+   812,
+   916,
+   2491,
+   2517,
+   2605,
+   2621,
+   2653,
+   2960
+  ],
+  "smartphones": [
+   635
+  ],
+  "social": [
+   637,
+   1323,
+   1777,
+   1884,
+   2493,
+   2519,
+   2534
+  ],
+  "media": [
+   638,
+   811,
+   2494,
+   2520,
+   2535
+  ],
+  "platforms": [
+   639
+  ],
+  "probably": [
+   640,
+   2912
+  ],
+  "plays": [
+   641
+  ],
+  "key": [
+   643,
+   827
+  ],
+  "role": [
+   644
+  ],
+  "regarding": [
+   645
+  ],
+  "wellbeing": [
+   648
+  ],
+  "present": [
+   651,
+   2139
+  ],
+  "generation.6": [
+   653
+  ],
+  "Hence,": [
+   654
+  ],
+  "impacts": [
+   657
+  ],
+  "quite": [
+   660,
+   2730
+  ],
+  "recent": [
+   661
+  ],
+  "technology": [
+   662
+  ],
+  "address": [
+   667
+  ],
+  "coming": [
+   670
+  ],
+  "years.": [
+   671
+  ],
+  "addition,": [
+   673,
+   1913
+  ],
+  "opportunity": [
+   679
+  ],
+  "insights": [
+   682
+  ],
+  "status": [
+   688
+  ],
+  "allow": [
+   690
+  ],
+  "such": [
+   694,
+   799,
+   1264,
+   1692,
+   1860,
+   1875,
+   1894
+  ],
+  "deliberate": [
+   696
+  ],
+  "self-harm": [
+   697
+  ],
+  "suicidal": [
+   699
+  ],
+  "behaviours": [
+   700,
+   716,
+   1951
+  ],
+  "explored.": [
+   703
+  ],
+  "studying": [
+   707
+  ],
+  "impact": [
+   710,
+   2504
+  ],
+  "early": [
+   712
+  ],
+  "strengthened": [
+   718
+  ],
+  "adding": [
+   720
+  ],
+  "that": [
+   723,
+   924,
+   1577,
+   2291,
+   2896,
+   2941
+  ],
+  "collections.": [
+   734
+  ],
+  "More": [
+   735
+  ],
+  "valid": [
+   736,
+   1841,
+   2739
+  ],
+  "anthropometry": [
+   742
+  ],
+  "possible": [
+   744
+  ],
+  "measurements": [
+   750,
+   2059
+  ],
+  "recordings": [
+   753
+  ],
+  "analyses": [
+   757,
+   795,
+   846
+  ],
+  "impedance.": [
+   760
+  ],
+  "addition": [
+   763,
+   1938,
+   2158
+  ],
+  "device-based": [
+   765
+  ],
+  "measurement": [
+   766
+  ],
+  "activity,": [
+   769,
+   820,
+   1949
+  ],
+  "main": [
+   771,
+   870
+  ],
+  "research": [
+   772,
+   2920,
+   2930,
+   2948,
+   3035,
+   3117
+  ],
+  "focus": [
+   773,
+   2598
+  ],
+  "investigate": [
+   776
+  ],
+  "levels": [
+   778,
+   2287
+  ],
+  "intensity": [
+   782
+  ],
+  "energy": [
+   784
+  ],
+  "expenditure": [
+   785
+  ],
+  "during": [
+   786
+  ],
+  "activities": [
+   787,
+   1393,
+   1503,
+   1945,
+   2316
+  ],
+  "living,": [
+   790
+  ],
+  "conduct": [
+   793
+  ],
+  "detailed": [
+   794
+  ],
+  "sedentary": [
+   797,
+   821,
+   1950
+  ],
+  "behaviour": [
+   798,
+   822,
+   1263,
+   1763
+  ],
+  "sitting": [
+   801
+  ],
+  "time,": [
+   802,
+   1886
+  ],
+  "which": [
+   803,
+   1587,
+   1789,
+   2034,
+   2263
+  ],
+  "influenced": [
+   806,
+   2126
+  ],
+  "novel": [
+   808,
+   1782
+  ],
+  "developments": [
+   809
+  ],
+  "digitalization.": [
+   814
+  ],
+  "complex": [
+   816
+  ],
+  "interplay": [
+   817
+  ],
+  "composition,": [
+   825
+  ],
+  "parameters,": [
+   829
+  ],
+  "modelled": [
+   832
+  ],
+  "much": [
+   835
+  ],
+  "more": [
+   836,
+   1129,
+   1302,
+   1315,
+   1914,
+   2050,
+   2341,
+   2355,
+   2550,
+   2577
+  ],
+  "precise": [
+   837
+  ],
+  "comprehensive": [
+   839,
+   3292
+  ],
+  "manner": [
+   840
+  ],
+  "than": [
+   841,
+   1227,
+   1414,
+   1427,
+   1524,
+   1537,
+   2056,
+   2344,
+   2358,
+   2578
+  ],
+  "before.7": [
+   842
+  ],
+  "Additionally,": [
+   843
+  ],
+  "combined": [
+   845,
+   920
+  ],
+  "applied": [
+   847
+  ],
+  "course": [
+   860,
+   2692
+  ],
+  "trajectories": [
+   861
+  ],
+  "predictive": [
+   862
+  ],
+  "optimal": [
+   864
+  ],
+  "pathways.": [
+   866
+  ],
+  "Family": [
+   867,
+   2697
+  ],
+  "determinant": [
+   872
+  ],
+  "adolescents,": [
+   874
+  ],
+  "not": [
+   875,
+   1062,
+   1122,
+   1192,
+   2377,
+   2826,
+   2875,
+   2943,
+   3087,
+   3114
+  ],
+  "only": [
+   876
+  ],
+  "environment": [
+   880
+  ],
+  "common": [
+   884,
+   1316
+  ],
+  "genetic": [
+   885,
+   918
+  ],
+  "influences.": [
+   886
+  ],
+  "Genotypic": [
+   887
+  ],
+  "information": [
+   888,
+   923,
+   2740,
+   3047
+  ],
+  "both": [
+   890,
+   926,
+   1049,
+   1222,
+   2082,
+   2204
+  ],
+  "parents": [
+   891
+  ],
+  "offspring": [
+   893
+  ],
+  "generations": [
+   896
+  ],
+  "represented": [
+   897
+  ],
+  "examining": [
+   904
+  ],
+  "contribution": [
+   906,
+   3293
+  ],
+  "genetics": [
+   908
+  ],
+  "direct": [
+   910
+  ],
+  "or": [
+   911,
+   1301,
+   2549
+  ],
+  "indirect": [
+   912
+  ],
+  "inherited": [
+   913
+  ],
+  "factors.8": [
+   914
+  ],
+  "environmental": [
+   922
+  ],
+  "in-depth": [
+   927
+  ],
+  "extensive,": [
+   929
+  ],
+  "opens": [
+   930
+  ],
+  "cohort.": [
+   935
+  ],
+  "pupils": [
+   937,
+   991
+  ],
+  "County,": [
+   944
+  ],
+  "(in": [
+   950
+  ],
+  "total": [
+   951,
+   1361,
+   1471,
+   2704,
+   2854
+  ],
+  "10": [
+   952,
+   1415,
+   1525
+  ],
+  "608": [
+   953
+  ],
+  "adolescents)": [
+   954
+  ],
+  "participate": [
+   956
+  ],
+  "August": [
+   960
+  ],
+  "2017": [
+   961
+  ],
+  "January": [
+   963
+  ],
+  "2019,": [
+   964
+  ],
+  "when": [
+   965
+  ],
+  "(76%)": [
+   967
+  ],
+  "participated": [
+   968
+  ],
+  "(Table": [
+   969,
+   1562,
+   1779,
+   2219,
+   2362,
+   2542
+  ],
+  "1).": [
+   970,
+   1780
+  ],
+  "principals": [
+   972
+  ],
+  "67": [
+   976,
+   1010
+  ],
+  "schools": [
+   977,
+   1011,
+   1056
+  ],
+  "county": [
+   980,
+   1666
+  ],
+  "gave": [
+   981
+  ],
+  "consent": [
+   983,
+   3137
+  ],
+  "school\u2019s": [
+   986
+  ],
+  "participation.": [
+   987
+  ],
+  "each": [
+   993,
+   1007,
+   3034,
+   3043
+  ],
+  "basis": [
+   997
+  ],
+  "invitations.": [
+   1000
+  ],
+  "A": [
+   1001,
+   1653,
+   2814
+  ],
+  "screening": [
+   1002
+  ],
+  "station": [
+   1003
+  ],
+  "established": [
+   1005
+  ],
+  "included.": [
+   1012
+  ],
+  "Participation": [
+   1013,
+   1188
+  ],
+  "different": [
+   1016
+  ],
+  "parts": [
+   1018,
+   1671
+  ],
+  "shown": [
+   1020,
+   2258
+  ],
+  "Table": [
+   1022,
+   1186,
+   1903,
+   2136
+  ],
+  "1;": [
+   1023
+  ],
+  "filled": [
+   1026
+  ],
+  "questionnaire,": [
+   1029,
+   1555
+  ],
+  "7950": [
+   1030
+  ],
+  "took": [
+   1031
+  ],
+  "clinical": [
+   1035,
+   1095,
+   1560,
+   2012
+  ],
+  "investigation": [
+   1036
+  ],
+  "7852": [
+   1038
+  ],
+  "completed": [
+   1040,
+   1566
+  ],
+  "interview.": [
+   1042
+  ],
+  "attendance": [
+   1045,
+   1111
+  ],
+  "similar": [
+   1047
+  ],
+  "lower": [
+   1050,
+   1240,
+   1974,
+   2083
+  ],
+  "(8th\u201310th": [
+   1051
+  ],
+  "grade)": [
+   1052
+  ],
+  "upper": [
+   1054,
+   2085
+  ],
+  "secondary": [
+   1055,
+   2086
+  ],
+  "(11th\u201313th": [
+   1057
+  ],
+  "grade).": [
+   1058
+  ],
+  "Apprentices": [
+   1059
+  ],
+  "adolescents": [
+   1061,
+   1114,
+   1126,
+   1260,
+   2203,
+   2285,
+   2353,
+   2457,
+   2553,
+   2825,
+   3251
+  ],
+  "school,": [
+   1064,
+   1116,
+   1773,
+   2087
+  ],
+  "according": [
+   1065,
+   1648,
+   1686
+  ],
+  "registers": [
+   1068
+  ],
+  "authorities,": [
+   1072
+  ],
+  "post.": [
+   1079
+  ],
+  "questionnaire": [
+   1081,
+   1582,
+   1741,
+   2760
+  ],
+  "letter": [
+   1086
+  ],
+  "invitation,": [
+   1088
+  ],
+  "along": [
+   1089
+  ],
+  "invitation": [
+   1091
+  ],
+  "attend": [
+   1093
+  ],
+  "examination": [
+   1096,
+   2013
+  ],
+  "site": [
+   1100
+  ],
+  "nearest": [
+   1101
+  ],
+  "pupil\u2019s": [
+   1103
+  ],
+  "home.": [
+   1104
+  ],
+  "high": [
+   1110,
+   2197,
+   2587,
+   2724
+  ],
+  "among": [
+   1113,
+   1120,
+   1285,
+   1317,
+   2202,
+   2217,
+   2261,
+   2456,
+   2552,
+   2630,
+   2824
+  ],
+  "attending": [
+   1115,
+   1123
+  ],
+  "very": [
+   1118
+  ],
+  "low": [
+   1119,
+   2821
+  ],
+  "those": [
+   1121,
+   2398,
+   2631
+  ],
+  "school.": [
+   1124
+  ],
+  "Therefore,": [
+   1125
+  ],
+  "potentially": [
+   1128
+  ],
+  "somatic": [
+   1131,
+   1244,
+   1758,
+   2153
+  ],
+  "problems": [
+   1135,
+   2423,
+   2840
+  ],
+  "might": [
+   1136
+  ],
+  "underrepresented.": [
+   1138
+  ],
+  "Anyhow,": [
+   1139
+  ],
+  "prevalences": [
+   1144
+  ],
+  "identified": [
+   1145,
+   2888
+  ],
+  "generally": [
+   1151
+  ],
+  "representative": [
+   1152,
+   2877
+  ],
+  "found": [
+   1156,
+   1838,
+   3016
+  ],
+  "Ungdata.9": [
+   1162
+  ],
+  "Overview": [
+   1163,
+   1171
+  ],
+  "themes": [
+   1165,
+   1173
+  ],
+  "measured": [
+   1166,
+   1174,
+   1385,
+   1495,
+   1810,
+   2310
+  ],
+  "Characteristics": [
+   1179,
+   1325,
+   1435
+  ],
+  "given": [
+   1184,
+   3122
+  ],
+  "2.": [
+   1187
+  ],
+  "does": [
+   1191
+  ],
+  "differ": [
+   1193
+  ],
+  "gender.": [
+   1197
+  ],
+  "Girls": [
+   1198
+  ],
+  "seems": [
+   1199,
+   2562
+  ],
+  "wider": [
+   1203
+  ],
+  "waist": [
+   1204,
+   2068,
+   2199
+  ],
+  "circumference": [
+   1205,
+   2069,
+   2200
+  ],
+  "percent": [
+   1207
+  ],
+  "fat": [
+   1209,
+   1366,
+   1476
+  ],
+  "mass": [
+   1210,
+   1344,
+   1356,
+   1454,
+   1466,
+   2064
+  ],
+  "compared": [
+   1211,
+   1254,
+   1287,
+   1932,
+   2016,
+   2221,
+   2396
+  ],
+  "boys,": [
+   1213,
+   1309
+  ],
+  "boys": [
+   1215,
+   1286,
+   1318,
+   2339,
+   2485,
+   2537
+  ],
+  "higher": [
+   1218,
+   1248,
+   1284,
+   2214,
+   2650
+  ],
+  "level,": [
+   1221
+  ],
+  "self-reported": [
+   1223,
+   1235,
+   1241,
+   1554,
+   2516
+  ],
+  "objectively": [
+   1225,
+   2309
+  ],
+  "measured,": [
+   1226
+  ],
+  "girls.": [
+   1228,
+   2489
+  ],
+  "There": [
+   1229,
+   2162,
+   2581
+  ],
+  "clear": [
+   1231
+  ],
+  "gender": [
+   1232
+  ],
+  "differences": [
+   1233
+  ],
+  "health,": [
+   1236,
+   1245,
+   2601
+  ],
+  "where": [
+   1237,
+   1310,
+   2389
+  ],
+  "girls": [
+   1238,
+   1307,
+   1320,
+   2218,
+   2345,
+   2529
+  ],
+  "proportion": [
+   1249,
+   1258,
+   1273
+  ],
+  "girl": [
+   1251
+  ],
+  "reporting": [
+   1252
+  ],
+  "loneliness": [
+   1253
+  ],
+  "boys.": [
+   1256
+  ],
+  "smoking": [
+   1267
+  ],
+  "incredibly": [
+   1269
+  ],
+  "low,": [
+   1270
+  ],
+  "who": [
+   1274,
+   2385,
+   2994
+  ],
+  "drink": [
+   1275
+  ],
+  "alcohol": [
+   1276
+  ],
+  "drunk": [
+   1280
+  ],
+  "times": [
+   1282,
+   2099
+  ],
+  "girls,": [
+   1289
+  ],
+  "increase": [
+   1292,
+   2167,
+   2249,
+   2260,
+   2281,
+   2455
+  ],
+  "age.": [
+   1295
+  ],
+  "Screen": [
+   1296,
+   2508
+  ],
+  "use,": [
+   1298
+  ],
+  "4": [
+   1299
+  ],
+  "h": [
+   1300,
+   2548,
+   2591
+  ],
+  "per": [
+   1303,
+   1420,
+   1530
+  ],
+  "day,": [
+   1304
+  ],
+  "differs": [
+   1305
+  ],
+  "playing": [
+   1311
+  ],
+  "video": [
+   1312,
+   2522
+  ],
+  "games": [
+   1313
+  ],
+  "media.": [
+   1324
+  ],
+  "Survey;": [
+   1331,
+   1441
+  ],
+  "stratified": [
+   1332,
+   1442
+  ],
+  "sex": [
+   1334,
+   1444,
+   2233
+  ],
+  "group,": [
+   1337,
+   1447
+  ],
+  "percentages": [
+   1338,
+   1448
+  ],
+  "unless": [
+   1339,
+   1449
+  ],
+  "otherwise": [
+   1340,
+   1450
+  ],
+  "noted": [
+   1341,
+   1451
+  ],
+  "BMI,": [
+   1342,
+   1452
+  ],
+  "index;": [
+   1345,
+   1455
+  ],
+  "IOTF,": [
+   1346,
+   1456
+  ],
+  "International": [
+   1347,
+   1457
+  ],
+  "Obesity": [
+   1348,
+   1458
+  ],
+  "Task": [
+   1349,
+   1459
+  ],
+  "Force": [
+   1350,
+   1460
+  ],
+  "(international": [
+   1351,
+   1461
+  ],
+  "BMI": [
+   1352,
+   1462,
+   2241
+  ],
+  "cut-offs).": [
+   1353,
+   1463
+  ],
+  "Lean": [
+   1354,
+   1464
+  ],
+  "difference": [
+   1359,
+   1469,
+   2234
+  ],
+  "weight": [
+   1363,
+   1473,
+   2248,
+   2280
+  ],
+  "weight.": [
+   1367,
+   1477,
+   2401
+  ],
+  "Mean": [
+   1368,
+   1478
+  ],
+  "2nd": [
+   1371,
+   1481
+  ],
+  "3rd": [
+   1373,
+   1483
+  ],
+  "measurements.": [
+   1374,
+   1484
+  ],
+  "30%": [
+   1375,
+   1485
+  ],
+  "(30%": [
+   1379,
+   1489
+  ],
+  "random": [
+   1380,
+   1490
+  ],
+  "Objectively": [
+   1384,
+   1494
+  ],
+  "accelerometer.": [
+   1387,
+   1497
+  ],
+  "Active": [
+   1388,
+   1498
+  ],
+  "calculated": [
+   1391,
+   1501,
+   2314
+  ],
+  "duration": [
+   1396,
+   1506,
+   2319,
+   2646
+  ],
+  "60": [
+   1399,
+   1509,
+   2322
+  ],
+  "s": [
+   1400,
+   1510
+  ],
+  "sum": [
+   1404,
+   1514,
+   2327
+  ],
+  "walking,": [
+   1407,
+   1517,
+   2331
+  ],
+  "running": [
+   1408,
+   1518,
+   2332
+  ],
+  "cycling.": [
+   1410,
+   1520
+  ],
+  "Participants": [
+   1411,
+   1424,
+   1521,
+   1534
+  ],
+  "less": [
+   1413,
+   1426,
+   1523,
+   1536,
+   2390
+  ],
+  "min": [
+   1416,
+   1526,
+   2305
+  ],
+  "average": [
+   1417,
+   1527,
+   2198
+  ],
+  "active": [
+   1418,
+   1431,
+   1528,
+   1541,
+   2343,
+   2357,
+   2395
+  ],
+  "day": [
+   1421,
+   1531
+  ],
+  "excluded.": [
+   1423,
+   1434,
+   1533,
+   1544
+  ],
+  "3": [
+   1428,
+   1538,
+   2003
+  ],
+  "days": [
+   1429,
+   1539,
+   2004
+  ],
+  "Like": [
+   1545
+  ],
+  "previous": [
+   1546,
+   1597,
+   1617,
+   1847,
+   1934,
+   2018,
+   2057
+  ],
+  "surveys,": [
+   1548,
+   1619,
+   1748,
+   2019,
+   2893
+  ],
+  "short": [
+   1557,
+   2644
+  ],
+  "interview": [
+   1558
+  ],
+  "examinations": [
+   1561
+  ],
+  "3).": [
+   1563
+  ],
+  "Questionnaires": [
+   1564
+  ],
+  "classroom": [
+   1569
+  ],
+  "setting,": [
+   1570
+  ],
+  "individually": [
+   1571
+  ],
+  "like": [
+   1572
+  ],
+  "examination,": [
+   1575
+  ],
+  "so": [
+   1576
+  ],
+  "privacy": [
+   1578
+  ],
+  "ensured.": [
+   1580
+  ],
+  "web": [
+   1585
+  ],
+  "form": [
+   1586
+  ],
+  "gives": [
+   1588,
+   2712
+  ],
+  "possibility": [
+   1590
+  ],
+  "adapt": [
+   1592
+  ],
+  "questions": [
+   1593,
+   1609,
+   1745,
+   1855
+  ],
+  "answers": [
+   1595
+  ],
+  "questions,": [
+   1598
+  ],
+  "reduce": [
+   1599
+  ],
+  "non-response": [
+   1600
+  ],
+  "due": [
+   1601,
+   2666
+  ],
+  "skip": [
+   1603
+  ],
+  "logic": [
+   1604
+  ],
+  "errors,": [
+   1605
+  ],
+  "controls": [
+   1607
+  ],
+  "prevent": [
+   1611
+  ],
+  "obvious": [
+   1612
+  ],
+  "faulty": [
+   1613
+  ],
+  "registrations.": [
+   1614
+  ],
+  "Unlike": [
+   1615
+  ],
+  "sampling": [
+   1620
+  ],
+  "material": [
+   1623,
+   2780,
+   2800,
+   3009
+  ],
+  "(Oragene,": [
+   1631
+  ],
+  "OG-500,": [
+   1632
+  ],
+  "Genotek,": [
+   1634
+  ],
+  "Ottawa,": [
+   1635
+  ],
+  "Canada).": [
+   1636
+  ],
+  "procedure": [
+   1640
+  ],
+  "thoroughly": [
+   1642
+  ],
+  "instructed": [
+   1643
+  ],
+  "trained": [
+   1645
+  ],
+  "professionals": [
+   1647
+  ],
+  "manufacturer\u2019s": [
+   1651
+  ],
+  "protocol.": [
+   1652
+  ],
+  "pilot": [
+   1654
+  ],
+  "municipality": [
+   1663
+  ],
+  "outside": [
+   1664,
+   3102
+  ],
+  "collection.": [
+   1669,
+   3173
+  ],
+  "tested,": [
+   1676
+  ],
+  "some": [
+   1678,
+   1696
+  ],
+  "instruments": [
+   1681,
+   1835,
+   1916
+  ],
+  "adapted": [
+   1683
+  ],
+  "adjusted": [
+   1685
+  ],
+  "experiences": [
+   1688
+  ],
+  "pilot,": [
+   1691
+  ],
+  "wording": [
+   1694
+  ],
+  "questions.": [
+   1699
+  ],
+  "Summary": [
+   1700,
+   1720
+  ],
+  "contents": [
+   1703,
+   1723
+  ],
+  "(YH2),": [
+   1709,
+   1729
+  ],
+  "(YH4)": [
+   1714,
+   1734,
+   1788
+  ],
+  "FTA,": [
+   1716,
+   1736
+  ],
+  "Flinders": [
+   1717,
+   1737
+  ],
+  "Technology": [
+   1718,
+   1738
+  ],
+  "Associates.": [
+   1719,
+   1739
+  ],
+  "core": [
+   1744
+  ],
+  "earlier": [
+   1747
+  ],
+  "covering": [
+   1749
+  ],
+  "broad": [
+   1751,
+   2753
+  ],
+  "topics": [
+   1754,
+   1893
+  ],
+  "concerning": [
+   1755,
+   1856,
+   3007
+  ],
+  "symptoms": [
+   1759,
+   2475
+  ],
+  "diseases,": [
+   1761
+  ],
+  "lifestyle,": [
+   1765
+  ],
+  "factors": [
+   1767,
+   1802
+  ],
+  "family,": [
+   1770
+  ],
+  "conditions,": [
+   1772,
+   2156
+  ],
+  "leisure": [
+   1774,
+   1941
+  ],
+  "Several": [
+   1781
+  ],
+  "items": [
+   1783,
+   1819,
+   1827,
+   2761
+  ],
+  "added": [
+   1785
+  ],
+  "highly": [
+   1791
+  ],
+  "relevant": [
+   1792
+  ],
+  "today": [
+   1796
+  ],
+  "pinpointed": [
+   1798
+  ],
+  "exposure": [
+   1801
+  ],
+  "future": [
+   1804
+  ],
+  "Mental": [
+   1807,
+   2421
+  ],
+  "Hopkins": [
+   1813
+  ],
+  "Symptom": [
+   1814
+  ],
+  "Checklist": [
+   1815
+  ],
+  "(HSCL)": [
+   1816
+  ],
+  "five": [
+   1818
+  ],
+  "YH1\u2013YH3": [
+   1822
+  ],
+  "(HSCL-5)": [
+   1823
+  ],
+  "11": [
+   1826
+  ],
+  "YH4": [
+   1829
+  ],
+  "(HSCL-5": [
+   1830
+  ],
+  "HSCL-10)": [
+   1832
+  ],
+  ".10": [
+   1833
+  ],
+  "These": [
+   1834
+  ],
+  "used": [
+   1844,
+   1918,
+   2118
+  ],
+  "studies.11": [
+   1848
+  ],
+  "Issues": [
+   1849
+  ],
+  "addressed": [
+   1850
+  ],
+  "respect": [
+   1853
+  ],
+  "challenging": [
+   1857
+  ],
+  "events": [
+   1859
+  ],
+  "loneliness,": [
+   1862
+  ],
+  "trauma": [
+   1863
+  ],
+  "violence,": [
+   1865
+  ],
+  "bullying": [
+   1866
+  ],
+  "self-harm,": [
+   1868
+  ],
+  "complementary": [
+   1869
+  ],
+  "aspects": [
+   1870,
+   2009
+  ],
+  "fatigue,": [
+   1877
+  ],
+  "internalizing": [
+   1878
+  ],
+  "externalizing": [
+   1880
+  ],
+  "difficulties,": [
+   1881
+  ],
+  "gaming,": [
+   1882
+  ],
+  "networking,": [
+   1883
+  ],
+  "media/screen": [
+   1885
+  ],
+  "sleep": [
+   1887,
+   1953,
+   2615,
+   2645
+  ],
+  "difficulties": [
+   1888
+  ],
+  "gender-": [
+   1890
+  ],
+  "age-specific": [
+   1892
+  ],
+  "puberty,": [
+   1896
+  ],
+  "pubertal": [
+   1897
+  ],
+  "development": [
+   1898
+  ],
+  "sexual": [
+   1900
+  ],
+  "orientation": [
+   1901
+  ],
+  "(Supplementary": [
+   1902
+  ],
+  "S1,": [
+   1904
+  ],
+  "available": [
+   1905,
+   2782,
+   3057,
+   3151
+  ],
+  "Supplementary": [
+   1907,
+   3148
+  ],
+  "IJE": [
+   1910,
+   3153
+  ],
+  "online).12\u201316": [
+   1911
+  ],
+  "standardized": [
+   1915
+  ],
+  "measure": [
+   1920,
+   2052
+  ],
+  "[Strengths": [
+   1923
+  ],
+  "Difficulties": [
+   1925
+  ],
+  "Questionnaire": [
+   1926
+  ],
+  "(SDQ)": [
+   1927
+  ],
+  "HSCL]": [
+   1929
+  ],
+  "surveys.17": [
+   1936
+  ],
+  "capturing": [
+   1940
+  ],
+  "questionnaires,": [
+   1947
+  ],
+  "patterns": [
+   1954,
+   2844
+  ],
+  "assessed": [
+   1956,
+   3100
+  ],
+  "two": [
+   1958
+  ],
+  "accelerometers": [
+   1959,
+   1965,
+   1985
+  ],
+  "(AX3,": [
+   1960
+  ],
+  "Axivity,": [
+   1961
+  ],
+  "Newcastle,": [
+   1962
+  ],
+  "UK).": [
+   1963
+  ],
+  "worn": [
+   1967
+  ],
+  "attached": [
+   1969
+  ],
+  "thigh": [
+   1972
+  ],
+  "back": [
+   1975
+  ],
+  "7": [
+   1977,
+   2579
+  ],
+  "consecutive": [
+   1978
+  ],
+  "days,": [
+   1979
+  ],
+  "24-h": [
+   1982
+  ],
+  "spectrum.": [
+   1983
+  ],
+  "configured": [
+   1987
+  ],
+  "record": [
+   1989
+  ],
+  "50": [
+   1991
+  ],
+  "Hz": [
+   1992
+  ],
+  "\u00b18": [
+   1997
+  ],
+  "g.": [
+   1998
+  ],
+  "Recording": [
+   1999
+  ],
+  "least": [
+   2002
+  ],
+  "considered": [
+   2006,
+   2386,
+   3109
+  ],
+  "valid.": [
+   2007
+  ],
+  "Improved": [
+   2008
+  ],
+  "Young-HUNT4,": [
+   2015,
+   2468
+  ],
+  "impedance": [
+   2026
+  ],
+  "(BIA)": [
+   2028
+  ],
+  "(InBody": [
+   2029
+  ],
+  "770,": [
+   2030
+  ],
+  "Cerritos,": [
+   2031
+  ],
+  "CA,": [
+   2032
+  ],
+  "USA)": [
+   2033
+  ],
+  "how": [
+   2036
+  ],
+  "impedes": [
+   2039
+  ],
+  "electric": [
+   2040
+  ],
+  "flow": [
+   2041
+  ],
+  "fat,": [
+   2043
+  ],
+  "muscle": [
+   2044
+  ],
+  "blood,": [
+   2046
+  ],
+  "giving": [
+   2048
+  ],
+  "accurate": [
+   2051
+  ],
+  "manual": [
+   2058
+  ],
+  "of,": [
+   2060
+  ],
+  "instance,": [
+   2062
+  ],
+  "index": [
+   2065
+  ],
+  "(BMI)": [
+   2066
+  ],
+  "overweight": [
+   2071,
+   2174,
+   2236,
+   2255,
+   2388
+  ],
+  "obesity": [
+   2073,
+   2172,
+   2238
+  ],
+  "categorization.": [
+   2074
+  ],
+  "2550": [
+   2076
+  ],
+  "(32%)": [
+   2077
+  ],
+  "randomly": [
+   2078
+  ],
+  "blood": [
+   2088
+  ],
+  "pressure,": [
+   2089
+  ],
+  "pulse": [
+   2090
+  ],
+  "peripheral": [
+   2092
+  ],
+  "capillary": [
+   2093
+  ],
+  "oxygen": [
+   2094
+  ],
+  "saturation": [
+   2095
+  ],
+  "recorded": [
+   2097
+  ],
+  "1-min": [
+   2101
+  ],
+  "Dinamap": [
+   2104
+  ],
+  "CARESCAPE": [
+   2105
+  ],
+  "V100": [
+   2106
+  ],
+  "(GE": [
+   2107
+  ],
+  "Healthcare,": [
+   2108
+  ],
+  "Chicago,": [
+   2109
+  ],
+  "IL,": [
+   2110
+  ],
+  "USA).": [
+   2111
+  ],
+  "To": [
+   2112
+  ],
+  "date": [
+   2113
+  ],
+  "150": [
+   2115
+  ],
+  "publications": [
+   2116
+  ],
+  "Study.": [
+   2123
+  ],
+  "Important": [
+   2124
+  ],
+  "findings": [
+   2125
+  ],
+  "planning": [
+   2127
+  ],
+  "2": [
+   2137
+  ],
+  "we": [
+   2138,
+   2193,
+   2230
+  ],
+  "descriptive": [
+   2140
+  ],
+  "characteristics": [
+   2141
+  ],
+  "estimates": [
+   2148
+  ],
+  "lifestyle": [
+   2160
+  ],
+  "behaviours.": [
+   2161
+  ],
+  "alarming": [
+   2166
+  ],
+  "decennials": [
+   2178
+  ],
+  "Western": [
+   2181
+  ],
+  "world": [
+   2182
+  ],
+  "Nordic": [
+   2186
+  ],
+  "countries.18,19": [
+   2187
+  ],
+  "agreement": [
+   2189
+  ],
+  "these": [
+   2191,
+   2846
+  ],
+  "findings,": [
+   2192
+  ],
+  "see": [
+   2194,
+   2231
+  ],
+  "remarkable": [
+   2196
+  ],
+  "(WC)": [
+   2201
+  ],
+  "13\u201315": [
+   2206
+  ],
+  "16\u201319": [
+   2210
+  ],
+  "mean": [
+   2215,
+   2298
+  ],
+  "WC": [
+   2216
+  ],
+  "2)": [
+   2220
+  ],
+  "reference": [
+   2223
+  ],
+  "values": [
+   2224
+  ],
+  "adolescents.20": [
+   2227
+  ],
+  "contrast,": [
+   2229
+  ],
+  "no": [
+   2232,
+   2869
+  ],
+  "defined": [
+   2239
+  ],
+  "Young-HUNT4.": [
+   2243
+  ],
+  "Along": [
+   2244
+  ],
+  "general": [
+   2247
+  ],
+  "population,21": [
+   2252
+  ],
+  "underestimation": [
+   2253
+  ],
+  "adolescents,22": [
+   2262
+  ],
+  "prohibit": [
+   2265
+  ],
+  "weight-reducing": [
+   2266
+  ],
+  "efforts.": [
+   2267
+  ],
+  "Positive": [
+   2268
+  ],
+  "perception,": [
+   2270
+  ],
+  "however,": [
+   2271,
+   2894
+  ],
+  "associated": [
+   2273,
+   2557,
+   2565
+  ],
+  "better": [
+   2275
+  ],
+  "prevents": [
+   2279
+  ],
+  "adulthood.23": [
+   2283
+  ],
+  "Most": [
+   2284
+  ],
+  "fulfil": [
+   2292
+  ],
+  "recommendations,": [
+   2295
+  ],
+  "level": [
+   2302,
+   2367
+  ],
+  "above": [
+   2303,
+   2476
+  ],
+  "100": [
+   2304
+  ],
+  "(active": [
+   2306
+  ],
+  "s,": [
+   2323
+  ],
+  "cycling).": [
+   2334
+  ],
+  "Among": [
+   2335,
+   2526
+  ],
+  "physically": [
+   2342,
+   2356,
+   2394
+  ],
+  "ages,": [
+   2349
+  ],
+  "older": [
+   2360
+  ],
+  "ones": [
+   2361,
+   2384
+  ],
+  "2).": [
+   2363,
+   2543
+  ],
+  "adolescence,": [
+   2369
+  ],
+  "image": [
+   2372
+  ],
+  "eating": [
+   2374
+  ],
+  "behaviours,": [
+   2375
+  ],
+  "seem": [
+   2376,
+   2641
+  ],
+  "clearly": [
+   2380
+  ],
+  "associated,24": [
+   2381
+  ],
+  "although": [
+   2382
+  ],
+  "themselves": [
+   2387
+  ],
+  "likely": [
+   2391
+  ],
+  "normal": [
+   2400,
+   3095
+  ],
+  "association": [
+   2403,
+   2572,
+   2585
+  ],
+  "demonstrated": [
+   2411
+  ],
+  "(2006\u201308),25": [
+   2414
+  ],
+  "further": [
+   2416
+  ],
+  "confirmed": [
+   2417
+  ],
+  "(2017\u201319).26": [
+   2420
+  ],
+  "decades": [
+   2429
+  ],
+  "many": [
+   2431,
+   2759
+  ],
+  "populations.27": [
+   2433
+  ],
+  "Considering": [
+   2434
+  ],
+  "upward,": [
+   2443
+  ],
+  "divergent": [
+   2445
+  ],
+  "trend": [
+   2446,
+   2664
+  ],
+  "distress": [
+   2449,
+   2638
+  ],
+  "evident,": [
+   2451
+  ],
+  "sharp": [
+   2454
+  ],
+  "young": [
+   2459
+  ],
+  "adults": [
+   2460
+  ],
+  "contrast": [
+   2462
+  ],
+  "60+.28": [
+   2466
+  ],
+  "anxiety": [
+   2472
+  ],
+  "depression": [
+   2474
+  ],
+  "recommended": [
+   2478
+  ],
+  "HSCL-5": [
+   2479
+  ],
+  "scale": [
+   2480
+  ],
+  "cut-off": [
+   2481
+  ],
+  "16.5%": [
+   2483
+  ],
+  "44.4%": [
+   2487
+  ],
+  "Increasing": [
+   2490
+  ],
+  "led": [
+   2500
+  ],
+  "emergency": [
+   2503
+  ],
+  "people\u2019s": [
+   2506
+  ],
+  "lives.": [
+   2507
+  ],
+  "total,": [
+   2511
+  ],
+  "particularly": [
+   2513
+  ],
+  "games,": [
+   2523
+  ],
+  "high.": [
+   2525
+  ],
+  "spend": [
+   2530,
+   2538
+  ],
+  "gaming": [
+   2541
+  ],
+  "Long-lasting": [
+   2544
+  ],
+  "screen": [
+   2545,
+   2588,
+   2602
+  ],
+  "(4": [
+   2547
+  ],
+  "per/day)": [
+   2551
+  ],
+  "distress29": [
+   2560
+  ],
+  "poorer": [
+   2567
+  ],
+  "quality": [
+   2568
+  ],
+  "life.30": [
+   2570
+  ],
+  "This": [
+   2571,
+   2833,
+   2939
+  ],
+  "even": [
+   2574
+  ],
+  "stronger": [
+   2575
+  ],
+  "h/day.": [
+   2580
+  ],
+  "(\u22657": [
+   2590
+  ],
+  "use)": [
+   2593
+  ],
+  "loneliness.": [
+   2595
+  ],
+  "electronic": [
+   2607,
+   2623,
+   2651
+  ],
+  "devices": [
+   2608,
+   2624
+  ],
+  "resulted": [
+   2610
+  ],
+  "duration,": [
+   2616
+  ],
+  "insomnia": [
+   2619
+  ],
+  "bed": [
+   2626
+  ],
+  "(relation": [
+   2627
+  ],
+  "sleep)": [
+   2629
+  ],
+  "distress.": [
+   2634
+  ],
+  "Adolescents": [
+   2635
+  ],
+  "(SCL-10,": [
+   2639
+  ],
+  "\u22651.85)": [
+   2640
+  ],
+  "report": [
+   2643
+  ],
+  "insomnia,": [
+   2648
+  ],
+  "device": [
+   2652
+  ],
+  "relation": [
+   2655
+  ],
+  "sleep.31": [
+   2657
+  ],
+  "valuable": [
+   2662
+  ],
+  "investigations,": [
+   2665
+  ],
+  "same": [
+   2676
+  ],
+  "population": [
+   2677
+  ],
+  "1990s.": [
+   2680
+  ],
+  "By": [
+   2681
+  ],
+  "registries,": [
+   2690
+  ],
+  "performed.": [
+   2696
+  ],
+  "within": [
+   2702
+  ],
+  "240": [
+   2708
+  ],
+  "000": [
+   2709
+  ],
+  "sibling": [
+   2718
+  ],
+  "Further,": [
+   2720
+  ],
+  "rate,": [
+   2726
+  ],
+  "represents": [
+   2727
+  ],
+  "ethnically": [
+   2729
+  ],
+  "homogeneous": [
+   2731
+  ],
+  "population,": [
+   2732
+  ],
+  "migration,": [
+   2742
+  ],
+  "deaths,": [
+   2745
+  ],
+  "registers.": [
+   2747
+  ],
+  "covers": [
+   2751
+  ],
+  "topics,": [
+   2757
+  ],
+  "kept": [
+   2764
+  ],
+  "unchanged": [
+   2765
+  ],
+  "factor": [
+   2774
+  ],
+  "studied.": [
+   2778
+  ],
+  "Genetic": [
+   2779
+  ],
+  "participants.": [
+   2787
+  ],
+  "Quality-controlled": [
+   2788
+  ],
+  "securely": [
+   2792
+  ],
+  "managed": [
+   2793
+  ],
+  "Databank": [
+   2797
+  ],
+  "(saliva)": [
+   2801
+  ],
+  "stored": [
+   2803
+  ],
+  "state-of-the-art": [
+   2806
+  ],
+  "Biobank": [
+   2808,
+   3020
+  ],
+  "Centre.": [
+   2813
+  ],
+  "weakness": [
+   2815
+  ],
+  "apprentices": [
+   2830
+  ],
+  "(10%": [
+   2831
+  ],
+  "participation).": [
+   2832
+  ],
+  "affect": [
+   2835
+  ],
+  "estimation": [
+   2837
+  ],
+  "groups": [
+   2847
+  ],
+  "bias": [
+   2849
+  ],
+  "results": [
+   2851
+  ],
+  "sample.": [
+   2856
+  ],
+  "consists": [
+   2862
+  ],
+  "mostly": [
+   2864
+  ],
+  "rural": [
+   2865
+  ],
+  "areas": [
+   2866,
+   2904
+  ],
+  "large": [
+   2870,
+   2882
+  ],
+  "cities.": [
+   2871,
+   2884
+  ],
+  "It": [
+   2872
+  ],
+  "populations": [
+   2879
+  ],
+  "Confirming": [
+   2885
+  ],
+  "other": [
+   2890,
+   2903,
+   2914
+  ],
+  "ensure": [
+   2895
+  ],
+  "generalizable": [
+   2901
+  ],
+  "(rural": [
+   2905
+  ],
+  "urban)": [
+   2907
+  ]
+ }
+}

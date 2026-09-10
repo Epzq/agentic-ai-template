@@ -1,0 +1,121 @@
+{
+ "meta": {
+  "count": 22,
+  "db_response_time_ms": 136,
+  "page": 1,
+  "per_page": 15,
+  "groups_count": null,
+  "x_query": {
+   "oql": "works where date >= (2022-01-01)\n  and title/abstract has (knowledge graph grounded video question answering)",
+   "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+     {
+      "column_id": "from_publication_date",
+      "value": "2022-01-01"
+     },
+     {
+      "column_id": "title_and_abstract.search",
+      "value": "knowledge graph grounded video question answering",
+      "operator": "has"
+     }
+    ]
+   },
+   "url": "/works?filter=from_publication_date:2022-01-01,title_and_abstract.search:knowledge graph grounded video question answering&per_page=15"
+  },
+  "cost_usd": 0.001
+ },
+ "results": [
+  {
+   "id": "https://openalex.org/W3206166878",
+   "display_name": "STAR: A Benchmark for Situated Reasoning in Real-World Videos",
+   "publication_year": 2024,
+   "cited_by_count": 22
+  },
+  {
+   "id": "https://openalex.org/W4398395817",
+   "display_name": "Advancing surgical VQA with scene graph knowledge",
+   "publication_year": 2024,
+   "cited_by_count": 18
+  },
+  {
+   "id": "https://openalex.org/W4410770650",
+   "display_name": "Compositional Physical Reasoning of Objects and Events From Videos",
+   "publication_year": 2025,
+   "cited_by_count": 5
+  },
+  {
+   "id": "https://openalex.org/W4402667130",
+   "display_name": "NLP-KG: A System for Exploratory Search of Scientific Literature in Natural Language Processing",
+   "publication_year": 2024,
+   "cited_by_count": 2
+  },
+  {
+   "id": "https://openalex.org/W4409205723",
+   "display_name": "Editorial: Towards a novel paradigm in brain-inspired computer vision",
+   "publication_year": 2025,
+   "cited_by_count": 1
+  },
+  {
+   "id": "https://openalex.org/W4389982721",
+   "display_name": "Advancing Surgical VQA with Scene Graph Knowledge",
+   "publication_year": 2023,
+   "cited_by_count": 1
+  },
+  {
+   "id": "https://openalex.org/W7165004074",
+   "display_name": "VL-MemKnG: Hybrid Memory with a Spatio-Temporal Knowledge Graph for Question Answering over Long Egocentric Navigation Trajectories",
+   "publication_year": 2026,
+   "cited_by_count": 0
+  },
+  {
+   "id": "https://openalex.org/W7165219955",
+   "display_name": "VL-MemKnG: Hybrid Memory with a Spatio-Temporal Knowledge Graph for Question Answering over Long Egocentric Navigation Trajectories",
+   "publication_year": 2026,
+   "cited_by_count": 0
+  },
+  {
+   "id": "https://openalex.org/W7162652095",
+   "display_name": "CuriosAI Submission to the CASTLE Challenge at EgoVis 2026",
+   "publication_year": 2026,
+   "cited_by_count": 0
+  },
+  {
+   "id": "https://openalex.org/W7162818635",
+   "display_name": "CuriosAI Submission to the CASTLE Challenge at EgoVis 2026",
+   "publication_year": 2026,
+   "cited_by_count": 0
+  },
+  {
+   "id": "https://openalex.org/W7164986227",
+   "display_name": "Concept-based interpretable framework for video-based affective signal processing",
+   "publication_year": 2026,
+   "cited_by_count": 0
+  },
+  {
+   "id": "https://openalex.org/W7168221679",
+   "display_name": "Fine-grained video understanding and reasoning for everyday human activities",
+   "publication_year": 2026,
+   "cited_by_count": 0
+  },
+  {
+   "id": "https://openalex.org/W7203960581",
+   "display_name": "Generalizable machine perception",
+   "publication_year": 2026,
+   "cited_by_count": 0
+  },
+  {
+   "id": "https://openalex.org/W4416958149",
+   "display_name": "Med-CRAFT: An Information System for Explainable and Configurable Construction of Multimodal Medical QA Datasets",
+   "publication_year": 2025,
+   "cited_by_count": 0
+  },
+  {
+   "id": "https://openalex.org/W4416258042",
+   "display_name": "Hierarchical RAG-Driven Multi-hop Reasoning for Medical Video Question Answering",
+   "publication_year": 2025,
+   "cited_by_count": 0
+  }
+ ],
+ "group_by": []
+}

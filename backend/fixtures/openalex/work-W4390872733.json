@@ -1,0 +1,661 @@
+{
+ "id": "https://openalex.org/W4390872733",
+ "display_name": "Discovering Spatio-Temporal Rationales for Video Question Answering",
+ "publication_year": 2023,
+ "cited_by_count": 23,
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5101762861",
+    "display_name": "Yicong Li",
+    "orcid": "https://orcid.org/0000-0002-5659-793X"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I165932596",
+     "display_name": "National University of Singapore",
+     "ror": "https://ror.org/01tgyzw49",
+     "country_code": "SG",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I165932596"
+     ]
+    }
+   ],
+   "countries": [
+    "SG"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yicong Li",
+   "raw_affiliation_strings": [
+    "National University of Singapore"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "National University of Singapore",
+     "institution_ids": [
+      "https://openalex.org/I165932596"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5024669782",
+    "display_name": "Junbin Xiao",
+    "orcid": "https://orcid.org/0000-0001-5573-6195"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I165932596",
+     "display_name": "National University of Singapore",
+     "ror": "https://ror.org/01tgyzw49",
+     "country_code": "SG",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I165932596"
+     ]
+    }
+   ],
+   "countries": [
+    "SG"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Junbin Xiao",
+   "raw_affiliation_strings": [
+    "National University of Singapore"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "National University of Singapore",
+     "institution_ids": [
+      "https://openalex.org/I165932596"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5101455547",
+    "display_name": "Chun Feng",
+    "orcid": "https://orcid.org/0000-0003-4249-2368"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I126520041",
+     "display_name": "University of Science and Technology of China",
+     "ror": "https://ror.org/04c4dkn09",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I126520041",
+      "https://openalex.org/I19820366"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Chun Feng",
+   "raw_affiliation_strings": [
+    "University of Science and Technology of China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of Science and Technology of China",
+     "institution_ids": [
+      "https://openalex.org/I126520041"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5100389037",
+    "display_name": "Xiang Wang",
+    "orcid": "https://orcid.org/0000-0002-6148-6329"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I126520041",
+     "display_name": "University of Science and Technology of China",
+     "ror": "https://ror.org/04c4dkn09",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I126520041",
+      "https://openalex.org/I19820366"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Xiang Wang",
+   "raw_affiliation_strings": [
+    "University of Science and Technology of China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of Science and Technology of China",
+     "institution_ids": [
+      "https://openalex.org/I126520041"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5089404640",
+    "display_name": "Tat\u2010Seng Chua",
+    "orcid": "https://orcid.org/0000-0001-6097-7807"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I165932596",
+     "display_name": "National University of Singapore",
+     "ror": "https://ror.org/01tgyzw49",
+     "country_code": "SG",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I165932596"
+     ]
+    }
+   ],
+   "countries": [
+    "SG"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tat-Seng Chua",
+   "raw_affiliation_strings": [
+    "National University of Singapore"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "National University of Singapore",
+     "institution_ids": [
+      "https://openalex.org/I165932596"
+     ]
+    }
+   ]
+  }
+ ],
+ "abstract_inverted_index": {
+  "This": [
+   0
+  ],
+  "paper": [
+   1
+  ],
+  "strives": [
+   2
+  ],
+  "to": [
+   3,
+   79,
+   109,
+   151
+  ],
+  "solve": [
+   4
+  ],
+  "complex": [
+   5,
+   133,
+   184
+  ],
+  "video": [
+   6,
+   13,
+   43,
+   69
+  ],
+  "question": [
+   7
+  ],
+  "answering": [
+   8
+  ],
+  "(VideoQA)": [
+   9
+  ],
+  "which": [
+   10,
+   131
+  ],
+  "features": [
+   11
+  ],
+  "long": [
+   12
+  ],
+  "containing": [
+   14
+  ],
+  "multiple": [
+   15
+  ],
+  "objects": [
+   16,
+   37,
+   63,
+   72
+  ],
+  "and": [
+   17,
+   35,
+   62,
+   71,
+   101,
+   129,
+   143,
+   170
+  ],
+  "events": [
+   18
+  ],
+  "at": [
+   19,
+   190
+  ],
+  "different": [
+   20
+  ],
+  "time.": [
+   21
+  ],
+  "To": [
+   22
+  ],
+  "tackle": [
+   23
+  ],
+  "the": [
+   24,
+   28,
+   39,
+   99,
+   138,
+   153,
+   160,
+   166
+  ],
+  "challenge,": [
+   25
+  ],
+  "we": [
+   26,
+   47,
+   86,
+   174
+  ],
+  "highlight": [
+   27
+  ],
+  "importance": [
+   29,
+   154
+  ],
+  "of": [
+   30,
+   42,
+   155,
+   168
+  ],
+  "identifying": [
+   31
+  ],
+  "question-critical": [
+   32,
+   60
+  ],
+  "temporal": [
+   33
+  ],
+  "moments": [
+   34,
+   61,
+   70
+  ],
+  "spatial": [
+   36
+  ],
+  "from": [
+   38
+  ],
+  "vast": [
+   40
+  ],
+  "amount": [
+   41
+  ],
+  "content.": [
+   44
+  ],
+  "Towards": [
+   45
+  ],
+  "this,": [
+   46
+  ],
+  "propose": [
+   48,
+   88
+  ],
+  "a": [
+   49,
+   53,
+   90,
+   104
+  ],
+  "Spatio-Temporal": [
+   50
+  ],
+  "Rationalization": [
+   51
+  ],
+  "(STR),": [
+   52
+  ],
+  "differentiable": [
+   54
+  ],
+  "selection": [
+   55
+  ],
+  "module": [
+   56
+  ],
+  "that": [
+   57,
+   95,
+   120
+  ],
+  "adaptively": [
+   58
+  ],
+  "collects": [
+   59
+  ],
+  "using": [
+   64
+  ],
+  "cross-modal": [
+   65
+  ],
+  "interaction.": [
+   66
+  ],
+  "The": [
+   67
+  ],
+  "discovered": [
+   68
+  ],
+  "are": [
+   73
+  ],
+  "then": [
+   74,
+   147
+  ],
+  "served": [
+   75
+  ],
+  "as": [
+   76,
+   98,
+   157,
+   159
+  ],
+  "grounded": [
+   77
+  ],
+  "rationales": [
+   78
+  ],
+  "support": [
+   80
+  ],
+  "answer": [
+   81,
+   106,
+   113,
+   162
+  ],
+  "reasoning.": [
+   82
+  ],
+  "Based": [
+   83
+  ],
+  "on": [
+   84,
+   116,
+   127
+  ],
+  "STR,": [
+   85
+  ],
+  "further": [
+   87
+  ],
+  "TranSTR,": [
+   89
+  ],
+  "Transformerstyle": [
+   91
+  ],
+  "neural": [
+   92
+  ],
+  "network": [
+   93
+  ],
+  "architecture": [
+   94
+  ],
+  "takes": [
+   96
+  ],
+  "STR": [
+   97,
+   111,
+   156
+  ],
+  "core": [
+   100
+  ],
+  "additionally": [
+   102
+  ],
+  "underscores": [
+   103
+  ],
+  "novel": [
+   105
+  ],
+  "interaction": [
+   107,
+   163
+  ],
+  "mechanism": [
+   108
+  ],
+  "coordinate": [
+   110
+  ],
+  "for": [
+   112
+  ],
+  "decoding.": [
+   114
+  ],
+  "Experiments": [
+   115
+  ],
+  "four": [
+   117
+  ],
+  "datasets": [
+   118
+  ],
+  "show": [
+   119
+  ],
+  "TranSTR": [
+   121,
+   169
+  ],
+  "achieves": [
+   122
+  ],
+  "new": [
+   123
+  ],
+  "state-of-the-art": [
+   124
+  ],
+  "(SoTA).": [
+   125
+  ],
+  "Especially,": [
+   126
+  ],
+  "NExT-QA": [
+   128
+  ],
+  "Causal-VidQA": [
+   130
+  ],
+  "feature": [
+   132
+  ],
+  "VideoQA,": [
+   134
+  ],
+  "it": [
+   135
+  ],
+  "significantly": [
+   136
+  ],
+  "surpasses": [
+   137
+  ],
+  "previous": [
+   139
+  ],
+  "SoTA": [
+   140
+  ],
+  "by": [
+   141
+  ],
+  "5.8%": [
+   142
+  ],
+  "6.8%,": [
+   144
+  ],
+  "respectively.": [
+   145
+  ],
+  "We": [
+   146
+  ],
+  "conduct": [
+   148
+  ],
+  "extensive": [
+   149
+  ],
+  "studies": [
+   150
+  ],
+  "verify": [
+   152
+  ],
+  "well": [
+   158
+  ],
+  "proposed": [
+   161
+  ],
+  "mechanism.": [
+   164
+  ],
+  "With": [
+   165
+  ],
+  "success": [
+   167
+  ],
+  "our": [
+   171
+  ],
+  "comprehensive": [
+   172
+  ],
+  "analysis,": [
+   173
+  ],
+  "hope": [
+   175
+  ],
+  "this": [
+   176
+  ],
+  "work": [
+   177
+  ],
+  "can": [
+   178
+  ],
+  "spark": [
+   179
+  ],
+  "more": [
+   180
+  ],
+  "future": [
+   181
+  ],
+  "efforts": [
+   182
+  ],
+  "in": [
+   183
+  ],
+  "VideoQA.": [
+   185
+  ],
+  "Code": [
+   186
+  ],
+  "will": [
+   187
+  ],
+  "be": [
+   188
+  ],
+  "released": [
+   189
+  ],
+  "https://github.com/yl3800/TranSTR.": [
+   191
+  ]
+ }
+}

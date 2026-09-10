@@ -1,0 +1,62 @@
+{
+  "researcher": "Basura Fernando",
+  "summary": "Basura Fernando is a Principal Scientist and NRF Fellow at A*STAR and Adjunct Assistant Professor at NTU. His research focuses on visual reasoning, human action recognition and anticipation, transfer learning and domain adaptation, vision-language models, and multimodal knowledge engineering.",
+  "expertise": [
+    {
+      "evidence_ids": ["e23"],
+      "area": "Action Recognition and Anticipation",
+      "detail": "Develops methods for recognizing and anticipating human actions from video observations, including egocentric anticipation, rank pooling, and dynamic image representations."
+    },
+    {
+      "evidence_ids": ["e23"],
+      "area": "Visual Reasoning and Explainable AI",
+      "detail": "Designs visual and procedural knowledge reasoning techniques and explainable AI frameworks supported by the NRF Fellowship and A*STAR awards."
+    },
+    {
+      "evidence_ids": ["e23"],
+      "area": "Transfer Learning and Domain Adaptation",
+      "detail": "Investigates unsupervised visual domain adaptation, subspace alignment, and robust feature transfer across different visual domains."
+    },
+    {
+      "evidence_ids": ["e23"],
+      "area": "Knowledge Engineering and Intelligence Analysis",
+      "detail": "Builds multimodal knowledge graphs through event extraction from text documents for question answering and intelligence analysis."
+    },
+    {
+      "evidence_ids": ["e23"],
+      "area": "Vision-Language and Situational Understanding",
+      "detail": "Leverages vision-language pretraining and models like CLIP for grounded reasoning, situation recognition, and conditional prediction in image and video streams."
+    },
+    {
+      "evidence_ids": ["e23"],
+      "area": "Robotic Vision and Embodied AI",
+      "detail": "Researches assistive AI technologies in situ and human-centered AI for robotics applications."
+    },
+    {
+      "evidence_ids": ["e23"],
+      "area": "Applied Computer Vision (OCR and 3D Content)",
+      "detail": "Applies computer vision methods to industrial use cases such as automatic OCR on aerospace components and instruction-based 3D content editing."
+    }
+  ],
+  "methods": [
+    "Rank pooling",
+    "Dynamic image networks",
+    "Subspace alignment",
+    "Visual transformers",
+    "CLIP and vision-language pretraining",
+    "Multi-modal knowledge graphs",
+    "Self-supervised representation learning",
+    "Flow matching",
+    "Optical Character Recognition (OCR)"
+  ],
+  "domains": [
+    "Action Recognition",
+    "Action Anticipation",
+    "Visual Reasoning",
+    "Transfer Learning",
+    "Embodied AI and Robotics",
+    "Multimodal Knowledge Engineering",
+    "3D Content Editing",
+    "Aerospace Manufacturing"
+  ]
+}

@@ -1,0 +1,477 @@
+{
+ "url": "https://api.openalex.org/works/W4317567565?select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cauthorships%2Cabstract_inverted_index",
+ "status": 200,
+ "json": {
+  "id": "https://openalex.org/W4317567565",
+  "display_name": "Using artificial neural networks to ask \u2018why\u2019 questions of minds and brains",
+  "publication_year": 2023,
+  "cited_by_count": 190,
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5026910217",
+     "display_name": "Nancy Kanwisher",
+     "orcid": "https://orcid.org/0000-0003-3853-7885"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I144112489",
+      "display_name": "McGovern Institute for Brain Research",
+      "ror": "https://ror.org/05ymca674",
+      "country_code": "US",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I144112489",
+       "https://openalex.org/I63966007"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I63966007",
+      "display_name": "Massachusetts Institute of Technology",
+      "ror": "https://ror.org/042nb2s44",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I63966007"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Nancy Kanwisher",
+    "raw_affiliation_strings": [
+     "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA; McGovern Institute for Brain Research, Massachusetts Institute of Technology, Cambridge, MA, USA",
+     "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA",
+     "McGovern Institute for Brain Research, Massachusetts Institute of Technology, Cambridge, MA, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA; McGovern Institute for Brain Research, Massachusetts Institute of Technology, Cambridge, MA, USA",
+      "institution_ids": [
+       "https://openalex.org/I144112489"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA",
+      "institution_ids": [
+       "https://openalex.org/I63966007"
+      ]
+     },
+     {
+      "raw_affiliation_string": "McGovern Institute for Brain Research, Massachusetts Institute of Technology, Cambridge, MA, USA",
+      "institution_ids": [
+       "https://openalex.org/I144112489",
+       "https://openalex.org/I63966007"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5050983647",
+     "display_name": "Meenakshi Khosla",
+     "orcid": "https://orcid.org/0000-0002-2910-6242"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I144112489",
+      "display_name": "McGovern Institute for Brain Research",
+      "ror": "https://ror.org/05ymca674",
+      "country_code": "US",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I144112489",
+       "https://openalex.org/I63966007"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I63966007",
+      "display_name": "Massachusetts Institute of Technology",
+      "ror": "https://ror.org/042nb2s44",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I63966007"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Meenakshi Khosla",
+    "raw_affiliation_strings": [
+     "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA; McGovern Institute for Brain Research, Massachusetts Institute of Technology, Cambridge, MA, USA",
+     "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA",
+     "McGovern Institute for Brain Research, Massachusetts Institute of Technology, Cambridge, MA, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA; McGovern Institute for Brain Research, Massachusetts Institute of Technology, Cambridge, MA, USA",
+      "institution_ids": [
+       "https://openalex.org/I144112489"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA",
+      "institution_ids": [
+       "https://openalex.org/I63966007"
+      ]
+     },
+     {
+      "raw_affiliation_string": "McGovern Institute for Brain Research, Massachusetts Institute of Technology, Cambridge, MA, USA",
+      "institution_ids": [
+       "https://openalex.org/I144112489",
+       "https://openalex.org/I63966007"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5021227227",
+     "display_name": "Katharina Dobs",
+     "orcid": "https://orcid.org/0000-0001-6619-5590"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I200763008",
+      "display_name": "Justus-Liebig-Universit\u00e4t Gie\u00dfen",
+      "ror": "https://ror.org/033eqas34",
+      "country_code": "DE",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I200763008"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210113520",
+      "display_name": "Brain (Germany)",
+      "ror": "https://ror.org/01gamcy45",
+      "country_code": "DE",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I4210113520"
+      ]
+     }
+    ],
+    "countries": [
+     "DE"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Katharina Dobs",
+    "raw_affiliation_strings": [
+     "Department of Psychology, Justus Liebig University Giessen, Giessen, Germany; Center for Mind, Brain and Behavior (CMBB), University of Marburg and Justus Liebig University, Giessen, Germany. Electronic address: katharina.dobs@psychol.uni-giessen.de",
+     "Center for Mind, Brain and Behavior (CMBB), University of Marburg and Justus Liebig University, Giessen, Germany",
+     "Department of Psychology, Justus Liebig University Giessen, Giessen, Germany"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-6619-5590",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Psychology, Justus Liebig University Giessen, Giessen, Germany; Center for Mind, Brain and Behavior (CMBB), University of Marburg and Justus Liebig University, Giessen, Germany. Electronic address: katharina.dobs@psychol.uni-giessen.de",
+      "institution_ids": [
+       "https://openalex.org/I200763008"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Center for Mind, Brain and Behavior (CMBB), University of Marburg and Justus Liebig University, Giessen, Germany",
+      "institution_ids": [
+       "https://openalex.org/I200763008",
+       "https://openalex.org/I4210113520"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Psychology, Justus Liebig University Giessen, Giessen, Germany",
+      "institution_ids": [
+       "https://openalex.org/I200763008"
+      ]
+     }
+    ]
+   }
+  ],
+  "abstract_inverted_index": {
+   "Neuroscientists": [
+    0
+   ],
+   "have": [
+    1
+   ],
+   "long": [
+    2
+   ],
+   "characterized": [
+    3
+   ],
+   "the": [
+    4,
+    9,
+    21,
+    26,
+    31,
+    64,
+    74,
+    82,
+    88,
+    97,
+    103
+   ],
+   "properties": [
+    5,
+    65
+   ],
+   "and": [
+    6,
+    12,
+    76,
+    99,
+    110
+   ],
+   "functions": [
+    7
+   ],
+   "of": [
+    8,
+    66,
+    79,
+    91
+   ],
+   "nervous": [
+    10
+   ],
+   "system,": [
+    11
+   ],
+   "are": [
+    13
+   ],
+   "increasingly": [
+    14
+   ],
+   "succeeding": [
+    15
+   ],
+   "in": [
+    16,
+    94
+   ],
+   "answering": [
+    17
+   ],
+   "how": [
+    18
+   ],
+   "brains": [
+    19,
+    29
+   ],
+   "perform": [
+    20
+   ],
+   "tasks": [
+    22,
+    52
+   ],
+   "they": [
+    23,
+    33,
+    105
+   ],
+   "do.": [
+    24
+   ],
+   "But": [
+    25
+   ],
+   "question": [
+    27
+   ],
+   "'why'": [
+    28,
+    59
+   ],
+   "work": [
+    30,
+    102
+   ],
+   "way": [
+    32,
+    104
+   ],
+   "do": [
+    34
+   ],
+   "is": [
+    35
+   ],
+   "asked": [
+    36
+   ],
+   "less": [
+    37
+   ],
+   "often.": [
+    38
+   ],
+   "The": [
+    39
+   ],
+   "new": [
+    40
+   ],
+   "ability": [
+    41
+   ],
+   "to": [
+    42,
+    56
+   ],
+   "optimize": [
+    43
+   ],
+   "artificial": [
+    44
+   ],
+   "neural": [
+    45,
+    77,
+    111
+   ],
+   "networks": [
+    46,
+    67
+   ],
+   "(ANNs)": [
+    47
+   ],
+   "for": [
+    48,
+    69
+   ],
+   "performance": [
+    49
+   ],
+   "on": [
+    50
+   ],
+   "human-like": [
+    51
+   ],
+   "now": [
+    53
+   ],
+   "enables": [
+    54
+   ],
+   "us": [
+    55
+   ],
+   "approach": [
+    57
+   ],
+   "these": [
+    58
+   ],
+   "questions": [
+    60
+   ],
+   "by": [
+    61
+   ],
+   "asking": [
+    62
+   ],
+   "when": [
+    63
+   ],
+   "optimized": [
+    68
+   ],
+   "a": [
+    70
+   ],
+   "given": [
+    71
+   ],
+   "task": [
+    72
+   ],
+   "mirror": [
+    73
+   ],
+   "behavioral": [
+    75,
+    109
+   ],
+   "characteristics": [
+    78
+   ],
+   "humans": [
+    80
+   ],
+   "performing": [
+    81
+   ],
+   "same": [
+    83
+   ],
+   "task.": [
+    84
+   ],
+   "Here": [
+    85
+   ],
+   "we": [
+    86
+   ],
+   "highlight": [
+    87
+   ],
+   "recent": [
+    89
+   ],
+   "success": [
+    90
+   ],
+   "this": [
+    92
+   ],
+   "strategy": [
+    93
+   ],
+   "explaining": [
+    95
+   ],
+   "why": [
+    96
+   ],
+   "visual": [
+    98
+   ],
+   "auditory": [
+    100
+   ],
+   "systems": [
+    101
+   ],
+   "do,": [
+    106
+   ],
+   "at": [
+    107
+   ],
+   "both": [
+    108
+   ],
+   "levels.": [
+    112
+   ]
+  }
+ }
+}

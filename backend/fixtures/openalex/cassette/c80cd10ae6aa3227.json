@@ -1,0 +1,125 @@
+{
+ "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Avision+language+graph+reasoning%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+ "status": 200,
+ "json": {
+  "meta": {
+   "count": 994,
+   "db_response_time_ms": 41,
+   "page": 1,
+   "per_page": 15,
+   "groups_count": null,
+   "x_query": {
+    "oql": "works where date >= (2022-01-01)\n  and title/abstract has (vision language graph reasoning)",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "from_publication_date",
+       "value": "2022-01-01"
+      },
+      {
+       "column_id": "title_and_abstract.search",
+       "value": "vision language graph reasoning",
+       "operator": "has"
+      }
+     ]
+    },
+    "url": "/works?filter=from_publication_date:2022-01-01,title_and_abstract.search:vision language graph reasoning&per_page=15"
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4404658388",
+    "display_name": "A comprehensive survey on pretrained foundation models: a history from BERT to ChatGPT",
+    "publication_year": 2024,
+    "cited_by_count": 402
+   },
+   {
+    "id": "https://openalex.org/W4401414715",
+    "display_name": "ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning",
+    "publication_year": 2024,
+    "cited_by_count": 215
+   },
+   {
+    "id": "https://openalex.org/W4404820176",
+    "display_name": "DriveLM: Driving with Graph Visual Question Answering",
+    "publication_year": 2024,
+    "cited_by_count": 190
+   },
+   {
+    "id": "https://openalex.org/W4226052928",
+    "display_name": "Think Global, Act Local: Dual-scale Graph Transformer for Vision-and-Language Navigation",
+    "publication_year": 2022,
+    "cited_by_count": 172
+   },
+   {
+    "id": "https://openalex.org/W4321472314",
+    "display_name": "A Comprehensive Survey on Pretrained Foundation Models: A History from BERT to ChatGPT",
+    "publication_year": 2023,
+    "cited_by_count": 156
+   },
+   {
+    "id": "https://openalex.org/W4213454368",
+    "display_name": "Neuro-symbolic approaches in artificial intelligence",
+    "publication_year": 2022,
+    "cited_by_count": 156
+   },
+   {
+    "id": "https://openalex.org/W4304092062",
+    "display_name": "Align, Reason and Learn: Enhancing Medical Vision-and-Language Pre-training with Knowledge",
+    "publication_year": 2022,
+    "cited_by_count": 82
+   },
+   {
+    "id": "https://openalex.org/W4402727624",
+    "display_name": "Compositional Chain-of-Thought Prompting for Large Multimodal Models",
+    "publication_year": 2024,
+    "cited_by_count": 80
+   },
+   {
+    "id": "https://openalex.org/W4399177289",
+    "display_name": "SayNav: Grounding Large Language Models for Dynamic Planning to Navigation in New Environments",
+    "publication_year": 2024,
+    "cited_by_count": 63
+   },
+   {
+    "id": "https://openalex.org/W4402727824",
+    "display_name": "From Pixels to Graphs: Open-Vocabulary Scene Graph Generation with Vision-Language Models",
+    "publication_year": 2024,
+    "cited_by_count": 48
+   },
+   {
+    "id": "https://openalex.org/W4390874627",
+    "display_name": "Fg-T2M: Fine-Grained Text-Driven Human Motion Generation via Diffusion Model",
+    "publication_year": 2023,
+    "cited_by_count": 42
+   },
+   {
+    "id": "https://openalex.org/W4390873645",
+    "display_name": "RLIPv2: Fast Scaling of Relational Language-Image Pre-training",
+    "publication_year": 2023,
+    "cited_by_count": 41
+   },
+   {
+    "id": "https://openalex.org/W7126053009",
+    "display_name": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
+    "publication_year": 2026,
+    "cited_by_count": 38
+   },
+   {
+    "id": "https://openalex.org/W4408882745",
+    "display_name": "Dermacen analytica: A novel methodology integrating multi-modal large language models with machine learning in dermatology",
+    "publication_year": 2025,
+    "cited_by_count": 30
+   },
+   {
+    "id": "https://openalex.org/W4387885937",
+    "display_name": "Room-Object Entity Prompting and Reasoning for Embodied Referring Expression",
+    "publication_year": 2023,
+    "cited_by_count": 25
+   }
+  ],
+  "group_by": []
+ }
+}

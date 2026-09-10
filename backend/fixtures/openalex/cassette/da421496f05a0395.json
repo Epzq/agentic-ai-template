@@ -1,0 +1,510 @@
+{
+ "url": "https://api.openalex.org/works/W4404509535?select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cauthorships%2Cabstract_inverted_index",
+ "status": 200,
+ "json": {
+  "id": "https://openalex.org/W4404509535",
+  "display_name": "Vision-language models for medical report generation and visual question answering: a review",
+  "publication_year": 2024,
+  "cited_by_count": 210,
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5082579603",
+     "display_name": "Iryna Hartsock",
+     "orcid": "https://orcid.org/0000-0001-9896-872X"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I3019308854",
+      "display_name": "Moffitt Cancer Center",
+      "ror": "https://ror.org/01xf75524",
+      "country_code": "US",
+      "type": "healthcare",
+      "lineage": [
+       "https://openalex.org/I3019308854"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Iryna Hartsock",
+    "raw_affiliation_strings": [
+     "Department of Machine Learning, H. Lee Moffitt Cancer Center and Research Institute, Tampa, FL, United States"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Machine Learning, H. Lee Moffitt Cancer Center and Research Institute, Tampa, FL, United States",
+      "institution_ids": [
+       "https://openalex.org/I3019308854"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5045996251",
+     "display_name": "Ghulam Rasool",
+     "orcid": "https://orcid.org/0000-0001-8551-0090"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I3019308854",
+      "display_name": "Moffitt Cancer Center",
+      "ror": "https://ror.org/01xf75524",
+      "country_code": "US",
+      "type": "healthcare",
+      "lineage": [
+       "https://openalex.org/I3019308854"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Ghulam Rasool",
+    "raw_affiliation_strings": [
+     "Department of Machine Learning, H. Lee Moffitt Cancer Center and Research Institute, Tampa, FL, United States"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Machine Learning, H. Lee Moffitt Cancer Center and Research Institute, Tampa, FL, United States",
+      "institution_ids": [
+       "https://openalex.org/I3019308854"
+      ]
+     }
+    ]
+   }
+  ],
+  "abstract_inverted_index": {
+   "Medical": [
+    0
+   ],
+   "vision-language": [
+    1,
+    91
+   ],
+   "models": [
+    2,
+    35
+   ],
+   "(VLMs)": [
+    3
+   ],
+   "combine": [
+    4
+   ],
+   "computer": [
+    5
+   ],
+   "vision": [
+    6
+   ],
+   "(CV)": [
+    7
+   ],
+   "and": [
+    8,
+    16,
+    41,
+    51,
+    65,
+    98,
+    107,
+    121,
+    140
+   ],
+   "natural": [
+    9
+   ],
+   "language": [
+    10,
+    66
+   ],
+   "processing": [
+    11
+   ],
+   "(NLP)": [
+    12
+   ],
+   "to": [
+    13,
+    73,
+    153,
+    167
+   ],
+   "analyze": [
+    14
+   ],
+   "visual": [
+    15,
+    42,
+    64
+   ],
+   "textual": [
+    17
+   ],
+   "medical": [
+    18,
+    38,
+    90,
+    105,
+    118,
+    129,
+    170
+   ],
+   "data.": [
+    19,
+    79
+   ],
+   "Our": [
+    20
+   ],
+   "paper": [
+    21
+   ],
+   "reviews": [
+    22
+   ],
+   "recent": [
+    23,
+    103,
+    162
+   ],
+   "advancements": [
+    24
+   ],
+   "in": [
+    25,
+    117,
+    164
+   ],
+   "developing": [
+    26,
+    165
+   ],
+   "VLMs": [
+    27,
+    166
+   ],
+   "specialized": [
+    28
+   ],
+   "for": [
+    29,
+    37,
+    113,
+    172
+   ],
+   "healthcare,": [
+    30
+   ],
+   "focusing": [
+    31
+   ],
+   "on": [
+    32,
+    49,
+    110
+   ],
+   "publicly": [
+    33
+   ],
+   "available": [
+    34
+   ],
+   "designed": [
+    36
+   ],
+   "report": [
+    39,
+    119
+   ],
+   "generation": [
+    40,
+    120
+   ],
+   "question": [
+    43
+   ],
+   "answering": [
+    44
+   ],
+   "(VQA).": [
+    45
+   ],
+   "We": [
+    46,
+    123
+   ],
+   "provide": [
+    47
+   ],
+   "background": [
+    48
+   ],
+   "NLP": [
+    50
+   ],
+   "CV,": [
+    52
+   ],
+   "explaining": [
+    53
+   ],
+   "how": [
+    54
+   ],
+   "techniques": [
+    55
+   ],
+   "from": [
+    56,
+    77
+   ],
+   "both": [
+    57
+   ],
+   "fields": [
+    58
+   ],
+   "are": [
+    59
+   ],
+   "integrated": [
+    60
+   ],
+   "into": [
+    61
+   ],
+   "VLMs,": [
+    62,
+    106
+   ],
+   "with": [
+    63,
+    137
+   ],
+   "data": [
+    67,
+    134,
+    138,
+    171
+   ],
+   "often": [
+    68
+   ],
+   "fused": [
+    69
+   ],
+   "using": [
+    70
+   ],
+   "Transformer-based": [
+    71
+   ],
+   "architectures": [
+    72,
+    97
+   ],
+   "enable": [
+    74
+   ],
+   "effective": [
+    75
+   ],
+   "learning": [
+    76
+   ],
+   "multimodal": [
+    78,
+    169
+   ],
+   "Key": [
+    80
+   ],
+   "areas": [
+    81
+   ],
+   "we": [
+    82
+   ],
+   "address": [
+    83,
+    154
+   ],
+   "include": [
+    84
+   ],
+   "the": [
+    85,
+    96,
+    161
+   ],
+   "exploration": [
+    86
+   ],
+   "of": [
+    87,
+    95,
+    101,
+    142
+   ],
+   "18": [
+    88
+   ],
+   "public": [
+    89
+   ],
+   "datasets,": [
+    92
+   ],
+   "in-depth": [
+    93
+   ],
+   "analyses": [
+    94
+   ],
+   "pre-training": [
+    99
+   ],
+   "strategies": [
+    100
+   ],
+   "16": [
+    102
+   ],
+   "noteworthy": [
+    104
+   ],
+   "comprehensive": [
+    108
+   ],
+   "discussion": [
+    109
+   ],
+   "evaluation": [
+    111,
+    144
+   ],
+   "metrics": [
+    112
+   ],
+   "assessing": [
+    114
+   ],
+   "VLMs'": [
+    115
+   ],
+   "performance": [
+    116
+   ],
+   "VQA.": [
+    122
+   ],
+   "also": [
+    124,
+    149
+   ],
+   "highlight": [
+    125
+   ],
+   "current": [
+    126
+   ],
+   "challenges": [
+    127
+   ],
+   "facing": [
+    128
+   ],
+   "VLM": [
+    130
+   ],
+   "development,": [
+    131
+   ],
+   "including": [
+    132
+   ],
+   "limited": [
+    133
+   ],
+   "availability,": [
+    135
+   ],
+   "concerns": [
+    136
+   ],
+   "privacy,": [
+    139
+   ],
+   "lack": [
+    141
+   ],
+   "proper": [
+    143
+   ],
+   "metrics,": [
+    145
+   ],
+   "among": [
+    146
+   ],
+   "others,": [
+    147
+   ],
+   "while": [
+    148
+   ],
+   "proposing": [
+    150
+   ],
+   "future": [
+    151
+   ],
+   "directions": [
+    152
+   ],
+   "these": [
+    155
+   ],
+   "obstacles.": [
+    156
+   ],
+   "Overall,": [
+    157
+   ],
+   "our": [
+    158
+   ],
+   "review": [
+    159
+   ],
+   "summarizes": [
+    160
+   ],
+   "progress": [
+    163
+   ],
+   "harness": [
+    168
+   ],
+   "improved": [
+    173
+   ],
+   "healthcare": [
+    174
+   ],
+   "applications.": [
+    175
+   ]
+  }
+ }
+}

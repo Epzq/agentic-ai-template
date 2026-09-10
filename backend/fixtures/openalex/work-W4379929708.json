@@ -1,0 +1,512 @@
+{
+ "id": "https://openalex.org/W4379929708",
+ "display_name": "Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering",
+ "publication_year": 2023,
+ "cited_by_count": 341,
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5100356036",
+    "display_name": "Yang Liu",
+    "orcid": "https://orcid.org/0000-0002-9423-9252"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I157773358",
+     "display_name": "Sun Yat-sen University",
+     "ror": "https://ror.org/0064kty71",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I157773358"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yang Liu",
+   "raw_affiliation_strings": [
+    "School of Computer Science and Engineering, GuangDong Province Key Laboratory of Information Security Technology, Sun Yat-sen University, Guangzhou, China",
+    "GuangDong Province Key Laboratory of Information Security Technology, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-9423-9252",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Computer Science and Engineering, GuangDong Province Key Laboratory of Information Security Technology, Sun Yat-sen University, Guangzhou, China",
+     "institution_ids": [
+      "https://openalex.org/I157773358"
+     ]
+    },
+    {
+     "raw_affiliation_string": "GuangDong Province Key Laboratory of Information Security Technology, China",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5042965510",
+    "display_name": "Guanbin Li",
+    "orcid": "https://orcid.org/0000-0002-4805-0926"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I157773358",
+     "display_name": "Sun Yat-sen University",
+     "ror": "https://ror.org/0064kty71",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I157773358"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Guanbin Li",
+   "raw_affiliation_strings": [
+    "School of Computer Science and Engineering, GuangDong Province Key Laboratory of Information Security Technology, Sun Yat-sen University, Guangzhou, China",
+    "GuangDong Province Key Laboratory of Information Security Technology, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-4805-0926",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Computer Science and Engineering, GuangDong Province Key Laboratory of Information Security Technology, Sun Yat-sen University, Guangzhou, China",
+     "institution_ids": [
+      "https://openalex.org/I157773358"
+     ]
+    },
+    {
+     "raw_affiliation_string": "GuangDong Province Key Laboratory of Information Security Technology, China",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5100412937",
+    "display_name": "Liang Lin",
+    "orcid": "https://orcid.org/0000-0003-2248-3755"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I157773358",
+     "display_name": "Sun Yat-sen University",
+     "ror": "https://ror.org/0064kty71",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I157773358"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Liang Lin",
+   "raw_affiliation_strings": [
+    "School of Computer Science and Engineering, GuangDong Province Key Laboratory of Information Security Technology, Sun Yat-sen University, Guangzhou, China",
+    "GuangDong Province Key Laboratory of Information Security Technology, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-2248-3755",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Computer Science and Engineering, GuangDong Province Key Laboratory of Information Security Technology, Sun Yat-sen University, Guangzhou, China",
+     "institution_ids": [
+      "https://openalex.org/I157773358"
+     ]
+    },
+    {
+     "raw_affiliation_string": "GuangDong Province Key Laboratory of Information Security Technology, China",
+     "institution_ids": []
+    }
+   ]
+  }
+ ],
+ "abstract_inverted_index": {
+  "Existing": [
+   0
+  ],
+  "visual": [
+   1,
+   38,
+   67,
+   92,
+   114,
+   153
+  ],
+  "question": [
+   2,
+   39,
+   154
+  ],
+  "answering": [
+   3
+  ],
+  "methods": [
+   4
+  ],
+  "often": [
+   5
+  ],
+  "suffer": [
+   6
+  ],
+  "from": [
+   7
+  ],
+  "cross-modal": [
+   8,
+   46
+  ],
+  "spurious": [
+   9,
+   95
+  ],
+  "correlations": [
+   10,
+   96
+  ],
+  "and": [
+   11,
+   23,
+   68,
+   93,
+   99,
+   115,
+   149
+  ],
+  "oversimplified": [
+   12
+  ],
+  "event-level": [
+   13,
+   37,
+   136,
+   152
+  ],
+  "reasoning": [
+   14
+  ],
+  "processes": [
+   15
+  ],
+  "that": [
+   16
+  ],
+  "fail": [
+   17
+  ],
+  "to": [
+   18,
+   32,
+   60
+  ],
+  "capture": [
+   19
+  ],
+  "event": [
+   20
+  ],
+  "temporality,": [
+   21
+  ],
+  "causality,": [
+   22
+  ],
+  "dynamics": [
+   24
+  ],
+  "spanning": [
+   25
+  ],
+  "over": [
+   26
+  ],
+  "the": [
+   27,
+   34,
+   62,
+   91,
+   110,
+   126,
+   139
+  ],
+  "video.": [
+   28
+  ],
+  "In": [
+   29,
+   50
+  ],
+  "this": [
+   30
+  ],
+  "work,": [
+   31
+  ],
+  "address": [
+   33
+  ],
+  "task": [
+   35
+  ],
+  "of": [
+   36,
+   54,
+   141
+  ],
+  "answering,": [
+   40
+  ],
+  "we": [
+   41
+  ],
+  "propose": [
+   42
+  ],
+  "a": [
+   43,
+   52
+  ],
+  "framework": [
+   44
+  ],
+  "for": [
+   45,
+   88,
+   108,
+   124
+  ],
+  "causal": [
+   47,
+   55,
+   64,
+   101,
+   147
+  ],
+  "relational": [
+   48
+  ],
+  "reasoning.": [
+   49
+  ],
+  "particular,": [
+   51
+  ],
+  "set": [
+   53
+  ],
+  "intervention": [
+   56
+  ],
+  "operations": [
+   57
+  ],
+  "is": [
+   58
+  ],
+  "introduced": [
+   59
+  ],
+  "discover": [
+   61
+  ],
+  "underlying": [
+   63
+  ],
+  "structures": [
+   65,
+   148
+  ],
+  "across": [
+   66
+  ],
+  "linguistic": [
+   69,
+   94,
+   116
+  ],
+  "modalities.": [
+   70
+  ],
+  "Our": [
+   71
+  ],
+  "framework,": [
+   72
+  ],
+  "named": [
+   73
+  ],
+  "Cross-Modal": [
+   74
+  ],
+  "Causal": [
+   75
+  ],
+  "RelatIonal": [
+   76
+  ],
+  "Reasoning": [
+   77,
+   85
+  ],
+  "(CMCIR),": [
+   78
+  ],
+  "involves": [
+   79
+  ],
+  "three": [
+   80
+  ],
+  "modules:": [
+   81
+  ],
+  "i)": [
+   82
+  ],
+  "Causality-aware": [
+   83
+  ],
+  "Visual-Linguistic": [
+   84,
+   119
+  ],
+  "(CVLR)": [
+   86
+  ],
+  "module": [
+   87,
+   107,
+   123
+  ],
+  "collaboratively": [
+   89
+  ],
+  "disentangling": [
+   90
+  ],
+  "via": [
+   97
+  ],
+  "front-door": [
+   98
+  ],
+  "back-door": [
+   100
+  ],
+  "interventions;": [
+   102
+  ],
+  "ii)": [
+   103
+  ],
+  "Spatial-Temporal": [
+   104
+  ],
+  "Transformer": [
+   105
+  ],
+  "(STT)": [
+   106
+  ],
+  "capturing": [
+   109
+  ],
+  "fine-grained": [
+   111
+  ],
+  "interactions": [
+   112
+  ],
+  "between": [
+   113
+  ],
+  "semantics;": [
+   117
+  ],
+  "iii)": [
+   118
+  ],
+  "Feature": [
+   120
+  ],
+  "Fusion": [
+   121
+  ],
+  "(VLFF)": [
+   122
+  ],
+  "learning": [
+   125
+  ],
+  "global": [
+   127
+  ],
+  "semantic-aware": [
+   128
+  ],
+  "visual-linguistic": [
+   129,
+   146
+  ],
+  "representations": [
+   130
+  ],
+  "adaptively.": [
+   131
+  ],
+  "Extensive": [
+   132
+  ],
+  "experiments": [
+   133
+  ],
+  "on": [
+   134
+  ],
+  "four": [
+   135
+  ],
+  "datasets": [
+   137
+  ],
+  "demonstrate": [
+   138
+  ],
+  "superiority": [
+   140
+  ],
+  "our": [
+   142
+  ],
+  "CMCIR": [
+   143
+  ],
+  "in": [
+   144
+  ],
+  "discovering": [
+   145
+  ],
+  "achieving": [
+   150
+  ],
+  "robust": [
+   151
+  ],
+  "answering.": [
+   155
+  ]
+ }
+}

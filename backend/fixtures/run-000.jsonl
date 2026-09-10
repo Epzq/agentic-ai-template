@@ -1,0 +1,25 @@
+{"seq":0,"ts":"2026-09-05T14:24:38.806339Z","type":"run.started","inputs":{"grant_url":"https://www.rgp.gov.sg/nrf-ar/crp","profile_url":"https://basurafernando.github.io/"}}
+{"seq":1,"ts":"2026-09-05T14:24:38.810741Z","type":"stage.started","stage":"ingest"}
+{"seq":2,"ts":"2026-09-05T14:24:38.810900Z","type":"tool.started","tool":"ingest_grant","args_summary":"https://www.rgp.gov.sg/nrf-ar/crp"}
+{"seq":3,"ts":"2026-09-05T14:24:38.811400Z","type":"evidence.added","id":"e1","source_type":"webpage","title":"CRP | Optical","url":"https://www.rgp.gov.sg/nrf-ar/crp"}
+{"seq":4,"ts":"2026-09-05T14:24:38.811543Z","type":"evidence.added","id":"e2","source_type":"grant_doc","title":"F-CRP Call Information Sheet (2026).pdf — p. 1","url":"https://assets.app.optical.gov.sg/…/launch.zip?download="}
+{"seq":5,"ts":"2026-09-05T14:24:38.811695Z","type":"tool.finished","tool":"ingest_grant","ms":1,"summary":"","evidence_added":["e1","e2"]}
+{"seq":6,"ts":"2026-09-05T14:24:38.811852Z","type":"tool.started","tool":"ingest_profile","args_summary":"https://basurafernando.github.io/"}
+{"seq":7,"ts":"2026-09-05T14:24:38.812010Z","type":"evidence.added","id":"e3","source_type":"webpage","title":"Basura Fernando (CFAR, IHPC, NTU)","url":"https://basurafernando.github.io/"}
+{"seq":8,"ts":"2026-09-05T14:24:38.812142Z","type":"tool.finished","tool":"ingest_profile","ms":0,"summary":"","evidence_added":["e3"]}
+{"seq":9,"ts":"2026-09-05T14:24:38.812282Z","type":"stage.finished","stage":"ingest","ms":2}
+{"seq":10,"ts":"2026-09-05T14:24:38.812414Z","type":"stage.started","stage":"identity"}
+{"seq":11,"ts":"2026-09-05T14:24:38.812545Z","type":"identity.resolved","author_id":"https://openalex.org/A5090467618","display_name":"Basura Fernando","institution":"Agency for Science, Technology and Research","confidence":"unverified","margin":0.0}
+{"seq":12,"ts":"2026-09-05T14:24:38.813012Z","type":"stage.finished","stage":"identity","ms":1}
+{"seq":13,"ts":"2026-09-05T14:24:38.813151Z","type":"stage.started","stage":"literature"}
+{"seq":14,"ts":"2026-09-05T14:24:38.813279Z","type":"tool.started","tool":"search_literature","args_summary":"causal video question answering"}
+{"seq":15,"ts":"2026-09-05T14:24:38.813429Z","type":"evidence.added","id":"e4","source_type":"api_query","title":"OpenAlex works search: \"causal video question answering\"","url":"https://api.openalex.org/works?filter=…"}
+{"seq":16,"ts":"2026-09-05T14:24:38.813567Z","type":"tool.finished","tool":"search_literature","ms":0,"summary":"","evidence_added":["e4"]}
+{"seq":17,"ts":"2026-09-05T14:24:38.813702Z","type":"tool.started","tool":"fetch_top_works","args_summary":"4 most cited"}
+{"seq":18,"ts":"2026-09-05T14:24:38.814161Z","type":"evidence.added","id":"e5","source_type":"paper","title":"Cross-Modal Causal Relational Reasoning for Event-Level VQA","url":"https://openalex.org/W4379929708"}
+{"seq":19,"ts":"2026-09-05T14:24:38.814322Z","type":"tool.finished","tool":"fetch_top_works","ms":1,"summary":"","evidence_added":["e5"]}
+{"seq":20,"ts":"2026-09-05T14:24:38.814470Z","type":"warning","code":"thin_literature","message":"\"knowledge graph grounded video question answering\" returned 22 works since 2022"}
+{"seq":21,"ts":"2026-09-05T14:24:38.814602Z","type":"stage.finished","stage":"literature","ms":1}
+{"seq":22,"ts":"2026-09-05T14:24:38.814733Z","type":"stage.started","stage":"report"}
+{"seq":23,"ts":"2026-09-05T14:24:38.814856Z","type":"stage.finished","stage":"report","ms":0}
+{"seq":24,"ts":"2026-09-05T14:24:38.814983Z","type":"run.finished"}

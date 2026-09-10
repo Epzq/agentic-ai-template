@@ -1,0 +1,794 @@
+{
+ "id": "https://openalex.org/W4406137434",
+ "display_name": "A Survey on Intelligent Network Operations and Performance Optimization Based on Large Language Models",
+ "publication_year": 2025,
+ "cited_by_count": 101,
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5039105498",
+    "display_name": "S.Y. Long",
+    "orcid": "https://orcid.org/0009-0003-4394-5493"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I139660479",
+     "display_name": "Central South University",
+     "ror": "https://ror.org/00f1zfq44",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I139660479"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Sifan Long",
+   "raw_affiliation_strings": [
+    "School of Computer Science and Engineering, Central South University, Changsha, China",
+    "Central South University, China"
+   ],
+   "raw_orcid": "https://orcid.org/0009-0003-4394-5493",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Computer Science and Engineering, Central South University, Changsha, China",
+     "institution_ids": [
+      "https://openalex.org/I139660479"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Central South University, China",
+     "institution_ids": [
+      "https://openalex.org/I139660479"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5101955170",
+    "display_name": "Jingjing Tan",
+    "orcid": "https://orcid.org/0000-0002-0598-7698"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I139660479",
+     "display_name": "Central South University",
+     "ror": "https://ror.org/00f1zfq44",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I139660479"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jingjing Tan",
+   "raw_affiliation_strings": [
+    "School of Computer Science and Engineering, Central South University, Changsha, China",
+    "Central South University, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-0598-7698",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Computer Science and Engineering, Central South University, Changsha, China",
+     "institution_ids": [
+      "https://openalex.org/I139660479"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Central South University, China",
+     "institution_ids": [
+      "https://openalex.org/I139660479"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5015739734",
+    "display_name": "Bomin Mao",
+    "orcid": "https://orcid.org/0000-0001-7780-5972"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I17145004",
+     "display_name": "Northwestern Polytechnical University",
+     "ror": "https://ror.org/01y0j0j86",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I17145004"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Bomin Mao",
+   "raw_affiliation_strings": [
+    "School of Cybersecurity, Northwestern Polytechnical University, Xi&#x2019;an, China",
+    "Northwestern Polytechnical University, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-7780-5972",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Cybersecurity, Northwestern Polytechnical University, Xi&#x2019;an, China",
+     "institution_ids": [
+      "https://openalex.org/I17145004"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Northwestern Polytechnical University, China",
+     "institution_ids": [
+      "https://openalex.org/I17145004"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5007662359",
+    "display_name": "Fengxiao Tang",
+    "orcid": "https://orcid.org/0000-0003-2414-4802"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I139660479",
+     "display_name": "Central South University",
+     "ror": "https://ror.org/00f1zfq44",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I139660479"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Fengxiao Tang",
+   "raw_affiliation_strings": [
+    "School of Computer Science and Engineering, Central South University, Changsha, China",
+    "Central South University, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-2414-4802",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Computer Science and Engineering, Central South University, Changsha, China",
+     "institution_ids": [
+      "https://openalex.org/I139660479"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Central South University, China",
+     "institution_ids": [
+      "https://openalex.org/I139660479"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5101594116",
+    "display_name": "Yangfan Li",
+    "orcid": "https://orcid.org/0000-0003-3640-5088"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I139660479",
+     "display_name": "Central South University",
+     "ror": "https://ror.org/00f1zfq44",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I139660479"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yangfan Li",
+   "raw_affiliation_strings": [
+    "School of Computer Science and Engineering, Central South University, Changsha, China",
+    "Central South University, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-3640-5088",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Computer Science and Engineering, Central South University, Changsha, China",
+     "institution_ids": [
+      "https://openalex.org/I139660479"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Central South University, China",
+     "institution_ids": [
+      "https://openalex.org/I139660479"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5077996394",
+    "display_name": "Ming Zhao",
+    "orcid": "https://orcid.org/0000-0003-2317-5359"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I139660479",
+     "display_name": "Central South University",
+     "ror": "https://ror.org/00f1zfq44",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I139660479"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ming Zhao",
+   "raw_affiliation_strings": [
+    "School of Computer Science and Engineering, Central South University, Changsha, China",
+    "Central South University, China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-2317-5359",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Computer Science and Engineering, Central South University, Changsha, China",
+     "institution_ids": [
+      "https://openalex.org/I139660479"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Central South University, China",
+     "institution_ids": [
+      "https://openalex.org/I139660479"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5013311265",
+    "display_name": "Nei Kato",
+    "orcid": "https://orcid.org/0000-0001-8769-302X"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I201537933",
+     "display_name": "Tohoku University",
+     "ror": "https://ror.org/01dq60k83",
+     "country_code": "JP",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I201537933"
+     ]
+    }
+   ],
+   "countries": [
+    "JP"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Nei Kato",
+   "raw_affiliation_strings": [
+    "Graduate School of Information Sciences, Tohoku University, Sendai, Japan",
+    "Tohoku University, Japan"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-8769-302X",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Graduate School of Information Sciences, Tohoku University, Sendai, Japan",
+     "institution_ids": [
+      "https://openalex.org/I201537933"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Tohoku University, Japan",
+     "institution_ids": [
+      "https://openalex.org/I201537933"
+     ]
+    }
+   ]
+  }
+ ],
+ "abstract_inverted_index": {
+  "As": [
+   0
+  ],
+  "Large": [
+   1
+  ],
+  "Language": [
+   2
+  ],
+  "Models": [
+   3
+  ],
+  "(LLMs)": [
+   4
+  ],
+  "have": [
+   5
+  ],
+  "achieved": [
+   6
+  ],
+  "significant": [
+   7
+  ],
+  "success": [
+   8
+  ],
+  "in": [
+   9,
+   24,
+   73,
+   116,
+   132,
+   175
+  ],
+  "handling": [
+   10
+  ],
+  "multi-modal": [
+   11
+  ],
+  "tasks": [
+   12,
+   74
+  ],
+  "such": [
+   13,
+   75,
+   111
+  ],
+  "as": [
+   14,
+   76,
+   112
+  ],
+  "text,": [
+   15
+  ],
+  "images,": [
+   16
+  ],
+  "videos,": [
+   17
+  ],
+  "and": [
+   18,
+   45,
+   60,
+   81,
+   85,
+   104,
+   118,
+   144,
+   159,
+   180,
+   191
+  ],
+  "sounds,": [
+   19
+  ],
+  "particularly": [
+   20
+  ],
+  "showcasing": [
+   21
+  ],
+  "emergent": [
+   22
+  ],
+  "capabilities": [
+   23,
+   70
+  ],
+  "natural": [
+   25
+  ],
+  "language": [
+   26
+  ],
+  "tasks,": [
+   27
+  ],
+  "they": [
+   28
+  ],
+  "hold": [
+   29
+  ],
+  "great": [
+   30
+  ],
+  "potential": [
+   31,
+   185
+  ],
+  "for": [
+   32,
+   140
+  ],
+  "network": [
+   33,
+   93,
+   133,
+   142,
+   157,
+   165,
+   178,
+   198
+  ],
+  "operations": [
+   34,
+   143,
+   179
+  ],
+  "that": [
+   35
+  ],
+  "similarly": [
+   36
+  ],
+  "involve": [
+   37
+  ],
+  "vast": [
+   38
+  ],
+  "amounts": [
+   39
+  ],
+  "of": [
+   40,
+   54,
+   71,
+   92,
+   100,
+   130,
+   151,
+   196
+  ],
+  "text": [
+   41
+  ],
+  "data,": [
+   42,
+   44
+  ],
+  "fault": [
+   43,
+   77
+  ],
+  "log": [
+   46
+  ],
+  "files.": [
+   47
+  ],
+  "This": [
+   48
+  ],
+  "paper": [
+   49,
+   97,
+   136
+  ],
+  "focuses": [
+   50
+  ],
+  "on": [
+   51
+  ],
+  "the": [
+   52,
+   68,
+   90,
+   96,
+   101,
+   128,
+   172,
+   193
+  ],
+  "development": [
+   53
+  ],
+  "LLMs,": [
+   55
+  ],
+  "detailing": [
+   56
+  ],
+  "their": [
+   57
+  ],
+  "fundamental": [
+   58
+  ],
+  "principles": [
+   59
+  ],
+  "application": [
+   61
+  ],
+  "scenarios": [
+   62
+  ],
+  "across": [
+   63
+  ],
+  "different": [
+   64
+  ],
+  "domains.": [
+   65
+  ],
+  "It": [
+   66
+  ],
+  "highlights": [
+   67
+  ],
+  "remarkable": [
+   69
+  ],
+  "LLMs": [
+   72
+  ],
+  "diagnosis,": [
+   78
+  ],
+  "causal": [
+   79
+  ],
+  "inference,": [
+   80
+  ],
+  "intelligent": [
+   82,
+   109,
+   141,
+   177
+  ],
+  "question": [
+   83
+  ],
+  "answering,": [
+   84
+  ],
+  "applies": [
+   86
+  ],
+  "these": [
+   87,
+   189
+  ],
+  "abilities": [
+   88
+  ],
+  "to": [
+   89,
+   126,
+   155,
+   187
+  ],
+  "field": [
+   91
+  ],
+  "operations.": [
+   94
+  ],
+  "Moreover,": [
+   95
+  ],
+  "reviews": [
+   98
+  ],
+  "some": [
+   99
+  ],
+  "key": [
+   102
+  ],
+  "issues": [
+   103
+  ],
+  "technical": [
+   105
+  ],
+  "barriers": [
+   106
+  ],
+  "faced": [
+   107
+  ],
+  "by": [
+   108,
+   170
+  ],
+  "networks,": [
+   110
+  ],
+  "efficiently": [
+   113
+  ],
+  "monitoring": [
+   114
+  ],
+  "networks": [
+   115
+  ],
+  "real-time": [
+   117
+  ],
+  "providing": [
+   119
+  ],
+  "timely": [
+   120
+  ],
+  "alerts": [
+   121
+  ],
+  "when": [
+   122
+  ],
+  "necessary.": [
+   123
+  ],
+  "In": [
+   124
+  ],
+  "addition": [
+   125
+  ],
+  "examining": [
+   127
+  ],
+  "utilization": [
+   129
+  ],
+  "LLM": [
+   131
+  ],
+  "operations,": [
+   134
+  ],
+  "this": [
+   135,
+   152
+  ],
+  "introduces": [
+   137
+  ],
+  "a": [
+   138
+  ],
+  "framework": [
+   139,
+   153
+  ],
+  "performance": [
+   145,
+   181
+  ],
+  "optimization,": [
+   146,
+   182
+  ],
+  "leveraging": [
+   147
+  ],
+  "LLM.": [
+   148
+  ],
+  "The": [
+   149
+  ],
+  "objective": [
+   150
+  ],
+  "is": [
+   154
+  ],
+  "bolster": [
+   156
+  ],
+  "robustness": [
+   158
+  ],
+  "furnish": [
+   160
+  ],
+  "users": [
+   161
+  ],
+  "with": [
+   162
+  ],
+  "exceptional,": [
+   163
+  ],
+  "personalized": [
+   164
+  ],
+  "services.": [
+   166
+  ],
+  "Ultimately,": [
+   167
+  ],
+  "we": [
+   168
+  ],
+  "conclude": [
+   169
+  ],
+  "delineating": [
+   171
+  ],
+  "challenges": [
+   173
+  ],
+  "encountered": [
+   174
+  ],
+  "LLM-based": [
+   176
+  ],
+  "while": [
+   183
+  ],
+  "presenting": [
+   184
+  ],
+  "solutions": [
+   186
+  ],
+  "overcome": [
+   188
+  ],
+  "hurdles": [
+   190
+  ],
+  "propel": [
+   192
+  ],
+  "comprehensive": [
+   194
+  ],
+  "deployment": [
+   195
+  ],
+  "LLM-driven": [
+   197
+  ],
+  "intelligence.": [
+   199
+  ]
+ }
+}

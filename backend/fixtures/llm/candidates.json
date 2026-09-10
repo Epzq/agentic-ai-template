@@ -1,0 +1,31 @@
+{
+  "directions": [
+    {
+      "title": "Egocentric Action Anticipation for Predictive Human-Robot Collaboration",
+      "rationale": "The call targets high-impact, use-inspired frontier research with high breakthrough potential, while the researcher has established expertise in action recognition, anticipation, and embodied AI for robotic vision.",
+      "queries": [
+        "egocentric action anticipation robotics",
+        "human robot collaboration anticipation",
+        "video action prediction transformers"
+      ]
+    },
+    {
+      "title": "Multimodal Knowledge Graph Integration for Explainable Visual Reasoning",
+      "rationale": "The call prioritizes conceptual novelty and paradigm-shifting basic research suitable for multidisciplinary teams, matching the researcher's demonstrated capabilities in multimodal knowledge engineering, explainable AI, and vision-language models.",
+      "queries": [
+        "multimodal knowledge graph reasoning",
+        "explainable visual question answering",
+        "vision language graph reasoning"
+      ]
+    },
+    {
+      "title": "Unsupervised Domain Adaptation for Vision-Language Physical Task Understanding",
+      "rationale": "The call emphasizes feasibility of novel scientific hypotheses without requiring preliminary data, bridging the researcher's foundational work on subspace alignment and transfer learning with applied situation recognition across varying environments.",
+      "queries": [
+        "unsupervised domain adaptation vision",
+        "vision language situation recognition",
+        "cross domain visual understanding"
+      ]
+    }
+  ]
+}

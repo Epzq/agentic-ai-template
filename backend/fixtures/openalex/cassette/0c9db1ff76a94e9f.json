@@ -1,0 +1,514 @@
+{
+ "url": "https://api.openalex.org/works/W4312769771?select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cauthorships%2Cabstract_inverted_index",
+ "status": 200,
+ "json": {
+  "id": "https://openalex.org/W4312769771",
+  "display_name": "Joint Hand Motion and Interaction Hotspots Prediction from Egocentric Videos",
+  "publication_year": 2022,
+  "cited_by_count": 70,
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5101841375",
+     "display_name": "Shaowei Liu",
+     "orcid": "https://orcid.org/0000-0003-4097-9025"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I157725225",
+      "display_name": "University of Illinois Urbana-Champaign",
+      "ror": "https://ror.org/047426m28",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I157725225"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Shaowei Liu",
+    "raw_affiliation_strings": [
+     "University of Illinois Urbana-Champaign"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "University of Illinois Urbana-Champaign",
+      "institution_ids": [
+       "https://openalex.org/I157725225"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5103091648",
+     "display_name": "Subarna Tripathi",
+     "orcid": "https://orcid.org/0000-0002-2757-4923"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1343180700",
+      "display_name": "Intel (United States)",
+      "ror": "https://ror.org/01ek73717",
+      "country_code": "US",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I1343180700"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Subarna Tripathi",
+    "raw_affiliation_strings": [
+     "Intel Labs"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Intel Labs",
+      "institution_ids": [
+       "https://openalex.org/I1343180700"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5070857594",
+     "display_name": "Somdeb Majumdar",
+     "orcid": null
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1343180700",
+      "display_name": "Intel (United States)",
+      "ror": "https://ror.org/01ek73717",
+      "country_code": "US",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I1343180700"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Somdeb Majumdar",
+    "raw_affiliation_strings": [
+     "Intel Labs"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Intel Labs",
+      "institution_ids": [
+       "https://openalex.org/I1343180700"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5100424261",
+     "display_name": "Xiaolong Wang",
+     "orcid": "https://orcid.org/0000-0002-5061-2529"
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I2800935791",
+      "display_name": "UC San Diego Health System",
+      "ror": "https://ror.org/01kbfgm16",
+      "country_code": "US",
+      "type": "healthcare",
+      "lineage": [
+       "https://openalex.org/I2800935791"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xiaolong Wang",
+    "raw_affiliation_strings": [
+     "UC San Diego"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "UC San Diego",
+      "institution_ids": [
+       "https://openalex.org/I2800935791"
+      ]
+     }
+    ]
+   }
+  ],
+  "abstract_inverted_index": {
+   "We": [
+    0,
+    68,
+    114
+   ],
+   "propose": [
+    1
+   ],
+   "to": [
+    2,
+    59,
+    73,
+    102,
+    109
+   ],
+   "forecast": [
+    3
+   ],
+   "future": [
+    4,
+    27,
+    47,
+    105
+   ],
+   "hand-object": [
+    5
+   ],
+   "interactions": [
+    6
+   ],
+   "given": [
+    7
+   ],
+   "an": [
+    8,
+    56,
+    75
+   ],
+   "egocentric": [
+    9
+   ],
+   "video.": [
+    10
+   ],
+   "Instead": [
+    11
+   ],
+   "of": [
+    12,
+    46
+   ],
+   "predicting": [
+    13
+   ],
+   "action": [
+    14
+   ],
+   "labels": [
+    15,
+    64
+   ],
+   "or": [
+    16
+   ],
+   "pixels,": [
+    17
+   ],
+   "we": [
+    18,
+    53
+   ],
+   "directly": [
+    19
+   ],
+   "predict": [
+    20
+   ],
+   "the": [
+    21,
+    26,
+    31,
+    91,
+    104,
+    118
+   ],
+   "hand": [
+    22,
+    85
+   ],
+   "motion": [
+    23
+   ],
+   "trajectory": [
+    24,
+    61,
+    106
+   ],
+   "and": [
+    25,
+    62,
+    86,
+    107,
+    121,
+    125
+   ],
+   "contact": [
+    28
+   ],
+   "points": [
+    29
+   ],
+   "on": [
+    30,
+    65,
+    117
+   ],
+   "next": [
+    32
+   ],
+   "active": [
+    33
+   ],
+   "object": [
+    34,
+    87
+   ],
+   "(i.e.,": [
+    35
+   ],
+   "interaction": [
+    36,
+    88
+   ],
+   "hotspots).": [
+    37
+   ],
+   "This": [
+    38
+   ],
+   "relatively": [
+    39
+   ],
+   "low-dimensional": [
+    40
+   ],
+   "representation": [
+    41
+   ],
+   "provides": [
+    42,
+    98
+   ],
+   "a": [
+    43,
+    99,
+    135
+   ],
+   "con-crete": [
+    44
+   ],
+   "description": [
+    45
+   ],
+   "interactions.": [
+    48
+   ],
+   "To": [
+    49
+   ],
+   "tackle": [
+    50
+   ],
+   "this": [
+    51,
+    71
+   ],
+   "task,": [
+    52
+   ],
+   "first": [
+    54
+   ],
+   "provide": [
+    55
+   ],
+   "automatic": [
+    57
+   ],
+   "way": [
+    58
+   ],
+   "collect": [
+    60
+   ],
+   "hotspots": [
+    63,
+    108
+   ],
+   "large-scale": [
+    66
+   ],
+   "data.": [
+    67
+   ],
+   "then": [
+    69
+   ],
+   "use": [
+    70
+   ],
+   "data": [
+    72
+   ],
+   "train": [
+    74
+   ],
+   "Object-Centric": [
+    76
+   ],
+   "Transformer": [
+    77
+   ],
+   "(OCT)": [
+    78
+   ],
+   "model": [
+    79,
+    83
+   ],
+   "for": [
+    80
+   ],
+   "prediction.": [
+    81,
+    113
+   ],
+   "Our": [
+    82
+   ],
+   "performs": [
+    84
+   ],
+   "reasoning": [
+    89
+   ],
+   "via": [
+    90
+   ],
+   "self-attention": [
+    92
+   ],
+   "mechanism": [
+    93
+   ],
+   "in": [
+    94,
+    112
+   ],
+   "Transformers.": [
+    95
+   ],
+   "OCT": [
+    96,
+    128
+   ],
+   "also": [
+    97
+   ],
+   "probabilistic": [
+    100
+   ],
+   "framework": [
+    101
+   ],
+   "sample": [
+    103
+   ],
+   "handle": [
+    110
+   ],
+   "uncertainty": [
+    111
+   ],
+   "perform": [
+    115
+   ],
+   "experi-ments": [
+    116
+   ],
+   "Epic-Kitchens-55,": [
+    119
+   ],
+   "Epic-Kitchens-100": [
+    120
+   ],
+   "EGTEA": [
+    122
+   ],
+   "Gaze+": [
+    123
+   ],
+   "datasets,": [
+    124
+   ],
+   "show": [
+    126
+   ],
+   "that": [
+    127
+   ],
+   "significantly": [
+    129
+   ],
+   "outperforms": [
+    130
+   ],
+   "state-of": [
+    131
+   ],
+   "the-art": [
+    132
+   ],
+   "approaches": [
+    133
+   ],
+   "by": [
+    134
+   ],
+   "large": [
+    136
+   ],
+   "margin.": [
+    137
+   ],
+   "Project": [
+    138
+   ],
+   "page": [
+    139
+   ],
+   "is": [
+    140
+   ],
+   "available": [
+    141
+   ],
+   "at": [
+    142
+   ],
+   "https://stevenlsw.github.io/hoi-forecast.": [
+    143
+   ]
+  }
+ }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "roia-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "//": "Versions are pinned exactly, not floored — the same rule backend/pyproject.toml follows, for the same reason: this is a demo that has to run on a specific day, and a transitive minor bump that morning is not a risk worth carrying. Node is pinned in .nvmrc: Vite 8 refuses anything below 20.19, and the machine's default node is 18.",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "typecheck": "tsc -b --noEmit",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.1",
+    "@mui/material": "9.4.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-markdown": "10.1.0",
+    "react-router": "8.3.1",
+    "rehype-sanitize": "6.0.0",
+    "remark-gfm": "4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.1",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "@vitejs/plugin-react": "6.1.1",
+    "oxlint": "1.81.0",
+    "typescript": "6.0.3",
+    "vite": "8.2.2"
+  }
+}

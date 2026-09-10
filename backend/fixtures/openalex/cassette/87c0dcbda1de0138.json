@@ -1,0 +1,125 @@
+{
+ "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Avision+language+situation+recognition%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+ "status": 200,
+ "json": {
+  "meta": {
+   "count": 426,
+   "db_response_time_ms": 52,
+   "page": 1,
+   "per_page": 15,
+   "groups_count": null,
+   "x_query": {
+    "oql": "works where date >= (2022-01-01)\n  and title/abstract has (vision language situation recognition)",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "from_publication_date",
+       "value": "2022-01-01"
+      },
+      {
+       "column_id": "title_and_abstract.search",
+       "value": "vision language situation recognition",
+       "operator": "has"
+      }
+     ]
+    },
+    "url": "/works?filter=from_publication_date:2022-01-01,title_and_abstract.search:vision language situation recognition&per_page=15"
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4400228912",
+    "display_name": "A Systematic Review of Hand Gesture Recognition: An Update From 2018 to 2024",
+    "publication_year": 2024,
+    "cited_by_count": 72
+   },
+   {
+    "id": "https://openalex.org/W4319723206",
+    "display_name": "Transfer Learning: A New Promising Techniques",
+    "publication_year": 2023,
+    "cited_by_count": 71
+   },
+   {
+    "id": "https://openalex.org/W4406227623",
+    "display_name": "Hybrid intelligence: Human\u2013 AI coevolution and learning",
+    "publication_year": 2025,
+    "cited_by_count": 62
+   },
+   {
+    "id": "https://openalex.org/W4280537319",
+    "display_name": "Computer Vision-based Robotic Arm for Object Color, Shape, and Size Detection",
+    "publication_year": 2022,
+    "cited_by_count": 56
+   },
+   {
+    "id": "https://openalex.org/W4328028958",
+    "display_name": "Notework: Victorian Literature and Nonlinear Style",
+    "publication_year": 2022,
+    "cited_by_count": 46
+   },
+   {
+    "id": "https://openalex.org/W4390636040",
+    "display_name": "Exploring low-resource medical image classification with weakly supervised prompt learning",
+    "publication_year": 2024,
+    "cited_by_count": 44
+   },
+   {
+    "id": "https://openalex.org/W4407743732",
+    "display_name": "Praxeology, humanism, equity, and mixed methods: Four pillars for advancing second language acquisition and teaching",
+    "publication_year": 2025,
+    "cited_by_count": 42
+   },
+   {
+    "id": "https://openalex.org/W4311081197",
+    "display_name": "Geospatial analysis of patients\u2019 social determinants of health for health systems science and disparity research",
+    "publication_year": 2022,
+    "cited_by_count": 37
+   },
+   {
+    "id": "https://openalex.org/W4226016139",
+    "display_name": "Getting AI Right: Introductory Notes on AI & Society",
+    "publication_year": 2022,
+    "cited_by_count": 37
+   },
+   {
+    "id": "https://openalex.org/W4388489043",
+    "display_name": "Herbarium specimen label transcription reimagined with large language models: Capabilities, productivity, and risks",
+    "publication_year": 2023,
+    "cited_by_count": 29
+   },
+   {
+    "id": "https://openalex.org/W4405863888",
+    "display_name": "Hand Gesture Recognition and Real-Time Voice Translation for the Deaf and Dumb",
+    "publication_year": 2024,
+    "cited_by_count": 24
+   },
+   {
+    "id": "https://openalex.org/W4396835987",
+    "display_name": "\u2018Left behind places\u2019: What can be done about them?",
+    "publication_year": 2024,
+    "cited_by_count": 21
+   },
+   {
+    "id": "https://openalex.org/W4403378110",
+    "display_name": "Sustainable worm control in ruminants in Europe: current perspectives",
+    "publication_year": 2024,
+    "cited_by_count": 19
+   },
+   {
+    "id": "https://openalex.org/W4390480939",
+    "display_name": "Robotic Applications of Pre-Trained Vision-Language Models to Various Recognition Behaviors",
+    "publication_year": 2023,
+    "cited_by_count": 19
+   },
+   {
+    "id": "https://openalex.org/W4411664857",
+    "display_name": "Artificial intelligence and digital health in the health systems of developing countries: the challenges and vision of integration in the primary health care setting",
+    "publication_year": 2025,
+    "cited_by_count": 18
+   }
+  ],
+  "group_by": []
+ }
+}

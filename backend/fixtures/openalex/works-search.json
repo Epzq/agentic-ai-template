@@ -1,0 +1,121 @@
+{
+ "meta": {
+  "count": 261,
+  "db_response_time_ms": 82,
+  "page": 1,
+  "per_page": 15,
+  "groups_count": null,
+  "x_query": {
+   "oql": "works where date >= (2022-01-01)\n  and title/abstract has (causal video question answering)",
+   "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+     {
+      "column_id": "from_publication_date",
+      "value": "2022-01-01"
+     },
+     {
+      "column_id": "title_and_abstract.search",
+      "value": "causal video question answering",
+      "operator": "has"
+     }
+    ]
+   },
+   "url": "/works?filter=from_publication_date:2022-01-01,title_and_abstract.search:causal video question answering&per_page=15"
+  },
+  "cost_usd": 0.001
+ },
+ "results": [
+  {
+   "id": "https://openalex.org/W4379929708",
+   "display_name": "Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering",
+   "publication_year": 2023,
+   "cited_by_count": 341
+  },
+  {
+   "id": "https://openalex.org/W4313071966",
+   "display_name": "Revisiting the \u201cVideo\u201d in Video-Language Understanding",
+   "publication_year": 2022,
+   "cited_by_count": 129
+  },
+  {
+   "id": "https://openalex.org/W4312974690",
+   "display_name": "Invariant Grounding for Video Question Answering",
+   "publication_year": 2022,
+   "cited_by_count": 118
+  },
+  {
+   "id": "https://openalex.org/W4406137434",
+   "display_name": "A Survey on Intelligent Network Operations and Performance Optimization Based on Large Language Models",
+   "publication_year": 2025,
+   "cited_by_count": 102
+  },
+  {
+   "id": "https://openalex.org/W4312761939",
+   "display_name": "From Representation to Reasoning: Towards both Evidence and Commonsense Reasoning for Video Question-Answering",
+   "publication_year": 2022,
+   "cited_by_count": 55
+  },
+  {
+   "id": "https://openalex.org/W4386075754",
+   "display_name": "Discovering the Real Association: Multimodal Causal Reasoning in Video Question Answering",
+   "publication_year": 2023,
+   "cited_by_count": 45
+  },
+  {
+   "id": "https://openalex.org/W4289667445",
+   "display_name": "Can videos affect learning outcomes? Evidence from an actual learning environment",
+   "publication_year": 2022,
+   "cited_by_count": 38
+  },
+  {
+   "id": "https://openalex.org/W4389524050",
+   "display_name": "Large Language Models are Temporal and Causal Reasoners for Video Question Answering",
+   "publication_year": 2023,
+   "cited_by_count": 31
+  },
+  {
+   "id": "https://openalex.org/W4388189274",
+   "display_name": "Visual Causal Scene Refinement for Video Question Answering",
+   "publication_year": 2023,
+   "cited_by_count": 29
+  },
+  {
+   "id": "https://openalex.org/W4391770672",
+   "display_name": "Explaining Autonomous Driving Actions with Visual Question Answering",
+   "publication_year": 2023,
+   "cited_by_count": 25
+  },
+  {
+   "id": "https://openalex.org/W4296122945",
+   "display_name": "D\u2019ARTAGNAN: Counterfactual Video Generation",
+   "publication_year": 2022,
+   "cited_by_count": 25
+  },
+  {
+   "id": "https://openalex.org/W4321332401",
+   "display_name": "Effects of a graphic organizer-based two-tier test approach on students\u2019 learning achievement and behaviors in spherical video-based virtual learning contexts",
+   "publication_year": 2023,
+   "cited_by_count": 24
+  },
+  {
+   "id": "https://openalex.org/W4390872733",
+   "display_name": "Discovering Spatio-Temporal Rationales for Video Question Answering",
+   "publication_year": 2023,
+   "cited_by_count": 23
+  },
+  {
+   "id": "https://openalex.org/W4220861052",
+   "display_name": "The causal effect of subscription video streaming on DVD sales: Evidence from a natural experiment",
+   "publication_year": 2022,
+   "cited_by_count": 22
+  },
+  {
+   "id": "https://openalex.org/W4391467933",
+   "display_name": "Cohort Profile Update: The Young-HUNT Study, Norway",
+   "publication_year": 2024,
+   "cited_by_count": 20
+  }
+ ],
+ "group_by": []
+}

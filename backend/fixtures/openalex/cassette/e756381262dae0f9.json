@@ -1,0 +1,37 @@
+{
+ "url": "https://api.openalex.org/works?filter=cites%3AW3198379050%2Cfrom_publication_date%3A2023-01-01&select=id&per_page=1",
+ "status": 200,
+ "json": {
+  "meta": {
+   "count": 181,
+   "db_response_time_ms": 13,
+   "page": 1,
+   "per_page": 1,
+   "groups_count": null,
+   "x_query": {
+    "oql": "works where date >= (2023-01-01) and it cites (W3198379050)",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "from_publication_date",
+       "value": "2023-01-01"
+      },
+      {
+       "column_id": "referenced_works",
+       "value": "W3198379050"
+      }
+     ]
+    },
+    "url": "/works?filter=from_publication_date:2023-01-01,referenced_works:W3198379050&per_page=1"
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4389885061"
+   }
+  ],
+  "group_by": []
+ }
+}

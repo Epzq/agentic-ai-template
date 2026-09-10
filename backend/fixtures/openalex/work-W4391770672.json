@@ -1,0 +1,605 @@
+{
+ "id": "https://openalex.org/W4391770672",
+ "display_name": "Explaining Autonomous Driving Actions with Visual Question Answering",
+ "publication_year": 2023,
+ "cited_by_count": 25,
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5049171030",
+    "display_name": "Shahin Atakishiyev",
+    "orcid": "https://orcid.org/0000-0002-3666-4656"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I154425047",
+     "display_name": "University of Alberta",
+     "ror": "https://ror.org/0160cpw27",
+     "country_code": "CA",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I154425047"
+     ]
+    }
+   ],
+   "countries": [
+    "CA"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Shahin Atakishiyev",
+   "raw_affiliation_strings": [
+    "University of Alberta,Department of Computing Science,Edmonton,Alberta,Canada",
+    "Department of Computing Science, University of Alberta, Edmonton, Alberta, Canada"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of Alberta,Department of Computing Science,Edmonton,Alberta,Canada",
+     "institution_ids": [
+      "https://openalex.org/I154425047"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Computing Science, University of Alberta, Edmonton, Alberta, Canada",
+     "institution_ids": [
+      "https://openalex.org/I154425047"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5006778208",
+    "display_name": "Mohammad Salameh",
+    "orcid": "https://orcid.org/0000-0001-9266-4637"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210115038",
+     "display_name": "Huawei Technologies (Canada)",
+     "ror": "https://ror.org/026venb53",
+     "country_code": "CA",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I2250955327",
+      "https://openalex.org/I4210115038"
+     ]
+    }
+   ],
+   "countries": [
+    "CA"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Mohammad Salameh",
+   "raw_affiliation_strings": [
+    "Huawei Technologies Canada Co., Ltd.,Edmonton,Alberta,Canada",
+    "Huawei Technologies Canada Co., Ltd., Edmonton, Alberta, Canada"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Huawei Technologies Canada Co., Ltd.,Edmonton,Alberta,Canada",
+     "institution_ids": [
+      "https://openalex.org/I4210115038"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Huawei Technologies Canada Co., Ltd., Edmonton, Alberta, Canada",
+     "institution_ids": [
+      "https://openalex.org/I4210115038"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5030967313",
+    "display_name": "Housam Khalifa Bashier Babiker",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I154425047",
+     "display_name": "University of Alberta",
+     "ror": "https://ror.org/0160cpw27",
+     "country_code": "CA",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I154425047"
+     ]
+    }
+   ],
+   "countries": [
+    "CA"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Housam Babiker",
+   "raw_affiliation_strings": [
+    "University of Alberta,Department of Computing Science,Edmonton,Alberta,Canada",
+    "Department of Computing Science, University of Alberta, Edmonton, Alberta, Canada"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of Alberta,Department of Computing Science,Edmonton,Alberta,Canada",
+     "institution_ids": [
+      "https://openalex.org/I154425047"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Computing Science, University of Alberta, Edmonton, Alberta, Canada",
+     "institution_ids": [
+      "https://openalex.org/I154425047"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5091866119",
+    "display_name": "Randy Goebel",
+    "orcid": "https://orcid.org/0000-0002-0739-2946"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I154425047",
+     "display_name": "University of Alberta",
+     "ror": "https://ror.org/0160cpw27",
+     "country_code": "CA",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I154425047"
+     ]
+    }
+   ],
+   "countries": [
+    "CA"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Randy Goebel",
+   "raw_affiliation_strings": [
+    "University of Alberta,Department of Computing Science,Edmonton,Alberta,Canada",
+    "Department of Computing Science, University of Alberta, Edmonton, Alberta, Canada"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of Alberta,Department of Computing Science,Edmonton,Alberta,Canada",
+     "institution_ids": [
+      "https://openalex.org/I154425047"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Computing Science, University of Alberta, Edmonton, Alberta, Canada",
+     "institution_ids": [
+      "https://openalex.org/I154425047"
+     ]
+    }
+   ]
+  }
+ ],
+ "abstract_inverted_index": {
+  "The": [
+   0,
+   146
+  ],
+  "end-to-end": [
+   1
+  ],
+  "learning": [
+   2,
+   21,
+   96
+  ],
+  "ability": [
+   3
+  ],
+  "of": [
+   4,
+   35,
+   51,
+   61,
+   136,
+   161
+  ],
+  "self-driving": [
+   5,
+   56
+  ],
+  "vehicles": [
+   6,
+   163
+  ],
+  "has": [
+   7
+  ],
+  "achieved": [
+   8
+  ],
+  "significant": [
+   9
+  ],
+  "milestones": [
+   10
+  ],
+  "over": [
+   11
+  ],
+  "the": [
+   12,
+   46,
+   49,
+   116,
+   125,
+   134,
+   137,
+   151
+  ],
+  "last": [
+   13
+  ],
+  "decade": [
+   14
+  ],
+  "owing": [
+   15
+  ],
+  "to": [
+   16,
+   157
+  ],
+  "rapid": [
+   17
+  ],
+  "advances": [
+   18
+  ],
+  "in": [
+   19,
+   63,
+   90,
+   128
+  ],
+  "deep": [
+   20
+  ],
+  "and": [
+   22,
+   41,
+   98,
+   164
+  ],
+  "computer": [
+   23
+  ],
+  "vision": [
+   24
+  ],
+  "algorithms.": [
+   25
+  ],
+  "However,": [
+   26
+  ],
+  "as": [
+   27,
+   122
+  ],
+  "autonomous": [
+   28,
+   64,
+   162
+  ],
+  "driving": [
+   29,
+   76,
+   88,
+   144,
+   168
+  ],
+  "technology": [
+   30
+  ],
+  "is": [
+   31
+  ],
+  "a": [
+   32,
+   68,
+   91
+  ],
+  "safety-critical": [
+   33
+  ],
+  "application": [
+   34
+  ],
+  "artificial": [
+   36
+  ],
+  "intelligence": [
+   37
+  ],
+  "(AI),": [
+   38
+  ],
+  "road": [
+   39
+  ],
+  "accidents": [
+   40
+  ],
+  "established": [
+   42
+  ],
+  "regulatory": [
+   43
+  ],
+  "principles": [
+   44
+  ],
+  "necessitate": [
+   45
+  ],
+  "need": [
+   47
+  ],
+  "for": [
+   48,
+   55,
+   107,
+   124,
+   140
+  ],
+  "explainability": [
+   50
+  ],
+  "intelligent": [
+   52
+  ],
+  "action": [
+   53,
+   110
+  ],
+  "choices": [
+   54
+  ],
+  "vehicles.": [
+   57
+  ],
+  "To": [
+   58,
+   82
+  ],
+  "facilitate": [
+   59
+  ],
+  "interpretability": [
+   60
+  ],
+  "decisionmaking": [
+   62
+  ],
+  "driving,": [
+   65
+  ],
+  "we": [
+   66,
+   85,
+   113,
+   132
+  ],
+  "present": [
+   67
+  ],
+  "Visual": [
+   69
+  ],
+  "Question": [
+   70
+  ],
+  "Answering": [
+   71
+  ],
+  "(VQA)": [
+   72
+  ],
+  "framework,": [
+   73
+  ],
+  "which": [
+   74
+  ],
+  "explains": [
+   75
+  ],
+  "actions": [
+   77,
+   126,
+   141
+  ],
+  "with": [
+   78
+  ],
+  "question-answering-based": [
+   79
+  ],
+  "causal": [
+   80
+  ],
+  "reasoning.": [
+   81
+  ],
+  "do": [
+   83
+  ],
+  "so,": [
+   84
+  ],
+  "first": [
+   86
+  ],
+  "collect": [
+   87
+  ],
+  "videos": [
+   89
+  ],
+  "simulation": [
+   92
+  ],
+  "environment": [
+   93
+  ],
+  "using": [
+   94,
+   119
+  ],
+  "reinforcement": [
+   95
+  ],
+  "(RL)": [
+   97
+  ],
+  "extract": [
+   99
+  ],
+  "consecutive": [
+   100
+  ],
+  "frames": [
+   101,
+   118
+  ],
+  "from": [
+   102
+  ],
+  "this": [
+   103
+  ],
+  "log": [
+   104
+  ],
+  "data": [
+   105
+  ],
+  "uniformly": [
+   106
+  ],
+  "five": [
+   108
+  ],
+  "selected": [
+   109
+  ],
+  "categories.": [
+   111
+  ],
+  "Further,": [
+   112
+  ],
+  "manually": [
+   114
+  ],
+  "annotate": [
+   115
+  ],
+  "extracted": [
+   117
+  ],
+  "question-answer": [
+   120
+  ],
+  "pairs": [
+   121
+  ],
+  "justifications": [
+   123
+  ],
+  "chosen": [
+   127
+  ],
+  "each": [
+   129
+  ],
+  "scenario.": [
+   130
+  ],
+  "Finally,": [
+   131
+  ],
+  "evaluate": [
+   133
+  ],
+  "correctness": [
+   135
+  ],
+  "VQA-predicted": [
+   138
+  ],
+  "answers": [
+   139
+  ],
+  "on": [
+   142
+  ],
+  "unseen": [
+   143
+  ],
+  "scenes.": [
+   145
+  ],
+  "empirical": [
+   147
+  ],
+  "results": [
+   148
+  ],
+  "suggest": [
+   149
+  ],
+  "that": [
+   150
+  ],
+  "VQA": [
+   152
+  ],
+  "mechanism": [
+   153
+  ],
+  "can": [
+   154
+  ],
+  "provide": [
+   155
+  ],
+  "support": [
+   156
+  ],
+  "interpret": [
+   158
+  ],
+  "real-time": [
+   159
+  ],
+  "decisions": [
+   160
+  ],
+  "help": [
+   165
+  ],
+  "enhance": [
+   166
+  ],
+  "overall": [
+   167
+  ],
+  "safety.": [
+   169
+  ]
+ }
+}

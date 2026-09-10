@@ -1,0 +1,205 @@
+{
+ "id": "https://openalex.org/W4321332401",
+ "display_name": "Effects of a graphic organizer-based two-tier test approach on students\u2019 learning achievement and behaviors in spherical video-based virtual learning contexts",
+ "publication_year": 2023,
+ "cited_by_count": 24,
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5049547394",
+    "display_name": "Gwo\u2010Jen Hwang",
+    "orcid": "https://orcid.org/0000-0001-5155-276X"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I154864474",
+     "display_name": "National Taiwan University of Science and Technology",
+     "ror": "https://ror.org/00q09pe49",
+     "country_code": "TW",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I154864474"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I34574549",
+     "display_name": "National Taichung University of Education",
+     "ror": "https://ror.org/006tnfe02",
+     "country_code": "TW",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I34574549"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I75357094",
+     "display_name": "National Yunlin University of Science and Technology",
+     "ror": "https://ror.org/04qkq2m54",
+     "country_code": "TW",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I75357094"
+     ]
+    }
+   ],
+   "countries": [
+    "TW"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Gwo-Jen Hwang",
+   "raw_affiliation_strings": [
+    "Bachelor Program in Industrial Technology, National Yunlin University of Science and Technology, Taiwan",
+    "Graduate School of Intelligent Data Science, National Yunlin University of Science and Technology, Taiwan",
+    "Graduate Institute of Digital Learning and Education, National Taiwan University of Science and Technology, Taiwan",
+    "Graduate Institute of Educational Information and Measurement, National Taichung University of Education, Taiwan"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-5155-276X",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Bachelor Program in Industrial Technology, National Yunlin University of Science and Technology, Taiwan",
+     "institution_ids": [
+      "https://openalex.org/I75357094"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Graduate School of Intelligent Data Science, National Yunlin University of Science and Technology, Taiwan",
+     "institution_ids": [
+      "https://openalex.org/I75357094"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Graduate Institute of Digital Learning and Education, National Taiwan University of Science and Technology, Taiwan",
+     "institution_ids": [
+      "https://openalex.org/I154864474"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Graduate Institute of Educational Information and Measurement, National Taichung University of Education, Taiwan",
+     "institution_ids": [
+      "https://openalex.org/I34574549"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5027672107",
+    "display_name": "Hui-Chueh Chen",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I154864474",
+     "display_name": "National Taiwan University of Science and Technology",
+     "ror": "https://ror.org/00q09pe49",
+     "country_code": "TW",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I154864474"
+     ]
+    }
+   ],
+   "countries": [
+    "TW"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Hui-Chueh Chen",
+   "raw_affiliation_strings": [
+    "Graduate Institute of Digital Learning and Education, National Taiwan University of Science and Technology, Taiwan"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Graduate Institute of Digital Learning and Education, National Taiwan University of Science and Technology, Taiwan",
+     "institution_ids": [
+      "https://openalex.org/I154864474"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5027717525",
+    "display_name": "Chung-Yuan Hsu",
+    "orcid": "https://orcid.org/0000-0002-0666-6482"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I16566446",
+     "display_name": "National Pingtung University of Science and Technology",
+     "ror": "https://ror.org/01y6ccj36",
+     "country_code": "TW",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I16566446"
+     ]
+    }
+   ],
+   "countries": [
+    "TW"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Chung-Yuan Hsu",
+   "raw_affiliation_strings": [
+    "Department of Child Care, National Pingtung University of Science and Technology, Taiwan"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-0666-6482",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Child Care, National Pingtung University of Science and Technology, Taiwan",
+     "institution_ids": [
+      "https://openalex.org/I16566446"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5063768384",
+    "display_name": "Gwo\u2010Haur Hwang",
+    "orcid": "https://orcid.org/0000-0002-3380-2283"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I75357094",
+     "display_name": "National Yunlin University of Science and Technology",
+     "ror": "https://ror.org/04qkq2m54",
+     "country_code": "TW",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I75357094"
+     ]
+    }
+   ],
+   "countries": [
+    "TW"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Gwo-Haur Hwang",
+   "raw_affiliation_strings": [
+    "Bachelor Program in Industrial Technology, National Yunlin University of Science and Technology, Taiwan",
+    "Graduate School of Intelligent Data Science, National Yunlin University of Science and Technology, Taiwan"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-3380-2283",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Bachelor Program in Industrial Technology, National Yunlin University of Science and Technology, Taiwan",
+     "institution_ids": [
+      "https://openalex.org/I75357094"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Graduate School of Intelligent Data Science, National Yunlin University of Science and Technology, Taiwan",
+     "institution_ids": [
+      "https://openalex.org/I75357094"
+     ]
+    }
+   ]
+  }
+ ],
+ "abstract_inverted_index": null
+}

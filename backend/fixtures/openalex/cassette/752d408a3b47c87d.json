@@ -1,0 +1,125 @@
+{
+ "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Aunsupervised+domain+adaptation+vision%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+ "status": 200,
+ "json": {
+  "meta": {
+   "count": 625,
+   "db_response_time_ms": 35,
+   "page": 1,
+   "per_page": 15,
+   "groups_count": null,
+   "x_query": {
+    "oql": "works where date >= (2022-01-01)\n  and title/abstract has (unsupervised domain adaptation vision)",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "from_publication_date",
+       "value": "2022-01-01"
+      },
+      {
+       "column_id": "title_and_abstract.search",
+       "value": "unsupervised domain adaptation vision",
+       "operator": "has"
+      }
+     ]
+    },
+    "url": "/works?filter=from_publication_date:2022-01-01,title_and_abstract.search:unsupervised domain adaptation vision&per_page=15"
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4327852039",
+    "display_name": "Unsupervised Domain Adaptation of Object Detectors: A Survey",
+    "publication_year": 2023,
+    "cited_by_count": 279
+   },
+   {
+    "id": "https://openalex.org/W4285803579",
+    "display_name": "Monocular Depth Estimation Using Deep Learning: A Review",
+    "publication_year": 2022,
+    "cited_by_count": 165
+   },
+   {
+    "id": "https://openalex.org/W4319299795",
+    "display_name": "TVT: Transferable Vision Transformer for Unsupervised Domain Adaptation",
+    "publication_year": 2023,
+    "cited_by_count": 148
+   },
+   {
+    "id": "https://openalex.org/W4312792979",
+    "display_name": "Safe Self-Refinement for Transformer-based Domain Adaptation",
+    "publication_year": 2022,
+    "cited_by_count": 120
+   },
+   {
+    "id": "https://openalex.org/W4399575711",
+    "display_name": "Novel Deep Learning Domain Adaptation Approach for Object Detection Using Semi-Self Building Dataset and Modified YOLOv4",
+    "publication_year": 2024,
+    "cited_by_count": 117
+   },
+   {
+    "id": "https://openalex.org/W3216568609",
+    "display_name": "Transfer Learning from Synthetic to Real LiDAR Point Cloud for Semantic Segmentation",
+    "publication_year": 2022,
+    "cited_by_count": 113
+   },
+   {
+    "id": "https://openalex.org/W4386076502",
+    "display_name": "Patch-Mix Transformer for Unsupervised Domain Adaptation: A Game Perspective",
+    "publication_year": 2023,
+    "cited_by_count": 96
+   },
+   {
+    "id": "https://openalex.org/W4404628801",
+    "display_name": "Advanced Domain Adaptation Technique for Object Detection Leveraging Semi-Automated Dataset Construction and Enhanced YOLOv8",
+    "publication_year": 2024,
+    "cited_by_count": 80
+   },
+   {
+    "id": "https://openalex.org/W4221138878",
+    "display_name": "ADATIME: A Benchmarking Suite for Domain Adaptation on Time Series Data",
+    "publication_year": 2023,
+    "cited_by_count": 73
+   },
+   {
+    "id": "https://openalex.org/W4205294740",
+    "display_name": "Decompose to Adapt: Cross-Domain Object Detection Via Feature Disentanglement",
+    "publication_year": 2022,
+    "cited_by_count": 70
+   },
+   {
+    "id": "https://openalex.org/W4376130364",
+    "display_name": "DI-NIDS: Domain invariant network intrusion detection system",
+    "publication_year": 2023,
+    "cited_by_count": 65
+   },
+   {
+    "id": "https://openalex.org/W4313127740",
+    "display_name": "Domain Adaptation on Point Clouds via Geometry-Aware Implicits",
+    "publication_year": 2022,
+    "cited_by_count": 65
+   },
+   {
+    "id": "https://openalex.org/W4296569568",
+    "display_name": "The Eyes of the Gods: A Survey of Unsupervised Domain Adaptation Methods Based on Remote Sensing Data",
+    "publication_year": 2022,
+    "cited_by_count": 59
+   },
+   {
+    "id": "https://openalex.org/W4312290632",
+    "display_name": "Generalizing Gaze Estimation with Rotation Consistency",
+    "publication_year": 2022,
+    "cited_by_count": 58
+   },
+   {
+    "id": "https://openalex.org/W4312851514",
+    "display_name": "Semantic Image Segmentation: Two Decades of Research",
+    "publication_year": 2022,
+    "cited_by_count": 57
+   }
+  ],
+  "group_by": []
+ }
+}

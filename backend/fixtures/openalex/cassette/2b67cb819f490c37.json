@@ -1,0 +1,125 @@
+{
+ "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3Amultimodal+knowledge+graph+reasoning%2Cfrom_publication_date%3A2022-01-01&select=id%2Cdisplay_name%2Cpublication_year%2Ccited_by_count&sort=cited_by_count%3Adesc&per_page=15",
+ "status": 200,
+ "json": {
+  "meta": {
+   "count": 1035,
+   "db_response_time_ms": 54,
+   "page": 1,
+   "per_page": 15,
+   "groups_count": null,
+   "x_query": {
+    "oql": "works where date >= (2022-01-01)\n  and title/abstract has (multimodal knowledge graph reasoning)",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "from_publication_date",
+       "value": "2022-01-01"
+      },
+      {
+       "column_id": "title_and_abstract.search",
+       "value": "multimodal knowledge graph reasoning",
+       "operator": "has"
+      }
+     ]
+    },
+    "url": "/works?filter=from_publication_date:2022-01-01,title_and_abstract.search:multimodal knowledge graph reasoning&per_page=15"
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4402727624",
+    "display_name": "Compositional Chain-of-Thought Prompting for Large Multimodal Models",
+    "publication_year": 2024,
+    "cited_by_count": 80
+   },
+   {
+    "id": "https://openalex.org/W4390873421",
+    "display_name": "VQA-GNN: Reasoning with Multimodal Knowledge via Graph Neural Networks for Visual Question Answering",
+    "publication_year": 2023,
+    "cited_by_count": 59
+   },
+   {
+    "id": "https://openalex.org/W4210493972",
+    "display_name": "Multimodal reasoning based on knowledge graph embedding for specific diseases",
+    "publication_year": 2022,
+    "cited_by_count": 58
+   },
+   {
+    "id": "https://openalex.org/W4379382378",
+    "display_name": "Two Birds With One Stone: Knowledge-Embedded Temporal Convolutional Transformer for Depression Detection and Emotion Recognition",
+    "publication_year": 2023,
+    "cited_by_count": 53
+   },
+   {
+    "id": "https://openalex.org/W4317436342",
+    "display_name": "MKVSE: Multimodal Knowledge Enhanced Visual-semantic Embedding for Image-text Retrieval",
+    "publication_year": 2022,
+    "cited_by_count": 53
+   },
+   {
+    "id": "https://openalex.org/W4401722919",
+    "display_name": "Accelerating scientific discovery with generative knowledge extraction, graph-based representation, and multimodal intelligent graph reasoning",
+    "publication_year": 2024,
+    "cited_by_count": 51
+   },
+   {
+    "id": "https://openalex.org/W4214849153",
+    "display_name": "State Graph Reasoning for Multimodal Conversational Recommendation",
+    "publication_year": 2022,
+    "cited_by_count": 49
+   },
+   {
+    "id": "https://openalex.org/W4311550910",
+    "display_name": "A Survey of Knowledge Graph Reasoning on Graph Types: Static, Dynamic, and Multimodal",
+    "publication_year": 2022,
+    "cited_by_count": 48
+   },
+   {
+    "id": "https://openalex.org/W4402672053",
+    "display_name": "Multimodal Reasoning with Multimodal Knowledge Graph",
+    "publication_year": 2024,
+    "cited_by_count": 38
+   },
+   {
+    "id": "https://openalex.org/W4393146968",
+    "display_name": "KAM-CoT: Knowledge Augmented Multimodal Chain-of-Thoughts Reasoning",
+    "publication_year": 2024,
+    "cited_by_count": 37
+   },
+   {
+    "id": "https://openalex.org/W4226538672",
+    "display_name": "SGEITL: Scene Graph Enhanced Image-Text Learning for Visual Commonsense Reasoning",
+    "publication_year": 2022,
+    "cited_by_count": 36
+   },
+   {
+    "id": "https://openalex.org/W4404788103",
+    "display_name": "Hybrid Knowledge Distillation for RGB-T Crowd Density Estimation in Smart Surveillance Systems",
+    "publication_year": 2024,
+    "cited_by_count": 32
+   },
+   {
+    "id": "https://openalex.org/W4366292945",
+    "display_name": "Research on a personalized learning path recommendation system based on cognitive graph with a cognitive graph",
+    "publication_year": 2023,
+    "cited_by_count": 29
+   },
+   {
+    "id": "https://openalex.org/W4415539809",
+    "display_name": "HM-RAG: Hierarchical Multi-Agent Multimodal Retrieval Augmented Generation",
+    "publication_year": 2025,
+    "cited_by_count": 27
+   },
+   {
+    "id": "https://openalex.org/W4415400381",
+    "display_name": "Improving Large Language Model Applications in the Medical and Nursing Domains With Retrieval-Augmented Generation: Scoping Review",
+    "publication_year": 2025,
+    "cited_by_count": 26
+   }
+  ],
+  "group_by": []
+ }
+}

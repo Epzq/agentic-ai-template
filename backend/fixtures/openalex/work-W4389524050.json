@@ -1,0 +1,730 @@
+{
+ "id": "https://openalex.org/W4389524050",
+ "display_name": "Large Language Models are Temporal and Causal Reasoners for Video Question Answering",
+ "publication_year": 2023,
+ "cited_by_count": 31,
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5008798023",
+    "display_name": "Dohwan Ko",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I197347611",
+     "display_name": "Korea University",
+     "ror": "https://ror.org/047dqcg40",
+     "country_code": "KR",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I197347611"
+     ]
+    }
+   ],
+   "countries": [
+    "KR"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Dohwan Ko",
+   "raw_affiliation_strings": [
+    "Department of Computer Science and Engineering, Korea University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Computer Science and Engineering, Korea University",
+     "institution_ids": [
+      "https://openalex.org/I197347611"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5081715926",
+    "display_name": "Ji Eun Lee",
+    "orcid": "https://orcid.org/0000-0001-7392-7278"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I197347611",
+     "display_name": "Korea University",
+     "ror": "https://ror.org/047dqcg40",
+     "country_code": "KR",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I197347611"
+     ]
+    }
+   ],
+   "countries": [
+    "KR"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ji Lee",
+   "raw_affiliation_strings": [
+    "Department of Computer Science and Engineering, Korea University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Computer Science and Engineering, Korea University",
+     "institution_ids": [
+      "https://openalex.org/I197347611"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5103381126",
+    "display_name": "Wooyoung Kang",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I207623266",
+     "display_name": "Kao Corporation (Japan)",
+     "ror": "https://ror.org/016t1kc57",
+     "country_code": "JP",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I207623266"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210113520",
+     "display_name": "Brain (Germany)",
+     "ror": "https://ror.org/01gamcy45",
+     "country_code": "DE",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I4210113520"
+     ]
+    }
+   ],
+   "countries": [
+    "DE",
+    "JP"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Woo-Young Kang",
+   "raw_affiliation_strings": [
+    "Kakao Brain"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Kakao Brain",
+     "institution_ids": [
+      "https://openalex.org/I207623266",
+      "https://openalex.org/I4210113520"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5054420850",
+    "display_name": "Byungseok Roh",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I207623266",
+     "display_name": "Kao Corporation (Japan)",
+     "ror": "https://ror.org/016t1kc57",
+     "country_code": "JP",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I207623266"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210113520",
+     "display_name": "Brain (Germany)",
+     "ror": "https://ror.org/01gamcy45",
+     "country_code": "DE",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I4210113520"
+     ]
+    }
+   ],
+   "countries": [
+    "DE",
+    "JP"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Byungseok Roh",
+   "raw_affiliation_strings": [
+    "Kakao Brain"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Kakao Brain",
+     "institution_ids": [
+      "https://openalex.org/I207623266",
+      "https://openalex.org/I4210113520"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5100330207",
+    "display_name": "Hyunwoo Kim",
+    "orcid": "https://orcid.org/0000-0002-8880-0330"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I197347611",
+     "display_name": "Korea University",
+     "ror": "https://ror.org/047dqcg40",
+     "country_code": "KR",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I197347611"
+     ]
+    }
+   ],
+   "countries": [
+    "KR"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Hyunwoo Kim",
+   "raw_affiliation_strings": [
+    "Department of Computer Science and Engineering, Korea University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Computer Science and Engineering, Korea University",
+     "institution_ids": [
+      "https://openalex.org/I197347611"
+     ]
+    }
+   ]
+  }
+ ],
+ "abstract_inverted_index": {
+  "Large": [
+   0
+  ],
+  "Language": [
+   1
+  ],
+  "Models": [
+   2
+  ],
+  "(LLMs)": [
+   3
+  ],
+  "have": [
+   4
+  ],
+  "shown": [
+   5
+  ],
+  "remarkable": [
+   6
+  ],
+  "performances": [
+   7
+  ],
+  "on": [
+   8,
+   48,
+   56,
+   82,
+   150,
+   200
+  ],
+  "a": [
+   9,
+   86,
+   124,
+   159
+  ],
+  "wide": [
+   10
+  ],
+  "range": [
+   11
+  ],
+  "of": [
+   12,
+   98,
+   186
+  ],
+  "natural": [
+   13
+  ],
+  "language": [
+   14
+  ],
+  "understanding": [
+   15
+  ],
+  "and": [
+   16,
+   33,
+   108,
+   121,
+   127,
+   142,
+   147,
+   169,
+   171
+  ],
+  "generation": [
+   17
+  ],
+  "tasks.": [
+   18
+  ],
+  "We": [
+   19,
+   176
+  ],
+  "observe": [
+   20
+  ],
+  "that": [
+   21,
+   162,
+   179
+  ],
+  "the": [
+   22,
+   52,
+   91,
+   96,
+   105,
+   109,
+   184,
+   192,
+   201
+  ],
+  "LLMs": [
+   23,
+   167
+  ],
+  "provide": [
+   24
+  ],
+  "effective": [
+   25
+  ],
+  "priors": [
+   26,
+   43
+  ],
+  "in": [
+   27,
+   36
+  ],
+  "exploiting": [
+   28
+  ],
+  "linguistic": [
+   29,
+   59,
+   187,
+   193
+  ],
+  "shortcuts": [
+   30,
+   188
+  ],
+  "for": [
+   31
+  ],
+  "temporal": [
+   32
+  ],
+  "causal": [
+   34
+  ],
+  "reasoning": [
+   35
+  ],
+  "Video": [
+   37
+  ],
+  "Question": [
+   38
+  ],
+  "Answering": [
+   39
+  ],
+  "(VideoQA).": [
+   40
+  ],
+  "However,": [
+   41
+  ],
+  "such": [
+   42
+  ],
+  "often": [
+   44
+  ],
+  "cause": [
+   45
+  ],
+  "suboptimal": [
+   46
+  ],
+  "results": [
+   47
+  ],
+  "VideoQA": [
+   49,
+   153
+  ],
+  "by": [
+   50,
+   103,
+   137
+  ],
+  "leading": [
+   51
+  ],
+  "model": [
+   53,
+   92
+  ],
+  "to": [
+   54,
+   93,
+   112,
+   140,
+   165
+  ],
+  "overrely": [
+   55
+  ],
+  "questions,": [
+   57
+  ],
+  "i.e.,": [
+   58,
+   117
+  ],
+  "bias,": [
+   60,
+   194
+  ],
+  "while": [
+   61,
+   78
+  ],
+  "ignoring": [
+   62
+  ],
+  "visual": [
+   63
+  ],
+  "content.": [
+   64
+  ],
+  "This": [
+   65
+  ],
+  "is": [
+   66,
+   158,
+   163,
+   204
+  ],
+  "also": [
+   67,
+   190
+  ],
+  "known": [
+   68
+  ],
+  "as": [
+   69
+  ],
+  "'ungrounded": [
+   70
+  ],
+  "guesses'": [
+   71
+  ],
+  "or": [
+   72
+  ],
+  "'hallucinations'.": [
+   73
+  ],
+  "To": [
+   74
+  ],
+  "address": [
+   75
+  ],
+  "this": [
+   76,
+   132
+  ],
+  "problem": [
+   77
+  ],
+  "leveraging": [
+   79
+  ],
+  "LLMs'": [
+   80
+  ],
+  "prior": [
+   81
+  ],
+  "VideoQA,": [
+   83
+  ],
+  "we": [
+   84,
+   134
+  ],
+  "propose": [
+   85
+  ],
+  "novel": [
+   87
+  ],
+  "framework,": [
+   88
+  ],
+  "Flipped-VQA,": [
+   89
+  ],
+  "encouraging": [
+   90
+  ],
+  "predict": [
+   94,
+   118
+  ],
+  "all": [
+   95
+  ],
+  "combinations": [
+   97
+  ],
+  "V,": [
+   99
+  ],
+  "Q,": [
+   100,
+   120
+  ],
+  "A": [
+   101
+  ],
+  "triplet": [
+   102
+  ],
+  "flipping": [
+   104
+  ],
+  "source": [
+   106
+  ],
+  "pair": [
+   107
+  ],
+  "target": [
+   110
+  ],
+  "label": [
+   111
+  ],
+  "understand": [
+   113
+  ],
+  "their": [
+   114,
+   174
+  ],
+  "complex": [
+   115
+  ],
+  "relationships,": [
+   116
+  ],
+  "A,": [
+   119
+  ],
+  "V": [
+   122
+  ],
+  "given": [
+   123
+  ],
+  "VQ,": [
+   125
+  ],
+  "VA,": [
+   126
+  ],
+  "QA": [
+   128
+  ],
+  "pairs,": [
+   129
+  ],
+  "respectively.": [
+   130
+  ],
+  "In": [
+   131
+  ],
+  "paper,": [
+   133
+  ],
+  "develop": [
+   135
+  ],
+  "LLaMA-VQA": [
+   136
+  ],
+  "applying": [
+   138
+  ],
+  "Flipped-VQA": [
+   139,
+   157,
+   180
+  ],
+  "LLaMA,": [
+   141
+  ],
+  "it": [
+   143
+  ],
+  "outperforms": [
+   144
+  ],
+  "both": [
+   145
+  ],
+  "LLMs-based": [
+   146
+  ],
+  "non-LLMs-based": [
+   148
+  ],
+  "models": [
+   149
+  ],
+  "five": [
+   151
+  ],
+  "challenging": [
+   152
+  ],
+  "benchmarks.": [
+   154
+  ],
+  "Furthermore,": [
+   155
+  ],
+  "our": [
+   156
+  ],
+  "general": [
+   160
+  ],
+  "framework": [
+   161
+  ],
+  "applicable": [
+   164
+  ],
+  "various": [
+   166
+  ],
+  "(OPT": [
+   168
+  ],
+  "GPT-J)": [
+   170
+  ],
+  "consistently": [
+   172
+  ],
+  "improves": [
+   173
+  ],
+  "performances.": [
+   175
+  ],
+  "empirically": [
+   177
+  ],
+  "demonstrate": [
+   178
+  ],
+  "not": [
+   181
+  ],
+  "only": [
+   182
+  ],
+  "enhances": [
+   183
+  ],
+  "exploitation": [
+   185
+  ],
+  "but": [
+   189
+  ],
+  "mitigates": [
+   191
+  ],
+  "which": [
+   195
+  ],
+  "causes": [
+   196
+  ],
+  "incorrect": [
+   197
+  ],
+  "answers": [
+   198
+  ],
+  "over-relying": [
+   199
+  ],
+  "question.": [
+   202
+  ],
+  "Code": [
+   203
+  ],
+  "available": [
+   205
+  ],
+  "at": [
+   206
+  ],
+  "https:": [
+   207
+  ],
+  "//github.com/mlvlab/Flipped-VQA.": [
+   208
+  ]
+ }
+}
