@@ -16,33 +16,6 @@ A run takes about **two minutes**.
 
 ---
 
-## Part 1 — Setting it up (once)
-
-> ### Already done on this machine
->
-> Set-up is **complete** here — you can skip to Part 2. For reference, this is what was
-> installed and what to type:
->
-> | | |
-> |---|---|
-> | `PYTHON` | `/home/chinthani/anaconda3/envs/roia/bin/python` |
-> | Backend | conda env `roia` (Python 3.12.14), installed via Option B |
-> | Frontend | already built — `frontend/dist/` exists, so **Node is not needed** |
-> | Keys | already filled in `backend/.env` |
-> | Tests | 310 passed |
->
-> Option A (`venv`) does **not** work on this machine — the system is missing
-> `python3.12-venv`. Option B is why the conda route exists below.
->
-> Start the app:
->
-> ```bash
-> cd backend
-> /home/chinthani/anaconda3/envs/roia/bin/python -m uvicorn roia.api:app_factory --factory --port 8000
-> ```
->
-> Then open <http://localhost:8000>.
-
 
 ### What you need
 
