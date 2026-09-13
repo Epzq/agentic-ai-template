@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en" data-theme="aurora">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Proactive Neurosymbolic World Models for Safe Cobotics · Proposal Studio</title>
+  <style>:root {
+  color-scheme: dark;
+  --bg: #0c101c; --panel: #141a2b; --line: #2c344c; --text: #eef3ff;
+  --muted: #aab5cc; --accent: #79f0cf; --secondary: #a392ff; --risk: #ffb589;
+}
+:root[data-theme="ember"] { --accent: #ffcf85; --secondary: #de9bff; --risk: #ff9caa; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: radial-gradient(ellipse at 80% 0%, #252143 0, transparent 42%), var(--bg);
+  color: var(--text); font: 15px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+button, input { font: inherit; }
+button, summary, a { -webkit-tap-highlight-color: transparent; }
+button {
+  color: var(--bg); background: var(--accent); border: 1px solid transparent; border-radius: 9px;
+  padding: 9px 16px; cursor: pointer; font-weight: 650; transition: transform .15s;
+}
+button:hover { transform: translateY(-2px); }
+button:disabled { opacity: .4; cursor: default; transform: none; }
+button.quiet { background: transparent; border-color: var(--line); color: var(--text); }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+a { color: var(--accent); }
+h1, h2, h3, p { margin-top: 0; }
+h1 { font-size: clamp(36px, 5.3vw, 72px); line-height: 1.06; letter-spacing: -.055em; margin-bottom: 20px; }
+h2 { font-size: clamp(24px, 2.7vw, 34px); line-height: 1.2; letter-spacing: -.035em; }
+h3 { font-size: 21px; line-height: 1.35; letter-spacing: -.025em; }
+p { margin-bottom: 14px; }
+small, .muted { color: var(--muted); font-size: 12px; line-height: 1.65; }
+.accent { color: var(--accent); }
+.app-shell { max-width: 1340px; margin: auto; padding: 30px 48px; }
+.topbar, .toolbar, .pipeline, .section-heading, .scene-nav, .present-controls {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+}
+.topbar { justify-content: space-between; padding-bottom: 25px; border-bottom: 1px solid var(--line); }
+.brand { display: flex; align-items: center; gap: 7px; font-weight: 800; letter-spacing: .06em; font-size: 13px; }
+.brand > span:last-child { color: var(--muted); font-weight: 400; }
+.brand-mark { color: var(--accent); font-size: 32px; margin-right: 6px; }
+.pipeline { margin: 22px 0; gap: 20px; font-size: 11px; color: var(--muted); letter-spacing: .03em; }
+.pipeline b { color: var(--text); margin-left: 6px; }
+.pipeline i { color: var(--accent); font-style: normal; }
+.mode-label { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 4px 10px; color: var(--risk); font-size: 10px; letter-spacing: .09em; }
+.hero { display: grid; grid-template-columns: minmax(0, 1fr) 275px; align-items: center; gap: 70px; padding: 40px 0 28px; }
+.eyebrow { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; margin-bottom: 15px; }
+.tagline { font-size: 20px; color: #cbd4eb; max-width: 700px; }
+.identity { display: flex; gap: 9px; flex-wrap: wrap; margin: 22px 0; }
+.identity span, .pill { border: 1px solid var(--line); border-radius: 100px; padding: 5px 12px; font-size: 11px; color: var(--muted); }
+.hook { border-left: 2px solid var(--accent); padding-left: 17px; color: var(--accent); max-width: 680px; }
+.overall-card { text-align: center; }
+.score-ring { width: 208px; height: 208px; border-radius: 50%; padding: 9px; margin: 0 auto 20px;
+  background: conic-gradient(var(--accent) calc(var(--score) * 1%), #293148 0);
+  box-shadow: 0 0 70px #79f0cf0c;
+}
+.score-ring > div { width: 100%; height: 100%; background: #131929; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+.score-ring strong { font-size: 70px; line-height: 1; letter-spacing: -.06em; }
+.score-ring span { font-size: 13px; color: var(--muted); margin-top: 10px; }
+.overall-card h2 { font-size: 18px; margin-bottom: 7px; letter-spacing: -.02em; }
+.overall-card p { font-size: 11px; color: var(--muted); }
+.scene-nav { margin-bottom: 35px; border-bottom: 1px solid var(--line); padding-bottom: 18px; }
+.scene-nav button { color: var(--muted); border: 1px solid var(--line); background: transparent; font-size: 12px; }
+.scene-nav button[aria-current="step"] { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+.scene { margin-bottom: 60px; scroll-margin-top: 20px; animation: enter .35s ease-out; }
+.section-heading { justify-content: space-between; margin-bottom: 24px; }
+.section-heading h2, .section-heading .eyebrow { margin-bottom: 6px; }
+.section-heading .eyebrow { color: var(--secondary); }
+.metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.metric, .panel { border: 1px solid var(--line); background: linear-gradient(150deg, #1c2335aa, #131a2aee); border-radius: 16px; padding: 24px; min-width: 0; }
+.metric.spotlight { border-color: var(--accent); box-shadow: 0 0 32px #79f0cf08; }
+.metric .eyebrow { color: var(--muted); letter-spacing: .08em; }
+.metric-value { font-size: 45px; font-weight: 700; line-height: 1; margin: 25px 0 18px; letter-spacing: -.04em; }
+.metric-value small { font-size: 12px; font-weight: 400; margin-left: 5px; letter-spacing: normal; }
+.bar { height: 5px; border-radius: 5px; background: #30384c; overflow: hidden; }
+.bar span { height: 100%; display: block; background: var(--accent); }
+.risk .bar span { background: var(--risk); }
+.direction { font-size: 10px; color: var(--accent); margin: 8px 0 19px; }
+.risk .direction { color: var(--risk); }
+.metric > p:not(.direction) { font-size: 13px; color: #ccd5e8; }
+details { border-top: 1px solid var(--line); margin-top: 18px; padding-top: 12px; font-size: 12px; }
+summary { cursor: pointer; color: var(--muted); }
+details[open] > summary { margin-bottom: 15px; color: var(--accent); }
+blockquote { margin: 10px 0 0; padding-left: 12px; border-left: 2px solid var(--line); color: var(--muted); }
+.score-bottom { display: grid; grid-template-columns: 1fr 1.65fr; gap: 20px; margin-top: 20px; }
+.radar { text-align: center; }
+.radar h3 { margin-bottom: 0; font-size: 17px; }
+.radar svg { width: 100%; max-height: 285px; }
+.radar-grid { fill: none; stroke: var(--line); stroke-width: 1; }
+.radar-fill { fill: #79f0cf26; stroke: var(--accent); stroke-width: 2; }
+.radar-label { fill: var(--muted); font-size: 10px; text-anchor: middle; }
+.radar-unknown { color: var(--secondary); font-size: 26px; padding: 65px 0; }
+.simulator > .eyebrow { color: var(--accent); }
+.simulator > p { font-size: 13px; color: var(--muted); }
+.sim-grid { display: grid; grid-template-columns: 1fr 150px; gap: 40px; align-items: center; margin-bottom: 18px; }
+.slider-label { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); }
+.slider-label output { color: var(--text); }
+input[type="range"] { width: 100%; accent-color: var(--accent); margin: 8px 0 16px; cursor: pointer; }
+.scenario { text-align: center; }
+.scenario > span { display: block; font-size: 64px; color: var(--accent); line-height: 1; letter-spacing: -.05em; }
+.scenario p { font-size: 12px; margin-top: 10px; }
+.strengths, .competitors, .milestones { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.strength { padding: 10px 20px; border-left: 1px solid var(--line); }
+.strength > span { font-size: 12px; }
+.strength > p { margin-top: 10px; font-size: 17px; }
+.thesis { border: 1px solid #a392ff5c; background: linear-gradient(120deg, #a392ff17, transparent); border-radius: 16px; padding: 30px; margin: 30px 0; }
+.thesis .eyebrow { color: var(--secondary); }
+.thesis h3 { font-size: 26px; margin: 0; max-width: 1000px; }
+.competitor > p { font-size: 13px; color: var(--muted); }
+.competitor .eyebrow { color: var(--secondary); }
+.edge, .avoid { margin-top: 20px; font-size: 12px; border-left: 2px solid var(--accent); padding-left: 12px; }
+.edge b { color: var(--accent); }
+.avoid { border-color: var(--risk); }
+.avoid b { color: var(--risk); }
+.edge p, .avoid p { margin-top: 6px; }
+.step { display: inline-flex; width: 46px; height: 46px; align-items: center; justify-content: center; color: var(--accent); border: 1px solid var(--line); border-radius: 12px; font-size: 15px; margin-bottom: 25px; }
+.milestone p { font-size: 14px; color: var(--muted); }
+.pitch-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 20px; margin-top: 22px; }
+.pitch .eyebrow { color: var(--accent); }
+.pitch-text { font-size: 23px; line-height: 1.5; letter-spacing: -.025em; margin-bottom: 0; }
+.caveats .eyebrow { color: var(--risk); }
+.caveats ul { padding-left: 18px; color: var(--muted); font-size: 13px; }
+.caveats li { padding-bottom: 12px; }
+.evidence-drawer { background: #111727; border: 1px solid var(--line); border-radius: 14px; padding: 22px; margin-bottom: 35px; }
+.evidence-drawer > summary { color: var(--text); font-size: 16px; }
+.evidence-drawer > summary span { float: right; color: var(--muted); font-size: 12px; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; color: var(--muted); font: inherit; }
+.speaker-note { display: none; margin-top: 20px; border-left: 2px solid var(--secondary); padding: 15px; color: var(--muted); }
+.speaker-note b { color: var(--secondary); margin-right: 10px; }
+.presenting.show-notes .speaker-note { display: block; }
+.presenting .hero { grid-template-columns: 1fr; padding-top: 20px; gap: 0; }
+.presenting .hero h1 { font-size: 34px; margin-bottom: 8px; }
+.presenting .overall-card, .presenting .hook, .presenting .identity, .presenting .tagline, .presenting .pipeline { display: none; }
+.presenting .scene { margin-bottom: 25px; }
+.present-controls { margin: -15px 0 30px; }
+.present-controls button { padding: 5px 14px; }
+.present-controls small { margin-left: auto; }
+[hidden] { display: none !important; }
+footer { display: flex; justify-content: space-between; gap: 20px; color: var(--muted); font-size: 11px; padding: 20px 0; border-top: 1px solid var(--line); }
+.skip-link { position: absolute; top: -60px; background: var(--bg); padding: 10px; z-index: 5; }
+.skip-link:focus { top: 10px; }
+.metric, .strength, .panel, .hero, .thesis { overflow-wrap: anywhere; }
+@keyframes enter { from { opacity: .4; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 1000px) {
+  .app-shell { padding: 24px; } .hero { gap: 25px; grid-template-columns: 1fr 220px; }
+  .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .competitors { grid-template-columns: 1fr; } .score-bottom { grid-template-columns: 1fr 1.4fr; }
+}
+@media (max-width: 700px) {
+  .app-shell { padding: 20px 16px; } .toolbar { gap: 7px; } .toolbar button { font-size: 11px; padding: 8px 10px; }
+  .hero, .score-bottom, .pitch-grid, .strengths, .milestones { grid-template-columns: 1fr; }
+  .hero { text-align: left; } .overall-card { margin-top: 20px; } .metric, .panel { padding: 18px; }
+  .metrics { gap: 10px; } .metric-value { font-size: 38px; } .sim-grid { gap: 20px; grid-template-columns: 1fr 100px; }
+  .pipeline { gap: 10px; font-size: 9px; } .pipeline i { display: none; }
+  .evidence-drawer > summary span { display: block; float: none; margin-top: 8px; } footer { flex-direction: column; }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+@media print {
+  :root { color-scheme: light; --bg: #fff; --panel: #fff; --text: #172033; --muted: #445066; --line: #c6ccda; --accent: #076f58; --secondary: #6650a9; --risk: #963b0a; }
+  body, .panel, .metric, .evidence-drawer { background: white; } .app-shell { max-width: none; padding: 0; }
+  .toolbar, .scene-nav, .present-controls, .simulator, .speaker-note, .pipeline { display: none !important; }
+  .scene[hidden], .presenting .overall-card, .presenting .identity { display: block !important; }
+  .score-ring > div { background: white; } .scene { break-before: page; animation: none; }
+  .panel, .metric, .thesis { break-inside: avoid; } .score-bottom { display: block; } .radar { max-width: 350px; margin: auto; }
+  .tagline, .metric > p:not(.direction) { color: var(--text); } .mode-label { color: var(--risk); }
+}</style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to proposal</a>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">✳</span> PROPOSAL<span>STUDIO</span></div>
+      <div class="toolbar">
+        <button id="present" type="button" aria-pressed="false">Present ↗</button>
+        <button id="download" type="button" class="quiet">Export JSON ↓</button>
+        <button id="print" type="button" class="quiet">Print / PDF</button>
+      </div>
+    </header>
+    <div class="pipeline" aria-label="Three-agent workflow">
+      <span>01 <b>Analyst</b> / research</span><i>→</i>
+      <span>02 <b>Summarizer</b> / story</span><i>→</i>
+      <span>03 <b>UI agent</b> / stage</span>
+    </div>
+    <div class="mode-label">AI-GENERATED · VERIFY CLAIMS</div>
+    <section class="hero" aria-labelledby="project-title">
+      <div>
+        <p class="eyebrow accent">From a grant call to a story worth funding</p>
+        <h1 id="project-title">Proactive Neurosymbolic World Models for Safe Cobotics</h1>
+        <p class="tagline">Anticipating human intent and physical hazards seconds ahead with explainable causal AI for safe collaboration.</p>
+        <div class="identity"><span>Dr. Basura Fernando</span><span>National Research Foundation (NRF) Competitive Research Programme (CRP) Call-for-Proposals (Singapore)</span></div>
+        <p class="hook">Statistical video models hallucinate and fail at physical safety boundaries. What if assistive robots could deduce &#x27;why&#x27; humans act and pre-empt danger before it happens?</p>
+      </div>
+      <div class="overall-card">
+        <div class="score-ring" style="--score:79" role="img" aria-label="Overall score 79 out of 100">
+          <div><strong>79</strong><span>/ 100</span></div>
+        </div>
+        <h2>Overall opportunity</h2>
+        <p>A transparent heuristic.<br>Not a probability of winning.</p>
+      </div>
+    </section>
+    <nav class="scene-nav" aria-label="Pitch scenes"><button type="button" data-scene="0">01 The opportunity</button><button type="button" data-scene="1">02 The competitive edge</button><button type="button" data-scene="2">03 The proof plan</button></nav>
+    <div class="present-controls" hidden>
+      <button id="previous" type="button" aria-label="Previous scene">←</button>
+      <span id="scene-status" aria-live="polite"></span>
+      <button id="next" type="button" aria-label="Next scene">→</button>
+      <button id="notes" type="button" aria-pressed="false">Speaker cues</button>
+      <small>Arrow keys to move · Esc to exit</small>
+    </div>
+    <main id="main"><section id="scorecard" class="scene" aria-label="The opportunity"><div class="section-heading"><div><p class="eyebrow">01 / Decision intelligence</p><h2>Big idea. Clear signals.</h2></div><span class="pill">Heuristics, not odds</span></div><div class="metrics"><article class="metric spotlight"><div class="eyebrow">Grant Fit</div><div class="metric-value">88<small>/100</small></div><div class="bar"><span style="width:88%"></span></div><p class="direction">Higher is better</p><p>Strong alignment with national priorities in assistive healthcare and advanced manufacturing, matching CRP use-inspired basic research scope.</p><details><summary>Why this score?</summary><p class="muted">Summarizer heuristic · not independently verified</p><a class="citation" href="#source-match_rationale">Analyst · match rationale</a><blockquote>Fernando&#x27;s expertise in neurosymbolic visual reasoning, causal action anticipation, and human-assistive AI aligns directly with Singapore&#x27;s RIE2025 Smart Nation and Digital Economy (SNDE) and healthcare priorities.</blockquote></details></article><article class="metric"><div class="eyebrow">Novelty</div><div class="metric-value">85<small>/100</small></div><div class="bar"><span style="width:85%"></span></div><p class="direction">Higher is better</p><p>Differentiates from pure end-to-end foundation models by embedding modular causal graphs and explicit neurosymbolic logic for predictive safety.</p><details><summary>Why this score?</summary><p class="muted">Summarizer heuristic · not independently verified</p><a class="citation" href="#source-proposed_direction">Analyst · proposed direction</a><blockquote>Developing an embodied neurosymbolic AI framework that combines real-time egocentric/exocentric video understanding with causal chain reasoning to anticipate human intent and safety hazards 2-5 seconds ahead</blockquote></details></article><article class="metric"><div class="eyebrow">PI Match</div><div class="metric-value">88<small>/100</small></div><div class="bar"><span style="width:88%"></span></div><p class="direction">Higher is better</p><p>Dr. Basura Fernando is a Principal Scientist at A*STAR CFAR (well above the RSE 3B/4 eligibility threshold for A*STAR researchers) and an active NRF Fellow (Class of 2022). He…</p><details><summary>Why this score?</summary><p class="muted">Original analyst estimate</p><a class="citation" href="#source-match_rationale">Original rationale</a></details></article><article class="metric risk"><div class="eyebrow">Competition Risk</div><div class="metric-value">65<small>/100</small></div><div class="bar"><span style="width:65%"></span></div><p class="direction">Lower is better</p><p>High competition from well-funded global and local groups advancing VLA models and dense trajectory/contact prediction, though PI holds niche in causal &#x27;why&#x27; reasoning.</p><details><summary>Why this score?</summary><p class="muted">Summarizer heuristic · not independently verified</p><a class="citation" href="#source-competitors">Analyst · competitors</a><blockquote>Shou commands superior institutional compute and visibility in generative foundation models; Fernando possesses deeper grounding in formal causal reasoning, explicit neurosymbolic logic graphs, and explainable &#x27;why-level&#x27; visual question answering.</blockquote></details></article></div><div class="score-bottom"><article class="panel radar"><h3>The opportunity shape</h3><svg viewBox="0 0 300 260" role="img" aria-label="Opportunity radar: Grant Fit, Novelty, PI Match, and 100 minus Competition Risk"><g class="radar-grid"><polygon points="150,101 174,125 150,149 126,125"/><polygon points="150,77 198,125 150,173 102,125"/><polygon points="150,53 222,125 150,197 78,125"/><polygon points="150,30 245,125 150,220 55,125"/><path d="M150 30V220M55 125H245"/></g><polygon class="radar-fill" points="150.0,41.4 230.8,125.0 150.0,208.6 116.8,125.0"/><g class="radar-label"><text x="150" y="17">Grant Fit</text><text x="274" y="130">Novelty</text><text x="150" y="247">PI Match</text><text x="26" y="118">Risk</text><text x="26" y="134">buffer</text></g></svg><p class="muted">Risk buffer = 100 − Competition Risk. Larger means stronger on this rubric, not a funding forecast.</p></article><article class="panel simulator"><div class="eyebrow">Audience lab</div><h3>What would change your mind?</h3><p>Move a signal. Watch the trade-off.</p><div class="sim-grid"><div><label class="slider-label" for="sim-grant_fit">Grant Fit<output id="out-grant_fit">88</output></label><input id="sim-grant_fit" data-metric="grant_fit" type="range" min="0" max="100" value="88" aria-label="Hypothetical Grant Fit; higher is better"><label class="slider-label" for="sim-novelty">Novelty<output id="out-novelty">85</output></label><input id="sim-novelty" data-metric="novelty" type="range" min="0" max="100" value="85" aria-label="Hypothetical Novelty; higher is better"><label class="slider-label" for="sim-pi_match">PI Match<output id="out-pi_match">88</output></label><input id="sim-pi_match" data-metric="pi_match" type="range" min="0" max="100" value="88" aria-label="Hypothetical PI Match; higher is better"><label class="slider-label" for="sim-competition_risk">Competition Risk<output id="out-competition_risk">65</output></label><input id="sim-competition_risk" data-metric="competition_risk" type="range" min="0" max="100" value="65" aria-label="Hypothetical Competition Risk; lower is better"></div><div class="scenario"><span id="scenario-score" aria-live="polite">79</span><small>/100</small><p>Hypothetical overall</p><p id="scenario-delta" class="accent">Baseline</p></div></div><button id="reset-scenario" class="quiet" type="button">Reset to analyst + summary</button><p class="muted">Local simulation only. No new research or model call; the original scorecard and export stay unchanged. Unknown inputs stay unknown.</p><details><summary>Show the scoring recipe</summary><p>Overall = 35% Grant Fit + 25% Novelty + 25% PI Match + 15% (100 − Competition Risk), rounded to the nearest integer. Withheld if any component is unknown.</p></details></article></div><aside class="speaker-note"><b>Presenter cue</b> Our proposal scores an 88 in grant fit, aligning with Singapore RIE2025 priorities in healthcare and manufacturing. Note that competition risk is evaluated at 65 due to well-funded foundation model labs, and forming a multidisciplinary consortium with robotics and clinical leads remains essential.</aside></section><section id="strategy" class="scene" aria-label="The competitive edge"><div class="section-heading"><div><p class="eyebrow">02 / Positioning</p><h2>Don’t outspend. Out-position.</h2></div></div><div class="strengths"><article class="strength"><span class="accent">01</span><p>Pioneering track record in temporal video modeling and high-impact visual representation benchmarks.</p><details><summary>Evidence</summary><a class="citation" href="#source-pi_strengths_and_track_record">Analyst · pi strengths and track record</a><blockquote>Over 13,200 citations (h-index 44+). Key pioneer in temporal modeling (rank pooling, CVPR oral/best paper runner-up), image caption evaluation (SPICE, ECCV 2016, &gt;2,000 citations)</blockquote></details></article><article class="strength"><span class="accent">02</span><p>Demonstrated leadership in causal visual reasoning and egocentric action anticipation.</p><details><summary>Evidence</summary><a class="citation" href="#source-pi_strengths_and_track_record">Analyst · pi strengths and track record</a><blockquote>causal visual question answering (&#x27;Causal Chain-Guided Reasoning for Modular and Explainable Causal-Why Video QA&#x27;, CVPR 2024/2026), egocentric action anticipation (WACV 2024)</blockquote></details></article><article class="strength"><span class="accent">03</span><p>Proven capability to secure and lead multi-million-dollar Singapore national research fellowships.</p><details><summary>Evidence</summary><a class="citation" href="#source-pi_strengths_and_track_record">Analyst · pi strengths and track record</a><blockquote>Recipient of the prestigious Singapore NRF Fellowship (2022-2027, S$3M) and multiple AI Singapore and A*STAR awards.</blockquote></details></article></div><article class="thesis"><p class="eyebrow">Differentiation hypothesis · to validate</p><h3>Replacing black-box statistical video-action models with modular, sample-efficient causal chain graphs to ensure deterministic safety bounds and explainable failure recovery.</h3></article><div class="competitors"><article class="panel competitor"><p class="eyebrow">National University of Singapore (NUS)</p><h3>Show Lab</h3><p>Web-scale multimodal video intelligence, large video foundation models, unified video generation and understanding, rapid scaling of video-language-action (VLA) architectures.</p><div class="edge"><b>Our angle</b><p>Lean into explainable causal graphs, deterministic safety boundaries, and constraint-aware temporal decoding where statistical video foundation models hallucinate in physical…</p></div><div class="avoid"><b>Avoid head-on</b><p>Do not compete head-on in training massive generic 70B+ web-scale video-language foundation models or open-domain video generation benchmarks.</p></div><details><summary>PI comparison</summary><p>Shou commands superior institutional compute and visibility in generative foundation models; Fernando possesses deeper grounding in formal causal reasoning, explicit neurosymbolic logic graphs, and explainable &#x27;why-level&#x27; visual question answering.</p></details></article><article class="panel competitor"><p class="eyebrow">National University of Singapore (NUS)</p><h3>Visual Computing &amp; Activity Recognition Lab</h3><p>Hand-object 3D contact modeling (NL2Contact, TIGeR), dense action anticipation, instructional activity forecasting, and fine-grained articulated hand pose estimation.</p><div class="edge"><b>Our angle</b><p>Focus on long-horizon goal reasoning, multi-agent causal chain-of-events (&#x27;why is the user reaching for this?&#x27;), and proactive failure anticipation rather than purely local…</p></div><div class="avoid"><b>Avoid head-on</b><p>Avoid competing head-on on local 3D hand pose estimation from static/short clips and pure geometric hand-mesh reconstruction benchmarks.</p></div><details><summary>PI comparison</summary><p>Yao leads in fine-grained biomechanical hand-mesh and contact physics; Fernando excels at higher-level intentional reasoning, temporal causal dependency discovery, counterfactual reasoning, and federated model adaptation.</p></details></article><article class="panel competitor"><p class="eyebrow">University of Texas at Austin / Meta AI</p><h3>Egocentric Vision &amp; Learning Group</h3><p>Creator and driver of massive global egocentric video benchmarks (Ego4D, Ego-Exo4D), audio-visual spatial learning, and massive industrial computational scale at Meta.</p><div class="edge"><b>Our angle</b><p>Modular causal graphs, token-efficient neurosymbolic reasoning, and deployable edge AI for constrained robotics with strict data privacy rather than monolithic cloud backbones.</p></div><div class="avoid"><b>Avoid head-on</b><p>Avoid competing on massive crowd-sourced dataset curation (e.g., trying to collect another multi-thousand-hour egocentric video benchmark like Ego4D).</p></div><details><summary>PI comparison</summary><p>Grauman commands unmatched data and engineering scale; Fernando&#x27;s group develops modular neurosymbolic architectures that are far more sample-efficient and offer deterministic causal explanations.</p></details></article></div><p class="muted">Showing 3 of 4 analyst-listed competitors; not an exhaustive market scan. Full report below.</p><aside class="speaker-note"><b>Presenter cue</b> Instead of competing against massive web-scale video models, our strategy emphasizes sample-efficient causal chain graphs. We target explainable &#x27;why&#x27; reasoning and safety bounds for cobots, though real-time graph deduction on edge hardware presents potential latency bottlenecks to resolve.</aside></section><section id="roadmap" class="scene" aria-label="The proof plan"><div class="section-heading"><div><p class="eyebrow">03 / From promise to proof</p><h2>Three moves. One testable idea.</h2></div><span class="pill">Proposed, not completed</span></div><div class="milestones"><article class="panel milestone"><span class="step">01</span><h3>Dual-Stream Causal Graph Engine</h3><p>Formulate and benchmark an integrated egocentric-exocentric neurosymbolic graph predicting human task-state transitions 2-5 seconds ahead in simulation.</p></article><article class="panel milestone"><span class="step">02</span><h3>Predictive Compliance Control Module</h3><p>Implement closed-loop neurosymbolic safety boundaries preventing cobot collision during abrupt human trajectory variations.</p></article><article class="panel milestone"><span class="step">03</span><h3>In-Situ Testbed Validation</h3><p>Deploy prototype framework across simulated eldercare rehabilitation and precision assembly testbeds demonstrating zero safety-critical halts.</p></article></div><div class="pitch-grid"><article class="panel pitch"><p class="eyebrow">The 30-second pitch</p><p class="pitch-text">Current cobots react only after safety margins are breached. We propose an embodied neurosymbolic framework fusing egocentric-exocentric vision with causal chain logic. By forecasting human intentions and hazards 2 to 5 seconds ahead, our system delivers explainable, deterministic hazard pre-emption and compliance control tailored for eldercare rehabilitation and precision manufacturing in Singapore.</p></article><article class="panel caveats"><p class="eyebrow">What we still need to know</p><ul><li>NRF CRP mandates forming a multi-disciplinary consortium with at least two Team PIs spanning robotics control and clinical/industrial domains.</li><li>Must avoid competing head-on against web-scale compute labs in training generic 70B+ video-language foundation models.</li><li>Real-time causal graph deduction on edge robotics hardware may encounter latency bottlenecks under dynamic multi-agent conditions.</li></ul><p class="muted">Validate eligibility, novelty, and all external claims before using this in a real submission.</p></article></div><aside class="speaker-note"><b>Presenter cue</b> The roadmap transitions from dual-stream causal graphs in simulation to predictive compliance and testbed validation. Testbeds target eldercare and manufacturing, though achieving estimated 2 to 5 second lead times without safety halts across dynamic multi-agent setups remains to be tested.</aside></section></main>
+    <details class="evidence-drawer" id="evidence">
+      <summary>Behind the story <span>Original analyst evidence ↗</span></summary>
+      <p class="muted">Verbatim analyst fields, not independently verified sources. Quotes in the summary
+        are checked against these fields. Traceability does not establish truth.</p>
+      <details id="source-grant_call"><summary>Grant Call</summary><pre>National Research Foundation (NRF) Competitive Research Programme (CRP) Call-for-Proposals (Singapore)</pre></details><details id="source-pi_strengths_and_track_record"><summary>Pi Strengths And Track Record</summary><pre>Principal Scientist and NRF Fellow at A*STAR Centre for Frontier AI Research (CFAR), and Adjunct Assistant Professor at NTU. Over 13,200 citations (h-index 44+). Key pioneer in temporal modeling (rank pooling, CVPR oral/best paper runner-up), image caption evaluation (SPICE, ECCV 2016, &gt;2,000 citations), causal visual question answering (&#x27;Causal Chain-Guided Reasoning for Modular and Explainable Causal-Why Video QA&#x27;, CVPR 2024/2026), egocentric action anticipation (WACV 2024), and domain-aware federated tuning (NeurIPS 2024). Recipient of the prestigious Singapore NRF Fellowship (2022-2027, S$3M) and multiple AI Singapore and A*STAR awards.</pre></details><details id="source-match_rationale"><summary>Match Rationale</summary><pre>Dr. Basura Fernando is a Principal Scientist at A*STAR CFAR (well above the RSE 3B/4 eligibility threshold for A*STAR researchers) and an active NRF Fellow (Class of 2022). He does not hold an active CRP grant as Lead PI, making him fully eligible under NRF CRP guidelines. The CRP funding scheme supports use-inspired basic research of up to S$10M over 3-5 years addressing major Singapore challenges. Fernando&#x27;s expertise in neurosymbolic visual reasoning, causal action anticipation, and human-assistive AI aligns directly with Singapore&#x27;s RIE2025 Smart Nation and Digital Economy (SNDE) and healthcare priorities. A 12% deduction accounts for the CRP requirement to assemble a multi-disciplinary consortium with at least two Team PIs (e.g., in robotic control and clinical/industrial trial validation) rather than submitting a single-investigator algorithm proposal.</pre></details><details id="source-proposed_direction"><summary>Proposed Direction</summary><pre>Proactive Neurosymbolic World Models for Safe In-Situ Human-Robot Collaboration in Assistive Healthcare and Advanced Manufacturing: Developing an embodied neurosymbolic AI framework that combines real-time egocentric/exocentric video understanding with causal chain reasoning to anticipate human intent and safety hazards 2-5 seconds ahead, enabling predictive robotic compliance control, hazard pre-emption, and explainable failure recovery across Singapore&#x27;s eldercare rehabilitation and precision manufacturing sectors.</pre></details><details id="source-competitors"><summary>Competitors</summary><pre>Show Lab
+National University of Singapore (NUS)
+Web-scale multimodal video intelligence, large video foundation models, unified video generation and understanding, rapid scaling of video-language-action (VLA) architectures.
+Shou commands superior institutional compute and visibility in generative foundation models; Fernando possesses deeper grounding in formal causal reasoning, explicit neurosymbolic logic graphs, and explainable &#x27;why-level&#x27; visual question answering.
+Lean into explainable causal graphs, deterministic safety boundaries, and constraint-aware temporal decoding where statistical video foundation models hallucinate in physical tasks.
+Do not compete head-on in training massive generic 70B+ web-scale video-language foundation models or open-domain video generation benchmarks.
+Visual Computing &amp; Activity Recognition Lab
+National University of Singapore (NUS)
+Hand-object 3D contact modeling (NL2Contact, TIGeR), dense action anticipation, instructional activity forecasting, and fine-grained articulated hand pose estimation.
+Yao leads in fine-grained biomechanical hand-mesh and contact physics; Fernando excels at higher-level intentional reasoning, temporal causal dependency discovery, counterfactual reasoning, and federated model adaptation.
+Focus on long-horizon goal reasoning, multi-agent causal chain-of-events (&#x27;why is the user reaching for this?&#x27;), and proactive failure anticipation rather than purely local hand-contact meshes.
+Avoid competing head-on on local 3D hand pose estimation from static/short clips and pure geometric hand-mesh reconstruction benchmarks.
+Egocentric Vision &amp; Learning Group
+University of Texas at Austin / Meta AI
+Creator and driver of massive global egocentric video benchmarks (Ego4D, Ego-Exo4D), audio-visual spatial learning, and massive industrial computational scale at Meta.
+Grauman commands unmatched data and engineering scale; Fernando&#x27;s group develops modular neurosymbolic architectures that are far more sample-efficient and offer deterministic causal explanations.
+Modular causal graphs, token-efficient neurosymbolic reasoning, and deployable edge AI for constrained robotics with strict data privacy rather than monolithic cloud backbones.
+Avoid competing on massive crowd-sourced dataset curation (e.g., trying to collect another multi-thousand-hour egocentric video benchmark like Ego4D).
+Activity Forecasting &amp; Assistive Robotics Lab
+Carnegie Mellon University (CMU)
+Physical human intent prediction, trajectory forecasting, social navigation, inverse reinforcement learning, and extensive physical robotic integration.
+Kitani is heavily robotics/trajectory-centric; Fernando provides stronger cognitive vision-language grounding, semantic &#x27;why&#x27; causal reasoning, and federated learning mechanisms.
+Semantic-symbolic integration where robots do not just predict geometric trajectories (x,y,z), but deduce semantic intent, task state transitions, and causal intervention points.
+Avoid pure outdoor autonomous vehicle trajectory forecasting and generic pedestrian sidewalk navigation benchmarks.</pre></details><details id="source-relevant_past_grants"><summary>Relevant Past Grants</summary><pre>NRF Fellowship (Class of 2022): &#x27;Learning Why Do We Do What We Do&#x27; (NRF-NRFF14-2022-0001, Apr 2022 – Mar 2027, ~S$3,000,000)
+AI Singapore Research Programme: &#x27;Learning to Anticipate Human Actions&#x27; (AISG-RP)
+AI Singapore Research Programme: &#x27;The &quot;Other Me&quot;: Human-Centered AI Assistance In Situ&#x27;
+A*STAR Career Development Fund (CRF Award): Visual reasoning, knowledge reasoning, and explainable AI
+RIE2020 Advanced Manufacturing and Engineering (AME) IAF-PP / Instruct3D: Instruction-based 3D Content Editing (Jul 2025 – Jun 2026)
+A*STAR / National Research Project: AI Knowledge Engineering for Intelligence Analysis (AiKEiA)</pre></details>
+    </details>
+    <footer>Built for a conversation, not a 40-page proposal. <span>Human judgment stays in the loop.</span></footer>
+    <noscript>The full scorecard and evidence work without JavaScript. Presenter controls and simulation need JavaScript.</noscript>
+  </div>
+  <script id="proposal-data" type="application/json">{"summary": {"title": "Proactive Neurosymbolic World Models for Safe Cobotics", "tagline": "Anticipating human intent and physical hazards seconds ahead with explainable causal AI for safe collaboration.", "hook": "Statistical video models hallucinate and fail at physical safety boundaries. What if assistive robots could deduce 'why' humans act and pre-empt danger before it happens?", "elevator_pitch": "Current cobots react only after safety margins are breached. We propose an embodied neurosymbolic framework fusing egocentric-exocentric vision with causal chain logic. By forecasting human intentions and hazards 2 to 5 seconds ahead, our system delivers explainable, deterministic hazard pre-emption and compliance control tailored for eldercare rehabilitation and precision manufacturing in Singapore.", "grant_fit": {"value": 88, "rationale": "Strong alignment with national priorities in assistive healthcare and advanced manufacturing, matching CRP use-inspired basic research scope.", "evidence": {"source": "match_rationale", "quote": "Fernando's expertise in neurosymbolic visual reasoning, causal action anticipation, and human-assistive AI aligns directly with Singapore's RIE2025 Smart Nation and Digital Economy (SNDE) and healthcare priorities."}}, "novelty": {"value": 85, "rationale": "Differentiates from pure end-to-end foundation models by embedding modular causal graphs and explicit neurosymbolic logic for predictive safety.", "evidence": {"source": "proposed_direction", "quote": "Developing an embodied neurosymbolic AI framework that combines real-time egocentric/exocentric video understanding with causal chain reasoning to anticipate human intent and safety hazards 2-5 seconds ahead"}}, "competition_risk": {"value": 65, "rationale": "High competition from well-funded global and local groups advancing VLA models and dense trajectory/contact prediction, though PI holds niche in causal 'why' reasoning.", "evidence": {"source": "competitors", "quote": "Shou commands superior institutional compute and visibility in generative foundation models; Fernando possesses deeper grounding in formal causal reasoning, explicit neurosymbolic logic graphs, and explainable 'why-level' visual question answering."}}, "strengths": [{"text": "Pioneering track record in temporal video modeling and high-impact visual representation benchmarks.", "evidence": {"source": "pi_strengths_and_track_record", "quote": "Over 13,200 citations (h-index 44+). Key pioneer in temporal modeling (rank pooling, CVPR oral/best paper runner-up), image caption evaluation (SPICE, ECCV 2016, \u003e2,000 citations)"}}, {"text": "Demonstrated leadership in causal visual reasoning and egocentric action anticipation.", "evidence": {"source": "pi_strengths_and_track_record", "quote": "causal visual question answering ('Causal Chain-Guided Reasoning for Modular and Explainable Causal-Why Video QA', CVPR 2024/2026), egocentric action anticipation (WACV 2024)"}}, {"text": "Proven capability to secure and lead multi-million-dollar Singapore national research fellowships.", "evidence": {"source": "pi_strengths_and_track_record", "quote": "Recipient of the prestigious Singapore NRF Fellowship (2022-2027, S$3M) and multiple AI Singapore and A*STAR awards."}}], "differentiator": "Replacing black-box statistical video-action models with modular, sample-efficient causal chain graphs to ensure deterministic safety bounds and explainable failure recovery.", "milestones": [{"label": "Dual-Stream Causal Graph Engine", "outcome": "Formulate and benchmark an integrated egocentric-exocentric neurosymbolic graph predicting human task-state transitions 2-5 seconds ahead in simulation."}, {"label": "Predictive Compliance Control Module", "outcome": "Implement closed-loop neurosymbolic safety boundaries preventing cobot collision during abrupt human trajectory variations."}, {"label": "In-Situ Testbed Validation", "outcome": "Deploy prototype framework across simulated eldercare rehabilitation and precision assembly testbeds demonstrating zero safety-critical halts."}], "caveats": ["NRF CRP mandates forming a multi-disciplinary consortium with at least two Team PIs spanning robotics control and clinical/industrial domains.", "Must avoid competing head-on against web-scale compute labs in training generic 70B+ video-language foundation models.", "Real-time causal graph deduction on edge robotics hardware may encounter latency bottlenecks under dynamic multi-agent conditions."], "analyst_report": {"pi": "Dr. Basura Fernando", "grant_call": "National Research Foundation (NRF) Competitive Research Programme (CRP) Call-for-Proposals (Singapore)", "pi_strengths_and_track_record": "Principal Scientist and NRF Fellow at A*STAR Centre for Frontier AI Research (CFAR), and Adjunct Assistant Professor at NTU. Over 13,200 citations (h-index 44+). Key pioneer in temporal modeling (rank pooling, CVPR oral/best paper runner-up), image caption evaluation (SPICE, ECCV 2016, \u003e2,000 citations), causal visual question answering ('Causal Chain-Guided Reasoning for Modular and Explainable Causal-Why Video QA', CVPR 2024/2026), egocentric action anticipation (WACV 2024), and domain-aware federated tuning (NeurIPS 2024). Recipient of the prestigious Singapore NRF Fellowship (2022-2027, S$3M) and multiple AI Singapore and A*STAR awards.", "grant_to_pi_match_pct": 88, "match_rationale": "Dr. Basura Fernando is a Principal Scientist at A*STAR CFAR (well above the RSE 3B/4 eligibility threshold for A*STAR researchers) and an active NRF Fellow (Class of 2022). He does not hold an active CRP grant as Lead PI, making him fully eligible under NRF CRP guidelines. The CRP funding scheme supports use-inspired basic research of up to S$10M over 3-5 years addressing major Singapore challenges. Fernando's expertise in neurosymbolic visual reasoning, causal action anticipation, and human-assistive AI aligns directly with Singapore's RIE2025 Smart Nation and Digital Economy (SNDE) and healthcare priorities. A 12% deduction accounts for the CRP requirement to assemble a multi-disciplinary consortium with at least two Team PIs (e.g., in robotic control and clinical/industrial trial validation) rather than submitting a single-investigator algorithm proposal.", "proposed_direction": "Proactive Neurosymbolic World Models for Safe In-Situ Human-Robot Collaboration in Assistive Healthcare and Advanced Manufacturing: Developing an embodied neurosymbolic AI framework that combines real-time egocentric/exocentric video understanding with causal chain reasoning to anticipate human intent and safety hazards 2-5 seconds ahead, enabling predictive robotic compliance control, hazard pre-emption, and explainable failure recovery across Singapore's eldercare rehabilitation and precision manufacturing sectors.", "competitors": [{"group": "Show Lab", "institution": "National University of Singapore (NUS)", "their_strengths": "Web-scale multimodal video intelligence, large video foundation models, unified video generation and understanding, rapid scaling of video-language-action (VLA) architectures.", "vs_pi": "Shou commands superior institutional compute and visibility in generative foundation models; Fernando possesses deeper grounding in formal causal reasoning, explicit neurosymbolic logic graphs, and explainable 'why-level' visual question answering.", "attack": "Lean into explainable causal graphs, deterministic safety boundaries, and constraint-aware temporal decoding where statistical video foundation models hallucinate in physical tasks.", "avoid": "Do not compete head-on in training massive generic 70B+ web-scale video-language foundation models or open-domain video generation benchmarks."}, {"group": "Visual Computing \u0026 Activity Recognition Lab", "institution": "National University of Singapore (NUS)", "their_strengths": "Hand-object 3D contact modeling (NL2Contact, TIGeR), dense action anticipation, instructional activity forecasting, and fine-grained articulated hand pose estimation.", "vs_pi": "Yao leads in fine-grained biomechanical hand-mesh and contact physics; Fernando excels at higher-level intentional reasoning, temporal causal dependency discovery, counterfactual reasoning, and federated model adaptation.", "attack": "Focus on long-horizon goal reasoning, multi-agent causal chain-of-events ('why is the user reaching for this?'), and proactive failure anticipation rather than purely local hand-contact meshes.", "avoid": "Avoid competing head-on on local 3D hand pose estimation from static/short clips and pure geometric hand-mesh reconstruction benchmarks."}, {"group": "Egocentric Vision \u0026 Learning Group", "institution": "University of Texas at Austin / Meta AI", "their_strengths": "Creator and driver of massive global egocentric video benchmarks (Ego4D, Ego-Exo4D), audio-visual spatial learning, and massive industrial computational scale at Meta.", "vs_pi": "Grauman commands unmatched data and engineering scale; Fernando's group develops modular neurosymbolic architectures that are far more sample-efficient and offer deterministic causal explanations.", "attack": "Modular causal graphs, token-efficient neurosymbolic reasoning, and deployable edge AI for constrained robotics with strict data privacy rather than monolithic cloud backbones.", "avoid": "Avoid competing on massive crowd-sourced dataset curation (e.g., trying to collect another multi-thousand-hour egocentric video benchmark like Ego4D)."}, {"group": "Activity Forecasting \u0026 Assistive Robotics Lab", "institution": "Carnegie Mellon University (CMU)", "their_strengths": "Physical human intent prediction, trajectory forecasting, social navigation, inverse reinforcement learning, and extensive physical robotic integration.", "vs_pi": "Kitani is heavily robotics/trajectory-centric; Fernando provides stronger cognitive vision-language grounding, semantic 'why' causal reasoning, and federated learning mechanisms.", "attack": "Semantic-symbolic integration where robots do not just predict geometric trajectories (x,y,z), but deduce semantic intent, task state transitions, and causal intervention points.", "avoid": "Avoid pure outdoor autonomous vehicle trajectory forecasting and generic pedestrian sidewalk navigation benchmarks."}], "relevant_past_grants": ["NRF Fellowship (Class of 2022): 'Learning Why Do We Do What We Do' (NRF-NRFF14-2022-0001, Apr 2022 – Mar 2027, ~S$3,000,000)", "AI Singapore Research Programme: 'Learning to Anticipate Human Actions' (AISG-RP)", "AI Singapore Research Programme: 'The \"Other Me\": Human-Centered AI Assistance In Situ'", "A*STAR Career Development Fund (CRF Award): Visual reasoning, knowledge reasoning, and explainable AI", "RIE2020 Advanced Manufacturing and Engineering (AME) IAF-PP / Instruct3D: Instruction-based 3D Content Editing (Jul 2025 – Jun 2026)", "A*STAR / National Research Project: AI Knowledge Engineering for Intelligence Analysis (AiKEiA)"]}}, "plan": {"theme": "aurora", "spotlight": "grant_fit", "scenes": [{"section": "scorecard", "speaker_note": "Our proposal scores an 88 in grant fit, aligning with Singapore RIE2025 priorities in healthcare and manufacturing. Note that competition risk is evaluated at 65 due to well-funded foundation model labs, and forming a multidisciplinary consortium with robotics and clinical leads remains essential."}, {"section": "strategy", "speaker_note": "Instead of competing against massive web-scale video models, our strategy emphasizes sample-efficient causal chain graphs. We target explainable 'why' reasoning and safety bounds for cobots, though real-time graph deduction on edge hardware presents potential latency bottlenecks to resolve."}, {"section": "roadmap", "speaker_note": "The roadmap transitions from dual-stream causal graphs in simulation to predictive compliance and testbed validation. Testbeds target eldercare and manufacturing, though achieving estimated 2 to 5 second lead times without safety halts across dynamic multi-agent setups remains to be tested."}]}, "scores": {"grant_fit": 88, "novelty": 85, "pi_match": 88, "competition_risk": 65}, "overall_score": 79, "weights": {"grant_fit": 35, "novelty": 25, "pi_match": 25, "competition_risk": 15}, "fictional": false}</script>
+  <script>(() => {
+  "use strict";
+  const data = JSON.parse(document.getElementById("proposal-data").textContent);
+  const scenes = Array.from(document.querySelectorAll(".scene"));
+  const nav = Array.from(document.querySelectorAll("[data-scene]"));
+  const controls = document.querySelector(".present-controls");
+  const present = document.getElementById("present");
+  let active = 0;
+  let presenting = false;
+
+  function showScene(index) {
+    active = Math.max(0, Math.min(scenes.length - 1, index));
+    scenes.forEach((scene, i) => { scene.hidden = presenting && i !== active; });
+    nav.forEach((button, i) => {
+      if (i === active) button.setAttribute("aria-current", "step");
+      else button.removeAttribute("aria-current");
+    });
+    document.getElementById("scene-status").textContent = `${active + 1} / ${scenes.length}`;
+    document.getElementById("previous").disabled = active === 0;
+    document.getElementById("next").disabled = active === scenes.length - 1;
+  }
+
+  function togglePresentation(on) {
+    presenting = on;
+    document.body.classList.toggle("presenting", on);
+    present.setAttribute("aria-pressed", String(on));
+    present.textContent = on ? "Exit presentation ↙" : "Present ↗";
+    controls.hidden = !on;
+    showScene(active);
+    window.scrollTo({top: 0});
+  }
+
+  present.addEventListener("click", () => togglePresentation(!presenting));
+  nav.forEach((button, i) => button.addEventListener("click", () => {
+    showScene(i);
+    if (!presenting) scenes[i].scrollIntoView({block: "start"});
+  }));
+  document.getElementById("previous").addEventListener("click", () => showScene(active - 1));
+  document.getElementById("next").addEventListener("click", () => showScene(active + 1));
+  document.getElementById("notes").addEventListener("click", event => {
+    const visible = document.body.classList.toggle("show-notes");
+    event.currentTarget.setAttribute("aria-pressed", String(visible));
+  });
+  document.addEventListener("keydown", event => {
+    if (!presenting) return;
+    if (event.key === "Escape") { togglePresentation(false); return; }
+    // Toolbar focus must not disable navigation; sliders keep their own arrow keys.
+    if (event.target.closest("input, textarea, select, [contenteditable='true']")) return;
+    if (event.key === "ArrowRight") { event.preventDefault(); showScene(active + 1); }
+    else if (event.key === "ArrowLeft") { event.preventDefault(); showScene(active - 1); }
+  });
+
+  const sliders = Array.from(document.querySelectorAll("input[data-metric]"));
+  function updateScenario() {
+    let total = 0;
+    let unknown = false;
+    sliders.forEach(input => {
+      const key = input.dataset.metric;
+      const value = input.disabled ? null : Number(input.value);
+      document.getElementById(`out-${key}`).textContent = value === null ? "?" : String(value);
+      if (value === null) unknown = true;
+      else total += data.weights[key] * (key === "competition_risk" ? 100 - value : value);
+    });
+    const score = unknown ? null : Math.floor((total + 50) / 100);
+    document.getElementById("scenario-score").textContent = score === null ? "?" : String(score);
+    const delta = score === null ? null : score - data.overall_score;
+    document.getElementById("scenario-delta").textContent = delta === null
+      ? "More evidence needed" : delta === 0 ? "Baseline overall"
+      : `${delta > 0 ? "+" : ""}${delta} vs original overall`;
+  }
+  sliders.forEach(input => input.addEventListener("input", updateScenario));
+  document.getElementById("reset-scenario").addEventListener("click", () => {
+    sliders.forEach(input => { input.value = String(data.scores[input.dataset.metric] ?? 0); });
+    updateScenario();
+  });
+
+  document.querySelectorAll('a[href^="#source-"]').forEach(link => {
+    link.addEventListener("click", () => {
+      document.getElementById("evidence").open = true;
+      document.getElementById(link.getAttribute("href").slice(1)).open = true;
+    });
+  });
+  document.getElementById("download").addEventListener("click", () => {
+    const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], {type: "application/json"}));
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "proposal-presentation.json";
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  });
+  document.getElementById("print").addEventListener("click", () => window.print());
+  showScene(0);
+  updateScenario();
+})();</script>
+</body>
+</html>
